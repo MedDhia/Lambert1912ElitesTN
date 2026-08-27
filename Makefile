@@ -1,6 +1,6 @@
 PYTHON ?= python3
 
-.PHONY: all data text entries records networks validate clean clean-derived
+.PHONY: all data text entries records networks validate test clean clean-derived
 
 all: validate
 
@@ -39,3 +39,8 @@ clean-derived:
 ## clean: also drop the ~76 MB ALTO cache (forces a re-download)
 clean: clean-derived
 	rm -rf data/raw
+
+## test: parsing-rule unit tests and dataset integrity checks
+.PHONY: test
+test:
+	$(PYTHON) -m unittest discover -s tests -v

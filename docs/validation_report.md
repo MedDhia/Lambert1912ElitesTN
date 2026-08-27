@@ -11,7 +11,7 @@ The preface (pp. III-IV) states how many notices of each kind the volume contain
 | person | more than 1,300 biographical notices | 1300 | 1307 | 101% |
 | place | more than 750 notices on localities | 750 | 736 | 98% |
 | organisation | more than 175 notices on societies and associations | 175 | 159 | 91% |
-| topic | more than 250 Arabic or Tunisian terms explained | 250 | 472 | 189% |
+| topic | more than 250 Arabic or Tunisian terms explained | 250 | 470 | 188% |
 | portraits | 420 photogravure portraits | 420 | 422 | 100% |
 
 The person count clears the stated minimum. Places and associations fall short of theirs: some notices are absorbed into the entry above them when the first-line indent is lost to OCR, and some association notices are coded as `topic` because they carry none of the organisational template's markers. Treat the place and organisation tables as high-precision, incomplete samples of their populations, not as complete enumerations.
@@ -22,19 +22,19 @@ The person count clears the stated minimum. Places and associations fall short o
 |---|---|
 | IIIF views fetched | 494 |
 | views with OCR text | 404 |
-| entries segmented | 2743 |
-| characters of entry text | 1993501 |
-| mean OCR word confidence | 0.926 |
-| entries below 0.80 confidence | 29 |
+| entries segmented | 2741 |
+| characters of entry text | 1993334 |
+| mean OCR word confidence | 0.927 |
+| entries below 0.80 confidence | 28 |
 | illustrations located | 422 |
 
 ### Entries by type
 
 | entry_type | n | share |
 |---|---|---|
-| person | 1307 | 47.6% |
-| place | 736 | 26.8% |
-| topic | 472 | 17.2% |
+| person | 1307 | 47.7% |
+| place | 736 | 26.9% |
+| topic | 470 | 17.1% |
 | organisation | 159 | 5.8% |
 | cross_reference | 69 | 2.5% |
 
@@ -42,14 +42,14 @@ The person count clears the stated minimum. Places and associations fall short o
 
 | segmentation rule | n |
 |---|---|
-| anchor_surname | 2029 |
-| alphabetical_window | 714 |
+| anchor_surname | 2028 |
+| alphabetical_window | 713 |
 
 | classification rule | n |
 |---|---|
 | forenames_and_life_dates | 1021 |
 | administrative_unit | 629 |
-| residual | 472 |
+| residual | 470 |
 | organisational_template | 159 |
 | caps_headword_with_date | 133 |
 | caps_headword_with_forenames | 128 |
@@ -69,9 +69,9 @@ Share of rows where the field is non-empty. A low rate means Lambert did not pri
 | field | n non-empty | % |
 |---|---|---|
 | forenames | 1149 | 87.9 |
-| birth_year | 1137 | 87.0 |
-| birth_place | 996 | 76.2 |
-| birth_place_detail | 546 | 41.8 |
+| birth_year | 1134 | 86.8 |
+| birth_place | 993 | 76.0 |
+| birth_place_detail | 544 | 41.6 |
 | occupation_primary | 1055 | 80.7 |
 | address_raw | 271 | 20.7 |
 | city | 980 | 75.0 |
@@ -152,12 +152,12 @@ Share of rows where the field is non-empty. A low rate means Lambert did not pri
 
 | measure | value |
 |---|---|
-| person-organisation edges | 1759 |
+| person-organisation edges | 1761 |
 |   from officer lists in association entries | 968 |
-|   from statements in a person's own entry | 791 |
-| person-place edges | 2107 |
-| person-person co-membership edges | 5375 |
-| network nodes | 4011 |
+|   from statements in a person's own entry | 793 |
+| person-place edges | 2104 |
+| person-person co-membership edges | 5378 |
+| network nodes | 4008 |
 
 ### Name resolution for people named in someone else's entry
 
@@ -176,7 +176,7 @@ Share of rows where the field is non-empty. A low rate means Lambert did not pri
 | person_with_entry | 1307 |
 | place_with_entry | 736 |
 | person_named_only | 671 |
-| place_named_only | 604 |
+| place_named_only | 601 |
 | organisation_named_only | 534 |
 | organisation_with_entry | 159 |
 
@@ -184,11 +184,11 @@ Share of rows where the field is non-empty. A low rate means Lambert did not pri
 
 | measure | value |
 |---|---|
-| nodes with at least one affiliation | 1794 |
+| nodes with at least one affiliation | 1795 |
 | mean degree | 1.96 |
-| median degree | 1.0 |
+| median degree | 1 |
 | max degree | 99 |
-| isolates in the node table | 2217 |
+| isolates in the node table | 2213 |
 
 ## 6. Known limitations
 

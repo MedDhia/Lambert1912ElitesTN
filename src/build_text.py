@@ -35,12 +35,14 @@ RUNNING_HEAD_MAX_VPOS = 360
 # and the dash often enough that the pattern has to be generous.
 GUIDE_PAIR_RE = re.compile(
     r"^\W{0,3}\d{0,3}\W{0,3}"
-    r"([A-ZÉÈÊÀÇÔÏÎÛ][A-Za-zÉÈÊÀÇÔÏÎÛ.'’\-]{0,5})"
+    r"([A-ZÉÈÊÀÇÔÏÎÛËÜÄÖ][A-Za-zÉÈÊÀÇÔÏÎÛËÜÄÖ.'’\-]{0,5})"
     r"\s*[—–\-■;:.,]{1,3}\s*"
-    r"([A-ZÉÈÊÀÇÔÏÎÛ][A-Za-zÉÈÊÀÇÔÏÎÛ.'’\-]{0,5})"
+    r"([A-ZÉÈÊÀÇÔÏÎÛËÜÄÖ][A-Za-zÉÈÊÀÇÔÏÎÛËÜÄÖ.'’\-]{0,5})"
     r"\W{0,3}\d{0,3}\W{0,2}$"
 )
-GUIDE_WORD_RE = re.compile(r"^\W{0,3}\d{0,3}\W{0,3}[A-ZÉÈÊÀÇÔÏÎÛ][A-ZÉÈÊÀÇÔÏÎÛ'’.\-]{1,5}\W{0,3}\d{0,3}\W{0,2}$")
+GUIDE_WORD_RE = re.compile(
+    r"^\W{0,3}\d{0,3}\W{0,3}[A-ZÉÈÊÀÇÔÏÎÛËÜÄÖ][A-ZÉÈÊÀÇÔÏÎÛËÜÄÖ'’.\-]{1,5}\W{0,3}\d{0,3}\W{0,2}$"
+)
 PAGE_NO_RE = re.compile(r"^[0-9IVXLCivxlc\-—.' ]{1,8}$")
 
 
@@ -140,6 +142,41 @@ def order_blocks(blocks: list[dict]) -> list[dict]:
     return out
 
 
+def assign_columns(blocks: list[dict], split: int | None) -> None:
+    """Attach every block to a column, insets included.
+
+    A narrow inset does not belong to the side of the gutter its left edge falls
+    on: an inset in the right half of the left column sits past a gutter
+    estimated from full-measure blocks alone. It belongs to the column that
+    physically contains it, so it is assigned by horizontal overlap instead.
+    """
+    if not blocks:
+        return
+    widest = max(b["width"] for b in blocks)
+    for b in blocks:
+        b["narrow"] = b["width"] < 0.6 * widest
+        b["column"] = 0 if split is None or b["hpos"] < split else 1
+
+    spans = {}
+    for col in (0, 1):
+        full = [b for b in blocks if b["column"] == col and not b["narrow"]]
+        if full:
+            spans[col] = (
+                min(b["hpos"] for b in full),
+                max(b["hpos"] + b["width"] for b in full),
+            )
+    if len(spans) != 2:
+        return
+    for b in (x for x in blocks if x["narrow"]):
+        lo, hi = b["hpos"], b["hpos"] + b["width"]
+        overlaps = {
+            col: max(0, min(hi, s1) - max(lo, s0)) for col, (s0, s1) in spans.items()
+        }
+        best = max(overlaps, key=overlaps.get)
+        if overlaps[best] > 0:
+            b["column"] = best
+
+
 def page_lines(root: ET.Element, view: int, heads: list[dict], illus: list[dict]) -> list[dict]:
     blocks: list[dict] = []
     plates = [
@@ -209,32 +246,7 @@ def page_lines(root: ET.Element, view: int, heads: list[dict], illus: list[dict]
         blocks = [b for b in blocks if b["lines"]]
 
     split = gutter(blocks)
-    widest = max((b["width"] for b in blocks), default=1)
-    for b in blocks:
-        b["narrow"] = b["width"] < 0.6 * widest
-        b["column"] = 0 if split is None or b["hpos"] < split else 1
-
-    # A narrow inset belongs to the column that physically contains it, which is
-    # not always the side of the gutter its left edge falls on: an inset in the
-    # right half of the left column sits past the gutter estimated from
-    # full-measure blocks alone.
-    spans = {}
-    for col in (0, 1):
-        full = [b for b in blocks if b["column"] == col and not b["narrow"]]
-        if full:
-            spans[col] = (
-                min(b["hpos"] for b in full),
-                max(b["hpos"] + b["width"] for b in full),
-            )
-    if len(spans) == 2:
-        for b in (x for x in blocks if x["narrow"]):
-            lo, hi = b["hpos"], b["hpos"] + b["width"]
-            overlaps = {
-                col: max(0, min(hi, s1) - max(lo, s0)) for col, (s0, s1) in spans.items()
-            }
-            best = max(overlaps, key=overlaps.get)
-            if overlaps[best] > 0:
-                b["column"] = best
+    assign_columns(blocks, split)
 
     # Portraits: the volume carries 420 photogravure portraits, and which entry
     # carries one is a usable measure of prominence. Assign each illustration to

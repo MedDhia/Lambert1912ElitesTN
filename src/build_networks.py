@@ -208,8 +208,10 @@ def canonicalise_orgs(keys: list[str]) -> dict[str, str]:
     The same body is written several ways across the volume, and the OCR adds
     its own ("Comite permanent des fetes de M'unis"). Two names are merged only
     when one's distinctive tokens are a subset of the other's and at least two
-    such tokens are shared -- enough to join "Comite des Fetes" to "Comite des
-    Fetes de Tunis" without merging every "Societe" into one node.
+    such tokens are shared -- enough to join "Institut de Carthage" to "Institut
+    de Carthage, section scientifique" without merging every "Societe" into one
+    node. Names carrying a single distinctive token ("Comite des Fetes") are
+    left alone: one shared word is not evidence of the same body.
     """
     content = {
         k: {t for t in k.split(" ") if len(t) >= 4 and t not in ORG_STOPWORDS}

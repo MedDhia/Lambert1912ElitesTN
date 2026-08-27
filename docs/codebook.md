@@ -18,19 +18,19 @@ Unit of observation, by table:
 
 | file | one row is | n |
 |---|---|---|
-| `entries.csv` | a dictionary entry | 2,743 |
+| `entries.csv` | a dictionary entry | 2,741 |
 | `persons.csv` | a person with a biographical notice | 1,307 |
 | `places.csv` | a locality with a notice | 736 |
 | `organizations.csv` | an association or public body with a notice | 159 |
 | `decorations.csv` | a person × an honour | 1,810 |
-| `career_positions.csv` | a person × a post in their career sequence | 1,447 |
+| `career_positions.csv` | a person × a post in their career sequence | 1,449 |
 | `education.csv` | a person × an educational institution | 1,158 |
 | `mentions.csv` | a person named inside someone else's entry | 1,099 |
-| `edges_person_organisation.csv` | an affiliation tie | 1,759 |
-| `edges_person_place.csv` | a person-to-place tie | 2,107 |
-| `edges_person_person.csv` | a co-membership tie | 5,375 |
-| `network_nodes.csv` | a node in the combined network | 4,011 |
-| `network_edges.csv` | an edge in the combined network | 3,866 |
+| `edges_person_organisation.csv` | an affiliation tie | 1,761 |
+| `edges_person_place.csv` | a person-to-place tie | 2,104 |
+| `edges_person_person.csv` | a co-membership tie | 5,378 |
+| `network_nodes.csv` | a node in the combined network | 4,008 |
+| `network_edges.csv` | an edge in the combined network | 3,865 |
 
 ---
 
@@ -82,7 +82,7 @@ re-code anything differently — the full text of each entry is here.
 | `name_has_nasab_particle` | 0/1 | The printed name contains an Arabic patronymic particle as a **separate token** (BEN, BENT, OULD, ABD, ABOU, BOU, BEL, EL, SIDI, SI). **This is a feature of the printed name form, not an ethnic, national, or religious classification, and must not be used as one.** It is deliberately narrow: it does not fire on names written solid (ABDELLI, BOUHAGEB), so it under-counts Arabic-form names by a wide margin (18 rows). It is provided for text-level work on naming practice; for anything about community membership, read the entries. |
 | `name_honorific` | string | `Si`, `Sidi`, `Hadj`, `Cheikh`, `Bey`, `Pacha` where present in the name. |
 | `birth_date_raw` | string | Verbatim birth date. |
-| `birth_year` | integer | Four-digit year, with OCR digit confusions repaired (S→8, O→0, l→1, C/G→6). Range-checked to 1600–1915; anything else is left empty. Coverage 87%. |
+| `birth_year` | integer | Four-digit year, with OCR digit confusions repaired (S→8, O→0, l→1, C/G→6). Range-checked to 1600–1915; anything else is left empty, as is any date containing a stray `(`, which marks a character the OCR dropped and cannot be repaired without guessing. Coverage 87%. |
 | `birth_place` | string | Place of birth, verbatim. |
 | `birth_place_detail` | string | The parenthesised qualifier after it — usually a French *département* ("Gironde") or a country ("Algérie", "Sicile"). |
 | `occupation_raw` | string | The occupation clause, from the end of the identification block (headword, forenames, birth, honours) to the address or the settlement date. |
@@ -248,7 +248,7 @@ The affiliation network, two-mode.
 | `organisation_node` | string | `entry_id` where the body has a notice; otherwise `ORG:<key>`. |
 | `organisation_name`, `organisation_name_raw` | string | Canonical and as-found names. Variants are merged only when one's distinctive tokens are a subset of the other's and at least two are shared. |
 | `role` | categorical | `president`, `honorary_president`, `past_president`, `vice_president`, `honorary_vice_president`, `secretary`, `secretary_general`, `deputy_secretary`, `treasurer`, `deputy_treasurer`, `assessor`, `board_member`, `councillor`, `commissioner`, `delegate`, `director`, `founder`, `archivist_librarian`, `honorary_member`, `member`, `corresponding_member`, `auditor`, `rapporteur`. |
-| `tie_source` | categorical | `organisation_entry_officer_list` (n = 968) or `person_entry_statement` (n = 791). The first is a printed list of officers; the second is the person's own claim in their notice. They are not equally reliable and should be modelled separately or with a fixed effect. |
+| `tie_source` | categorical | `organisation_entry_officer_list` (n = 968) or `person_entry_statement` (n = 793). The first is a printed list of officers; the second is the person's own claim in their notice. They are not equally reliable and should be modelled separately or with a fixed effect. |
 | `organisation_founded_year` | integer | Where the body has an entry. |
 | `page`, `page_url`, `evidence` | | Verification. |
 

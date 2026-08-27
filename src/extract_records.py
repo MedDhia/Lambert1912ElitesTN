@@ -58,7 +58,15 @@ DATE_RE = re.compile(
 
 
 def clean_year(raw: str) -> str:
-    """Return a four-digit year, repairing OCR digit confusions, or ''."""
+    """Return a four-digit year, repairing OCR digit confusions, or ''.
+
+    A stray "(" inside the digits is not repairable: it stands where the OCR
+    dropped or mangled a character, and closing the gap silently yields a
+    plausible but wrong year -- "9 avril 1.8(i6" (1866) would read as 1816.
+    Seven dates in the volume look like this; all are left empty.
+    """
+    if "(" in raw:
+        return ""
     digits = re.sub(r"[^\dSsOolIiGgCcBZzT]", "", raw).translate(DIGIT_FIXES)
     if len(digits) != 4 or not digits.isdigit():
         return ""

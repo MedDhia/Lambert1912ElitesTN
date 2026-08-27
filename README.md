@@ -20,17 +20,17 @@ service; no page is scraped from the reading interface.
 
 | | n |
 |---|---|
-| Dictionary entries segmented | 2,743 |
+| Dictionary entries segmented | 2,741 |
 | Biographical notices (persons) | 1,307 |
 | Localities | 736 |
 | Associations and public bodies | 159 |
-| Arabic/Tunisian terms and other topics | 472 |
+| Arabic/Tunisian terms and other topics | 470 |
 | Honours coded (person × order) | 1,810 |
-| Career posts | 1,447 |
+| Career posts | 1,449 |
 | Educational institutions attended | 1,158 |
-| Affiliation ties (person → organisation) | 1,759 |
-| Person → place ties (birth, residence, property) | 2,107 |
-| Network nodes / edges | 4,011 / 3,866 |
+| Affiliation ties (person → organisation) | 1,761 |
+| Person → place ties (birth, residence, property) | 2,104 |
+| Network nodes / edges | 4,008 / 3,865 |
 
 Lambert's preface states his own totals — "more than 1,300" biographies, "more
 than 750" localities, "more than 175" societies, 420 portraits. The pipeline
@@ -96,6 +96,7 @@ data/interim/             line stream and segmented entries (git-ignored)
 data/processed/           the dataset (committed)
 docs/                     codebook, provenance, validation report
 examples/quickstart.py    descriptive tables and network summaries, stdlib only
+tests/                    parsing-rule unit tests and dataset integrity checks
 ```
 
 ## Rebuilding from source
@@ -104,6 +105,7 @@ Python 3.11+, standard library only — no third-party dependencies.
 
 ```sh
 make all        # fetch, build, segment, extract, network, validate
+make test       # parsing-rule unit tests + dataset integrity checks
 make data       # just the download (~20 min, polite to Gallica, resumable)
 python3 src/extract_records.py   # re-run one stage after editing its rules
 ```

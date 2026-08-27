@@ -155,8 +155,10 @@ members of this elite, just without a notice of their own.
 
 Organisation-name variants are merged conservatively: only when one name's
 distinctive tokens (four characters or more, excluding a stoplist) are a subset
-of the other's and at least two are shared. That joins "Comité des Fêtes" to
-"Comité des Fêtes de Tunis" without collapsing every "Société" into one node.
+of the other's and at least two are shared. That joins "Institut de Carthage" to
+"Institut de Carthage, section scientifique" without collapsing every "Société"
+into one node. A name with only one distinctive token is never merged, so some
+variants of short names remain separate nodes.
 
 The one-mode projection excludes bodies with more than 60 recorded members: a
 membership roll of several hundred is not evidence that any two names on it knew
