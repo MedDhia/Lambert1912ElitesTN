@@ -31,6 +31,8 @@ Unit of observation, by table:
 | `edges_person_person.csv` | a co-membership tie | 5,378 |
 | `network_nodes.csv` | a node in the combined network | 4,008 |
 | `network_edges.csv` | an edge in the combined network | 3,865 |
+| `person_communities.csv` | a person × their coded community | 1,307 |
+| `person_gender.csv` | a person × their coded gender | 1,307 |
 
 `data/processed/source_manifest.json` sits alongside them: the ark, the number
 of IIIF views, and how many carry an ALTO OCR layer. It is written by the fetch
@@ -307,3 +309,70 @@ kind, or *contrôle civil* as appropriate), `birth_year` (or foundation year),
 
 The node table includes every entity, including isolates, so that non-membership
 is observable rather than missing.
+
+
+---
+
+## The interpretive layer: person_communities.csv and person_gender.csv
+
+These two tables differ in kind from everything above. The rest of the dataset
+transcribes what the page says; these two **code what the page implies**. They
+are kept in separate files, joined by `entry_id`, so that the transcription can
+be used without them and so that anyone who disagrees with the coding can
+replace it without touching the rest.
+
+Three rules hold in both:
+
+1. **Evidence over inference.** Each row carries an `evidence` column naming the
+   rules that fired, and a confidence. A researcher can restrict to `high`, or
+   re-code from the evidence, without re-running anything.
+2. **Silence stays silent.** Where the volume prints nothing diagnostic the value
+   is `unknown` / `UNKNOWN` — 37% of community codings and 14% of gender
+   codings. That share is not a defect to be imputed away.
+3. **Nobody is classified from a surname.** Surname-based ethnic attribution is
+   the standard way this coding goes wrong, and in Tunisia it goes wrong
+   predictably: Cardoso, Valensi, Lumbroso and Bessis are borne by Tunisian
+   Jewish and Italian Catholic families alike.
+
+### person_communities.csv
+
+| variable | type | definition |
+|---|---|---|
+| `entry_id`, `surname`, `forenames` | string | Join key and name. |
+| `community` | categorical | `european_french`, `european_italian`, `european_maltese`, `european_other`, `tunisian_muslim`, `tunisian_jewish`, `unknown`. |
+| `community_group` | categorical | `european`, `tunisian`, `unknown`. |
+| `confidence` | categorical | `high` (an institution the person held office in or attended, or a birthplace outside Tunisia), `medium` (a community body they belonged to, an Algerian birth, an Arabic patronymic in the printed name), `low` (competing evidence, or a French settler body alone). |
+| `evidence` | string | Semicolon-separated rules that fired: `muslim_office`, `islamic_school`, `jewish_institution`, `described_israelite`, `italian_institution`, `maltese_marker`, `member_of:*_body`, `birth_france`, `birth_italy`, `birth_algeria`, `birth_malta`, `birth_tunisia`, `nasab_particle`, `honorific`, `livorno_jewish_note`. |
+| `competing_categories` | string | Other categories the evidence also supported. Non-empty for 70 rows. |
+
+**The categories are the volume's own.** Lambert's *Israélites* entry calls Jews
+"une partie importante de la population indigène", and his *Tunisiens* entry
+records that "Tunisiens" was what the country's Jews called themselves. That
+1912 usage is why Jews sit on the Tunisian side here. It is not a claim about
+nationality, which for many people in this book was separate and contested.
+
+**Hard cases, handled explicitly.** Livornese Jews (the Grana) held Italian
+nationality and a Tunisian communal life; religious evidence outranks birthplace,
+so they code `tunisian_jewish` and carry `livorno_jewish_note`. Algeria-born
+people with no other marker code `european_french` at medium confidence, flagged
+`birth_algeria`. People born in Tunisia with no other marker stay `unknown`,
+flagged `birth_tunisia` — a Tunis birth fits all three communities, second-
+generation settlers included, and it is the single largest reason a row is not
+classified.
+
+### person_gender.csv
+
+| variable | type | definition |
+|---|---|---|
+| `entry_id`, `surname`, `forenames` | string | Join key and name. |
+| `gender` | categorical | `MALE` (1,115), `FEMALE` (11), `UNKNOWN` (181). |
+| `gender_confidence` | categorical | `high` (civil title, "née", feminine occupational noun), `medium` (forename or grammatically gendered occupation), `low` (conflicting). |
+| `gender_evidence` | string | `civil_title`, `nee_participle`, `feminine_occupation`, `masculine_occupation`, `feminine_forename`, `masculine_forename`. |
+| `community`, `community_group` | categorical | Joined from `person_communities.csv` for convenience. |
+
+All eleven women were checked individually against the page image. Two coding
+traps are worth naming, because both produced false positives in a first pass:
+*"école primaire supérieure"* carries feminine agreement with the school, not the
+person, and the OCR renders both "Mme" and *Maître* as `M` plus punctuation, so
+"Secrétaire de Mᵉ Gueydan" is one man working for another. The rules now require
+a civil title to sit inside the subject's own parenthesis.

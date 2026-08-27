@@ -1,6 +1,7 @@
 # Figures
 
-Descriptive and exploratory figures over the dataset in `data/processed/`. One
+Descriptive, exploratory and comparative figures over the dataset in
+`data/processed/`. One
 script per figure, one output file per figure, written to `figures/output/` as
 **PNG** (for reading) and **PDF** (vector, for inclusion in a paper).
 
@@ -52,6 +53,14 @@ The pipeline in `src/` remains standard-library-only; nothing in
 | 16 | `fig16_degree_distribution` | Rank–size of affiliation degree, log-log |
 | 17 | `fig17_top_bodies_roles` | Role composition of the best-recorded bodies |
 | 18 | `fig18_career_transitions` | Sector-to-sector moves in career sequences |
+
+**Populations compared**
+
+| | Figure | What it shows |
+|---|---|---|
+| 19 | `fig19_community_composition` | European and Tunisian communities in the volume |
+| 20 | `fig20_honours_by_community` | Honours and portraits across the two communities |
+| 21 | `fig21_women_in_the_record` | Every notice as one mark; the eleven women |
 
 ## Design notes
 

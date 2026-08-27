@@ -1,8 +1,8 @@
 PYTHON ?= python3
 
-.PHONY: all data text entries records networks validate test figures clean clean-derived
+.PHONY: all data text entries records networks coding compare validate test figures clean clean-derived
 
-all: validate
+all: validate compare
 
 ## data: download the BnF ALTO OCR and the IIIF manifest (cached, resumable)
 data:
@@ -24,6 +24,18 @@ networks: data/processed/network_edges.csv
 data/processed/network_edges.csv: src/build_networks.py data/processed/entries.csv
 	$(PYTHON) src/build_networks.py
 
+## coding: interpretive layer -- community and gender
+coding: data/processed/person_gender.csv
+data/processed/person_communities.csv: src/code_communities.py data/processed/network_edges.csv
+	$(PYTHON) src/code_communities.py
+data/processed/person_gender.csv: src/code_gender.py data/processed/person_communities.csv
+	$(PYTHON) src/code_gender.py
+
+## compare: population comparison tables
+compare: docs/comparison_tables.md
+docs/comparison_tables.md: src/compare_populations.py data/processed/person_gender.csv
+	$(PYTHON) src/compare_populations.py > /dev/null
+
 validate: docs/validation_report.md
 docs/validation_report.md: src/validate.py data/processed/network_edges.csv
 	$(PYTHON) src/validate.py
@@ -37,6 +49,7 @@ example: data/processed/network_edges.csv
 clean-derived:
 	rm -rf data/interim docs/validation_report.md
 	rm -f data/processed/*.csv
+	rm -f docs/comparison_tables.md
 
 ## clean: also drop the ~76 MB ALTO cache (forces a re-download)
 clean: clean-derived

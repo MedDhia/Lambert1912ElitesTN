@@ -31,6 +31,8 @@ service; no page is scraped from the reading interface.
 | Affiliation ties (person → organisation) | 1,761 |
 | Person → place ties (birth, residence, property) | 2,104 |
 | Network nodes / edges | 4,008 / 3,865 |
+| Persons with a coded community | 825 of 1,307 |
+| Persons with a coded gender | 1,126 of 1,307 (11 women) |
 
 Lambert's preface states his own totals — "more than 1,300" biographies, "more
 than 750" localities, "more than 175" societies, 420 portraits. The pipeline
@@ -70,6 +72,13 @@ makes it usable for questions such as:
   landowners, which link individuals to specific rural properties.
 - **The volume as an object of study.** Entry length, portrait presence, and the
   editorial rubrics are measures of the compiler's own hierarchy of attention.
+- **Comparing the communities the Protectorate governed separately.**
+  `person_communities.csv` codes each notice as European (French, Italian,
+  Maltese, other) or Tunisian (Muslim, Jewish) from the institutional,
+  educational and birthplace evidence in the entry itself — never from a
+  surname. `person_gender.csv` does the same for gender. Both keep their
+  evidence and a confidence on every row, and both leave silence as silence.
+  See [`docs/comparison_tables.md`](docs/comparison_tables.md).
 
 ## What it is not
 
@@ -84,19 +93,22 @@ self-representation, and is most defensible when used as such.
 ## Layout
 
 ```
-src/                      the pipeline, five stages, each runnable on its own
+src/                      the pipeline, each stage runnable on its own
   fetch_alto.py           download the BnF ALTO OCR and IIIF manifest (cached)
   build_text.py           ALTO -> column-aware, de-hyphenated line stream
   segment_entries.py      line stream -> dictionary entries
   extract_records.py      entries -> typed records and variables
   build_networks.py       records -> mentions, ties, nodes and edges
+  code_communities.py     interpretive layer: European / Tunisian community
+  code_gender.py          interpretive layer: gender
+  compare_populations.py  -> docs/comparison_tables.md
   validate.py             -> docs/validation_report.md
 data/raw/                 ALTO XML cache (git-ignored, ~76 MB, re-fetchable)
 data/interim/             line stream and segmented entries (git-ignored)
 data/processed/           the dataset + source_manifest.json (committed)
 docs/                     codebook, provenance, validation report
 examples/quickstart.py    descriptive tables and network summaries, stdlib only
-figures/                  18 descriptive and network figures, one script each
+figures/                  21 figures, one script and one output file each
 tests/                    parsing-rule unit tests and dataset integrity checks
 ```
 
@@ -105,7 +117,9 @@ tests/                    parsing-rule unit tests and dataset integrity checks
 Python 3.11+, standard library only — no third-party dependencies.
 
 ```sh
-make all        # fetch, build, segment, extract, network, validate
+make all        # fetch, build, segment, extract, network, code, compare, validate
+make coding     # just the interpretive layer (community, gender)
+make compare    # -> docs/comparison_tables.md
 make test       # parsing-rule unit tests + dataset integrity checks
 make data       # just the download (~20 min, polite to Gallica, resumable)
 python3 src/extract_records.py   # re-run one stage after editing its rules
@@ -140,7 +154,7 @@ summaries using only the standard library.
 
 ## Figures
 
-`figures/` holds 18 descriptive and exploratory figures — birth cohorts,
+`figures/` holds 21 descriptive, exploratory and comparative figures — birth cohorts,
 occupational composition, the two honours systems, associational life, the
 affiliation network and its co-membership projection, career transitions — one
 script and one output file each, in PNG and PDF. See

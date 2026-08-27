@@ -1,0 +1,1308 @@
+entry_id,surname,forenames,community,community_group,confidence,evidence,competing_categories,birth_year,birth_place,occupation_primary,n_decorations,has_legion_honneur,has_nichan_iftikhar,n_chars,n_portraits,page_first
+L1912-00001,ABADIE,Jean,unknown,unknown,,,,1862,Blaye,engineering_architecture,1,0,1,430,1,1
+L1912-00003,ABDELLI,Ali,tunisian_muslim,tunisian,high,muslim_office;islamic_school;birth_tunisia,,1840,Tunis,justice_law,1,0,1,340,0,1
+L1912-00004,ABDELLI,Mohamed,tunisian_muslim,tunisian,high,muslim_office;islamic_school;birth_tunisia,,1879,Oukil près les iriDunaux tunisiens,justice_law,0,0,0,282,1,1
+L1912-00006,ABD UL WAHAB,Hassen-I-Iusny,tunisian_muslim,tunisian,high,islamic_school;described_muslim;birth_tunisia;nasab_particle,,1883,Tunis,administration,2,0,1,609,0,1
+L1912-00007,ABEASIS,Isaac,european_other,european,high,birth_egypt,,1882,Alexandrie,justice_law,0,0,0,320,0,1
+L1912-00008,ABEASIS,Moïse,european_other,european,high,birth_egypt,,1856,Alexandrie,justice_law,0,0,0,312,0,1
+L1912-00010,ABITA,Joseph,european_italian,european,high,islamic_school;member_of:italian_body;birth_italy,tunisian_muslim,1856,Trapani,industry_crafts,1,0,1,1263,1,1
+L1912-00011,ABRIBAT,Jules-Bernard,tunisian_muslim,tunisian,high,muslim_office;birth_algeria,european_french,1858,Blida',administration,4,1,1,1096,1,2
+L1912-00016,ADANSON,Jean-Baptiste,unknown,unknown,,,,1765,La Seyde,administration,0,0,0,197,0,3
+L1912-00017,ADDA,Daniel,european_french,european,medium,birth_algeria,,1865,Constantine,medicine_health,1,0,1,466,0,3
+L1912-00018,ADDA,Meyer,european_french,european,medium,birth_algeria,,1878,Constantine,medicine_health,0,0,0,549,0,3
+L1912-00021,ADRAGNA,Giacomo,european_italian,european,high,birth_italy,,1870,Alcamo,medicine_health,0,0,0,433,0,3
+L1912-00022,AFRIGAN,Charles,unknown,unknown,,,,1883,,administration,1,0,1,523,0,3
+L1912-00028,AGNEL,,unknown,unknown,,,,1875,,administration,1,0,1,106,0,4
+L1912-00031,AHMED BEN OTHMAN,SI,tunisian_muslim,tunisian,medium,member_of:muslim_body;nasab_particle;honorific,,1840,,military,3,1,1,2182,0,4
+L1912-00034,AIACHI,,tunisian_muslim,tunisian,medium,described_muslim;member_of:muslim_body;birth_tunisia,,1873,Sousse,justice_law,0,0,0,631,1,5
+L1912-00035,AIGROT,Charles,european_french,european,high,birth_france,,1876,Chamblay,industry_crafts,0,0,0,386,0,5
+L1912-00064,Alaoui,Collège,tunisian_muslim,tunisian,medium,described_muslim,,,,education_science,2,0,0,726,0,6
+L1912-00065,Alaoui,Musée,unknown,unknown,,,,1888,,,1,0,0,834,0,6
+L1912-00066,ALAPETITE,Gabriel,unknown,unknown,,,,,,,0,0,0,48,0,6
+L1912-00067,ALBERT,Léon-Auguste,european_italian,european,low,member_of:italian_body;member_of:jewish_body;member_of:french_settler_body;birth_algeria,european_italian;tunisian_jewish;european_french,1860,Alger,,2,0,1,307,0,7
+L1912-00068,ALBERTINI,,european_french,european,high,birth_france,,1858,Vescovato,military,4,1,1,558,1,7
+L1912-00069,ALBERTINI,Paul,unknown,unknown,,,,1865,Casa,,2,0,1,203,0,7
+L1912-00070,ALBOUY,,unknown,unknown,,,,1863,,military,1,0,0,212,0,7
+L1912-00071,ALESSANDRI,Pierre,european_french,european,high,birth_france,,1868,Coggia,administration,1,0,1,306,1,7
+L1912-00072,ALESSANDRO',,european_italian,european,high,italian_institution,,1906,,education_science,2,0,0,294,0,7
+L1912-00074,Algérienne,L',unknown,unknown,,,,1902,But : amical et mutuel,,0,0,0,333,0,8
+L1912-00075,Algérienne,L,unknown,unknown,,,,1903,Local à la Brasserie Maxéville,,0,0,0,330,0,8
+L1912-00076,ALI-BEY,,tunisian_muslim,tunisian,medium,honorific,,,,,0,0,0,146,0,8
+L1912-00077,ALI-BEY,,tunisian_muslim,tunisian,medium,honorific,,,,,0,0,0,460,0,8
+L1912-00080,ALIS,Joseph-Pierre-François,european_french,european,high,birth_france,,1880,Sigean,education_science,1,0,1,223,0,9
+L1912-00081,ALIX,Ernest-Adolphe,european_french,european,high,birth_france,,1880,Savigny-en-Revermont,,1,0,1,565,0,9
+L1912-00082,ALIX,Jacques-Marie-Auguste,european_french,european,high,birth_france,,1860,Tervay,education_science,2,0,1,260,0,9
+L1912-00083,ALLEMAND,Antoine,tunisian_muslim,tunisian,low,islamic_school;birth_france,tunisian_muslim;european_french,1876,Lyon,education_science,4,0,1,6193,1,9
+L1912-00089,AMAT J.-C.) 1856,,european_french,european,low,member_of:french_settler_body,,,,administration,1,0,1,378,0,11
+L1912-00092,AMURATH,,unknown,unknown,,,,1700,,,0,0,0,97,0,11
+L1912-00093,ANAGNOSTAKI,André,european_other,european,high,birth_greece,,1865,Athènes,,1,1,0,346,0,11
+L1912-00094,ANCONA,Ginseppe D',european_italian,european,medium,member_of:italian_body,,1867,Pa,medicine_health,0,0,0,349,0,11
+L1912-00095,AND RE AU,Georges,european_french,european,high,birth_france,,1871,Toulouse,industry_crafts,0,0,0,219,0,11
+L1912-00096,ANDRÉ,Louis,european_french,european,high,birth_france,,1872,Paris,education_science,2,0,1,380,0,11
+L1912-00097,ANDREANI,Philippe-Toussaint,european_french,european,high,birth_france,,1876,Vico,,0,0,0,197,0,12
+L1912-00098,ANGELOTTI,Albert,european_italian,european,medium,member_of:italian_body,,1880,,justice_law,1,0,1,385,0,12
+L1912-00099,ANGLADE,Louis-Guillaume,european_french,european,high,member_of:muslim_body;birth_france,tunisian_muslim,1851,Rodez,engineering_architecture,2,0,1,595,1,12
+L1912-00103,Annual,L',unknown,unknown,,,,,,administration,0,0,0,228,0,12
+L1912-00104,ANSELME,Philippe D',european_french,european,high,birth_france,,1864,Voreppe,military,3,1,0,8752,0,12
+L1912-00105,ANTERRIEU,Auguste,european_french,european,high,birth_france,,1862,Gigean,justice_law,0,0,0,508,0,14
+L1912-00106,ANTOINE,,unknown,unknown,,,,1857,,administration,4,1,1,163,0,14
+L1912-00107,ANTONINI,César,european_french,european,high,birth_france,,1870,Caggia,administration,0,0,0,546,0,14
+L1912-00120,ARÈNE,Félicien-César-Calixte,european_french,european,high,birth_france,,1863,Aix-en-Provence,administration,2,0,1,1044,1,26
+L1912-00121,ARGOUD,Léon-Louis,unknown,unknown,,,,1869,L'Al ben c,justice_law,1,0,1,375,0,26
+L1912-00123,ARMAND,André-Alphonse,european_french,european,high,birth_france,,1854,Saint-Montant,,2,1,1,617,0,26
+L1912-00124,ARMAND,André-Ernest-Emile,unknown,unknown,,,,1874,,administration,2,0,1,791,0,26
+L1912-00127,ARNOL,Clément,european_french,european,high,birth_france,,1853,Domène,justice_law,0,0,0,210,0,31
+L1912-00128,ARNOULD,Louis-Victorien-Alexandre,european_french,european,medium,birth_algeria,,1887,Philippeville,education_science,0,0,0,848,0,31
+L1912-00129,ARNOUX,Jules,unknown,unknown,,,,,,commerce,3,0,1,196,0,31
+L1912-00130,ARRAGON,Henri,european_french,european,high,birth_france,,1860,Paris,medicine_health,5,1,1,3010,1,31
+L1912-00134,ASPERGÉS,Pierre,european_french,european,high,birth_france,,1862,Toulouse,education_science,1,0,1,246,0,32
+L1912-00168,ASTOIN-SIELGE,Joseph-Charles,unknown,unknown,,,,,,diplomacy,0,0,0,125,0,39
+L1912-00170,ATGER,François-Emile,european_french,european,high,birth_france,,1834,Saint-Jean-du-Gard,religion,2,0,0,558,0,39
+L1912-00171,ATHENOSY,Lucien-Henri,european_french,european,high,birth_france,,1852,Cavaillon,medicine_health,1,0,1,384,0,39
+L1912-00172,ATTIA,G.,european_italian,european,high,italian_institution;member_of:italian_body;birth_tunisia,,1864,Tunis,,4,1,0,969,0,40
+L1912-00173,AUBERT,Godefroy,unknown,unknown,,,,,,military,1,0,0,350,0,40
+L1912-00174,AUBRY,Paul-Alexandre,unknown,unknown,,,,,,administration,0,0,0,220,0,40
+L1912-00175,AUCOUTURIER,Etienne,unknown,unknown,,,,1867,,industry_crafts,0,0,0,795,1,40
+L1912-00176,AUDEMARD,Barthélémy-Julien,european_french,european,high,birth_france,,1851,Trans,commerce,2,0,0,411,0,40
+L1912-00177,AUDINEAU,Louis,european_french,european,high,birth_france,,1872,Bordeaux,engineering_architecture,1,0,1,275,0,40
+L1912-00178,AUGIAS,Lôon-Tliéoplijile-AQexandre,tunisian_muslim,tunisian,low,muslim_office;birth_italy,tunisian_muslim;european_italian,1880,Alilan,,1,0,0,921,1,40
+L1912-00180,AUNIS,,unknown,unknown,,,,1869,,education_science,1,0,1,142,0,41
+L1912-00181,AURANGE,,unknown,unknown,,,,1879,,military,0,0,0,184,0,41
+L1912-00182,AURBACHER,François,unknown,unknown,,,,,,commerce,1,0,1,191,0,41
+L1912-00183,AURÈS,Paul,european_french,european,high,birth_france,,1873,Valleranges,,3,0,1,552,1,41
+L1912-00184,AUSSENAC,,unknown,unknown,,,,1874,,administration,1,0,0,164,0,41
+L1912-00186,AUVIN,Pierre,european_french,european,high,birth_france,,1861,Ruffec,commerce,1,0,1,462,1,41
+L1912-00188,AUZEPY,Edmond,unknown,unknown,,,,1861,Sa,,1,0,1,1234,0,41
+L1912-00189,Avenir,L',unknown,unknown,,,,1908,Bur,,0,0,0,896,0,42
+L1912-00190,Avenir du Prolétarait,L',european_french,european,high,birth_france,,1894,Siège social à Paris,administration,0,0,0,1297,0,42
+L1912-00191,Avenir du Prolétariat,L',tunisian_muslim,tunisian,high,muslim_office,,1900,,military,0,0,0,2903,0,42
+L1912-00192,AVERSO,Pascal,unknown,unknown,,birth_tunisia,,1860,Tunis,industry_crafts,1,0,1,433,0,42
+L1912-00193,AVIGDOR,Samuel,tunisian_jewish,tunisian,low,jewish_institution;birth_ottoman_empire,tunisian_jewish;european_other,1870,Andrinople,,2,0,1,1200,0,43
+L1912-00200,AZERM,Alarc-Antoine-Joseph-Victor,european_french,european,high,birth_france,,1861,Carcasonne,commerce,1,0,1,236,0,44
+L1912-00201,AZOUZ BEN HAMDA BEN AISSA,Mohamed,tunisian_muslim,tunisian,medium,member_of:muslim_body;birth_tunisia;nasab_particle,,1848,Tebourba,military,2,1,1,979,2,44
+L1912-00204,BACCOUGHE,Salah,tunisian_muslim,tunisian,high,muslim_office;islamic_school;birth_tunisia,,1865,Tunis,politics_native_admin,4,1,0,355,0,45
+L1912-00207,BACH-HAMBA,Ali,tunisian_muslim,tunisian,high,islamic_school;birth_tunisia,,1879,Tunis,justice_law,2,0,1,653,1,45
+L1912-00210,BADE,,unknown,unknown,,,,1862,,administration,1,0,1,164,0,46
+L1912-00211,BADER,Emile-Georges,european_french,european,high,birth_france,,1853,Reitwiller,military,3,1,1,442,0,46
+L1912-00217,BAILLE,Marie-Alexandre-Désiré,european_french,european,high,birth_france,,1861,Manduel,education_science,2,0,1,804,2,46
+L1912-00218,BAILLEAÛ,Gaston-Léon,european_french,european,high,birth_france,,1882,Paris,agriculture,1,0,1,189,0,47
+L1912-00219,BAILLY,Fernancl,european_french,european,high,birth_france,,1851,Dôle,medicine_health,1,0,1,1024,2,47
+L1912-00220,BALANDE,Caries,european_italian,european,high,italian_institution,,,,industry_crafts,3,0,1,207,0,47
+L1912-00221,BALDY,Jules,european_french,european,high,birth_france,,1858,SaintPaul,justice_law,1,0,0,356,0,47
+L1912-00228,BARBAIS,Georges-Ferdinand,european_french,european,high,birth_france,,1861,Paris,engineering_architecture,3,1,1,900,0,48
+L1912-00229,BARBARAT,Aimé-Eugène,european_french,european,high,birth_france,,1859,Voussac,military,1,1,0,1130,2,48
+L1912-00230,BARBIER,Claude,european_french,european,high,birth_france,,1874,Talissieu,administration,1,0,1,265,0,48
+L1912-00231,BARBOT,Hippolyle-Pierre,european_french,european,high,birth_france,,1866,Faverolles-sur-Cher,industry_crafts,1,0,1,1356,0,48
+L1912-00234,BARÊS,Jean,unknown,unknown,,,,1865,Le Piau,administration,1,0,1,305,0,49
+L1912-00235,BARET,Emmanuel,european_french,european,high,birth_france,,1874,Marseillan,justice_law,0,0,0,360,0,49
+L1912-00237,BARLIER,Justin,european_french,european,medium,birth_algeria,,1867,Oran,commerce,1,0,1,296,0,49
+L1912-00238,BARNAY,Henri,unknown,unknown,,birth_tunisia,,1878,Tunis,commerce,1,0,1,530,0,49
+L1912-00239,BAROGHE,Jean-Jules-Léon,european_french,european,high,birth_france,,1866,Arnay-le-Duc,press_letters_arts,1,0,1,594,0,49
+L1912-00240,BARON,Paul-Auguste-Jean,european_french,european,high,birth_france,,1856,Lyon,engineering_architecture,1,0,1,574,0,49
+L1912-00241,BARRATE,Gustave,unknown,unknown,,,,,,,0,0,0,279,0,49
+L1912-00243,BARRIOULET,Pierre,european_french,european,high,birth_france,,1875,Toulouse,military,2,0,1,378,0,49
+L1912-00244,BARSOTTI,Benoît,unknown,unknown,,birth_tunisia,,1866,Tunis,engineering_architecture,1,0,1,601,1,49
+L1912-00245,BARTHOLOMË,Jules-Albert,unknown,unknown,,,,1866,Saclas,,7,1,1,894,0,50
+L1912-00246,BARUË,Gaslon-Henri-Jean-René,european_french,european,high,birth_france,,1869,Brest,administration,3,0,1,689,2,50
+L1912-00247,BASTIDE,,european_french,european,high,birth_france,,1847,Cahors,medicine_health,2,1,1,928,0,50
+L1912-00248,BASTIEN,Emilien,unknown,unknown,,,,1848,,administration,4,1,0,610,0,50
+L1912-00250,BATT,Sigvard,european_other,european,high,birth_norway,,1869,Flekkefjord,commerce,3,1,1,579,0,51
+L1912-00252,BATTEROZE,Virgile,european_french,european,high,birth_france,,1864,Bevenge,finance_banking,0,0,0,697,0,51
+L1912-00253,BAYLE,Marius,european_french,european,high,birth_france,,1859,Annonay,administration,2,0,1,254,0,51
+L1912-00254,BAYLE,Joseph,unknown,unknown,,,,1701,,diplomacy,0,0,0,238,0,51
+L1912-00256,BEAUPIN,Henri,european_french,european,high,birth_france,,1844,Bonny-sur-Loire,medicine_health,0,0,0,383,0,51
+L1912-00257,BEAUQUIER,Clodion,european_french,european,high,birth_france,,1868,Saint-Bazille-de-Alontmel,education_science,1,0,1,511,0,51
+L1912-00258,BEAUSSIER,Bonaventure,unknown,unknown,,,,,,military,0,0,0,339,0,51
+L1912-00259,BEC,Henri-Auguste,european_french,european,high,birth_france,,1871,Urau,administration,3,0,1,360,0,51
+L1912-00260,BÉCHARD,Léon,unknown,unknown,,,,,,military,0,0,0,107,1,51
+L1912-00262,BECHIR-BEY,Prince,tunisian_muslim,tunisian,medium,honorific,,1880,La Alarsa,military,1,1,0,381,1,52
+L1912-00265,BELAISCH,Isaac,unknown,unknown,,birth_tunisia,,1856,Tunis,industry_crafts,0,0,0,103,0,52
+L1912-00266,BELAISCH,Aloïse,tunisian_jewish,tunisian,high,jewish_institution;birth_tunisia,,1879,Tunis,industry_crafts,0,0,0,152,0,52
+L1912-00267,BELAISCH,Samuel,tunisian_jewish,tunisian,medium,described_israelite;member_of:jewish_body;birth_tunisia,,1874,Tunis,industry_crafts,0,0,0,213,0,52
+L1912-00268,BEL AJOUZA,Salah,tunisian_muslim,tunisian,high,islamic_school;described_muslim;birth_tunisia;nasab_particle,,1880,Sousse,justice_law,0,0,0,594,0,52
+L1912-00269,BELISAIRE,,unknown,unknown,,,,,,military,0,0,0,146,0,52
+L1912-00270,BEL KHODJA,Mohamed,tunisian_muslim,tunisian,high,islamic_school;described_muslim;birth_tunisia;nasab_particle,,1869,Tunis,,2,1,0,1099,1,52
+L1912-00271,BELLAICH,Adolphe,tunisian_jewish,tunisian,high,jewish_institution;member_of:jewish_body;birth_tunisia,,1873,Tunis,diplomacy,0,0,0,465,0,53
+L1912-00273,BELLÏSSEN,Joseph,unknown,unknown,,,,1865,Alarseille,commerce,2,0,1,324,0,53
+L1912-00274,BELLOT,Jean-Ernest,unknown,unknown,,,,1854,L'Argentière,politics_native_admin,5,1,1,1491,1,53
+L1912-00275,BELTRANO,Ignazio,unknown,unknown,,,,,,commerce,0,0,0,38,0,53
+L1912-00276,BEMBARON,Gino,tunisian_jewish,tunisian,high,jewish_institution;birth_tunisia,,1878,Tunis,,0,0,0,308,0,53
+L1912-00281,BENAZET,Aristide,european_french,european,high,birth_france,,1881,Villasavary,,2,0,1,729,0,53
+L1912-00283,BENCHI,Victor,unknown,unknown,,birth_tunisia,,1873,Sfax,transport_maritime,0,0,0,56,0,54
+L1912-00286,BENEDETTI,,european_italian,european,high,birth_italy,,1872,Turin,education_science,1,0,0,1103,0,54
+L1912-00287,BENETTI,Camille,european_french,european,high,birth_france,,1860,Viggianella,religion,0,0,0,517,2,54
+L1912-00301,BEN KHALIFA,Alohamed,tunisian_muslim,tunisian,high,muslim_office;islamic_school;birth_tunisia;nasab_particle,,1852,Gabès,politics_native_admin,2,1,1,355,0,55
+L1912-00304,BENOIT,François-Xavier,european_french,european,high,birth_france,,1854,A'Iaurat,engineering_architecture,0,0,0,3357,0,55
+L1912-00305,BEN SALAH,Ahmed,tunisian_muslim,tunisian,high,islamic_school;nasab_particle,,,,education_science,0,0,0,118,0,55
+L1912-00306,BENSASSON,,european_italian,european,high,italian_institution;member_of:italian_body;birth_tunisia,,1854,Tunis,commerce,2,0,1,450,0,55
+L1912-00307,BENSASSON,Umberto,european_italian,european,high,italian_institution;member_of:italian_body,,,,military,0,0,0,326,0,55
+L1912-00308,BÉRARD,Antonïn,tunisian_muslim,tunisian,high,islamic_school,,1862,,,2,0,1,427,1,56
+L1912-00309,BERGE,Stéphane,european_french,european,high,birth_france,,1852,Romorantin,justice_law,3,1,1,1084,1,56
+L1912-00310,BERGTOLD,Georges,european_french,european,medium,birth_algeria,,1876,Alger,education_science,1,0,0,296,0,56
+L1912-00311,BERHAULT,Jean,european_french,european,high,birth_france,,1870,SaintAlalo,military,0,0,0,270,0,56
+L1912-00312,BËRIEL,Philippe,european_french,european,high,birth_france,,1877,Lyon,military,3,0,1,1033,0,56
+L1912-00314,BERKELEY,Ernest- James - Lennox,unknown,unknown,,,,1857,,diplomacy,0,0,0,425,0,57
+L1912-00315,BERNARD,Paul,unknown,unknown,,,,1867,,military,1,0,1,218,0,57
+L1912-00316,BERNE,Jean-Marie,tunisian_muslim,tunisian,low,islamic_school;birth_france,tunisian_muslim;european_french,1866,Pé rouges,education_science,3,0,1,286,1,57
+L1912-00317,BEROLSHEIMER,V.,european_italian,european,high,birth_italy,,1865,Livourne,,0,0,0,567,1,57
+L1912-00318,BERRA,J,unknown,unknown,,,,1886,Direcl,commerce,0,0,0,93,0,57
+L1912-00319,BERTAINCHAND,Ernest,tunisian_muslim,tunisian,low,islamic_school;birth_france,tunisian_muslim;european_french,1864,Saint-Armand-les-Eaux,engineering_architecture,5,1,0,3425,4,57
+L1912-00320,BERTIN,Célestin,european_french,european,high,member_of:french_settler_body;birth_france,,1870,Entremont-le-Vieux,,2,0,1,713,0,58
+L1912-00321,BERTHON,Louis,european_french,european,high,birth_france,,1864,Lavaveix-les-Mines,engineering_architecture,2,0,1,114,0,58
+L1912-00322,BERTIN,,european_french,european,high,birth_france,,1872,Entremont-le-Vieux,,0,0,0,272,0,58
+L1912-00323,BERTRAND,Joseph,european_french,european,high,birth_france,,1868,Paris,industry_crafts,2,0,1,713,1,59
+L1912-00324,BERTRAND,Alarius-Louis-Joseph,unknown,unknown,,birth_tunisia,,1863,Tunis,,0,0,0,218,1,59
+L1912-00326,BESSIERE,Victor - Lucien - Etienne,unknown,unknown,,,,,,justice_law,2,0,1,220,0,59
+L1912-00327,BESSIS,Eugène,tunisian_jewish,tunisian,high,jewish_institution,,,,finance_banking,1,0,1,192,0,59
+L1912-00328,BESSIS,Nessim,tunisian_jewish,tunisian,high,jewish_institution;birth_tunisia,,1870,Sousse,commerce,1,1,0,1377,0,59
+L1912-00334,BEYNA,Auguste - Gabriel,european_french,european,high,birth_france,,1858,Metz,,3,0,1,498,0,60
+L1912-00336,BEZZINA,André,unknown,unknown,,birth_tunisia,,1874,Sousse,commerce,0,0,0,58,0,60
+L1912-00340,BIGHE-LATOUR,Gustave - ThibaultFrançois-Nicolas,european_italian,european,low,italian_institution;birth_france,european_italian;european_french,1858,Versailles,military,4,1,1,1135,0,61
+L1912-00342,BIGNENS,Lucien-Jules,european_other,european,high,member_of:french_settler_body;birth_switzerland,,1844,Vaulion,administration,1,0,0,1325,1,61
+L1912-00343,BIGORRE,Louis,european_french,european,high,birth_france,,1862,Toulouse,transport_maritime,2,0,1,274,0,61
+L1912-00344,BIGOT,Henri,european_french,european,high,birth_france,,1874,Brienon,education_science,2,0,1,1060,0,62
+L1912-00346,BILLON,François-Joseph,unknown,unknown,,,,,,diplomacy,1,0,0,110,0,62
+L1912-00347,BILLY,Drausin,european_french,european,high,birth_france,,1851,Fontaines-Fourche,agriculture,0,0,0,944,2,62
+L1912-00360,BISGH,Marie-Lucien-Arsène,european_french,european,high,birth_france,,1854,Strasbourg,,2,1,1,913,1,63
+L1912-00361,BISMUTH,Joseph,unknown,unknown,,birth_tunisia,,1867,Tunis,industry_crafts,2,0,1,225,0,63
+L1912-00365,BLANC,Alarius,unknown,unknown,,,,,,education_science,2,0,1,543,0,65
+L1912-00366,BLANC,Urbain,unknown,unknown,,,,1862,,military,2,1,0,732,1,65
+L1912-00367,BLANCHÈRÈ,R. DU COUDRAY DE LA,unknown,unknown,,,,,,education_science,1,0,0,1596,0,65
+L1912-00368,BLAVIER,Albert,unknown,unknown,,,,1866,Douai,justice_law,0,0,0,422,0,65
+L1912-00374,B O E R N E R,Gustave-Adolphe,european_french,european,high,birth_france,,1839,Strasbourg,justice_law,0,0,0,316,0,66
+L1912-00376,BOEUF,Félicien,unknown,unknown,,,,,,military,3,0,1,374,0,66
+L1912-00377,BOEUF,,unknown,unknown,,birth_tunisia,,1864,Tunis,military,5,0,1,489,0,66
+L1912-00378,BOIANOWSKI,,unknown,unknown,,,,1866,Berlin,diplomacy,1,0,1,402,0,66
+L1912-00379,BOIZEL,Auguste,unknown,unknown,,,,1877,Epernay,agriculture,2,0,1,185,0,67
+L1912-00380,BONAN,Abraham,tunisian_jewish,tunisian,high,jewish_institution;member_of:jewish_body;birth_tunisia,,1878,Tunis,medicine_health,1,0,1,1005,0,67
+L1912-00381,BONAN,Jules,tunisian_muslim,tunisian,low,islamic_school;jewish_institution,tunisian_muslim;tunisian_jewish,1876,,education_science,2,0,1,3807,2,67
+L1912-00384,BONNAND,Jules-Antoine,tunisian_muslim,tunisian,low,islamic_school;birth_france,tunisian_muslim;european_french,1854,Saint-Didier-sur-Riverie,military,2,0,1,291,0,68
+L1912-00385,BONNEFOND,Louis - Alariei- HenriEdouard,european_french,european,high,birth_france,,1848,Saulzais-le-Poslier,,1,0,0,542,0,68
+L1912-00386,BONNET,Edmond,unknown,unknown,,,,,,,0,0,0,311,1,68
+L1912-00387,BONNET,Prosper,european_french,european,high,birth_france,,1867,Tarascon,transport_maritime,0,0,0,118,0,68
+L1912-00388,BORDENET,Désiré,european_french,european,high,birth_france,,1878,Tenay,education_science,1,0,0,419,0,68
+L1912-00389,BORDES,Jean,unknown,unknown,,,,1854,Lacasse,education_science,2,0,1,785,0,68
+L1912-00401,BORGEL,Elie,unknown,unknown,,birth_tunisia,,1880,Tunis: Ingénieur civil,engineering_architecture,0,0,0,1038,0,69
+L1912-00403,BORROMEI,Thomas,european_french,european,high,birth_france,,1870,Novale,education_science,2,0,1,316,0,69
+L1912-00404,BORTINO,Jean-Baptiste,unknown,unknown,,,,1860,,,1,0,0,289,1,69
+L1912-00405,BOST,Etienne-Augustin,european_french,european,high,birth_france,,1858,Sainl-Nazaire,,2,0,1,891,1,70
+L1912-00406,BOTTESINI,Archimôde,european_italian,european,high,italian_institution;member_of:italian_body,,1854,,military,4,1,0,502,0,70
+L1912-00410,BOUBES,Joseph-André,unknown,unknown,,,,1880,Ctignaux,justice_law,0,0,0,420,0,70
+L1912-00411,BOUBILA,Jean-Théophile,unknown,unknown,,,,1706,,,1,0,0,1082,0,70
+L1912-00415,BOUCHET,Léopold-Marius,tunisian_muslim,tunisian,high,islamic_school;member_of:muslim_body;birth_france,european_french,1860,Marseille,hospitality_services,2,0,1,989,0,71
+L1912-00416,BOUDET,Raymond - Bernard - PierreLouis,european_french,european,high,birth_france,,1867,Caslelmoron-surLol,finance_banking,2,0,1,738,0,71
+L1912-00423,BOUHAGEB,Ahmed,tunisian_muslim,tunisian,high,islamic_school;birth_tunisia,,1873,Tunis,justice_law,0,0,0,235,0,72
+L1912-00424,BOUHAGEB,Housseïn,tunisian_muslim,tunisian,high,islamic_school;described_muslim;birth_tunisia,,1872,Tunis,,1,0,0,755,0,72
+L1912-00428,BOULAKIA,Joseph,unknown,unknown,,birth_tunisia,,1881,Tunis,medicine_health,0,0,0,154,0,72
+L1912-00430,BOULLIER,Jules-Emile,european_french,european,high,birth_france,,1873,Lyon,,2,0,1,735,1,72
+L1912-00432,BOUNIN,Edoiiard-Emile-Ph'ilibert,european_french,european,medium,birth_algeria,,1859,Bône,justice_law,2,0,1,1166,0,73
+L1912-00437,BOURDOT,,unknown,unknown,,,,1865,,administration,2,0,1,207,0,73
+L1912-00441,BOURGADE,François,unknown,unknown,,,,1806,Ordonné prêtre en 1832,justice_law,2,1,1,2599,0,73
+L1912-00442,BOURGEOIS,Alphonse,unknown,unknown,,,,1865,SaintJean-sur Veyle,administration,1,0,1,1366,0,74
+L1912-00443,BOURGEON,Philibert,european_italian,european,low,italian_institution;birth_france,european_italian;european_french,1859,Dijon,justice_law,6,1,1,1450,1,74
+L1912-00444,BOURGET,Eloi,unknown,unknown,,,,,,,3,0,1,1139,0,74
+L1912-00448,BOUSSEN,Manoubi,tunisian_muslim,tunisian,high,islamic_school;birth_tunisia,,1867,Tunis,,4,1,1,1874,0,75
+L1912-00449,BOUYAG,René,european_french,european,medium,birth_algeria,,1859,Oran,,2,0,1,116,0,75
+L1912-00450,BOYER DE SAINT-GERVAIS,Jacques,unknown,unknown,,,,,,diplomacy,0,0,0,369,1,75
+L1912-00451,BOYER,Jean,unknown,unknown,,,,,,politics_native_admin,0,0,0,162,0,75
+L1912-00452,BRANDENBURG,Godefrov,unknown,unknown,,,,1850,La,,1,0,0,284,0,75
+L1912-00453,BRAQUEYAHE,Jules-Pie-Louis,european_french,european,high,birth_france,,1865,Thiais,,2,0,1,2567,2,75
+L1912-00454,BREART,Jules-Aimé,european_french,european,high,birth_france,,1826,Grenoble,military,1,1,0,868,0,76
+L1912-00455,BREFORT,Anlonin,tunisian_muslim,tunisian,high,islamic_school,,,,education_science,2,0,1,246,0,76
+L1912-00456,BREIEAN,Paul - Auguste - René,european_french,european,high,birth_france,,1884,Paris,,0,0,0,346,0,76
+L1912-00457,BRESSON,Henri,unknown,unknown,,,,1838,,,3,1,1,391,0,76
+L1912-00458,BRIERE,Emile,european_french,european,high,birth_france,,1861,Chartres,diplomacy,3,1,1,721,0,76
+L1912-00460,BRIGNONE,Pierre,european_italian,european,high,italian_institution;member_of:italian_body,,1852,Pantellaria,,2,0,1,946,1,77
+L1912-00461,BRISSE,Joseph-Ernest,european_french,european,high,birth_france,,1854,Amanty,military,2,1,1,1015,0,77
+L1912-00462,BROC,,unknown,unknown,,,,,,medicine_health,0,0,0,181,0,77
+L1912-00463,BROIDO,,european_other,european,high,birth_russia,,1868,Russie,medicine_health,0,0,0,872,0,77
+L1912-00465,BROUTIER DU PAVILLON,Jules-Eugène,european_french,european,high,birth_france,,1854,Paris,engineering_architecture,3,0,1,529,0,77
+L1912-00466,BRUCH,Alfred,european_french,european,medium,birth_algeria,,1867,Alger,medicine_health,1,0,0,957,1,77
+L1912-00467,BRULE,Léa,unknown,unknown,,,,,,,2,0,1,417,0,78
+L1912-00468,BRUN,Marins,unknown,unknown,,,,,,education_science,0,0,0,184,0,78
+L1912-00470,BRUSSIAU,Albert,european_french,european,medium,birth_algeria,,1871,Philippevile,commerce,0,0,0,794,0,78
+L1912-00471,BUGEIA,Lorenzo,tunisian_muslim,tunisian,high,islamic_school;birth_tunisia,,1858,Tunis,,0,0,0,163,0,78
+L1912-00472,BUISSON,Benjamin-Paul,european_french,european,high,birth_france,,1846,Paris,administration,3,1,1,2027,1,78
+L1912-00473,BULLA-RËGIA,,european_french,european,low,member_of:french_settler_body,,,,religion,2,0,1,1705,1,79
+L1912-00475,BURSAUX,,unknown,unknown,,,,1866,,military,1,1,0,224,0,79
+L1912-00477,BUSACCA Eugène,,european_italian,european,medium,member_of:italian_body,,1857,SanPietro-Patti,medicine_health,0,0,0,980,1,80
+L1912-00478,BUSUTTIL,Alphonse,unknown,unknown,,birth_tunisia,,1866,Tunis,commerce,0,0,0,448,1,80
+L1912-00479,CABANTOUS,Jules,european_french,european,high,birth_france,,1871,Millau,religion,2,0,1,1266,0,81
+L1912-00481,CACHIA,P.,unknown,unknown,,,,,,commerce,0,0,0,102,0,81
+L1912-00487,CAILAR,Roger DU,european_french,european,high,birth_france,,1876,Sainte-Hlppolyte-du-Fort,administration,1,0,1,151,0,84
+L1912-00488,CAILLAT,Philippe,european_french,european,high,birth_france,,1826,Grenoble,engineering_architecture,2,0,1,1801,0,84
+L1912-00489,CAILLOUX,Maurice - Marie - Bernard,unknown,unknown,,,,1881,Orthez,agriculture,1,0,1,475,1,84
+L1912-00492,CALAMIDA,François,european_italian,european,high,birth_italy,,1875,Cagliari,medicine_health,0,0,0,281,0,86
+L1912-00493,CALECA,N.,unknown,unknown,,,,,,commerce,0,0,0,111,0,86
+L1912-00494,CALO,Enrico,tunisian_jewish,tunisian,high,jewish_institution;member_of:italian_body;birth_tunisia,european_italian,1878,Tunis,medicine_health,0,0,0,333,0,86
+L1912-00495,CAMBON,Pierre-Paul,unknown,unknown,,,,1843,,justice_law,1,0,0,1929,0,86
+L1912-00496,CAMILLERI,,unknown,unknown,,,,1858,,,2,1,1,166,0,86
+L1912-00497,CAMILLERI,Sauveur,unknown,unknown,,birth_tunisia,,1864,Tunis,military,0,0,0,821,1,86
+L1912-00501,CAMPENON,Jean-Bapliste-MarieEdouard,unknown,unknown,,,,1819,,military,0,0,0,735,0,86
+L1912-00502,CAMUSSI,Henri,european_french,european,high,birth_france,,1864,Ribérac,administration,2,0,1,681,0,87
+L1912-00503,CANAL,Albert,european_french,european,medium,birth_algeria,,1874,Aloslaganem,,1,0,0,899,1,87
+L1912-00504,CANAL,Joseph-Afarie-Ange,unknown,unknown,,,,,,military,3,1,1,1970,1,87
+L1912-00505,CANAVAGGIO,Antoine,unknown,unknown,,,,1868,Oam,education_science,1,0,1,297,0,87
+L1912-00506,CANI,,unknown,unknown,,,,,,,0,0,0,587,0,87
+L1912-00507,CANTON,Albert,european_french,european,medium,birth_algeria,,1875,Phillppeville,,2,0,1,454,0,87
+L1912-00511,CAPDEVILLE,Xavier - Jean - MarieCharles,unknown,unknown,,,,1873,,administration,0,0,0,725,0,89
+L1912-00512,CAPRIATA,Victor-François,european_italian,european,low,italian_institution;birth_france,european_italian;european_french,1864,Marseille,military,2,0,0,688,1,89
+L1912-00515,CARBONIÈRE,Jean - Henry,tunisian_muslim,tunisian,high,islamic_school,,1865,,,2,0,1,751,0,89
+L1912-00516,CARCASONNE,Alphonse-Sylvain,european_french,european,medium,birth_algeria,,1863,Alger,,3,1,1,673,0,89
+L1912-00517,CARDALIAGUET,Félix-Joseph-Alarie,unknown,unknown,,,,,,,3,0,1,336,0,89
+L1912-00518,CARDOSO,David,tunisian_jewish,tunisian,high,jewish_institution;member_of:jewish_body;birth_tunisia,,1852,Tunis,justice_law,0,0,0,629,1,89
+L1912-00519,CARDOSO,Alaurizio,european_italian,european,high,jewish_institution;italian_institution;member_of:italian_body;birth_tunisia,tunisian_jewish,1877,Sousse,medicine_health,2,0,1,707,0,90
+L1912-00520,CARME JANE DE PIERREDON,DE,unknown,unknown,,,,,,military,1,1,0,911,0,90
+L1912-00521,CARNIÈRES,Victor DE,european_french,european,high,birth_france,,1849,Alaubeuge,agriculture,1,1,0,464,1,90
+L1912-00524,CARRIER,Charles,european_french,european,low,member_of:french_settler_body,,1872,,agriculture,1,0,1,486,0,91
+L1912-00529,CARTON,Louis,european_french,european,high,birth_france,,1861,SaintOmer,medicine_health,4,1,1,1543,1,96
+L1912-00531,CASELLA,Francesco,european_italian,european,high,birth_italy,,1849,Livourne,commerce,0,0,0,310,0,97
+L1912-00533,CASSAR,Jean,unknown,unknown,,birth_tunisia,,1861,Tunis,politics_native_admin,1,0,1,751,0,97
+L1912-00534,CASSUTO,Emile,tunisian_jewish,tunisian,low,jewish_institution;italian_institution;birth_tunisia,tunisian_jewish;european_italian,1875,Tunis,medicine_health,2,0,1,1403,0,97
+L1912-00535,CASTRO,Empédocle DE,unknown,unknown,,,,1862,,commerce,0,0,0,162,0,97
+L1912-00536,CATTAN,Albert-Daniel,tunisian_jewish,tunisian,high,jewish_institution;described_muslim;member_of:jewish_body;birth_tunisia,tunisian_muslim,1875,Tunis,medicine_health,1,0,1,1861,1,97
+L1912-00537,CATTAN,Darius-David,unknown,unknown,,,,1606,,commerce,1,0,1,468,0,98
+L1912-00538,CATTAN,Isaac,tunisian_muslim,tunisian,high,muslim_office;islamic_school;jewish_institution;birth_tunisia,tunisian_jewish,1877,Tunis,justice_law,3,0,1,3056,1,98
+L1912-00539,CATTAN,Victor,european_italian,european,high,italian_institution;birth_tunisia,,1870,Tunis,justice_law,4,0,1,394,0,98
+L1912-00540,CAVALIN,Ernest-Jean-Marie,european_french,european,high,birth_france,,1851,Batz,medicine_health,4,1,1,1142,0,99
+L1912-00542,CAZÈS,David-Albert-Louis,tunisian_jewish,tunisian,high,jewish_institution;member_of:jewish_body;birth_tunisia,,1850,Vint à Tunis en février 1878,,3,1,1,720,2,99
+L1912-00555,Cercle Républicain,Grand,unknown,unknown,,birth_tunisia,,1905,Tunis,justice_law,0,0,0,219,0,100
+L1912-00561,CES,,unknown,unknown,,,,,,administration,2,0,1,285,0,101
+L1912-00562,CEZERAC,Joseph,european_french,european,high,birth_france,,1879,Isle Jourdain,education_science,0,0,0,154,0,101
+L1912-00565,CHABERT,Pierre,european_italian,european,high,italian_institution;member_of:french_settler_body,,1842,,medicine_health,4,1,1,699,0,101
+L1912-00570,CHAFFANJON,Philibert,european_french,european,high,birth_france,,1860,Villefranche,,2,0,1,1594,2,101
+L1912-00572,CHAILLEY,Raoul,unknown,unknown,,birth_tunisia,,1874,Avocat au barreau de Tunis,justice_law,0,0,0,391,0,102
+L1912-00573,CHAIX,Xavier,european_french,european,high,birth_france,,1879,Le Pouzin,administration,0,0,0,366,0,102
+L1912-00574,CHALAVOUX,Louis,european_french,european,high,birth_france,,1876,Saint-Romain-d'Ay,industry_crafts,1,0,1,189,1,102
+L1912-00575,CHALOM,Jacques,unknown,unknown,,birth_tunisia,,1878,Tunis,justice_law,1,0,1,691,0,102
+L1912-00576,CHAMBONCEL,Edmond-Bruno,european_french,european,high,birth_france,,1869,Saulce-sur-Rliône,,3,0,1,591,0,102
+L1912-00586,CHAMPAVER,François-Marie-Gustave,european_french,european,high,birth_france,,1867,Lyon,education_science,3,0,1,1064,0,105
+L1912-00592,CHAPELIÉ,Alfred,unknown,unknown,,birth_tunisia,,1828,Tunis,politics_native_admin,0,0,0,2293,0,106
+L1912-00595,CHARDAVOINE,R'ené-Alcide,european_french,european,high,birth_france,,1862,Saint-Jean-de-Ceyrargues,,1,0,1,365,1,107
+L1912-00596,CHARLËTY,Sébastien,unknown,unknown,,,,1867,,military,3,1,1,1155,1,107
+L1912-00599,CHARRIERE,Pierre - Charles - Alexandre LADREYT DE LA,european_french,european,high,birth_france,,1882,Nancy,press_letters_arts,1,0,0,572,0,108
+L1912-00600,CHASSAGNY •,Antoine - Amédée - Bernard,european_french,european,medium,birth_algeria,,1869,Séiif,education_science,2,0,1,298,0,108
+L1912-00603,CHASSENERIE,Jean,unknown,unknown,,,,1881,Souillac,administration,0,0,0,553,0,109
+L1912-00605,CHASTANG,Camille-Victor,european_french,european,high,birth_france,,1861,Chambonnus,engineering_architecture,2,0,1,1064,0,109
+L1912-00606,CHAUFFIN,Léon,european_french,european,high,birth_france,,1875,Montrevel,administration,1,0,1,516,0,109
+L1912-00608,CHAVIGNY,André-Charles DE,unknown,unknown,,,,1874,Cha,administration,4,0,1,1303,0,110
+L1912-00618,CHEMAMA,Vila-Sauveur,unknown,unknown,,,,1877,,justice_law,1,0,1,221,0,111
+L1912-00619,CHEMILA,Ra.hmim,tunisian_muslim,tunisian,low,muslim_office;jewish_institution;birth_tunisia,tunisian_muslim;tunisian_jewish,1840,Tunis,military,1,0,1,392,0,111
+L1912-00621,CHEMLA,Ange,tunisian_jewish,tunisian,high,jewish_institution,,1871,Mona,,0,0,0,282,0,112
+L1912-00623,CHENAY,Louis,european_french,european,high,birth_france,,1849,Paris,,2,0,1,452,1,112
+L1912-00632,CHERIF,Tahar,unknown,unknown,,birth_tunisia,,1860,Tunis,,1,0,1,184,0,113
+L1912-00633,CHERVIN,Pierre,european_french,european,high,birth_france,,1873,Châtellus,,3,0,1,428,1,113
+L1912-00634,CHESNE DE BELLECOURT,,unknown,unknown,,,,,,military,0,0,0,122,0,114
+L1912-00636,CHEVALIER,Jacques-Cyrille,european_french,european,high,birth_france,,1855,Arrou,military,2,0,1,431,0,114
+L1912-00637,CHEVALIER,Joseph,tunisian_muslim,tunisian,low,islamic_school;maltese_marker;birth_spain,tunisian_muslim;european_maltese;european_other,1855,Algésiras,military,2,0,1,1181,0,114
+L1912-00638,CHEYLUS,Victor-Marie,european_french,european,high,birth_france,,1839,Paris,engineering_architecture,1,1,0,770,0,114
+L1912-00640,CHICOLI,Tolomeo,european_italian,european,high,described_israelite;italian_institution,tunisian_jewish,1866,Païenne,medicine_health,2,0,1,490,0,114
+L1912-00641,CHIDIAC,Naja,unknown,unknown,,,,1853,MontLiban,military,3,0,1,270,0,114
+L1912-00644,CHOTARD,Georges-Henri,unknown,unknown,,,,1859,Charron,administration,0,0,0,183,0,115
+L1912-00650,CHURCHER,Thomas-Gillard,european_other,european,high,birth_united_kingdom,,1856,Londres,,0,0,0,224,0,115
+L1912-00652,CIRIER,Fabien,european_french,european,high,birth_france,,1862,Cambrai,justice_law,2,0,1,1113,0,116
+L1912-00653,CITTANOVA,Jacques,european_italian,european,high,italian_institution;member_of:italian_body;birth_tunisia,,1881,Sousse,press_letters_arts,1,0,1,983,1,116
+L1912-00654,CITTANOVA,Ugo,european_italian,european,high,italian_institution;birth_tunisia,,1885,Sousse,education_science,1,0,1,631,0,116
+L1912-00655,CLEMENT,César,unknown,unknown,,,,1865,Tu,administration,0,0,0,103,0,116
+L1912-00656,CLÉMENT,Paul-Gustave,european_french,european,high,birth_france,,1851,Valence,military,2,1,0,2063,1,116
+L1912-00657,CLERINO,Mn.rtm-François-Isidore,european_french,european,high,birth_france,,1874,Lyon,administration,1,0,1,495,0,117
+L1912-00658,CLERMONT,Jean,unknown,unknown,,,,1877,Akbou,education_science,3,0,1,751,0,117
+L1912-00659,CLERMONT,Paul,european_other,european,high,birth_egypt,,1875,Le Caire,,1,0,1,308,0,118
+L1912-00660,CLEYET,Merle-François,european_french,european,high,birth_france,,1869,Pressins,education_science,1,0,0,244,0,118
+L1912-00661,CLIDAT,Martial,european_french,european,high,birth_france,,1862,Bordeaux,,1,0,1,951,0,118
+L1912-00665,COANET,Armand-Edmond,european_french,european,high,birth_france,,1877,Nancy,agriculture,3,0,1,823,0,119
+L1912-00666,COEROLI,André,european_french,european,high,birth_france,,1863,Ota,administration,0,0,0,236,0,119
+L1912-00667,COEYTAUX,Alfred-Henri,european_french,european,medium,birth_algeria,,1856,Coligny,military,3,0,1,359,0,119
+L1912-00668,COHEN,Abraham,unknown,unknown,,birth_tunisia,,1871,Djerba,,0,0,0,93,0,119
+L1912-00669,COHEN,,unknown,unknown,,birth_tunisia,,1887,Tunis,commerce,0,0,0,148,0,119
+L1912-00670,COHEN-HADRIA,Joseph,unknown,unknown,,birth_tunisia,,1872,Tunis,,0,0,0,164,0,119
+L1912-00671,COHEN,Jacob,tunisian_jewish,tunisian,high,jewish_institution;birth_tunisia,,1872,Tunis,press_letters_arts,1,0,1,827,2,119
+L1912-00672,COHEN,Joseph,tunisian_jewish,tunisian,high,jewish_institution;birth_tunisia,,1881,Sfax,education_science,1,0,1,1775,0,120
+L1912-00673,COIGNET,Jean,unknown,unknown,,,,,,engineering_architecture,0,0,0,759,1,120
+L1912-00676,COLLET,Emmanuel,european_french,european,high,birth_france,,1863,Chateaulin,,0,0,0,555,0,120
+L1912-00677,COLLIN,Julien,tunisian_muslim,tunisian,low,islamic_school;birth_france,tunisian_muslim;european_french,1862,Racheoourl-s'-Marne,education_science,4,0,1,1201,0,120
+L1912-00678,COLLOMP,,unknown,unknown,,,,1864,,administration,2,0,1,493,0,120
+L1912-00679,COLONNA -CESARI,Jean-Paul,unknown,unknown,,birth_tunisia,,1888,Tunis,military,1,0,1,424,0,121
+L1912-00680,COLONNA-CESARI,Sébastien,european_french,european,high,birth_france,,1871,Quenza,diplomacy,5,0,1,495,0,121
+L1912-00681,COLRAT,Jean-Marcel-Raymond,european_french,european,high,birth_france,,1872,Muzac,press_letters_arts,4,1,1,1677,1,121
+L1912-00682,COMBAZ,Alexandre-François,european_french,european,high,birth_france,,1863,Pressins,military,3,0,1,686,0,121
+L1912-00683,COMBES,Barthélémy-Clément,european_french,european,high,birth_france,,1839,Marseillette,religion,0,0,0,559,0,121
+L1912-00684,COMBES,DE,unknown,unknown,,,,1864,,military,2,0,1,236,0,121
+L1912-00685,COMBET,Candide-Aimé,unknown,unknown,,,,1862,,education_science,2,0,1,369,1,121
+L1912-00694,COMITI,Paul,european_french,european,high,birth_france,,1870,Serra,administration,1,0,0,3228,1,124
+L1912-00699,COMMUNAUX,Etienne-Victor,european_french,european,high,member_of:french_settler_body;birth_france,,1849,Arnay-le-Duc,engineering_architecture,1,1,0,832,1,125
+L1912-00718,COMTE,Louis-IIippolyte,tunisian_muslim,tunisian,high,islamic_school,,1852,Courcelles,commerce,1,0,0,482,0,129
+L1912-00719,COMTE,Philippe-Charles,tunisian_muslim,tunisian,high,islamic_school,,1869,Sus,medicine_health,3,0,1,1534,1,129
+L1912-00720,COMTE,Victor,european_french,european,high,birth_france,,1874,Avignon,medicine_health,0,0,0,278,0,129
+L1912-00722,CONSTANT,Charles,unknown,unknown,,,,,,military,0,0,0,124,0,132
+L1912-00731,CONVERTI,Nicolas,european_italian,european,high,birth_italy,,1858,Roselo,medicine_health,0,0,0,2416,1,134
+L1912-00736,CORBES,,unknown,unknown,,,,1871,,administration,2,0,1,860,0,135
+L1912-00737,CORDEIL,Paul-Baptiste,european_french,european,high,birth_france,,1866,Cnalançon,education_science,2,0,1,1002,0,136
+L1912-00739,CORRAS,Etienne,tunisian_muslim,tunisian,low,islamic_school;birth_france,tunisian_muslim;european_french,1876,Lyon,education_science,2,0,1,850,1,136
+L1912-00740,COSSANGE,,european_french,european,high,birth_france,,1862,Firminy,engineering_architecture,3,0,1,938,0,136
+L1912-00741,COSSON,Ernest,european_french,european,high,birth_france,,1891,Paris,medicine_health,2,0,1,8087,2,136
+L1912-00743,COUDERG,Fernand,european_french,european,medium,birth_algeria,,1887,Philippeville,,0,0,0,431,0,138
+L1912-00744,COUDERC,Pierre,european_french,european,high,birth_france,,1856,Cajarc,commerce,1,0,1,238,0,138
+L1912-00745,COULON,Louis,tunisian_muslim,tunisian,low,islamic_school;birth_france,tunisian_muslim;european_french,1865,Aix-en-Provence,justice_law,2,0,1,1212,1,138
+L1912-00747,COURT,Calixte,unknown,unknown,,,,1853,Aubenas,justice_law,1,0,0,358,0,139
+L1912-00748,COURT,Gustave,european_french,european,high,birth_france,,1883,Corps,,3,0,1,2442,0,139
+L1912-00749,COUVE,Edmond,european_french,european,high,birth_france,,1865,Marseille,justice_law,0,0,0,423,0,139
+L1912-00750,CRANCIER,Hubert,unknown,unknown,,,,1867,Melisey,administration,3,0,1,609,0,139
+L1912-00752,CRETE,Maurice,european_french,european,high,birth_france,,1855,Zaulzy,,5,1,0,968,0,140
+L1912-00755,CRISTOFARI,Etienne,european_french,european,high,birth_france,,1863,Rospigliani,military,2,0,0,351,0,140
+L1912-00758,CROS,François,european_french,european,high,birth_france,,1876,Béziers,military,0,0,0,477,0,141
+L1912-00759,CRUZET,Victor,unknown,unknown,,,,1876,,military,1,0,1,332,0,141
+L1912-00760,CUBISOL,Charles,unknown,unknown,,birth_tunisia,,1865,La Goulette,administration,1,0,1,201,0,141
+L1912-00761,CUBISOL,Joseph,unknown,unknown,,,,1830,,administration,1,1,0,1999,0,141
+L1912-00762,CUÉNOD,Auguste,european_other,european,high,birth_switzerland,,1868,SaintLégier-sur-Vevey,medicine_health,2,0,0,1135,1,142
+L1912-00765,CURTELIN,Jean-Baptiste,european_french,european,high,birth_france,,1850,Chambéry,diplomacy,3,1,1,1116,1,143
+L1912-00766,CYPRIEN,Saint,unknown,unknown,,,,,,press_letters_arts,0,0,0,754,0,144
+L1912-00767,DABRIGEON,Louis-Guslave-Léon-Casimir,european_french,european,high,member_of:french_settler_body;birth_france,,1869,Mayres,medicine_health,3,0,1,1709,0,145
+L1912-00768,DALIOT,Léonce-Albert,european_french,european,medium,birth_algeria,,1880,Alger,military,1,0,1,351,0,145
+L1912-00770,DALLARD,Louis-Paul,unknown,unknown,,,,1875,Aiguilhe,military,1,1,0,870,0,145
+L1912-00771,DALLOZ,Léonce-Albert,european_french,european,high,birth_france,,1879,Saint-Claude,justice_law,0,0,0,684,1,145
+L1912-00773,DANDINE,Pierre-Paul-Gaston,european_french,european,high,birth_france,,1879,Paris,,1,0,1,531,0,146
+L1912-00774,DANGELZER,Charles,european_french,european,high,birth_france,,1856,Andlau,military,5,1,1,383,0,146
+L1912-00775,DANGUIN,J.-M.,european_french,european,high,birth_france,,1876,Lyon,commerce,0,0,0,451,0,146
+L1912-00776,DANINOS,Léon,european_french,european,medium,birth_algeria,,1863,Bône,military,1,0,0,408,0,146
+L1912-00777,DANOS,Joseph,unknown,unknown,,,,1877,Auterive,,1,0,1,437,1,146
+L1912-00778,DANTON,Edmond,european_french,european,high,birth_france,,1874,Sézanne,,1,0,1,670,0,146
+L1912-00785,DARGHOUT,Chadli,tunisian_muslim,tunisian,high,islamic_school;described_muslim;birth_tunisia,,1867,Tunis,commerce,0,0,0,628,0,147
+L1912-00786,DARMON,,unknown,unknown,,birth_tunisia,,1885,La Goulelte,justice_law,1,0,1,1854,0,147
+L1912-00787,DARMONY,V.,tunisian_muslim,tunisian,high,islamic_school;birth_tunisia,,1875,Tunis,,1,0,0,228,0,147
+L1912-00788,DASCONAGUERRE,Ferdinand,unknown,unknown,,,,1851,,justice_law,3,0,1,456,0,147
+L1912-00790,DAVER,François-Joseph-Paul,european_french,european,high,birth_france,,1861,Toulon-sur-Mer,military,2,0,1,1031,1,148
+L1912-00791,DAVID,Paul,european_french,european,low,member_of:french_settler_body,,,,engineering_architecture,1,0,1,1556,0,148
+L1912-00792,DAVOUX,Augusle-Honoré,european_french,european,high,birth_france,,1870,Louvigné-du-Désert,military,0,0,0,846,0,148
+L1912-00795,DEBON,Séraphin-Victorin,unknown,unknown,,,,1864,,justice_law,3,0,1,428,0,149
+L1912-00801,DECKER-DAVID,Paul-Henry,unknown,unknown,,,,1865,,engineering_architecture,3,0,1,1235,0,149
+L1912-00804,DEFRANCHI,Joseph,european_french,european,high,birth_france,,1855,Soccia,education_science,1,0,1,783,0,150
+L1912-00807,DEGOMMIER,Albert,european_french,european,high,birth_france,,1870,Lardy,justice_law,1,0,1,230,1,150
+L1912-00808,DËGRËAUX,Charles-Honoré,european_french,european,high,birth_france,,1850,Toulon,administration,2,0,0,222,0,150
+L1912-00809,DËGUT,Joseph,european_french,european,high,birth_france,,1871,Marseille,justice_law,1,0,1,196,0,150
+L1912-00810,DEHENNAULT,René,european_french,european,high,birth_france,,1880,Douai,,0,0,0,624,0,150
+L1912-00811,DEJEAN,Vicomte,unknown,unknown,,,,,,military,1,0,1,155,0,150
+L1912-00812,DEJEANNE,Guillaume-Cyprioil,unknown,unknown,,,,1845,Asie,administration,2,1,1,552,1,150
+L1912-00813,DELAPONT,Albert,unknown,unknown,,,,,,,0,0,0,180,0,151
+L1912-00814,DELARUE,René-Joseph,european_french,european,high,birth_france,,1850,Pontoise,military,3,1,0,656,1,151
+L1912-00816,DELEBECQUE,Alplionse-Charles,unknown,unknown,,,,1824,Douai,military,1,1,0,428,0,151
+L1912-00817,DELHUMEAU,,unknown,unknown,,,,1863,,military,0,0,0,152,0,151
+L1912-00818,DELIEUX,Joseph - Etienne - Bernard,european_french,european,high,birth_france,,1868,Toulouse,,1,0,0,326,1,151
+L1912-00819,DELMAS,Joseph-Frédéric,european_french,european,high,birth_france,,1867,Montereau,justice_law,2,1,0,902,1,151
+L1912-00820,DELMAS,,tunisian_muslim,tunisian,high,islamic_school,,1854,,education_science,2,1,0,217,0,151
+L1912-00821,DELMOLINO,Alfred,unknown,unknown,,,,1861,Roy an,,3,0,1,324,0,151
+L1912-00822,DELMON,Pierre-Louis,european_french,european,high,birth_france,,1866,Castillon-sur-Dordogne,religion,1,0,1,585,0,151
+L1912-00823,DELORD,Jean-Camille,european_french,european,high,birth_france,,1853,Montagnac-Lacrempse,administration,1,0,1,602,0,152
+L1912-00824,DEMARCQ,Henri-Clément,unknown,unknown,,,,1869,,industry_crafts,1,0,0,489,0,152
+L1912-00825,DEMAY,Jules-Joseph-Pierre,european_french,european,medium,birth_algeria,,1876,Philippeville,administration,1,0,1,329,0,152
+L1912-00826,DEMELLE,André,unknown,unknown,,,,1706,,medicine_health,0,0,0,692,0,152
+L1912-00827,DEMOULIN,René-Lucien,european_french,european,high,birth_france,,1879,Paris,,1,0,1,1071,1,152
+L1912-00828,DENCAUSE,Jean,european_french,european,low,member_of:french_settler_body,,1850,Soueich,military,2,1,1,740,0,152
+L1912-00829,DENJEAN-NAVAILLES,Maurice,european_french,european,high,birth_france,,1866,Espondeilhan,,1,0,0,2101,1,152
+L1912-00830,DEPIENNE,Pierre-Marie,unknown,unknown,,,,,,administration,1,1,0,7974,0,153
+L1912-00832,DEPLANCHE,Pierre,european_french,european,high,birth_france,,1838,Secaux,commerce,1,0,1,499,0,154
+L1912-00834,DERIVAUX,Charles-Hubert,european_french,european,high,birth_france,,1845,Kaltenhausen,military,4,1,1,794,0,155
+L1912-00835,DESANTI,Dominique-François,european_french,european,high,birth_france,,1866,Crislinacce,education_science,0,0,0,177,0,155
+L1912-00836,DESFONTAINE,Renô-Louicbe,unknown,unknown,,,,,,education_science,1,0,0,400,0,155
+L1912-00837,DESTRÉES,Albert-Charles-Ferdinand,tunisian_muslim,tunisian,high,islamic_school;birth_algeria,european_french,1852,Oran,education_science,2,0,1,1745,1,155
+L1912-00838,DESTREES,Auguste - Albert - Emile,european_french,european,medium,birth_algeria,,1875,Moslaganem,justice_law,3,0,0,1646,2,155
+L1912-00839,DEVAUX,Jules-Jean,unknown,unknown,,,,1859,,,0,0,0,167,0,156
+L1912-00840,DEVOIZE,Jacques-Philippe,unknown,unknown,,,,,,military,0,0,0,805,1,156
+L1912-00841,DHAINE,Henri-Désire-Michel,european_french,european,high,birth_france,,1867,"Paris IX"" arr",administration,3,0,1,1889,0,156
+L1912-00842,DIACONO,Albin - Herménégilde,unknown,unknown,,birth_tunisia,,1883,Monastier,medicine_health,0,0,0,479,1,156
+L1912-00843,DIACONO,Carmelo,unknown,unknown,,,,1884,Monaslier,commerce,0,0,0,192,0,157
+L1912-00844,DIACONO,Paolo,unknown,unknown,,,,1867,Malle,commerce,0,0,0,68,0,157
+L1912-00845,DIACONO,Salvalore,european_maltese,european,high,birth_malta,,1858,Cospiecca,industry_crafts,0,0,0,202,0,157
+L1912-00846,DIANOUS,Paul DE,european_french,european,high,birth_france,,1859,Paris,administration,3,1,1,406,0,157
+L1912-00847,DINGUIZLI,Moustapha,tunisian_muslim,tunisian,high,muslim_office;islamic_school;birth_tunisia,,1865,Tunis,politics_native_admin,4,1,1,757,1,157
+L1912-00856,DIRSSINE,,tunisian_muslim,tunisian,high,muslim_office;islamic_school;member_of:muslim_body,,,,justice_law,0,0,0,251,0,158
+L1912-00857,DISEGNI,A.,european_italian,european,high,italian_institution;member_of:italian_body;birth_tunisia,,1863,Tunis,administration,5,0,1,582,0,158
+L1912-00862,DJAIBI,Mohamed,tunisian_muslim,tunisian,high,islamic_school;described_muslim;birth_tunisia,,1878,Tunis,press_letters_arts,0,0,0,229,0,158
+L1912-00863,DJAIT,Youcef,unknown,unknown,,,,,,politics_native_admin,2,1,1,142,0,158
+L1912-00865,DJAMAL,Ahmed,tunisian_muslim,tunisian,high,islamic_school;birth_tunisia,,1853,Tunis,commerce,1,0,1,325,1,158
+L1912-00866,DJAMAL,Salah,unknown,unknown,,birth_tunisia,,1886,Tunis,,1,0,0,162,0,158
+L1912-00902,DJEHANE,,tunisian_muslim,tunisian,high,islamic_school;described_muslim;member_of:muslim_body;birth_tunisia,,1870,Tunis,education_science,3,0,1,289,0,160
+L1912-00907,DJELLOULI,Sadok,tunisian_muslim,tunisian,high,muslim_office,,,,politics_native_admin,4,1,1,280,0,160
+L1912-00908,DJELLOULI,Taïeb,tunisian_muslim,tunisian,high,islamic_school,,,,politics_native_admin,3,1,1,218,0,160
+L1912-00925,DJILANI,I-Iadi,tunisian_muslim,tunisian,high,muslim_office;islamic_school,,1890,,politics_native_admin,2,0,0,967,0,162
+L1912-00928,DOLCEMASCOLO,Giacomo,european_italian,european,high,birth_italy,,1880,Palerme,medicine_health,0,0,0,298,0,162
+L1912-00929,DOLLIN DU FRESNEL,Frôdéric-Jules-Ernest,european_other,european,high,birth_belgium,,1855,Ixelles,administration,4,0,1,1334,1,162
+L1912-00930,DOLOT,,european_french,european,high,birth_france,,1847,Premery,military,3,1,1,836,1,162
+L1912-00931,DOMELA,Théodore,unknown,unknown,,,,1872,,medicine_health,0,0,0,1004,0,163
+L1912-00936,DOUBLEDENT,Félix,european_french,european,high,birth_france,,1881,Paris,engineering_architecture,0,0,0,503,0,163
+L1912-00940,DOUGNAC,François-Jean,european_french,european,high,birth_france,,1869,Saint-Vincent-de-Pertignes,,3,0,1,594,0,164
+L1912-00945,DOZEVILLE,Elisée-Emile,european_french,european,high,birth_france,,1862,La Carneille,administration,2,0,1,402,0,165
+L1912-00946,DRAGUT,,unknown,unknown,,,,,,military,0,0,0,419,0,165
+L1912-00947,DRAMARD,Pierre-Marie,european_french,european,high,birth_france,,1860,Evreux,justice_law,2,0,1,554,0,165
+L1912-00951,DRIB,Salah,tunisian_muslim,tunisian,medium,described_muslim;member_of:muslim_body,,,,justice_law,0,0,0,174,0,165
+L1912-00956,DROUILLARD,Françoîs-Alexis-Prosper- Marcel,unknown,unknown,,,,1872,Vénérand,medicine_health,0,0,0,929,0,165
+L1912-00957,DUBOS,Henri,european_french,european,low,member_of:french_settler_body,,1829,,engineering_architecture,3,1,1,940,0,166
+L1912-00959,DUBOURDIEU,Gaslon-Louis-CharlesClément,unknown,unknown,,,,1854,,military,4,0,1,680,1,166
+L1912-00960,DUBOURDIEU,Lucien,european_french,european,medium,birth_algeria,,1860,Mostaganem,administration,3,1,1,553,0,166
+L1912-00961,DUCLOS,Bibiano,unknown,unknown,,,,1855,Brésil,engineering_architecture,0,0,0,505,0,166
+L1912-00962,DUCROQUET,P,unknown,unknown,,,,,,military,3,1,1,205,0,166
+L1912-00963,DUCROQUET,Louis-Paul-Marie,european_french,european,high,birth_france,,1870,Corbic,justice_law,0,0,0,433,0,166
+L1912-00964,DUFFAU,Augustin,european_french,european,high,birth_france,,1864,Montde-Marsan,administration,2,0,1,291,0,166
+L1912-00965,DUFFO,Louis,unknown,unknown,,,,1853,,military,2,0,0,360,1,166
+L1912-00966,DUFRÊNE,César-Elisêe-Marc,european_french,european,high,birth_france,,1869,Puget-sur-Argens,education_science,1,0,1,717,0,167
+L1912-00967,DUGLIN,William-Louis-Emile,european_french,european,high,birth_france,,1868,Montoise-sur-Loire,education_science,1,0,0,332,0,167
+L1912-00968,DULIMON,Charles-Gaston,european_french,european,high,birth_france,,1869,Amiens,administration,0,0,0,171,0,167
+L1912-00969,DUMAS,Paul-Antoine-Marcel,european_french,european,low,member_of:french_settler_body,,,,justice_law,2,0,1,1146,0,167
+L1912-00970,DUMERGUE,,unknown,unknown,,,,1840,Aix-enProvence,industry_crafts,3,1,1,357,0,167
+L1912-00971,DUMONT,Ernest,european_french,european,high,birth_france,,1861,Chablis,education_science,0,0,0,676,0,167
+L1912-00972,DUMONT,Pierre-Henri,european_french,european,high,birth_france,,1881,Lyon-Villeurbanne,administration,0,0,0,339,0,167
+L1912-00973,DUPLA,Jean,unknown,unknown,,,,1878,Alais,justice_law,0,0,0,960,1,167
+L1912-00974,DUPLAV,Jacques-Louis,european_french,european,high,birth_france,,1840,Saint-Etienne,engineering_architecture,2,0,1,668,0,168
+L1912-00975,DUPONT,Pierre,european_french,european,high,birth_france,,1862,Vélines,,0,0,0,263,0,168
+L1912-00976,DUPOUX,,european_french,european,medium,birth_algeria,,1865,Djeba,industry_crafts,3,0,1,619,0,168
+L1912-00977,DUPRÊ,Emile,unknown,unknown,,,,1835,Meaux,administration,3,1,1,711,1,168
+L1912-00978,DURAN,André,european_french,european,high,birth_france,,1877,Valence,justice_law,3,0,1,707,1,168
+L1912-00979,DURAN,Vincent,unknown,unknown,,,,1865,Fa- vignana,commerce,0,0,0,105,1,168
+L1912-00980,DUREL,Alphonse,unknown,unknown,,,,1856,,military,3,0,1,302,0,169
+L1912-00981,DUREL,Auguste,unknown,unknown,,,,1851,,military,1,0,0,226,0,169
+L1912-00982,DUREL,Joachim-Cliristian,european_french,european,high,birth_france,,1878,Toulouse,education_science,3,0,1,255,0,169
+L1912-00983,DURIEUX,Eugène,european_french,european,high,birth_france,,1859,Verteillac,industry_crafts,0,0,0,129,0,169
+L1912-00984,DURMEYER,Georges-Jacques,european_french,european,high,birth_france,,1827,Mulhouse,religion,1,0,1,232,0,169
+L1912-00985,DURMEYER,Louis-Gustavc-Alexis,unknown,unknown,,,,1876,Nolre-Dame-de-Coiiimier,education_science,0,0,0,229,0,169
+L1912-00986,DURMEYER,,european_french,european,high,birth_france,,1866,Lyon,justice_law,1,0,1,403,0,169
+L1912-00987,DUSSOUILLEZ,Ferdinand-VictorLouis,european_french,european,high,birth_france,,1878,Paris,,1,0,1,1110,1,169
+L1912-00988,DUVAL,Joseph,european_french,european,high,birth_france,,1860,Montpellier,education_science,3,0,1,320,0,169
+L1912-00989,DUVAU,Albert,tunisian_muslim,tunisian,high,islamic_school,,1851,Soignolles,agriculture,2,0,1,1165,1,169
+L1912-00999,EICHMULER,Georges,european_french,european,high,birth_france,,1866,Vienne,medicine_health,1,0,0,190,0,173
+L1912-01000,EIGENSCHENCK,Henri- Kilien,european_french,european,high,birth_france,,1851,Monlargis,military,2,0,1,415,0,173
+L1912-01001,EIGENSCHENCK,Charlotte,tunisian_muslim,tunisian,medium,described_muslim,,,,military,2,0,1,1417,1,173
+L1912-01012,EL ANNABI,Béchir,tunisian_muslim,tunisian,high,islamic_school;nasab_particle,,1871,,administration,2,0,1,477,0,174
+L1912-01013,EL ANNABI,Sadok,tunisian_muslim,tunisian,high,islamic_school;birth_tunisia;nasab_particle,,1875,Tunis,administration,1,0,0,332,0,174
+L1912-01029,ELES,Emilio,european_italian,european,high,italian_institution,,1874,Sinigaglia,diplomacy,0,0,0,369,0,175
+L1912-01031,EL FOURATI,Mohammed,tunisian_muslim,tunisian,medium,nasab_particle,,,,politics_native_admin,3,1,1,261,0,175
+L1912-01032,EL FOURTI,Béchir,tunisian_muslim,tunisian,high,islamic_school;birth_tunisia;nasab_particle,,1884,Tunis,press_letters_arts,0,0,0,181,0,175
+L1912-01046,EL KAROUI,Mohammed,tunisian_muslim,tunisian,high,islamic_school;birth_tunisia;nasab_particle,,1847,Tunis,military,3,1,1,693,0,176
+L1912-01049,EL-KHALSI,M'hamed,tunisian_muslim,tunisian,medium,birth_tunisia;nasab_particle,,1873,Tunis,commerce,0,0,0,127,0,176
+L1912-01052,EL LEZZAM,Abderrahmane,tunisian_muslim,tunisian,medium,nasab_particle,,,,politics_native_admin,0,0,0,103,0,177
+L1912-01065,ELZEAR,,unknown,unknown,,,,,,diplomacy,0,0,0,674,1,177
+L1912-01066,EMONTS,Charles,european_french,european,high,birth_france,,1864,Paris,engineering_architecture,2,0,1,792,0,177
+L1912-01072,ENDIGNOUX,Auguste-Philippe-Adolphe-Marie,european_italian,european,high,birth_italy,,1859,Rome,agriculture,3,0,1,870,0,177
+L1912-01078,ENGERER,William,european_maltese,european,high,birth_malta,,1850,Malte,commerce,1,0,1,171,0,178
+L1912-01079,ENNOURI,M'hamed,european_french,european,medium,birth_algeria,,1828,Bône,politics_native_admin,1,0,1,185,0,178
+L1912-01081,ENRIQUEZ,Daniel,unknown,unknown,,birth_tunisia,,1886,Tunis,education_science,0,0,0,260,0,179
+L1912-01082,ENRIQUEZ,Guillaume,unknown,unknown,,birth_tunisia,,1875,Tunis,justice_law,3,0,1,918,0,179
+L1912-01091,Epargne Tunisienne,L',unknown,unknown,,,,,,,1,0,0,1757,0,181
+L1912-01093,EPINAT,Alexandre,european_french,european,high,birth_france,,1850,Paris,industry_crafts,3,0,1,584,0,181
+L1912-01094,EPINAT,Charles,unknown,unknown,,birth_tunisia,,1868,Mahdia,industry_crafts,3,0,1,741,0,181
+L1912-01097,ERRAIS,,unknown,unknown,,,,,,,1,0,0,169,0,183
+L1912-01098,ERRERA,Giuseppe,european_italian,european,medium,member_of:italian_body,,1859,Pantolleria,medicine_health,1,0,1,320,0,183
+L1912-01099,ESCANO,Ernest,european_italian,european,medium,member_of:italian_body;birth_tunisia,,1860,Tunis,commerce,1,0,1,380,0,183
+L1912-01101,ESPIAUT,Henri-Edmond,unknown,unknown,,,,1862,Nérac,,3,0,1,493,0,183
+L1912-01102,ESPITALIER,Jules,european_french,european,high,described_israelite;birth_france,tunisian_jewish,1865,Marseille,,1,0,1,688,0,183
+L1912-01104,ESSALMI,,tunisian_muslim,tunisian,high,muslim_office;islamic_school,,,,justice_law,0,0,0,196,0,183
+L1912-01105,Essor,L',unknown,unknown,,,,,,,0,0,0,1195,0,183
+L1912-01106,ESTIBAL,Jean-Romain.-Camille,european_french,european,high,birth_france,,1870,Agen,administration,2,0,1,764,0,183
+L1912-01107,ESTRAGNAT,Jules,unknown,unknown,,,,1875,,,0,0,0,34,0,184
+L1912-01108,ETTIJANNI,Mohamed Cherif,unknown,unknown,,,,1884,Publicisle et propriétaire,,0,0,0,557,1,184
+L1912-01110,EXIGA-KAYSER,Charles-Jacques,european_maltese,european,high,maltese_marker;birth_algeria,european_french,1859,Jemmapes,,2,0,1,1423,1,184
+L1912-01111,EYMON,Louis,european_italian,european,low,italian_institution;maltese_marker,european_italian;european_maltese,1840,,hospitality_services,2,1,0,1374,0,184
+L1912-01112,FABRY,Paul-Auguste,european_french,european,high,birth_france,,1855,Marseille,justice_law,2,1,0,822,0,185
+L1912-01113,FAGES DE LATOUR,Eugène DE,european_french,european,high,birth_france,,1862,Coutras,military,5,1,1,1015,3,185
+L1912-01114,FAGOT,Charles-Louis,european_french,european,high,birth_france,,1862,Vertus,,1,0,0,337,1,185
+L1912-01116,FARGEON,Jacques-Raoul,unknown,unknown,,birth_tunisia,,1889,Tunis,,1,0,1,726,0,186
+L1912-01117,FARHAT,Chadly,tunisian_muslim,tunisian,high,muslim_office;islamic_school,,,,politics_native_admin,2,1,1,302,0,186
+L1912-01119,FATH,Charles,european_french,european,low,member_of:french_settler_body,,1859,,administration,2,0,1,443,1,186
+L1912-01121,FATTACIOLI,Jean-Martin,european_french,european,high,member_of:french_settler_body;birth_france,,1870,Baslelica,medicine_health,0,0,0,192,0,186
+L1912-01122,FAUCHE,Antoine-Victor,european_french,european,high,birth_france,,1882,Grenoble,education_science,0,0,0,340,0,186
+L1912-01124,FAURE-DÈRE,François,european_french,european,low,member_of:french_settler_body,,1877,Ba,politics_native_admin,1,0,0,387,0,186
+L1912-01131,FËLICI,Noël,european_french,european,high,birth_france,,1878,Ajaccio,justice_law,1,0,1,221,0,187
+L1912-01133,FENECH,,european_maltese,european,high,birth_malta,,1848,Malte,diplomacy,0,0,0,177,0,187
+L1912-01143,FERRAND,Henri,european_french,european,high,birth_france,,1862,Clairvanx,,2,0,0,390,0,188
+L1912-01144,FERRY,Jules-François-Camille,unknown,unknown,,,,,,justice_law,1,0,0,2183,0,188
+L1912-01145,FERRY,Oscar-Joseph,unknown,unknown,,,,1706,,medicine_health,4,1,1,626,0,188
+L1912-01147,FESLER,,unknown,unknown,,birth_tunisia,,1870,Tunis,,1,0,1,3008,2,188
+L1912-01148,FESQUET,Adrien,european_french,european,high,birth_france,,1873,Croi,,1,0,1,465,0,189
+L1912-01149,FESQUET,Mathilde,european_french,european,high,birth_france,,1873,Pantin,,0,0,0,331,0,189
+L1912-01151,FEUILLE,Henri,unknown,unknown,,,,,,justice_law,3,0,1,191,0,189
+L1912-01154,FIESCHI,Mariano,european_french,european,high,birth_france,,1865,Peheto-Bichisano,education_science,1,0,1,200,0,190
+L1912-01155,FIGRE,Auguste,european_french,european,high,birth_france,,1857,Margny,administration,2,0,1,224,0,190
+L1912-01157,FILIPFI,Antoine,european_french,european,high,birth_france,,1869,Baslia,administration,1,0,1,714,0,190
+L1912-01160,FINOCCHI,Jules-Dominique,european_french,european,high,birth_france,,1884,Patriomonio,administration,0,0,0,343,0,191
+L1912-01161,FINOCCHI,Louis,european_french,european,high,birth_france,,1882,Patrimonio,administration,1,0,1,580,0,191
+L1912-01162,FINZI,Joseph,unknown,unknown,,,,1865,,finance_banking,1,0,1,135,0,191
+L1912-01163,FISCHEL,Félix,european_french,european,medium,birth_algeria,,1868,Alger,industry_crafts,1,0,1,436,0,191
+L1912-01164,FISGHEL,Maurice,european_french,european,medium,birth_algeria,,1873,Alger,commerce,2,0,1,369,0,192
+L1912-01165,FITOUSSI,Elle,tunisian_muslim,tunisian,low,described_muslim;member_of:jewish_body,tunisian_muslim;tunisian_jewish,1872,,justice_law,3,1,1,911,2,192
+L1912-01166,FLACK,Félix,unknown,unknown,,,,,,,0,0,0,865,0,192
+L1912-01168,FLAMANT,Albert,european_other,european,high,birth_russia,,1875,Pinligorski,administration,1,0,1,435,0,192
+L1912-01169,FLAMANT,,unknown,unknown,,,,,,,1,0,0,603,0,192
+L1912-01170,FLEURETTE,,unknown,unknown,,,,1858,,,2,0,1,168,0,193
+L1912-01171,FLEURY,,unknown,unknown,,,,1864,Gerclies,industry_crafts,4,1,1,1134,0,193
+L1912-01172,FLOT,Louis,european_french,european,high,birth_france,,1861,Epinal,education_science,2,0,1,438,0,193
+L1912-01181,FORETS,,unknown,unknown,,,,,,military,0,0,0,1893,0,194
+L1912-01182,FORESTIER,Georges,european_french,european,high,birth_france,,1872,Bordeaux,commerce,3,0,1,879,0,194
+L1912-01184,FORGEMOL DE BOSTQUÉNARD,Léonard-Léopold,unknown,unknown,,,,,,military,1,0,0,695,0,194
+L1912-01185,FORTIN,Jules,european_french,european,high,birth_france,,1844,Le Mans,administration,1,0,0,264,0,196
+L1912-01186,FOUCAUD,Léon,european_french,european,high,birth_france,,1880,Limoges,press_letters_arts,0,0,0,568,0,196
+L1912-01187,FOUCHER,Louis-Emile,european_french,european,high,birth_france,,1853,Orléans,military,5,1,1,1527,1,196
+L1912-01188,FOUESNEL,Julien,european_french,european,high,birth_france,,1840,Allaire,military,0,0,0,242,1,196
+L1912-01189,FOULQUIER,Edisle,european_french,european,high,member_of:french_settler_body;birth_france,,1844,Saint-Marcel,medicine_health,1,0,0,213,0,196
+L1912-01191,FOURNIER,,european_french,european,high,birth_france,,1854,Peyrieux,,1,1,0,353,1,196
+L1912-01192,"• FRADET""",Martial,european_french,european,high,birth_france,,1867,Monsac,hospitality_services,0,0,0,331,0,196
+L1912-01196,FRANK,Louis,unknown,unknown,,,,,,medicine_health,0,0,0,1339,0,197
+L1912-01197,FRANZINI DTSSONCOURT,Fernand,european_french,european,high,birth_france,,1863,Virieu,agriculture,1,0,1,667,1,197
+L1912-01198,FRÊMAUX,Paul,european_french,european,high,birth_france,,1858,Marseille,press_letters_arts,2,0,1,560,0,197
+L1912-01199,FROMONT DE BOUAILLE,,european_french,european,high,birth_france,,1870,Alençon,agriculture,1,0,1,345,0,197
+L1912-01201,FUNARO,Guillaume,tunisian_jewish,tunisian,low,jewish_institution;italian_institution;maltese_marker,tunisian_jewish;european_italian;european_maltese,1842,Pitiglia,medicine_health,2,0,0,2165,0,198
+L1912-01203,GABÈS,Oasis,unknown,unknown,,,,,,,0,0,0,1984,0,199
+L1912-01204,GADRAT,Jean-Guillaume,european_french,european,high,birth_france,,1872,Foix,military,2,0,1,333,0,200
+L1912-01208,GAGEY,René,european_other,european,high,birth_united_kingdom,,1875,Londres,education_science,3,0,1,583,0,200
+L1912-01209,GAIJI,Mohamed,unknown,unknown,,birth_tunisia,,1818,Bardo,military,1,0,1,953,0,200
+L1912-01210,GAILLARD,Jacques,unknown,unknown,,,,1876,,diplomacy,3,0,1,1170,0,200
+L1912-01213,GALEA,William,unknown,unknown,,,,,,diplomacy,0,0,0,168,0,201
+L1912-01215,GALLICO,Raffaelo,european_italian,european,high,birth_italy,,1880,Florence,press_letters_arts,1,0,0,751,1,201
+L1912-01216,GALLINI,Jean-François,european_french,european,high,member_of:french_settler_body;birth_france,,1861,Ajaccio,justice_law,3,1,0,764,0,201
+L1912-01217,GALLUT,Armand,european_french,european,high,birth_france,,1885,Auch,engineering_architecture,0,0,0,948,2,201
+L1912-01219,GAMET,Lucien,european_french,european,high,birth_france,,1874,Givors,administration,1,0,1,602,0,202
+L1912-01221,GANDOLFO,R.,unknown,unknown,,birth_tunisia,,1882,Tunis,medicine_health,0,0,0,673,0,202
+L1912-01223,GANDOLPHE,,unknown,unknown,,,,1839,Tunie,military,3,0,1,1149,0,203
+L1912-01224,GANDOLPHE,Alfred,unknown,unknown,,birth_tunisia,,1849,Tunis,justice_law,1,1,0,313,0,203
+L1912-01225,GANDOLPHE,Georges - Edouard,unknown,unknown,,birth_tunisia,,1838,Tunis,administration,1,1,0,198,0,203
+L1912-01226,GANDOLPHE,Pascal,unknown,unknown,,,,,,commerce,0,0,0,342,0,203
+L1912-01227,GANDOLPHE,Pascal,unknown,unknown,,,,1814,Négociant,military,0,0,0,161,0,203
+L1912-01228,GANDOLPHE,Thomas-Félix,unknown,unknown,,birth_tunisia,,1842,Tunis,politics_native_admin,0,0,0,602,0,203
+L1912-01229,GANOUNA,Joseph-Cohen,tunisian_jewish,tunisian,high,jewish_institution;birth_tunisia,,1881,Sousse,,2,0,1,445,0,203
+L1912-01232,GAROT,René,european_french,european,low,member_of:french_settler_body,,1706,,military,3,1,0,485,0,204
+L1912-01233,GASTU,,european_french,european,medium,birth_algeria,,1859,Fort-Napoléon,,3,0,1,348,1,204
+L1912-01234,GAU,Jules,european_italian,european,low,italian_institution;birth_france,european_italian;european_french,1841,Labrnguière,politics_native_admin,1,1,0,3835,0,204
+L1912-01235,GAUDENS-RAVOTTI,,unknown,unknown,,,,1845,,industry_crafts,3,0,1,3267,1,205
+L1912-01236,GAUDIANI,Antoine,european_french,european,high,birth_france,,1867,Ajaccio,justice_law,1,0,1,477,0,206
+L1912-01237,GAUDIANI,Dominique,unknown,unknown,,,,1877,,military,2,0,1,242,0,206
+L1912-01238,GAULT,,unknown,unknown,,,,,,military,0,0,0,307,0,206
+L1912-01240,GAUTIER,Raymond,unknown,unknown,,,,1865,Villebon,justice_law,1,0,1,685,2,206
+L1912-01241,GAVER,,european_french,european,high,birth_france,,1855,Marseille,medicine_health,0,0,0,696,0,206
+L1912-01242,GAVER,,european_french,european,high,birth_france,,1797,Marseille,military,0,0,0,856,0,206
+L1912-01243,GAVIOLI,Marc-Lucien,unknown,unknown,,,,,,medicine_health,1,0,1,435,1,206
+L1912-01244,GAZANIOL,Jules-Etienne,european_french,european,high,birth_france,,1845,Toulouse,religion,0,0,0,199,0,207
+L1912-01245,GELLÉ,Célestin,european_french,european,high,birth_france,,1868,Villeseneux,education_science,1,0,1,313,0,207
+L1912-01246,GENET,,unknown,unknown,,,,1861,,justice_law,2,0,0,410,0,207
+L1912-01247,GENILLON,François-Antoine,european_french,european,high,birth_france,,1861,Lyon-Guillotiôre,,2,0,1,349,0,207
+L1912-01248,GENNATAS,Charles,unknown,unknown,,,,1872,Sainte-Thôcle,medicine_health,0,0,0,464,1,207
+L1912-01249,GENTHON,Charles,european_french,european,high,birth_france,,1860,Génissieux,administration,2,0,0,447,0,207
+L1912-01250,GENTIL,Maurice,european_french,european,high,birth_france,,1866,Paris,justice_law,0,0,0,368,0,207
+L1912-01251,GENTILE,Raoul-Victor DE,unknown,unknown,,,,,,justice_law,0,0,0,191,1,207
+L1912-01252,GEORGE,Paul-Antoine-Michel,european_french,european,high,birth_france,,1859,Paris,engineering_architecture,3,0,1,667,0,207
+L1912-01253,GEPT,Louis,european_french,european,high,birth_france,,1869,Canx,,0,0,0,556,0,207
+L1912-01255,GÉRARD,Gaston-Marie,european_french,european,high,birth_france,,1877,Delouze,education_science,0,0,0,444,0,208
+L1912-01256,GÉRARD,Joseph,european_french,european,high,birth_france,,1801,Marseille,commerce,2,0,0,296,0,208
+L1912-01257,GERINI,Dante,european_italian,european,high,italian_institution;member_of:italian_body;birth_italy,,1875,Gonnesa,mining,2,0,0,2030,1,208
+L1912-01258,GERMONNEAU,Damase-François,unknown,unknown,,,,1870,La,politics_native_admin,1,0,0,329,0,208
+L1912-01262,GHILEB,,tunisian_muslim,tunisian,high,muslim_office;birth_tunisia,,1884,Tunis,military,3,1,1,723,0,209
+L1912-01266,GIGNAN,Clodomir-Ernest,european_french,european,high,birth_france,,1859,Portes,military,1,1,0,266,1,209
+L1912-01267,GILBERT,André,unknown,unknown,,,,,,,4,1,1,1114,0,209
+L1912-01268,GILBERT,Gabriel-Alphonse,european_french,european,high,birth_france,,1875,Moiitiiûrail,administration,2,0,1,451,0,209
+L1912-01269,GILLY,Marie-Emmanuel-Pierre,european_french,european,high,birth_france,,1886,Montpellier,,0,0,0,545,0,209
+L1912-01270,GILTAIRE,Edmond,unknown,unknown,,,,,,administration,0,0,0,82,0,209
+L1912-01271,GIORGI,Charles,european_french,european,high,birth_france,,1858,Tasso,administration,1,0,1,259,0,209
+L1912-01272,GIORGI,Pierre-Louis,unknown,unknown,,,,1846,,military,3,1,0,401,0,210
+L1912-01273,GIRARD,Léon-Hippolvle-Adolphe,unknown,unknown,,,,1864,Tire-sur-la-Lys,administration,2,0,1,655,0,210
+L1912-01274,GIRAUD,Charles-Hippolyte,european_french,european,high,birth_france,,1860,Paris,agriculture,3,0,1,609,0,210
+L1912-01275,GIROU,Henry-Maurice,european_french,european,high,birth_france,,1873,Paris,education_science,1,0,0,621,0,210
+L1912-01276,GIROUD,Joseph,european_french,european,high,member_of:french_settler_body;birth_france,,1867,Lyon,engineering_architecture,1,0,0,735,1,210
+L1912-01277,GIROZ,Charles,unknown,unknown,,,,1879,Ronchamp,engineering_architecture,1,0,1,582,0,210
+L1912-01278,GISTUCCI,Alexandre-Valère,european_french,european,high,birth_france,,1874,Bastilica,,2,0,1,617,0,210
+L1912-01279,GLANDUT,Séraphin,european_french,european,high,birth_france,,1863,Theys,industry_crafts,1,0,1,259,0,211
+L1912-01281,GLUCK,André-Robert,european_french,european,high,birth_france,,1882,Paris,,0,0,0,742,0,211
+L1912-01282,GOBILLOT,Jacques-Philippe-Lucien,unknown,unknown,,,,1859,,,2,0,1,595,1,211
+L1912-01283,GOIN,Georges,tunisian_muslim,tunisian,high,islamic_school,,1906,,transport_maritime,2,0,1,247,0,211
+L1912-01284,GONNOT,Marie,unknown,unknown,,,,1859,Vitryen-Charolais :s,,2,0,1,415,0,211
+L1912-01285,GORDON,Gerlrude,tunisian_muslim,tunisian,high,islamic_school,,,,medicine_health,0,0,0,327,0,211
+L1912-01287,GORSSE,Louis,european_french,european,high,birth_france,,1865,Cordes,commerce,1,0,1,175,0,211
+L1912-01291,GOUNOT,André,european_italian,european,high,member_of:french_settler_body;birth_italy,,1878,Palerme,agriculture,1,0,0,974,0,212
+L1912-01294,GOUTTENOIRE,Jean,unknown,unknown,,,,1879,,military,0,0,0,135,1,212
+L1912-01296,GOUVET,Ernesf-Alexis-Laurent,european_french,european,medium,birth_algeria,,1860,Constantine,engineering_architecture,4,0,1,531,0,212
+L1912-01297,GOYET,Joseph-Antoine,european_french,european,high,birth_france,,1873,Nîmes,administration,0,0,0,409,0,212
+L1912-01298,GOZLAN,A.,tunisian_jewish,tunisian,high,jewish_institution,,1866,Industriel,industry_crafts,6,0,1,668,0,212
+L1912-01301,GRASSET,Alfred-Louis-Benjamin,european_french,european,high,birth_france,,1866,Périgueux,,2,0,1,497,0,213
+L1912-01302,GRÉBAUVAL,Lôonidas-Adolphe,unknown,unknown,,,,1856,Baillolet,justice_law,1,0,0,279,0,213
+L1912-01306,GRENOUILLEAU,Marc,unknown,unknown,,,,1865,Loches,justice_law,1,0,0,267,0,213
+L1912-01307,GRENY,Hilaire-Albert,tunisian_muslim,tunisian,low,islamic_school;birth_france,tunisian_muslim;european_french,1867,Limoges,engineering_architecture,1,0,1,600,0,213
+L1912-01308,GRÉSILLON,Emile-Albert,unknown,unknown,,,,1865,Essonnes,press_letters_arts,0,0,0,588,0,213
+L1912-01309,GRESSE,Paul,unknown,unknown,,,,1868,Châ,education_science,3,0,1,820,1,214
+L1912-01310,GREZEL,,unknown,unknown,,,,1866,,administration,2,0,1,190,0,214
+L1912-01313,GROSRENAUD,François-Joseph,european_french,european,high,birth_france,,1871,Seloncourt,education_science,2,0,1,247,0,214
+L1912-01314,GROSS,André,european_french,european,high,birth_france,,1871,Ernolsheim,administration,1,0,1,208,0,214
+L1912-01315,GRUNDLER,Frédéric-Jules,european_french,european,high,birth_france,,1864,Sainte - Marie - aux - Mines,education_science,1,0,1,355,0,214
+L1912-01318,GUEDJ,Félix,unknown,unknown,,birth_tunisia,,1885,Sousse,justice_law,0,0,0,191,0,214
+L1912-01319,GUËGAN,Jules-Fortuné,unknown,unknown,,,,1855,Sainl-Germam-en-Layc,medicine_health,3,1,1,2039,1,214
+L1912-01320,GUELLATY,,european_french,european,medium,birth_algeria,,1880,Boghari,justice_law,0,0,0,396,1,215
+L1912-01321,GUELLATY,Omar,tunisian_muslim,tunisian,low,member_of:muslim_body;birth_algeria,tunisian_muslim;european_french,1852,Alger,,3,1,1,659,0,215
+L1912-01323,GUÊNARD,Albert,european_french,european,medium,birth_algeria,,1880,Oran,administration,0,0,0,754,2,215
+L1912-01324,GUÉNARD,Ernest,unknown,unknown,,,,,,administration,3,1,1,1083,0,216
+L1912-01325,GUÉNIER,Henri-Eugène,unknown,unknown,,birth_tunisia,,1859,Tunis,,1,0,0,2792,2,216
+L1912-01326,GUENIN,Jean-Regis,unknown,unknown,,,,1866,Fay-le-Froid,,1,0,1,171,0,216
+L1912-01327,GUËRARD,Horace-Napoléon,european_french,european,high,birth_france,,1860,Ajacio,finance_banking,0,0,0,91,0,216
+L1912-01331,GUEYDAN,Adrien,european_french,european,high,birth_france,,1857,Corps,justice_law,4,1,0,573,0,217
+L1912-01332,GUEZ,Victor,unknown,unknown,,,,1877,Sta,commerce,0,0,0,125,0,217
+L1912-01333,GUILHON,Clém'-Jules,unknown,unknown,,,,1876,,,2,0,1,476,0,217
+L1912-01334,GUILLEMART,Robert,unknown,unknown,,,,1868,,military,2,1,0,372,0,217
+L1912-01335,GUILLOCHON,Lucien,european_french,european,high,birth_france,,1871,Paris,military,2,0,1,625,1,217
+L1912-01336,GUILLON,Paul-Marie,unknown,unknown,,,,1875,Senseii-Léharl,education_science,0,0,0,252,0,217
+L1912-01337,GUILLOT,,unknown,unknown,,,,,,,2,1,0,203,0,217
+L1912-01338,GUIOT,Charles,unknown,unknown,,,,1866,Halle,justice_law,1,0,0,437,0,217
+L1912-01339,GUITAT,Daniel,european_french,european,medium,birth_algeria,,1868,Bône,commerce,0,0,0,531,0,217
+L1912-01340,GUNG'L,J.-N.,european_french,european,high,birth_france,,1852,Versailles,justice_law,3,0,1,945,1,217
+L1912-01341,GUTTIERES,,european_italian,european,high,italian_institution,,1844,,administration,3,0,1,195,0,218
+L1912-01342,GUTTIERES,Ernest,tunisian_jewish,tunisian,high,jewish_institution;birth_tunisia,,1880,Tunis,justice_law,0,0,0,260,1,218
+L1912-01343,GUY,Raphaël,european_french,european,high,birth_france,,1869,Rennes,military,2,0,1,607,0,218
+L1912-01344,GUYON,Louis,european_french,european,high,birth_france,,1778,Saint-Nazaire,finance_banking,0,0,0,175,0,218
+L1912-01345,GUYS,,unknown,unknown,,,,,,military,0,0,0,271,1,218
+L1912-01346,HAAK,Gérard Van Den,european_other,european,high,birth_netherlands,,1862,Harlem,religion,0,0,0,114,0,219
+L1912-01349,HACKSPILL,Henri-Albert,unknown,unknown,,,,1878,Aumale,,1,0,1,371,0,219
+L1912-01350,HADDAD,Nissim,unknown,unknown,,birth_tunisia,,1868,Tunis,commerce,0,0,0,425,0,219
+L1912-01354,HADJOUJ,Younès,tunisian_muslim,tunisian,high,muslim_office;islamic_school;birth_tunisia,,1860,Tunis,politics_native_admin,2,0,1,283,0,220
+L1912-01360,HALFON,Albert,tunisian_jewish,tunisian,high,jewish_institution,,,,medicine_health,0,0,0,222,0,220
+L1912-01361,HALFON,Alb.ert-L.,unknown,unknown,,birth_tunisia,,1880,Tunis,commerce,0,0,0,289,0,220
+L1912-01362,HALFON,Joseph,unknown,unknown,,,,1887,Monaslir,,0,0,0,135,0,220
+L1912-01383,HANOUN,Léon,european_french,european,medium,birth_algeria,,1856,Alger,finance_banking,2,0,1,296,0,222
+L1912-01384,HANRIOT,Eugène-Nicolas,european_french,european,high,birth_france,,1856,Corny,military,3,1,1,1473,1,222
+L1912-01390,HARTMAYÉR,Jacob-Emile,unknown,unknown,,,,1834,,military,4,1,0,1718,1,224
+L1912-01391,HASSAN,Mehmed,tunisian_jewish,tunisian,high,jewish_institution,,,,medicine_health,0,0,0,525,0,224
+L1912-01392,HASSID,Moïse,tunisian_jewish,tunisian,high,jewish_institution,,1879,,,0,0,0,176,0,224
+L1912-01393,HASSID,Victor,tunisian_jewish,tunisian,high,jewish_institution,,1876,,finance_banking,0,0,0,201,0,224
+L1912-01394,HAUT,Paul DE,european_french,european,high,birth_france,,1882,Paris,administration,1,0,1,242,0,225
+L1912-01395,HAYAT,Israël-Eugène,tunisian_jewish,tunisian,high,jewish_institution;birth_tunisia,,1879,Tunis,medicine_health,0,0,0,811,0,225
+L1912-01396,HAYDAR,Rachid,unknown,unknown,,birth_tunisia,,1873,La Marsa,military,1,1,0,393,0,225
+L1912-01398,HEBRARD,Gabriel,european_french,european,high,birth_france,,1870,Agen,administration,1,0,1,144,0,225
+L1912-01403,HENRY,Albert-Lucien,european_french,european,high,birth_france,,1874,Charmois-l'Orgueilleux,medicine_health,1,0,1,972,1,225
+L1912-01404,HENRY,,european_french,european,high,birth_france,,1850,Nancy,,0,0,0,167,1,225
+L1912-01405,HENRY,Eugène,unknown,unknown,,,,,,medicine_health,1,1,0,136,0,226
+L1912-01406,HENRY,Eugène-Jean-Baplisle,european_french,european,medium,birth_algeria,,1881,Arzew,medicine_health,1,0,1,314,0,226
+L1912-01407,HERCULAIS,Louis-Alexandre,european_french,european,high,birth_france,,1754,Grenoble,,1,1,0,2207,1,226
+L1912-01409,HERSON,Louis-Charles,tunisian_muslim,tunisian,high,muslim_office;birth_algeria,european_french,1843,Alger,military,5,1,1,4121,0,226
+L1912-01411,HILSGHER,François,unknown,unknown,,,,1803,Olmitz,,0,0,0,343,1,227
+L1912-01413,HJALMAR,Sigurd,unknown,unknown,,,,1865,Christiania,diplomacy,1,0,1,292,0,228
+L1912-01420,HOQUETIS,Marie-Henri-Albert,european_french,european,high,birth_france,,1870,Mazères,religion,1,0,1,375,0,229
+L1912-01423,HOUDE,Gaston,european_french,european,high,birth_france,,1866,Jestieux,agriculture,0,0,0,569,0,229
+L1912-01426,HOURTICOT,Marius,european_french,european,high,birth_france,,1882,Lyon,,0,0,0,203,0,230
+L1912-01427,HSIN,,tunisian_muslim,tunisian,high,islamic_school,,1875,Kerkennah,,1,0,1,356,0,230
+L1912-01428,HUARD,Ferdinand-Isidore,european_french,european,high,member_of:jewish_body;birth_france,tunisian_jewish,1854,Landes,administration,2,0,1,1436,0,230
+L1912-01429,HUC,Albert-Victor-Isidore,unknown,unknown,,birth_tunisia,,1848,Tunis,,0,0,0,709,1,230
+L1912-01431,HUGUENET,Louis-Michel,european_french,european,high,birth_france,,1852,Paris,,2,1,1,670,0,231
+L1912-01435,HUMBERT,Charles,unknown,unknown,,,,1862,,administration,3,0,1,523,0,232
+L1912-01436,HURSTEL,,european_french,european,high,birth_france,,1846,Strasbourg,military,1,1,0,864,0,232
+L1912-01439,IGOLEN,Charles,european_french,european,high,birth_france,,1867,Pernes,,2,0,1,2720,0,233
+L1912-01443,IMBERT,Marie-Antoine-Paul,unknown,unknown,,,,,,justice_law,5,1,1,1132,1,235
+L1912-01451,INERNY,Mac,unknown,unknown,,,,,,,0,0,0,710,0,236
+L1912-01456,INGRAND,Gérard,european_french,european,high,birth_france,,1872,Asques,justice_law,2,0,1,357,0,237
+L1912-01463,INVERSIN,Louis,european_french,european,high,birth_france,,1875,Annecy,,2,0,1,1086,0,242
+L1912-01464,INVERSIN,H.,unknown,unknown,,,,,,industry_crafts,1,0,0,441,0,242
+L1912-01465,ISAAC,Maurice-Jean-Victor,tunisian_jewish,tunisian,medium,member_of:jewish_body,,1606,,,1,0,0,448,0,242
+L1912-01466,ISNACK,Victor,european_french,european,high,birth_france,,1870,Vaucouleurs,agriculture,2,0,1,542,0,242
+L1912-01470,JACQUIER,,european_french,european,high,birth_france,,1857,Lons-le-Saulnier,military,3,1,1,631,0,244
+L1912-01471,JACQUIER,Eugène,european_french,european,high,birth_france,,1861,Grenoble,finance_banking,2,1,0,577,0,244
+L1912-01472,JAEGGY,Ernest,european_other,european,high,birth_switzerland,,1878,Soleure,medicine_health,0,0,0,249,0,244
+L1912-01475,JAULMES,Henri,european_french,european,high,birth_france,,1867,Paris,education_science,2,0,1,286,0,244
+L1912-01476,JEANGOLAS,Louis,tunisian_muslim,tunisian,high,islamic_school;birth_algeria,european_french,1858,Saint-Cloud,administration,3,0,1,294,0,244
+L1912-01477,JOUBERT,Jules-Frédéric,european_maltese,european,low,maltese_marker;birth_france,european_maltese;european_french,1859,Gap,military,1,0,1,948,0,244
+L1912-01480,JOYEUX,Emile,european_french,european,high,birth_france,,1872,Voulon,,0,0,0,325,0,245
+L1912-01481,JULIEN,Cyprien-Edouard-Paul,unknown,unknown,,,,1872,Les Môes,industry_crafts,0,0,0,946,0,245
+L1912-01482,JUNÈS,Sauveur,european_maltese,european,high,maltese_marker;birth_tunisia,,1871,Sousse,commerce,0,0,0,461,0,245
+L1912-01485,KADDOUR,Mohamed,tunisian_muslim,tunisian,high,islamic_school;birth_tunisia,,1882,Sfax,administration,1,0,1,121,0,247
+L1912-01502,KËRAMBRIEG,,european_french,european,high,birth_france,,1868,Paris,military,2,0,1,855,1,248
+L1912-01506,KHAIRALLAH,Ben Moslefa,tunisian_muslim,tunisian,high,islamic_school;birth_tunisia,,1867,Tunis,administration,3,1,1,486,0,249
+L1912-01513,KHAZNADAR,Mustapha,unknown,unknown,,,,,,,0,0,0,454,0,249
+L1912-01515,KHEIREDDINE,,unknown,unknown,,,,,,military,0,0,0,763,0,249
+L1912-01517,KHIAT,Albert,unknown,unknown,,birth_tunisia,,1886,Tunis,,1,0,1,329,0,250
+L1912-01518,KHIAT,Joseph,unknown,unknown,,birth_tunisia,,1876,Tunis,,0,0,0,184,0,250
+L1912-01519,KHIAT,Simon,tunisian_muslim,tunisian,high,islamic_school;birth_tunisia,,1881,Tunis,justice_law,1,0,0,444,0,250
+L1912-01526,KLEPPER,Georges,european_french,european,high,described_muslim;birth_france,tunisian_muslim,1865,Bordeaux,administration,4,0,1,3551,1,250
+L1912-01527,KLOTH,Charles-Rodolphe-Tliôodore,unknown,unknown,,,,1853,,,1,0,1,186,0,251
+L1912-01540,KRAYENBUHL,Jules-François,european_other,european,high,birth_switzerland,,1859,Lausanne,agriculture,2,0,1,334,0,253
+L1912-01543,KRISKIS,Martin,european_french,european,medium,birth_algeria,,1859,Alger,military,0,0,0,693,0,253
+L1912-01556,LABBASSI,Mohamed Dehmani,tunisian_muslim,tunisian,high,islamic_school;birth_tunisia,,1868,Tunis,education_science,4,0,1,421,0,254
+L1912-01557,LABBÈ,,european_french,european,high,birth_france,,1869,Lille,justice_law,2,0,1,519,0,254
+L1912-01558,LACOMBRADE,Paul-Roger,european_french,european,high,birth_france,,1879,Capdenac,,2,0,1,959,0,254
+L1912-01559,LACORRE,,unknown,unknown,,,,1872,Saint-Pierre-de-Nogaret,education_science,2,0,1,609,0,254
+L1912-01560,LACORRE,Pierre,tunisian_muslim,tunisian,medium,member_of:muslim_body,,1870,Gontaud,,2,0,1,596,0,254
+L1912-01561,LACROIX,Aimé,unknown,unknown,,,,1855,Mar- 1 seille,administration,3,0,1,443,0,255
+L1912-01562,LACROIX,Emile,european_french,european,high,birth_france,,1863,Marseille,press_letters_arts,1,0,0,443,0,255
+L1912-01565,LAFFAGE,Antoiûn-Louis,european_french,european,medium,birth_algeria,,1858,Alger,education_science,2,0,1,1033,0,255
+L1912-01566,LAFFORGUE,Francis-François-Emmanuel-Joseph,european_french,european,high,birth_france,,1874,Bagnères-de-Bigorre,education_science,2,0,1,829,1,255
+L1912-01567,LAFITTE,Paul-André-Alexandre,european_italian,european,low,italian_institution;birth_france,european_italian;european_french,1863,Catus,,4,0,0,957,1,256
+L1912-01568,LAFONT,Hassen,tunisian_muslim,tunisian,high,islamic_school;birth_algeria,european_french,1883,Bône,administration,0,0,0,153,0,256
+L1912-01570,LAGRANGE,Horace,unknown,unknown,,,,1874,,military,2,0,1,597,0,256
+L1912-01572,LAINE,Pierre-Antoine-Charles,unknown,unknown,,,,1855,Saint-Pierre,medicine_health,1,0,1,719,0,256
+L1912-01573,LAKBEGHE,Moslefa Bou,tunisian_muslim,tunisian,high,islamic_school;described_muslim;birth_tunisia,,1880,Tunis,,1,0,1,589,0,256
+L1912-01574,LAKHOUA,Ahmed,tunisian_muslim,tunisian,high,muslim_office;islamic_school;birth_tunisia,,1869,Tunis,politics_native_admin,1,0,1,368,0,256
+L1912-01575,LAKHOUA,,tunisian_muslim,tunisian,high,islamic_school;birth_tunisia,,1872,Tunis,administration,1,0,0,618,0,257
+L1912-01577,LALLIERMONET,Hjlaire,european_french,european,high,birth_france,,1850,Ajaccio,,4,1,1,4210,1,257
+L1912-01579,LAMBERT,Basile,unknown,unknown,,,,1861,Laquarte,medicine_health,1,0,0,1903,1,258
+L1912-01580,LAMINE BEN HADJ M'BAREK,,tunisian_muslim,tunisian,medium,nasab_particle;honorific,,1884,Tala,commerce,0,0,0,116,0,258
+L1912-01582,LAMOLINERIE,Jean-Pierre,unknown,unknown,,,,1860,LT-lonor-de-Cas,,0,0,0,728,0,258
+L1912-01583,LAMOUROUX,Pierre-Louis,european_french,european,high,birth_france,,1875,Villeneuve-sur-Lot,commerce,0,0,0,367,1,258
+L1912-01584,LANÇON,Emile,european_french,european,high,birth_france,,1843,Lyon,industry_crafts,2,0,1,462,0,259
+L1912-01585,LANDEROIN,Séraphin- Marie - Joseph,european_french,european,high,birth_france,,1865,Pou'illé,education_science,2,0,0,956,1,259
+L1912-01586,LANGELLA,Jean-Antoine,european_french,european,medium,birth_algeria,,1869,La Calle,transport_maritime,0,0,0,226,0,259
+L1912-01587,LANGLOIS,Marie-Adolphe-Chery,european_french,european,high,birth_france,,1848,Heippes,education_science,2,0,1,379,1,259
+L1912-01588,LANNE,Elie,european_french,european,high,birth_france,,1870,Auxerre,medicine_health,0,0,0,308,0,259
+L1912-01590,LAPAUZE,Germain-Ernest,european_french,european,high,birth_france,,1868,Cornac,,0,0,0,155,0,259
+L1912-01591,LARGUÈGHE,Khlil,unknown,unknown,,,,1874,,education_science,3,0,1,1014,1,259
+L1912-01592,LARROUYAT,Pierre,tunisian_muslim,tunisian,high,muslim_office;islamic_school;member_of:muslim_body,,1851,Larreule,medicine_health,4,1,1,2374,0,260
+L1912-01593,LAURET,Emmanuel-Joseph,european_french,european,medium,member_of:french_settler_body;birth_algeria,,1865,Alger,administration,2,0,1,388,0,260
+L1912-01594,LAVERDET,Henri-Hippolyle,european_french,european,high,birth_france,,1878,Dun-sur-Auron,military,2,0,1,985,1,260
+L1912-01596,LAVIGERIE,Charles-Marlial-Allemand,unknown,unknown,,,,1825,,,0,0,0,1550,0,261
+L1912-01597,LEAL,Charles-Henri,european_italian,european,high,italian_institution;member_of:muslim_body,tunisian_muslim,1852,Mulzerville,transport_maritime,6,1,1,3613,0,261
+L1912-01598,LECA,Henri,european_french,european,medium,birth_algeria,,1884,Philippeville,,0,0,0,637,0,261
+L1912-01599,LECA,Toussaint,european_italian,european,low,italian_institution;birth_france,european_italian;european_french,1884,Marignana,,7,1,1,1585,0,262
+L1912-01600,LEFEBVRE,Louis-Georges,european_french,european,high,birth_france,,1863,Paris,education_science,2,0,1,547,1,262
+L1912-01601,LÉGER,Bernard,unknown,unknown,,,,1871,,administration,3,0,1,1173,0,262
+L1912-01604,LEJOSNE,Henri-Joseph,unknown,unknown,,,,1857,Fleurbaix,military,2,0,1,341,0,263
+L1912-01605,LELU,Lucien-Victor,tunisian_muslim,tunisian,high,islamic_school,,1865,Samois,education_science,2,0,1,669,0,263
+L1912-01606,LEMAIRE,Georges,tunisian_muslim,tunisian,high,islamic_school,,,,medicine_health,0,0,0,634,1,263
+L1912-01607,LEMANSKI,Witold-Charles,tunisian_muslim,tunisian,high,islamic_school;described_muslim;birth_france,european_french,1862,Rive-de-Gier,medicine_health,2,0,1,2590,1,263
+L1912-01609,LEONI,Paul,european_french,european,high,birth_france,,1876,Azilone,administration,0,0,0,293,0,264
+L1912-01610,LEPINEY,Charles-Pierre,european_french,european,medium,birth_algeria,,1854,Alger,military,2,0,0,2615,1,264
+L1912-01611,LEROY,Louis,european_french,european,low,member_of:french_settler_body,,,,engineering_architecture,0,0,0,240,0,264
+L1912-01612,LESCAR,,unknown,unknown,,,,,,commerce,1,0,1,1093,0,264
+L1912-01613,LESCOT,Pierre-Marie-Joseph,european_french,european,high,birth_france,,1869,Bohoin,medicine_health,0,0,0,173,0,265
+L1912-01614,LESCURE,Paul,european_french,european,high,birth_france,,1869,Mauriac,administration,2,0,1,742,0,265
+L1912-01615,LESSEPS,Mathieu DE,unknown,unknown,,,,1774,,justice_law,1,0,0,1018,0,265
+L1912-01616,LETOURNEUR,Reilé-Charles-Albcrl,european_french,european,high,birth_france,,1876,Lille,justice_law,2,0,1,1021,2,265
+L1912-01617,LEVI,Guglielmo,european_italian,european,high,jewish_institution;member_of:italian_body;birth_italy,tunisian_jewish,1868,Livourne,medicine_health,0,0,0,495,0,266
+L1912-01618,LÉVY,,tunisian_jewish,tunisian,medium,described_israelite,,,,military,0,0,0,377,0,266
+L1912-01619,LËVY,,tunisian_jewish,tunisian,high,jewish_institution,,,,press_letters_arts,2,0,1,539,0,266
+L1912-01620,LEYGONIE,,european_french,european,high,birth_france,,1848,Mausac,military,1,0,0,1144,1,266
+L1912-01621,LIBY,Henri-Auguste-Marcel,european_french,european,high,birth_france,,1876,Montmédy,agriculture,2,0,1,277,0,267
+L1912-01623,LIËGEY,Edouard,unknown,unknown,,,,,,medicine_health,1,0,0,446,0,267
+L1912-01626,LIOTIER,Paul-Joseph,european_french,european,high,birth_france,,1866,Avignon,justice_law,2,0,1,700,1,268
+L1912-01628,LIVET,Henri,european_french,european,high,birth_france,,1871,Lyon,administration,3,0,1,450,0,268
+L1912-01629,LOCHE,Fernand DE,european_french,european,high,birth_france,,1845,Meylan,agriculture,3,0,1,546,0,268
+L1912-01630,LOCHE,Paulin,european_french,european,high,birth_france,,1864,Pérols,administration,2,0,1,1077,0,268
+L1912-01631,LOCHET,François,european_french,european,high,birth_france,,1861,Fouilly-sur-Loire,,2,0,1,526,1,269
+L1912-01632,LODS,Ernest,unknown,unknown,,,,1865,Hêricourl,,2,0,1,296,0,269
+L1912-01633,LODS,Louis,tunisian_muslim,tunisian,low,islamic_school;birth_france,tunisian_muslim;european_french,1865,Aibre,education_science,3,0,1,586,0,269
+L1912-01634,LOGEROT,François-Auguste,european_french,european,high,birth_france,,1825,Noyers,military,1,1,0,660,0,269
+L1912-01635,LOGOTHETTI,,unknown,unknown,,,,1852,Klansenburg,military,1,0,0,495,0,269
+L1912-01637,LOIR,Adrien,european_french,european,high,birth_france,,1862,Paris,,3,0,1,505,0,269
+L1912-01638,LOIZON,Louis-Joseph,european_french,european,high,birth_france,,1841,Jaulnay,justice_law,2,0,1,568,0,269
+L1912-01639,LORIN,Henri,european_french,european,high,birth_france,,1866,Bayonne,education_science,2,0,1,991,0,269
+L1912-01640,LOTH,Gaston,european_french,european,high,birth_france,,1866,Quimperlé,administration,4,0,1,1242,0,270
+L1912-01644,LOVY,F.,tunisian_muslim,tunisian,high,islamic_school;described_muslim;birth_france,european_french,1864,Sainte-Marie,medicine_health,1,1,0,683,0,270
+L1912-01645,LUCIANI,Pierre-Paul,european_french,european,high,member_of:italian_body;birth_france,european_italian,1867,Parlinello,medicine_health,2,0,1,751,2,270
+L1912-01646,LUMBROSO,Abramino,unknown,unknown,,birth_tunisia,,1869,Mahdia,commerce,0,0,0,278,0,271
+L1912-01647,LUMBROSO,Achille,european_italian,european,high,italian_institution;birth_tunisia,,1858,Mahdia,commerce,2,0,1,661,0,271
+L1912-01648,LUMBROSO,Alexandre,european_maltese,european,high,maltese_marker;birth_tunisia,,1859,Tunis,medicine_health,0,0,0,81,0,271
+L1912-01649,LUMBROSO,Eugène,european_italian,european,high,italian_institution;birth_tunisia,,1853,Mahdia,industry_crafts,1,0,0,189,0,271
+L1912-01650,LUMBROSO,Giacomo,unknown,unknown,,birth_tunisia,,1847,Mahdia,diplomacy,0,0,0,103,0,271
+L1912-01651,LURIE,Jules-Pierre,european_french,european,high,birth_france,,1877,Joncquières,education_science,1,0,0,363,0,271
+L1912-01656,MACCOTTA,Giuseppe,european_italian,european,high,islamic_school;italian_institution;birth_italy,tunisian_muslim,1864,Pantelleria,medicine_health,2,0,0,618,0,272
+L1912-01657,MACHUEL,Louis-Pierre,european_french,european,medium,birth_algeria,,1848,Alger,military,5,1,1,1195,1,272
+L1912-01658,MACHWITZ,,unknown,unknown,,,,,,administration,0,0,0,285,0,272
+L1912-01659,MACLER,,european_french,european,medium,birth_algeria,,1849,Bône,engineering_architecture,1,0,1,605,1,272
+L1912-01665,MAGNANI,Henry,european_italian,european,high,birth_italy,,1876,Longiano,,0,0,0,182,0,273
+L1912-01666,MAGUEUR,Pierre,unknown,unknown,,,,1856,,,1,0,1,202,0,273
+L1912-01667,MAGUY,J.-B.,unknown,unknown,,,,1854,Vy-lesLure,education_science,3,0,1,549,0,273
+L1912-01671,MAHMOUD-BEY,,tunisian_muslim,tunisian,medium,honorific,,,,,0,0,0,351,0,274
+L1912-01674,MAI,René,unknown,unknown,,,,,,engineering_architecture,0,0,0,247,0,274
+L1912-01675,MAIRE,Charles-Aristide,european_french,european,high,birth_france,,1867,Lalergemenl-Sainte-Marie,transport_maritime,2,0,1,773,1,274
+L1912-01681,MALET,François,european_french,european,high,birth_france,,1872,Graulhet,,3,0,1,439,1,275
+L1912-01682,MALFILATRE,Henri,european_french,european,low,member_of:french_settler_body,,,,finance_banking,1,0,1,209,0,275
+L1912-01684,MALINAS,Albert,european_french,european,high,birth_france,,1848,Lunel,medicine_health,5,1,1,4713,1,275
+L1912-01687,MANISCALCO,Joseph,unknown,unknown,,,,1858,Liculn,industry_crafts,1,0,1,688,0,276
+L1912-01690,MARCESCHEAU,,unknown,unknown,,,,,,military,0,0,0,397,0,277
+L1912-01692,MARCHIONI,Louis,unknown,unknown,,,,1871,,administration,1,0,1,671,0,277
+L1912-01695,MARINI,Félix,unknown,unknown,,,,,,military,1,0,1,193,0,277
+L1912-01696,MARINI,Germain-Françojis-Scipion- Léon-Philippe,unknown,unknown,,,,1876,Colomieu-Lasplanes,medicine_health,0,0,0,728,0,277
+L1912-01698,MAROT,Raymond-Emmanuel,unknown,unknown,,,,1857,Casleljaloux,military,1,0,1,512,0,278
+L1912-01699,MARQUET,Louis,european_french,european,high,birth_france,,1871,Saint-Martin-d'Eslreaux,,2,0,1,425,0,278
+L1912-01701,MARSAL,Henri,european_french,european,high,birth_france,,1872,Paris,agriculture,1,0,1,96,0,278
+L1912-01702,MARTEL,François-Joannès,european_french,european,high,birth_france,,1854,Monlbrison,justice_law,0,0,0,684,0,278
+L1912-01703,MARTIN,Joseph,unknown,unknown,,,,1858,Sauvelerre-la-Lémance,,3,0,0,755,1,278
+L1912-01704,MARTIN,Paul,european_french,european,high,birth_france,,1881,Beauvoir-sur-Niorl,,0,0,0,180,0,279
+L1912-01705,MARTINEAU,Charles-Pierre-V.ictor.loseph-Louis,unknown,unknown,,,,1861,Le Mans,justice_law,1,0,1,911,0,279
+L1912-01706,MARTINIER,A.,european_french,european,low,member_of:french_settler_body,,1888,,administration,0,0,0,296,0,279
+L1912-01707,MARZAG,Louis-Marcel,european_french,european,high,birth_france,,1877,Bordeaux,,2,0,1,489,0,279
+L1912-01709,MASSARI,Emile,unknown,unknown,,,,1850,Pontremoli,,0,0,0,710,0,280
+L1912-01710,MASSÉ,Jean-Daniel,european_french,european,high,birth_france,,1872,Bordeaux,justice_law,3,0,1,1642,2,280
+L1912-01711,MASSÉ,Louis,european_french,european,high,birth_france,,1865,Bédarieux,justice_law,1,0,0,495,0,280
+L1912-01712,MASSELOT,,european_french,european,medium,birth_algeria,,1867,Bougie,administration,2,0,1,555,0,280
+L1912-01713,MASSIGAULT,Justin,unknown,unknown,,,,,,education_science,0,0,0,4244,0,280
+L1912-01717,MATHIEU,Charles,european_french,european,high,birth_france,,1868,I-ladoV,,2,0,1,533,0,281
+L1912-01718,MATHIEU,Gustave,unknown,unknown,,,,1842,Le Puy,justice_law,1,0,1,347,0,282
+L1912-01720,MATTEI,Aétius,unknown,unknown,,birth_tunisia,,1861,Sfax Tunisie,,3,0,1,665,0,282
+L1912-01721,MATTÉI,César,unknown,unknown,,,,1860,,,1,0,1,191,0,282
+L1912-01722,MATTEI,Paul,unknown,unknown,,,,1854,Coggin,finance_banking,1,0,0,199,0,282
+L1912-01723,MATTEIS,Albert DE,unknown,unknown,,birth_tunisia,,1869,Tunis,justice_law,2,0,1,289,0,282
+L1912-01724,MAUBACQ,Henri-Ernëst-Louis,european_french,european,high,birth_france,,1852,Péronne,justice_law,1,0,1,360,2,282
+L1912-01725,MAUGER,Félicien-Henri,unknown,unknown,,,,1870,Doudeauville,education_science,0,0,0,182,0,283
+L1912-01726,M AURAS,Félix,european_french,european,high,birth_france,,1858,Marseille,,3,0,1,287,0,283
+L1912-01728,MAURIN,Georges-ConstanHoachim,european_french,european,high,birth_france,,1870,Grenoble,military,2,0,1,768,0,283
+L1912-01729,M A U R Y,Armand-Pierre-Louis-JeanBaptisle,european_french,european,high,birth_france,,1871,Le Louznc,agriculture,1,0,1,488,0,283
+L1912-01731,MAZET,Antoine-Antonin,european_french,european,high,birth_france,,1863,Saint-Hilaire,justice_law,1,0,1,230,0,283
+L1912-01732,MAZET,Pierre,european_french,european,high,birth_france,,1867,SaintHilaire,justice_law,1,0,1,396,2,283
+L1912-01733,MAZIËRES,Marc-Alfred DE,tunisian_muslim,tunisian,medium,described_muslim,,1875,S'-Eugône,transport_maritime,3,0,1,2121,1,284
+L1912-01734,MAZOYER,Emile,european_italian,european,low,italian_institution;birth_france,european_italian;european_french,1863,SavJgny-en-Revcr,military,2,1,0,614,0,284
+L1912-01736,MEARY,,european_french,european,high,birth_france,,1879,Saint-Gooirs,,0,0,0,493,0,284
+L1912-01738,MECHIRKI,Mohamed,tunisian_muslim,tunisian,high,islamic_school;described_muslim;member_of:muslim_body,,1885,M'unis,administration,0,0,0,944,2,284
+L1912-01743,MÉDINA,,european_italian,european,high,italian_institution;birth_tunisia,,1860,Monastir,diplomacy,1,0,0,1313,0,286
+L1912-01750,MEINIER,Marius-Emile-Louis,unknown,unknown,,birth_tunisia,,1870,La Goulette,finance_banking,1,0,1,184,0,286
+L1912-01757,MÊME,René,unknown,unknown,,,,1864,Bocé,administration,0,0,0,317,0,287
+L1912-01758,MÉNAGE,,unknown,unknown,,,,,,,1,0,1,145,0,287
+L1912-01759,MENATTI,Atlilio,european_italian,european,high,italian_institution;birth_italy,,1861,Fresirio,medicine_health,2,0,1,285,0,287
+L1912-01762,MENOTTI,Antoine,unknown,unknown,,,,1847,,,1,0,1,221,1,287
+L1912-01763,MENSOUR,,unknown,unknown,,birth_tunisia,,1833,Tunis,commerce,0,0,0,83,0,287
+L1912-01764,MENSOUR,,unknown,unknown,,birth_tunisia,,1863,Tunis,commerce,0,0,0,71,0,287
+L1912-01765,MENVIELLE,Jean,unknown,unknown,,,,1872,Bagnères-de-Bigorre,medicine_health,2,0,1,585,0,287
+L1912-01773,MERCIER,François,european_french,european,medium,birth_algeria,,1871,Sôtir,administration,1,0,1,403,0,288
+L1912-01774,MERCIER,Norbert,unknown,unknown,,,,,,commerce,2,0,1,459,0,288
+L1912-01775,MERLIN,Alfred-Maurice-Joseph,european_french,european,high,birth_france,,1876,Orléans,,2,0,1,535,1,288
+L1912-01784,METLAOUI-GARE,V. Philippe - Thomas.,unknown,unknown,,,,,,engineering_architecture,0,0,0,805,0,288
+L1912-01788,MICHAUD,,unknown,unknown,,,,,,engineering_architecture,0,0,0,220,0,289
+L1912-01790,MICHAUX,Lucien,european_french,european,high,birth_france,,1868,Paris,military,4,1,1,576,0,289
+L1912-01791,MICHAUX,René,european_french,european,high,birth_france,,1879,SaintQuentin,,1,0,1,356,0,289
+L1912-01792,MICHEL,Edmond - François-Richard,european_french,european,high,birth_france,,1872,Bayeux,administration,2,0,0,875,0,289
+L1912-01795,MIFSUD,Hector,unknown,unknown,,birth_tunisia,,1878,Tunis,justice_law,0,0,0,314,0,290
+L1912-01797,MILLET,René,unknown,unknown,,,,,,military,0,0,0,3818,0,290
+L1912-01798,MILLOUD,Henry-Claudius,european_french,european,high,birth_france,,1870,M elle y,education_science,1,0,0,352,1,290
+L1912-01799,MINANGOIN,Narcisse,european_french,european,high,birth_france,,1848,Rodez,administration,2,0,0,1201,0,291
+L1912-01800,MINCK,Olto-Henrik,european_other,european,high,birth_sweden,,1871,Stockholm,diplomacy,1,1,0,291,0,291
+L1912-01802,MINICONI,Jérôme-Henry,european_french,european,high,birth_france,,1861,Ajaccio,justice_law,2,0,1,389,0,292
+L1912-01806,MIRANDE,,unknown,unknown,,,,1861,Giielma,,2,0,1,645,1,292
+L1912-01807,MIRANDE,Jules,unknown,unknown,,,,,,military,1,0,1,203,0,292
+L1912-01808,MOATTI,,unknown,unknown,,birth_tunisia,,1865,Sousse,commerce,1,0,1,289,0,292
+L1912-01809,MOATTI,Siméon,unknown,unknown,,birth_tunisia,,1860,Sousse,commerce,0,0,0,64,0,292
+L1912-01810,MOCQOERIS,,european_french,european,high,birth_france,,1865,Paris,engineering_architecture,3,0,1,479,0,292
+L1912-01811,MOCQUERYS,Georges,european_french,european,high,birth_france,,1865,Evreux,medicine_health,1,0,1,975,2,292
+L1912-01812,MODIGLIANI,,european_italian,european,medium,member_of:italian_body,,1877,,commerce,1,0,1,558,0,293
+L1912-01814,MOHAMED-BEY,,tunisian_muslim,tunisian,medium,honorific,,,,,0,0,0,281,0,293
+L1912-01815,MOHAMED EL HADI-BEY,,tunisian_muslim,tunisian,medium,nasab_particle;honorific,,,,,4,1,1,666,0,293
+L1912-01820,MOLCO,Emile,tunisian_jewish,tunisian,low,jewish_institution;italian_institution;member_of:italian_body;member_of:jewish_body,tunisian_jewish;european_italian,,,,1,0,0,753,0,293
+L1912-01821,MOLINARI,César,unknown,unknown,,,,1852,,administration,1,0,1,196,0,293
+L1912-01822,MOLINARI,Philippe-Antoine,european_french,european,high,birth_france,,1859,Sarlône,administration,1,0,1,325,0,293
+L1912-01823,MOLINIER,Joseph,unknown,unknown,,,,1873,Ta,religion,1,0,1,455,0,293
+L1912-01825,MONCHICOURT,Charles-Félix,european_french,european,high,birth_france,,1873,Paris,administration,3,0,1,754,0,294
+L1912-01828,MONTEFIORE,Lucien,european_italian,european,high,italian_institution;member_of:italian_body;birth_tunisia,,1881,Tunis,medicine_health,1,0,1,409,0,294
+L1912-01830,MONTIGNANT,,european_french,european,high,birth_france,,1866,Paris,,2,0,0,1292,0,295
+L1912-01831,MONT-LOUIS,Paul-Louis-Mars,unknown,unknown,,,,,,agriculture,0,0,0,1513,0,295
+L1912-01833,MORALY,,tunisian_muslim,tunisian,high,islamic_school;birth_tunisia,,1879,Tunis,press_letters_arts,0,0,0,353,0,295
+L1912-01834,MOREL,,european_french,european,high,birth_france,,1868,Certilleux,education_science,0,0,0,131,0,295
+L1912-01835,MORELLI,Alphonse,european_french,european,high,birth_france,,1877,Propriano,military,0,0,0,390,1,295
+L1912-01836,MORELLI,Joseph,unknown,unknown,,,,1863,,politics_native_admin,1,0,1,156,0,295
+L1912-01837,MORENO,Raffaelo,tunisian_jewish,tunisian,low,jewish_institution;italian_institution;member_of:italian_body;member_of:jewish_body;birth_tunisia,tunisian_jewish;european_italian,1844,Tunis,commerce,1,0,0,612,0,296
+L1912-01838,MORENO,Ugo,tunisian_jewish,tunisian,low,jewish_institution;italian_institution;member_of:italian_body;member_of:jewish_body,tunisian_jewish;european_italian,1875,,justice_law,2,0,1,602,0,296
+L1912-01839,MORIN,Maurice,european_french,european,high,birth_france,,1856,Chambôry,administration,4,1,1,420,0,296
+L1912-01840,MORIN,René-Alfred,european_french,european,high,birth_france,,1863,Romorantin,engineering_architecture,0,0,0,944,1,296
+L1912-01841,MORIZOT,Albert-Henri,unknown,unknown,,,,1868,Châteaurenard,justice_law,1,0,1,823,0,296
+L1912-01842,MORNAG,HAUT-,unknown,unknown,,,,,,,0,0,0,563,0,296
+L1912-01844,MORPURGO,Léonidas,european_italian,european,high,italian_institution;member_of:italian_body;birth_italy,,1863,Livourne,medicine_health,2,0,0,1494,1,296
+L1912-01846,MOSTAFA,,unknown,unknown,,birth_tunisia,,1833,Tunis,commerce,0,0,0,85,0,297
+L1912-01847,MOTTE-DARIÉS,DE LA,unknown,unknown,,,,,,military,0,0,0,173,0,297
+L1912-01849,MOUCHARD,Louis-Marie-Lucien-Vicor,tunisian_muslim,tunisian,high,islamic_school,,1871,Elbeul,,3,0,1,456,0,297
+L1912-01851,MOULARD,Eugène,european_french,european,high,birth_france,,1877,Cliazelles-sur-Lyon,justice_law,0,0,0,330,0,297
+L1912-01854,MOURGNOT,Paul,unknown,unknown,,,,1873,Monlaslruc,engineering_architecture,2,0,1,246,0,297
+L1912-01855,MOUSSARD,Georges,european_french,european,medium,birth_algeria,,1868,Bône,justice_law,2,0,1,284,0,297
+L1912-01857,MOUTET,Louis-Victor-Maxime,european_french,european,high,birth_france,,1867,Lusignan,medicine_health,2,1,0,1025,0,298
+L1912-01862,MUCCHIELI,Félix-Antoine,tunisian_muslim,tunisian,low,islamic_school;birth_france,tunisian_muslim;european_french,1865,Ghisoni,administration,1,0,1,538,0,299
+L1912-01865,MULGEY,Benoît,european_french,european,high,birth_france,,1875,Chissy-lès-Mâcon,administration,0,0,0,655,0,299
+L1912-01868,MURACCIOLE,Valentin,unknown,unknown,,,,1865,M'ox,administration,1,0,1,248,0,299
+L1912-01869,MURACCIOLI,Paul,european_french,european,high,birth_france,,1879,Oscana,,1,0,1,345,0,299
+L1912-01870,MUSCAT fils,C,unknown,unknown,,birth_tunisia,,1866,Tunis,industry_crafts,0,0,0,454,0,299
+L1912-01872,MUSSALI,,unknown,unknown,,,,1857,,administration,2,1,0,320,0,300
+L1912-01875,MUSY,Jean-Elisée,unknown,unknown,,,,1854,Cbn,education_science,0,0,0,407,1,300
+L1912-01878,NABETH,Sauveur,european_french,european,medium,birth_algeria,,1871,Guelma,military,0,0,0,413,0,301
+L1912-01880,NADAL,Paul-Georges,european_french,european,high,birth_france,,1867,Paris,military,1,0,1,690,0,301
+L1912-01882,NAIAC,Gustave-Pierre-Antoine,european_french,european,high,birth_france,,1876,Albi,education_science,1,0,1,501,0,301
+L1912-01885,NATAF,Elie,unknown,unknown,,birth_tunisia,,1888,Tunis,justice_law,0,0,0,173,0,301
+L1912-01892,NÈGRE,CAP-,unknown,unknown,,,,,,mining,1,0,1,570,0,302
+L1912-01893,NEGRONI,Vital,european_french,european,high,birth_france,,1862,Calacuccia,,1,0,1,505,0,302
+L1912-01896,NESTLER,Charles-Herniann,european_other,european,high,birth_germany,,1852,Bonn,military,0,0,0,963,0,303
+L1912-01899,NICHAN-EL-AHIÏD-EL-AMAN,,tunisian_muslim,tunisian,medium,nasab_particle,,,,military,3,0,1,3499,0,303
+L1912-01900,NICOLAS,Alfred,unknown,unknown,,birth_tunisia,,1807,Tunis,,2,0,1,868,0,304
+L1912-01901,NICOLAS,Armand,european_french,european,high,birth_france,,1863,Lussae,,2,0,1,143,0,304
+L1912-01902,NICOLAS,Louis-Emile-Lazare,european_french,european,high,birth_france,,1849,Paris,,1,0,0,6278,0,304
+L1912-01903,NICOLE,Gustave,unknown,unknown,,,,1866,Havre,finance_banking,2,0,1,1025,0,305
+L1912-01904,NICOLLE,Charles-Jules-Henri,unknown,unknown,,,,1861,,religion,0,0,0,230,0,306
+L1912-01905,NICOUD,Henri,european_french,european,high,birth_france,,1881,Paris,education_science,1,0,0,503,0,306
+L1912-01906,NIEWENGLOWSKI,Gaston-Henri,european_french,european,high,birth_france,,1871,Mont-de-Marsan,,3,0,0,2805,1,306
+L1912-01907,NISARD,Sion,tunisian_muslim,tunisian,medium,described_muslim,,1868,M'unis,justice_law,0,0,0,152,0,306
+L1912-01909,NORO,Jean,unknown,unknown,,,,,,press_letters_arts,3,0,1,1241,0,307
+L1912-01912,NOVAK,Nicolo,unknown,unknown,,,,1853,Lésina,diplomacy,3,0,1,662,0,307
+L1912-01921,OLIVIER,Paul-Louis-Joseph,european_french,european,high,birth_france,,1863,Rouen,military,3,0,1,1124,0,311
+L1912-01923,OMESSA,Pierre,european_french,european,high,birth_france,,1859,Corse,military,4,0,1,704,0,312
+L1912-01927,ORDINAIRE,Maurice,unknown,unknown,,,,1862,Saint-Quentin,military,2,1,1,738,0,313
+L1912-01930,ORLIAC,Jean,unknown,unknown,,,,1861,,military,3,1,1,489,1,314
+L1912-01931,ORTONA,Cesare,european_italian,european,medium,islamic_school;member_of:italian_body,tunisian_muslim,1906,,medicine_health,0,0,0,206,0,314
+L1912-01932,OSMAN,Mustapha,tunisian_muslim,tunisian,high,muslim_office;islamic_school,,1861,M'unis,politics_native_admin,2,0,1,686,0,314
+L1912-01933,OSTROWSKI,Wladyslas-Pierre,european_other,european,high,birth_poland,,1864,Varsovie,industry_crafts,0,0,0,314,0,314
+L1912-01934,OTTAVY,Octave,european_french,european,high,birth_france,,1867,Soccia,industry_crafts,3,0,1,886,0,314
+L1912-01983,OUZIEL,Clément,tunisian_jewish,tunisian,high,jewish_institution;member_of:jewish_body,,1867,Sofia,,2,0,1,461,1,317
+L1912-01985,PACE,Mario,european_italian,european,high,birth_italy,,1863,Livourne,diplomacy,1,0,1,309,0,318
+L1912-01987,PACHIS,Evangelos,unknown,unknown,,,,1875,Halki,medicine_health,1,0,1,291,0,318
+L1912-01989,PADOVANI,Pierre,unknown,unknown,,,,1869,Ortale,transport_maritime,0,0,0,956,0,318
+L1912-01990,PAILHÉ,Jules,unknown,unknown,,,,1873,Lourdes,justice_law,1,0,1,440,0,318
+L1912-01993,PAOLI,Jean,european_french,european,high,member_of:italian_body;birth_france,european_italian,1865,Orto,justice_law,3,1,1,829,0,319
+L1912-01994,PARIENTE,Seintob,tunisian_jewish,tunisian,high,jewish_institution;member_of:italian_body,european_italian,1869,Pariente,administration,0,0,0,742,0,319
+L1912-01995,PASCAL,,unknown,unknown,,,,,,agriculture,0,0,0,153,0,319
+L1912-01996,PASQUIER,Maurice,european_french,european,high,birth_france,,1868,Benl'eld,administration,3,0,1,544,0,319
+L1912-01997,PASSEZ,Arnold,european_french,european,high,member_of:french_settler_body;birth_france,,1871,Argançon,,1,0,0,388,0,319
+L1912-01998,PASTORET,,unknown,unknown,,,,1852,,administration,1,0,1,209,0,319
+L1912-01999,PASTOUR,,unknown,unknown,,,,,,medicine_health,0,0,0,545,0,319
+L1912-02000,PATEL,Hermann,european_french,european,high,birth_france,,1853,Quingey,justice_law,1,0,1,300,0,319
+L1912-02002,PATOU,Louis-Frédéric-Juies,european_french,european,high,birth_france,,1865,Le Pouzin,education_science,1,0,0,881,1,319
+L1912-02003,PATRIARCHE,Albert,unknown,unknown,,,,1865,,,3,0,1,468,0,320
+L1912-02004,PATRICOT,,unknown,unknown,,,,,,medicine_health,0,0,0,1106,1,320
+L1912-02007,PAULIN,Félix-Gabriel,european_french,european,high,birth_france,,1873,Etrichy,,2,0,1,897,1,320
+L1912-02008,PAUTHIER,Joseph-Charles-Lucien,european_french,european,high,member_of:french_settler_body;birth_france,,1865,Bolundoz,education_science,1,0,0,208,0,321
+L1912-02009,PAVARD,,european_french,european,medium,birth_algeria,,1850,Alger,religion,2,0,1,231,0,321
+L1912-02010,PAVILLIER,,unknown,unknown,,,,,,military,2,1,1,277,0,321
+L1912-02013,PEAN,Baptiste,unknown,unknown,,,,1864,Aulaines,military,4,0,1,629,0,321
+L1912-02016,PEIRON,Eugène,european_french,european,high,birth_france,,1860,Lyon,justice_law,1,0,1,635,0,322
+L1912-02019,PELLET,,european_french,european,low,member_of:french_settler_body,,,,commerce,1,0,0,765,1,322
+L1912-02020,PELLETIER,Louis-J.,european_french,european,low,member_of:french_settler_body,,1857,Pans,politics_native_admin,2,0,0,388,0,322
+L1912-02021,PËLONI,Jean-Martin,unknown,unknown,,,,,,,2,0,1,1021,2,322
+L1912-02022,PËLONI,Jean-Pierre,european_french,european,high,birth_france,,1852,Baslilica,industry_crafts,2,0,1,1261,0,323
+L1912-02024,PÉPIN,Paul,european_french,european,high,birth_france,,1862,Messevsnr-Grosne,justice_law,1,0,0,445,0,323
+L1912-02025,PERCIE DU SERT,Fleury,unknown,unknown,,,,1869,Annonay,industry_crafts,2,0,1,246,0,323
+L1912-02026,PEREZ,Ernest,unknown,unknown,,birth_tunisia,,1861,Djerba,commerce,0,0,0,127,0,323
+L1912-02027,PERGOLA,Julien,european_french,european,medium,birth_algeria,,1869,Constantine,justice_law,2,0,1,743,0,323
+L1912-02028,PERNOT,Armand,unknown,unknown,,,,1865,,administration,1,0,1,230,0,323
+L1912-02029,PERPETUA,Giulio,european_italian,european,high,italian_institution;member_of:italian_body;birth_italy,,1848,Livourne,,5,0,1,1406,1,323
+L1912-02030,PERREAU,Louis,european_french,european,high,birth_france,,1872,Paris,administration,1,0,0,525,0,324
+L1912-02031,PERRET,Jules,european_french,european,high,birth_france,,1864,Chalonsur-Saône,administration,3,0,1,622,0,324
+L1912-02032,PERRIER,Fernand,unknown,unknown,,,,1854,Ancenls,medicine_health,2,0,1,924,0,324
+L1912-02033,PERRIN,Antoine,european_french,european,high,birth_france,,1877,Ouilins,,0,0,0,233,0,324
+L1912-02034,PERRIN,,european_french,european,high,birth_france,,1875,Montmirey-ta-Ville,justice_law,1,0,1,591,0,324
+L1912-02035,PERROCHON,Henri-Auguste,european_french,european,high,birth_france,,1860,Buzançais,industry_crafts,1,0,0,638,0,324
+L1912-02036,PERROUD,André,unknown,unknown,,,,1879,Allinges,administration,0,0,0,173,0,324
+L1912-02037,PERRUT,Henri-Charles-Alfred,european_french,european,high,birth_france,,1859,Metz,engineering_architecture,3,0,1,552,0,324
+L1912-02038,PETIT,Régis,european_french,european,high,birth_france,,1852,Lyon,industry_crafts,2,0,1,1067,0,324
+L1912-02039,PETITDIDIER,Marie-Léon,european_french,european,high,birth_france,,1870,Châlons-sur-Marne,education_science,3,0,1,634,0,325
+L1912-02041,PET-ITJEAN,,unknown,unknown,,,,1873,Ceysey,,1,1,0,289,0,325
+L1912-02043,PEUFAILLIT,Louis,unknown,unknown,,,,1871,Caubeyres,engineering_architecture,0,0,0,146,0,325
+L1912-02047,PHEMOLANT,Pierre,european_french,european,high,birth_france,,1862,Couhé-Vérac,industry_crafts,0,0,0,280,0,326
+L1912-02049,PHILIPPE-THOMAS,V. Thomas.,unknown,unknown,,,,,,mining,0,0,0,657,0,326
+L1912-02050,PHILIPPEAU,Simon-François,unknown,unknown,,,,1802,,,2,0,1,563,0,326
+L1912-02053,PIAZZA,Henri,european_french,european,high,birth_france,,1857,Poggio d'Olella,,2,0,1,529,0,327
+L1912-02054,PICARD,François,european_french,european,high,birth_france,,1867,Paris,engineering_architecture,5,1,1,3808,1,327
+L1912-02056,PICUT,Louis,european_french,european,high,birth_france,,1883,Thonon-lesBains,,0,0,0,231,0,328
+L1912-02057,PIERRINI,Pierre,unknown,unknown,,,,1888,Putali,commerce,0,0,0,351,0,328
+L1912-02058,PIETRA,Charles,european_french,european,high,birth_france,,1882,Toulon,justice_law,0,0,0,521,0,328
+L1912-02059,PIETRA,Paul-Victor,european_french,european,high,birth_france,,1853,M'oulon,justice_law,3,0,1,1058,0,328
+L1912-02060,PIGNATARI,Aurelio,european_italian,european,high,italian_institution;birth_tunisia,,1866,Sousse,politics_native_admin,1,0,0,248,0,328
+L1912-02062,PINARD,Jules,european_french,european,high,birth_france,,1861,Besan çon,military,1,0,1,2491,1,328
+L1912-02063,PINHËDE,Paul-Benjamin,european_french,european,high,birth_france,,1876,Rennes,agriculture,1,0,1,674,0,329
+L1912-02064,PIOGEY,Pierre,unknown,unknown,,,,1846,Rouvres,military,1,1,0,290,0,329
+L1912-02065,PIQJJOT,Joseph,european_french,european,high,birth_france,,1861,Toulouse,,3,1,1,759,0,329
+L1912-02066,PISANI,Arlhur,unknown,unknown,,birth_tunisia,,1872,Tunis,administration,1,0,1,319,0,329
+L1912-02068,PLACE,Mario,european_italian,european,high,birth_italy,,1863,Livourne,diplomacy,1,0,1,400,0,330
+L1912-02069,PLANCHE,,unknown,unknown,,,,,,,2,1,1,154,0,330
+L1912-02072,PLATEL,Arthur-César,unknown,unknown,,,,1873,Boyaval,administration,1,0,1,642,0,330
+L1912-02073,PLESSIX,,european_french,european,high,birth_france,,1881,Versailles,engineering_architecture,1,0,0,589,1,330
+L1912-02075,PLOUCHART,Alphonse,european_french,european,high,birth_france,,1872,Caudrv,military,0,0,0,1350,1,330
+L1912-02078,POINSSOT,Louis-François-Alberl,european_french,european,high,birth_france,,1879,Paris,administration,0,0,0,331,0,331
+L1912-02079,POINT,Paul-Etienne,european_french,european,high,birth_france,,1859,Feurs,,1,0,0,319,0,331
+L1912-02080,POIRSON,,unknown,unknown,,,,,,medicine_health,1,0,1,325,0,331
+L1912-02081,POIRSON,Henri,unknown,unknown,,,,,,medicine_health,1,0,1,497,1,331
+L1912-02082,POIVRE,Pierre,european_french,european,high,birth_france,,1861,Ouroux,,0,0,0,842,0,332
+L1912-02084,POLOMENI,Spiridion,european_other,european,high,birth_greece,,1844,Zanle,religion,0,0,0,179,0,332
+L1912-02092,POROT,Antonin,unknown,unknown,,,,1876,Chalon-sur-Saône,medicine_health,0,0,0,652,0,333
+L1912-02093,PORTE,Pierre,european_french,european,high,birth_france,,1855,Ajaccio,administration,1,0,1,149,0,333
+L1912-02094,PORTELLI,,unknown,unknown,,,,,,diplomacy,1,0,1,1248,0,333
+L1912-02095,PORTELLI,Raphaël,unknown,unknown,,,,1872,Stax,diplomacy,1,0,1,198,0,333
+L1912-02096,PORTERIE,Clément,unknown,unknown,,,,1862,Bonrepos,administration,1,0,1,1049,0,333
+L1912-02101,POSTH,Philippe,unknown,unknown,,,,1872,Raincy,agriculture,1,0,1,206,0,334
+L1912-02102,POTERIE,René-Guillot DE LA,unknown,unknown,,,,1853,Sainl-Culats,agriculture,1,0,0,566,0,334
+L1912-02103,POUJADE,Raphaël,european_french,european,high,birth_france,,1877,Evisa,administration,0,0,0,513,0,334
+L1912-02104,POULY,Pierre,european_french,european,high,birth_france,,1864,Gennolles,finance_banking,2,0,1,422,0,334
+L1912-02105,POYET,Joannès,european_french,european,high,birth_france,,1868,SainlJusl-en-Bus,transport_maritime,0,0,0,289,0,334
+L1912-02107,PRADIER,Emmanuel,european_french,european,high,birth_france,,1840,Lorient,,0,0,0,544,0,334
+L1912-02112,PRËVERAUD DE VAUMAS,WilliamCharles,european_french,european,high,birth_france,,1877,Monlataire,agriculture,1,0,1,474,0,335
+L1912-02116,PROST,André-Louis,unknown,unknown,,,,1869,Chauffa,administration,0,0,0,169,0,335
+L1912-02119,PROUST,Paul-Eugène-Emile,unknown,unknown,,,,,,military,2,0,0,1054,0,336
+L1912-02120,PROUST,Théodore-Auguste-GaspardOscar,unknown,unknown,,,,,,,5,1,1,1177,1,336
+L1912-02121,PROUX,Auguste,european_french,european,high,birth_france,,1874,Paris,diplomacy,2,0,1,277,0,336
+L1912-02122,PROVENCE,Henry,european_french,european,high,birth_france,,1875,Marseille,press_letters_arts,1,0,0,859,0,336
+L1912-02123,PUAUX,Gabriel,european_french,european,high,birth_france,,1883,Paris,military,3,0,0,625,2,336
+L1912-02124,PUCH,Elie-M'héodore-Albéric DU,unknown,unknown,,,,1839,,military,2,1,1,1196,1,337
+L1912-02125,PUJAT,Frédéric,european_french,european,high,birth_france,,1848,Grenoble,military,5,1,1,1264,0,337
+L1912-02127,QUEISEL,,unknown,unknown,,,,1859,,administration,1,0,1,164,0,338
+L1912-02128,QUILLIÉ,Pierre-Emile,unknown,unknown,,,,1846,Clermont-VHérault,agriculture,2,0,1,356,0,338
+L1912-02129,QUINEL,,unknown,unknown,,,,1874,,,0,0,0,167,0,338
+L1912-02130,QUINEL,Georges-Frédéric,tunisian_muslim,tunisian,low,islamic_school;jewish_institution;birth_france,tunisian_muslim;tunisian_jewish;european_french,1816,Paris,education_science,6,1,1,2718,1,338
+L1912-02131,RACINE,Henry-Marie,european_french,european,high,birth_france,,1876,Marseille,industry_crafts,1,0,1,711,0,339
+L1912-02132,RADET,André-Amédée-Julien,tunisian_muslim,tunisian,medium,described_muslim,,1885,Ingénieur civil,engineering_architecture,0,0,0,1091,0,339
+L1912-02134,RAGOUNEAU,Louis - Gaston - Maurice,unknown,unknown,,,,,,military,2,0,1,455,0,339
+L1912-02135,RAIGHLEN,Louis-Jacques,european_other,european,high,described_muslim;birth_switzerland,tunisian_muslim,1862,Genève,finance_banking,0,0,0,926,0,339
+L1912-02136,RAMONET,Joseph,unknown,unknown,,,,1864,Chelle-Spou,,2,0,1,400,0,340
+L1912-02137,RANCHIN,Louis-Valère-Placide,unknown,unknown,,,,1854,Bourg-Saint-Andéo],administration,1,0,1,216,0,340
+L1912-02138,RANDET,Paul-Joseph,unknown,unknown,,,,1868,,justice_law,2,0,0,866,0,340
+L1912-02139,RANDON,,european_french,european,high,birth_france,,1853,Anduze,,2,0,1,350,1,340
+L1912-02146,RAUCHER,Julien,unknown,unknown,,,,1868,Richebourg,finance_banking,3,0,1,726,1,340
+L1912-02147,RAVEL,Adolphe-Eugène,unknown,unknown,,birth_tunisia,,1862,Tunis,education_science,1,0,0,396,0,341
+L1912-02150,REBOUD,Victor,unknown,unknown,,,,,,medicine_health,2,1,0,621,0,341
+L1912-02151,REBOUL,Augustin - Chartes,european_french,european,high,birth_france,,1866,Régusse,administration,1,0,1,532,0,341
+L1912-02153,RECLUS,Jacques,european_french,european,high,birth_france,,1879,Paris,military,2,0,1,767,0,341
+L1912-02155,REFALO,Salvator-François,unknown,unknown,,birth_tunisia,,1854,Tunis,administration,2,0,0,551,0,341
+L1912-02157,REIBELL,Emile,european_french,european,high,birth_france,,1866,Strasbourg,military,3,1,0,2990,1,341
+L1912-02158,REIX,Jean,european_french,european,high,birth_france,,1868,Jumilhac-leGrand,education_science,2,0,1,704,0,342
+L1912-02159,REMY,Victor-Henri-Adolphe,unknown,unknown,,,,1852,,justice_law,3,1,1,770,0,342
+L1912-02160,RENAULT,Jules,unknown,unknown,,,,1860,,military,2,0,1,3800,2,342
+L1912-02161,RESFLANDY,Jean-Emile-Ferdinaild,european_french,european,high,member_of:french_settler_body;birth_france,,1866,Perpignan,engineering_architecture,2,0,1,727,0,343
+L1912-02162,REÙBEL,Maurice,european_french,european,high,birth_france,,1861,La Fère,military,2,1,0,988,2,343
+L1912-02163,REVERDIN,Joseph,european_french,european,high,birth_france,,1859,Marseille,justice_law,1,0,0,360,0,344
+L1912-02164,REVERTEGAT,Paul-Henri,european_french,european,high,birth_france,,1851,Le Beausset,military,3,1,0,293,0,344
+L1912-02165,RËVOGAT,Louis-Gabriel,european_french,european,high,birth_france,,1868,Bordeaux,press_letters_arts,0,0,0,358,0,344
+L1912-02166,REVOL,Jean,european_french,european,high,birth_france,,1858,Lyon,,3,0,1,563,2,344
+L1912-02167,REVOLON,Emile-Alexandre,european_french,european,high,birth_france,,1879,Pélussin,commerce,0,0,0,309,0,344
+L1912-02168,REVOLON,Stéphane,european_french,european,high,birth_france,,1860,Pélussin,commerce,2,0,1,1364,0,344
+L1912-02169,REY,Louis,european_italian,european,high,italian_institution;member_of:italian_body,,1860,M'unis,industry_crafts,3,0,1,498,1,344
+L1912-02170,REY,Louis,european_french,european,medium,birth_algeria,,1872,Constantine,commerce,0,0,0,244,0,345
+L1912-02171,REYMOND,I-I.-L.,european_french,european,high,birth_france,,1871,Saintilienne,military,2,0,1,620,0,345
+L1912-02172,REYNAUD,Alphonse,unknown,unknown,,,,1802,Digne,industry_crafts,1,0,1,358,0,345
+L1912-02175,RIBET,Jean-Pierre,european_italian,european,high,birth_italy,,1864,Pomarel,military,1,1,0,852,0,345
+L1912-02176,RICHARD,Àdric-Charles-Adolphe,unknown,unknown,,,,1853,Saint-Denis,industry_crafts,1,0,0,624,0,345
+L1912-02177,RICHARD-NICOLAS,Alphonse,european_french,european,high,birth_france,,1843,Metz,justice_law,0,0,0,489,0,345
+L1912-02178,RICHARD-NICOLAS,Robert,unknown,unknown,,,,,,,1,0,1,236,0,345
+L1912-02179,RICHARD,,unknown,unknown,,,,1874,,justice_law,0,0,0,986,0,345
+L1912-02180,RICHARD,Victor,european_french,european,high,birth_france,,1859,Marseille,,3,1,0,390,0,346
+L1912-02181,RICKLIN,Paul,unknown,unknown,,,,1851,Guebwiller,military,2,0,1,540,0,346
+L1912-02182,RIETMANN,Edouard-Rodolphe,european_french,european,high,birth_france,,1860,Bordeaux,commerce,2,0,1,411,0,346
+L1912-02185,RIOLS DE FONCLARE,Alexandre Henri,european_french,european,high,birth_france,,1869,Le Bousquet-d'Orl,military,0,0,0,577,0,346
+L1912-02186,RIOU,Adolphe,european_french,european,high,birth_france,,1871,Loudiac,,2,0,1,678,0,346
+L1912-02188,RITE CHAEAI,,tunisian_muslim,tunisian,high,muslim_office,,,,religion,0,0,0,360,0,346
+L1912-02190,ROBAGLIA,Pascal-Nonce,european_french,european,high,birth_france,,1842,Bonifacio,military,4,1,1,1481,0,347
+L1912-02191,ROBERT,Henri-Léon,european_french,european,high,birth_france,,1849,Niéclerbroun,medicine_health,4,1,1,867,1,347
+L1912-02192,ROBICHON,Ludovic,unknown,unknown,,,,,,politics_native_admin,2,0,1,267,0,347
+L1912-02193,ROBINET,Pierre,unknown,unknown,,,,1878,Binges,education_science,2,0,1,360,0,347
+L1912-02194,ROCHES,Léon,tunisian_muslim,tunisian,medium,described_muslim,,,,military,0,0,0,4195,0,347
+L1912-02195,RODERIE,,european_french,european,high,birth_france,,1871,Busserolles,agriculture,0,0,0,743,0,348
+L1912-02196,ROEDERER,Léon-Georges,unknown,unknown,,,,1870,Mulhouse,agriculture,2,0,1,315,0,348
+L1912-02197,ROGER,Hubert-Louis,unknown,unknown,,,,1870,Chalanlre-la-Grande,,1,0,1,597,0,348
+L1912-02199,ROLLAND,Georges,european_french,european,high,birth_france,,1852,Paris,engineering_architecture,4,1,1,466,0,349
+L1912-02200,ROLLAND,Pierre-Louis,unknown,unknown,,,,,,education_science,2,0,0,178,0,349
+L1912-02203,ROMDAN BEN ROMDAN,,tunisian_muslim,tunisian,medium,birth_tunisia;nasab_particle,,1864,Mahdia,industry_crafts,2,0,1,775,1,349
+L1912-02204,RONDEAU,Wilfrid,european_french,european,high,birth_france,,1875,Nantes,commerce,1,0,1,544,0,350
+L1912-02205,RONNE,Gustave,unknown,unknown,,,,,,justice_law,2,0,1,531,0,350
+L1912-02206,ROQUES,Antonin-Hippolvle-Félix,european_french,european,high,birth_france,,1865,Millau,administration,1,0,1,936,1,350
+L1912-02207,ROSSI,Carlo,unknown,unknown,,,,1861,Publiciste,press_letters_arts,0,0,0,117,0,350
+L1912-02208,ROSSIGNOL,Henri,unknown,unknown,,,,,,,0,0,0,162,0,350
+L1912-02209,ROTALIER,,european_french,european,high,birth_france,,1880,Besançon,engineering_architecture,1,0,1,329,0,350
+L1912-02211,ROUDY,Athariase,european_french,european,high,birth_france,,1875,Angoulême,engineering_architecture,2,0,1,268,1,350
+L1912-02213,ROUQUIE,Alexandre,european_french,european,high,birth_france,,1867,Toulouse,medicine_health,2,0,1,960,0,351
+L1912-02214,ROUSSET,Emile,european_french,european,high,birth_france,,1870,Beauzac,engineering_architecture,0,0,0,501,0,351
+L1912-02215,ROUSTAN,Théodore - Justin - Dominique,unknown,unknown,,,,,,military,0,0,0,1216,2,351
+L1912-02217,ROUVIER,Charles,unknown,unknown,,,,1849,,military,1,1,0,746,0,352
+L1912-02218,ROUX,Henri,european_french,european,high,birth_france,,1864,Compiôgne,military,4,1,1,2813,2,352
+L1912-02219,ROYER,Alfred,european_french,european,high,birth_france,,1861,Sainttirons,military,3,0,1,327,0,353
+L1912-02221,RUPRICH-ROBERT,Edmoïid-Alberl,european_french,european,high,birth_france,,1867,Paris,,1,0,0,592,1,353
+L1912-02222,RUTILY,Adolphe-Mathieu,unknown,unknown,,,,1875,Conslanline,industry_crafts,1,0,0,681,1,353
+L1912-02223,RUTILY,,european_french,european,high,birth_france,,1866,Soccia,,1,0,1,488,0,353
+L1912-02224,SAADA,Albert,tunisian_jewish,tunisian,medium,described_israelite;member_of:jewish_body;birth_tunisia,,1872,Sousse,commerce,1,0,1,254,0,354
+L1912-02225,SAADA,Jacques,unknown,unknown,,birth_tunisia,,1882,Sousse,industry_crafts,0,0,0,57,0,354
+L1912-02226,SAADA,Victor,tunisian_jewish,tunisian,high,jewish_institution;member_of:jewish_body;birth_tunisia,,1868,Tunis,justice_law,1,0,1,469,0,354
+L1912-02227,SACGOMAN,Pierre,unknown,unknown,,birth_tunisia,,1872,Sousse,transport_maritime,0,0,0,63,0,354
+L1912-02230,SADOK-BEY,Mohamed,tunisian_muslim,tunisian,medium,honorific,,1883,,,0,0,0,151,0,354
+L1912-02231,SADOUN,Jacques,european_italian,european,high,described_israelite;italian_institution;maltese_marker;member_of:jewish_body;member_of:italian_body;birth_tunisia,tunisian_jewish;european_maltese,1872,Tunis,press_letters_arts,1,0,1,1171,2,354
+L1912-02246,SAINT-ROMAS,Jea.n-Eugône-Etleilne,european_french,european,high,birth_france,,1863,Paris,transport_maritime,2,1,0,709,0,356
+L1912-02248,SAIZIEU,,unknown,unknown,,,,,,diplomacy,0,0,0,262,0,356
+L1912-02251,SAKKA,,tunisian_muslim,tunisian,high,muslim_office;islamic_school,,,,politics_native_admin,3,0,1,815,0,356
+L1912-02252,SAKKA,,tunisian_muslim,tunisian,high,muslim_office;islamic_school,,1829,,,4,0,1,1920,1,356
+L1912-02253,SAKKA,,tunisian_muslim,tunisian,high,muslim_office;islamic_school;birth_tunisia,,1860,Monastir,politics_native_admin,2,1,1,709,2,357
+L1912-02254,SAKKAT,Ahmed,tunisian_muslim,tunisian,high,muslim_office,,,,politics_native_admin,2,1,1,197,0,357
+L1912-02255,SAKKAT,Ali,tunisian_muslim,tunisian,high,islamic_school;birth_tunisia,,1876,Tunis,administration,2,0,1,324,2,357
+L1912-02257,SALANCOURT,Paul GRENIER DE,european_french,european,high,birth_france,,1853,Festieux,administration,2,0,0,303,0,358
+L1912-02258,SALIBA,Carmel,unknown,unknown,,birth_tunisia,,1865,Tunis,commerce,2,0,1,246,0,358
+L1912-02259,SALIÉGE,Henri,tunisian_muslim,tunisian,low,islamic_school;birth_france,tunisian_muslim;european_french,1865,Le Puy,justice_law,1,0,1,290,0,358
+L1912-02260,SALIH,Mohamed,tunisian_muslim,tunisian,medium,described_muslim,,1874,,,0,0,0,380,0,358
+L1912-02263,SAMAMA,Alberl-Chikli,unknown,unknown,,birth_tunisia,,1872,Tunis,press_letters_arts,0,0,0,550,0,358
+L1912-02264,SAMPERI,Carmeo,european_italian,european,high,member_of:italian_body;birth_italy,,1880,Troina,justice_law,0,0,0,346,0,358
+L1912-02265,SANGÉS,Giuseppe,european_italian,european,high,italian_institution;member_of:italian_body;birth_tunisia,,1873,Tunis,medicine_health,1,0,1,188,0,358
+L1912-02266,SANSONE,Ignace,european_italian,european,high,birth_italy,,1878,Termini,,0,0,0,401,0,358
+L1912-02267,SANTILLANA,Léon,tunisian_jewish,tunisian,high,jewish_institution;member_of:jewish_body;birth_tunisia,,1865,Tunis,medicine_health,1,0,1,1022,0,358
+L1912-02268,SANTONI,SimonJean-Pierre,european_french,european,high,birth_france,,1880,Ajaccio,education_science,1,0,1,227,0,359
+L1912-02269,SANTSCHI,Félix,unknown,unknown,,,,1872,Bex,medicine_health,0,0,0,671,1,359
+L1912-02270,SARABUSI,Camille,unknown,unknown,,,,1871,,administration,1,0,1,307,0,359
+L1912-02271,SAUNIER,Henri-Louis,european_french,european,medium,birth_algeria,,1856,Alger,justice_law,0,0,0,853,1,359
+L1912-02272,SAURIN,Jules,european_french,european,high,birth_france,,1863,Cuen,administration,1,0,0,481,1,359
+L1912-02273,SAUTEREAU,Pierre,unknown,unknown,,,,1849,Ni en!,military,0,0,0,210,0,360
+L1912-02274,SAUX,Alexandre-Simon,unknown,unknown,,,,1706,,military,2,0,1,202,0,360
+L1912-02275,SAVARIAU,Norbert,unknown,unknown,,,,1879,La Limouzinière,education_science,0,0,0,344,0,360
+L1912-02277,SAYAH,Mohamed,tunisian_muslim,tunisian,high,muslim_office;islamic_school,,1873,,administration,3,1,1,520,1,360
+L1912-02281,SBRANA,Franceseo-Toqueto-Vigilio,european_italian,european,high,birth_italy,,1865,Pise,medicine_health,2,0,1,832,0,360
+L1912-02282,SBRANA,Richard,european_italian,european,high,islamic_school;described_muslim;italian_institution;birth_italy,tunisian_muslim,1854,Piso,medicine_health,3,0,1,1741,0,360
+L1912-02283,SCHEMBRI,Emmanuel,unknown,unknown,,,,1878,,,2,0,1,642,1,361
+L1912-02284,SCHEMBRI,Jean-Joseph,unknown,unknown,,,,1855,Palma-de-Majorque,administration,2,0,1,395,0,361
+L1912-02285,SCHILLING,Rodolphe,european_french,european,medium,birth_algeria,,1870,Alger,military,3,0,1,1290,0,361
+L1912-02286,SCHLUMBERGER,Raoul,european_french,european,high,birth_france,,1856,Thann,military,3,0,1,601,1,361
+L1912-02287,SCHUH,François,european_french,european,medium,birth_algeria,,1873,Alger,industry_crafts,1,0,0,933,1,362
+L1912-02289,SCIALOM,David-Dario,tunisian_jewish,tunisian,high,jewish_institution;birth_tunisia,,1880,Tunis,medicine_health,1,0,1,1160,0,362
+L1912-02290,SCIALOM,,tunisian_jewish,tunisian,high,jewish_institution;member_of:jewish_body;birth_tunisia,,1871,Tunis,justice_law,1,0,1,736,0,362
+L1912-02292,SCIPION L'AFRICAIN,,unknown,unknown,,,,,,military,0,0,0,348,0,362
+L1912-02293,SCIPION,Emilien,unknown,unknown,,,,,,military,0,0,0,110,0,362
+L1912-02295,SEBAG,Victor,unknown,unknown,,birth_tunisia,,1878,Tunis,justice_law,0,0,0,195,0,363
+L1912-02297,SEBASTIANI,Amédée,european_italian,european,high,italian_institution;birth_tunisia,,1872,Tunis,diplomacy,0,0,0,111,0,363
+L1912-02299,SÉCHERESSE,Aristide-Marcel,european_italian,european,high,italian_institution,,1874,Brizambourg,education_science,2,0,1,1817,1,363
+L1912-02309,SEGUIN,Camille,european_french,european,high,birth_france,,1871,Metz,administration,2,0,1,598,0,364
+L1912-02311,SELDJA,,unknown,unknown,,,,,,mining,0,0,0,1445,0,364
+L1912-02318,SEPHAR,Aron,tunisian_jewish,tunisian,high,jewish_institution;member_of:jewish_body,,,,,2,0,1,263,0,364
+L1912-02319,SÉRE,DE,unknown,unknown,,,,,,education_science,0,0,0,436,0,365
+L1912-02321,SERRES,Jean-Victor,tunisian_muslim,tunisian,low,muslim_office;birth_france,tunisian_muslim;european_french,1860,Paris,religion,2,0,0,1266,1,365
+L1912-02322,SERRESSÈQUE,Armand,european_french,european,high,birth_france,,1874,Gradignan,,0,0,0,309,0,365
+L1912-02327,SESSELEGO,Henri,unknown,unknown,,,,1862,Cagliari,medicine_health,0,0,0,445,0,366
+L1912-02328,SETBON,Clément,unknown,unknown,,birth_tunisia,,1875,Monastir,medicine_health,0,0,0,105,0,366
+L1912-02330,SFAR,Béchir,tunisian_muslim,tunisian,high,muslim_office;islamic_school;birth_tunisia,,1863,Tunis,politics_native_admin,3,1,1,876,0,366
+L1912-02331,SFAR,Mohamed,tunisian_muslim,tunisian,high,islamic_school;birth_tunisia,,1882,Mahdia,,0,0,0,142,0,366
+L1912-02334,SGARRINI,,european_italian,european,high,birth_italy,,1878,Palerme,medicine_health,1,0,1,94,0,369
+L1912-02335,SICARD,François - Pascal - Fortuné,unknown,unknown,,birth_tunisia,,1842,Sousse,administration,2,0,1,293,0,369
+L1912-02336,SICAULT,Firmin,european_french,european,high,birth_france,,1875,Lezay,education_science,2,0,1,693,0,369
+L1912-02337,SICRE DE FONTBRUNE,Alphonse,european_french,european,high,birth_france,,1838,Brest,,0,0,0,283,0,369
+L1912-02338,SICRE DE FONTBRUNE,Pierre,unknown,unknown,,,,1869,Saint-Denis,justice_law,0,0,0,275,0,369
+L1912-02385,SIGNORETTY,Gustave,european_french,european,high,birth_france,,1846,Saint-Martin-de-la-Cluze,military,1,0,1,386,0,372
+L1912-02387,SILVE,Léon,unknown,unknown,,,,1871,Montelan,transport_maritime,0,0,0,448,0,372
+L1912-02388,SIMIER,Joseph-Pierre,unknown,unknown,,,,1869,Le Mans,industry_crafts,1,0,1,696,0,372
+L1912-02389,SIMONNET,Alfred-Louis-Alexandre,unknown,unknown,,,,1864,,diplomacy,2,0,0,1257,1,372
+L1912-02390,SINIGAGLIA,J.-R.,unknown,unknown,,birth_tunisia,,1845,Tunis,medicine_health,1,0,1,240,0,373
+L1912-02391,SITBON,Moïse,tunisian_jewish,tunisian,high,jewish_institution;member_of:jewish_body;birth_tunisia,,1873,Tunis,commerce,1,0,1,598,1,373
+L1912-02392,SIVAN,Edouard-Paul,european_french,european,high,birth_france,,1878,Sainl-Maximin,military,2,0,1,358,0,373
+L1912-02397,SMADJA,Isaac,unknown,unknown,,,,1873,,administration,3,0,1,276,0,373
+L1912-02398,SMAJA,Isaac,unknown,unknown,,birth_tunisia,,1882,Tunis,justice_law,0,0,0,208,0,373
+L1912-02443,SOF,,unknown,unknown,,,,,,politics_native_admin,1,0,0,235,0,381
+L1912-02444,SOGNO,Eugène,unknown,unknown,,,,1863,Les Allingos,engineering_architecture,0,0,0,583,0,381
+L1912-02445,SOLAL,Eugène,european_french,european,high,birth_france,,1880,Marseille,administration,0,0,0,217,0,381
+L1912-02452,SOTJBRANE,Antoine-Marie,unknown,unknown,,,,1872,,administration,2,0,1,265,0,381
+L1912-02453,SOUCIET,M.-A.-Joseph,unknown,unknown,,,,1864,SOti Crézancy,agriculture,2,0,1,564,0,381
+L1912-02454,SOUILHAG,Jules,unknown,unknown,,,,1856,,press_letters_arts,1,0,0,578,0,382
+L1912-02461,SOULIER,Charles-François,european_french,european,high,birth_france,,1852,Paris,military,2,1,0,488,0,383
+L1912-02462,SOULIVET,Auguste-Flaviers,unknown,unknown,,,,1847,Saintes,agriculture,2,0,1,775,0,383
+L1912-02464,SOUTEYRAN,Albert-Henri,european_french,european,high,birth_france,,1858,Le l'uv,administration,1,0,0,397,0,384
+L1912-02467,SPECIALE,Ernest,unknown,unknown,,,,,,medicine_health,1,0,1,106,0,384
+L1912-02468,SPEZZAFUMO,U.,unknown,unknown,,birth_tunisia,,1873,St?I — STË La Marsa,medicine_health,1,0,1,215,1,384
+L1912-02469,SPIRE,Maurice,unknown,unknown,,,,1855,Thionville,justice_law,3,1,1,496,0,385
+L1912-02470,SPITZ,,unknown,unknown,,,,1853,,administration,2,0,0,279,0,385
+L1912-02473,STAITY,S.,unknown,unknown,,,,1866,,industry_crafts,1,0,1,206,0,385
+L1912-02474,STALIO,,unknown,unknown,,,,,,,0,0,0,123,0,385
+L1912-02475,STALLA-BOURDILLON,Camille-Laurent-Gustave-Léon,european_french,european,high,birth_france,,1879,Marseille,justice_law,1,0,1,504,0,385
+L1912-02476,STEFANINI,Giuseppe,european_italian,european,high,birth_italy,,1862,Livourne,,0,0,0,348,0,385
+L1912-02477,STELLA-COSTA,,unknown,unknown,,,,1876,Bertrange,press_letters_arts,0,0,0,545,3,385
+L1912-02478,STOFATI,Jacques-François,european_french,european,high,birth_france,,1857,Bocognano,religion,0,0,0,206,0,386
+L1912-02479,STOLL,Jacques-Marie-Alphonse,unknown,unknown,,birth_tunisia,,1880,La Goulette,administration,1,0,1,440,1,386
+L1912-02480,STRESINO,Aureliû,unknown,unknown,,birth_tunisia,,1879,La Goulette,medicine_health,0,0,0,213,0,386
+L1912-02481,STRESINO,Charles-Pascal,european_italian,european,high,italian_institution;birth_tunisia,,1843,Tunis,medicine_health,2,0,1,659,0,386
+L1912-02482,STUREL,François,european_french,european,high,birth_france,,1886,Toulouse,press_letters_arts,0,0,0,435,0,386
+L1912-02483,SUCH,Antonin,european_french,european,high,birth_france,,1874,Agde,medicine_health,0,0,0,236,0,386
+L1912-02485,SURDON,Rômi-Elie,tunisian_muslim,tunisian,low,islamic_school;birth_france,tunisian_muslim;european_french,1868,S'- Etienne-de-Sainl-Geoirs,,2,0,1,769,0,386
+L1912-02487,SUSINI,Jean-Paul,unknown,unknown,,,,1852,,justice_law,2,0,1,350,0,387
+L1912-02488,SUSINI,Paul,european_french,european,high,birth_france,,1870,Ciamamiacci,,1,0,1,299,0,387
+L1912-02500,TABONE,Salvator,european_italian,european,high,italian_institution;birth_tunisia,,1865,Tunis,industry_crafts,1,0,0,245,1,389
+L1912-02503,TAHAR,,tunisian_muslim,tunisian,high,islamic_school;birth_algeria,european_french,1842,Tébessa,,2,0,1,546,0,390
+L1912-02504,TAHAR-BEY,,tunisian_muslim,tunisian,high,islamic_school;birth_tunisia;honorific,,1875,La Marsa,,1,1,0,444,0,390
+L1912-02506,TAIEB,,unknown,unknown,,birth_tunisia,,1863,Tunis,commerce,0,0,0,73,0,390
+L1912-02507,TAILLARD,Eugène-Marino,tunisian_muslim,tunisian,low,muslim_office;birth_france,tunisian_muslim;european_french,1869,Saint-Pierre-d'Allevard,administration,2,0,0,924,1,390
+L1912-02513,TAPIA,Sion,unknown,unknown,,,,1876,,,0,0,0,187,0,390
+L1912-02518,TAUCHON,Charles,european_french,european,high,birth_france,,1843,Paris,administration,6,1,1,737,0,392
+L1912-02520,TAUPERT,Alcide,unknown,unknown,,,,1861,Royan,industry_crafts,1,0,1,193,0,392
+L1912-02521,TAVERNE,,unknown,unknown,,,,,,military,0,0,0,265,0,392
+L1912-02522,TAVOLA,Carlo,european_italian,european,high,birth_italy,,1873,Milan,medicine_health,0,0,0,139,0,392
+L1912-02523,TAYEB,Nyssem,unknown,unknown,,birth_tunisia,,1880,Tunis,justice_law,0,0,0,439,1,392
+L1912-02539,TERRAILLON,Maxime-Jea.n-Margueritc-Louis,unknown,unknown,,,,1869,Cra,,2,0,1,696,0,394
+L1912-02542,TERRYN,Paul-Jean-Alberf,european_french,european,high,birth_france,,1883,Tourcoing,press_letters_arts,1,0,1,358,0,394
+L1912-02543,TERTULLIEN,,unknown,unknown,,,,,,diplomacy,0,0,0,247,0,394
+L1912-02545,TESTAPERRATA VIANI,,european_italian,european,high,italian_institution,,,,military,1,0,0,1958,0,395
+L1912-02547,TEULIÉRE,Baptiste,european_french,european,high,birth_france,,1851,Meaux,,1,0,1,202,0,395
+L1912-02550,THELLER,Victor-Joseph,unknown,unknown,,,,1861,Alcer,administration,5,1,1,304,0,396
+L1912-02551,THERMES,Jules-Léon-Pierre,european_french,european,high,birth_france,,1863,Albi,industry_crafts,1,0,1,437,0,396
+L1912-02553,THIBAUDET,Camille,unknown,unknown,,,,1851,Hermé,military,1,0,1,589,2,396
+L1912-02555,THOMAS,Ferdinand,european_french,european,high,birth_france,,1855,La Roche-de-Gluri,industry_crafts,3,1,1,6535,1,396
+L1912-02556,THOMAS,Philippe,unknown,unknown,,,,,,engineering_architecture,3,1,0,9385,1,398
+L1912-02558,THORRAND,François-E.,european_french,european,high,member_of:french_settler_body;birth_france,,1863,S'- Nizier-de-Pariset,industry_crafts,0,0,0,227,0,400
+L1912-02562,TIBI,Samuel,unknown,unknown,,,,,,justice_law,0,0,0,113,0,401
+L1912-02564,TIPHAINE,Lambert,european_french,european,high,birth_france,,1859,Lyon,,2,1,1,405,0,402
+L1912-02567,TIRET,Eugène,european_italian,european,high,italian_institution,,1883,Tabarca,,0,0,0,301,0,402
+L1912-02568,TIXADOR,François,unknown,unknown,,,,1884,Trôvillah,commerce,0,0,0,254,0,402
+L1912-02569,TIXIER,Louis-Jules,european_french,european,high,birth_france,,1870,Amberl,medicine_health,0,0,0,312,0,402
+L1912-02571,TLILI,Mohamed,tunisian_muslim,tunisian,high,islamic_school,,1880,,industry_crafts,1,0,1,252,0,402
+L1912-02574,TOUCON,Jacques-Marie,unknown,unknown,,,,1848,Galéchan,justice_law,2,0,1,1283,1,402
+L1912-02579,TOURNIER,Jean-Joseph,unknown,unknown,,,,1842,Bonneville,agriculture,0,0,0,278,0,403
+L1912-02585,TREMSAL,Paul,european_french,european,high,birth_france,,1872,SaintDié',,1,0,0,805,0,406
+L1912-02587,TRIBAUDEAU,Jules,unknown,unknown,,,,1806,,medicine_health,1,0,1,413,0,406
+L1912-02595,TRIDON,Henri,european_french,european,high,birth_france,,1886,Paris,press_letters_arts,3,0,1,593,0,408
+L1912-02596,TRIOLO,,european_italian,european,high,birth_italy,,1871,Castelvetrano,medicine_health,0,0,0,486,0,408
+L1912-02597,TRIONFO,César,european_italian,european,high,italian_institution;birth_italy,,1855,Livoume,commerce,2,0,1,523,3,408
+L1912-02599,TROJANI,Jean-Simon,unknown,unknown,,,,1853,,military,2,0,1,648,0,408
+L1912-02600,TROUILLET,Alexis,european_french,european,high,birth_france,,1865,Grenoble,medicine_health,4,1,1,710,2,408
+L1912-02602,TULLIER,Louis-Agna.n,european_french,european,high,birth_france,,1866,Toulouse,medicine_health,2,0,1,697,0,409
+L1912-02603,TUNIS,,tunisian_jewish,tunisian,medium,member_of:jewish_body,,,,military,0,0,0,306,0,409
+L1912-02612,TUSSAC,Emile,european_french,european,high,birth_france,,1862,Vaison,engineering_architecture,3,0,1,275,0,414
+L1912-02615,USANNAZ-JORIS,Marcel,european_french,european,high,birth_france,,1878,Saint-Julien,justice_law,2,0,1,1075,1,416
+L1912-02618,UZAN,Clément,european_italian,european,high,italian_institution;birth_tunisia,,1862,Sousse,medicine_health,2,0,1,464,0,417
+L1912-02619,UZAN,,unknown,unknown,,birth_tunisia,,1889,Sousse,administration,0,0,0,364,0,417
+L1912-02620,UZAN,Michel-Micaël,tunisian_muslim,tunisian,low,muslim_office;jewish_institution;birth_tunisia,tunisian_muslim;tunisian_jewish,1881,Tunis,engineering_architecture,1,0,1,1356,1,417
+L1912-02621,VACHEROT,Pierre-Charles,unknown,unknown,,,,,,education_science,3,0,1,281,0,418
+L1912-02622,VAIARELLO,Michel,european_italian,european,high,birth_italy,,1846,Favignana,commerce,0,0,0,382,0,418
+L1912-02623,VAISSIË,Louis-Raymond,european_french,european,high,birth_france,,1866,La-CImpelle-Marival,justice_law,1,0,0,517,1,418
+L1912-02624,VALENSI,Albert,tunisian_jewish,tunisian,high,jewish_institution;birth_tunisia,,1875,Tunis,medicine_health,1,0,1,588,0,418
+L1912-02625,VALENSI,Alfred,unknown,unknown,,,,1878,,justice_law,1,0,1,1341,2,418
+L1912-02626,VALENSI,Gabriel,unknown,unknown,,birth_tunisia,,1845,Tunis,military,9,1,1,1031,1,419
+L1912-02627,VALENSI,Joseph,european_italian,european,high,italian_institution;birth_tunisia,,1856,Tunis,,4,0,1,2407,1,419
+L1912-02628,VALENSI,Joseph,unknown,unknown,,,,,,diplomacy,3,0,1,434,1,420
+L1912-02629,VALENSI,Moïse,unknown,unknown,,,,1825,,military,1,0,1,183,0,420
+L1912-02630,VALENSI,Raoul,unknown,unknown,,birth_tunisia,,1865,Tunis,justice_law,2,0,1,441,0,420
+L1912-02631,VALENSI,Robert,unknown,unknown,,birth_tunisia,,1884,Tunis,medicine_health,1,0,1,476,0,420
+L1912-02632,VALENSI,Rodolphe,unknown,unknown,,birth_tunisia,,1881,Tunis,press_letters_arts,2,0,1,932,0,420
+L1912-02633,VALENSI,Théodore,unknown,unknown,,birth_tunisia,,1886,Tunis,justice_law,1,0,1,795,0,420
+L1912-02634,VALENTIN,Louis,european_other,european,high,birth_belgium,,1879,Mons,industry_crafts,1,0,1,1770,2,420
+L1912-02635,VALENTINI,Jean-Baptiste,european_french,european,high,birth_france,,1862,"Cor lé""",administration,2,0,1,212,0,421
+L1912-02636,VALÉRY-MAYET,,unknown,unknown,,,,,,education_science,0,0,0,510,1,421
+L1912-02637,VALITON,Jules-Eugône,european_french,european,high,birth_france,,1870,Boudeval,administration,1,0,1,350,0,421
+L1912-02638,VALLETTA,Joseph,european_maltese,european,high,maltese_marker;birth_malta,,1880,Malte,medicine_health,0,0,0,415,0,421
+L1912-02639,VALOIS,Jean-Francois-Henrî DE,european_french,european,high,birth_france,,1879,Lunel,administration,1,0,1,409,0,421
+L1912-02641,VANNEY,Jean-Baptiste,european_french,european,high,birth_france,,1875,Saint-Chamond,,1,0,0,384,0,422
+L1912-02642,VAQUIË,Paul-Louis,european_french,european,high,birth_france,,1877,Louben,justice_law,0,0,0,261,0,422
+L1912-02643,VAQUIER,,tunisian_muslim,tunisian,high,islamic_school,,,,medicine_health,1,0,1,620,1,422
+L1912-02644,VARATASSI,Alexandre,unknown,unknown,,,,1864,Chalcis,diplomacy,2,0,0,559,0,422
+L1912-02645,VASSEL,Marie-Joseph-Eusôbe,european_french,european,high,birth_france,,1844,Forceville,,3,0,1,1945,2,422
+L1912-02646,VEIGY,Paul-Emile DE,european_french,european,medium,birth_algeria,,1869,Alger,justice_law,0,0,0,199,0,423
+L1912-02647,VENDEL,Georges,tunisian_muslim,tunisian,high,islamic_school,,1867,Anc,industry_crafts,3,0,1,2040,0,423
+L1912-02649,VENTRE,Joseph-Auguste,unknown,unknown,,birth_tunisia,,1845,Tunis,,1,1,0,1959,3,423
+L1912-02650,VERDELET,Henry,unknown,unknown,,,,,,,0,0,0,76,0,424
+L1912-02651,VERDIER,,european_french,european,high,birth_france,,1884,Paris,press_letters_arts,0,0,0,390,1,424
+L1912-02652,VERRIER,Jean-Marie-Joseph,unknown,unknown,,,,1865,Rougemont-le-Château,education_science,1,0,0,256,0,424
+L1912-02654,VERSINI,Bernard,european_french,european,high,birth_france,,1879,Vico,justice_law,0,0,0,122,0,424
+L1912-02655,VERSINI,Dominique-Séraphin,european_french,european,high,birth_france,,1863,Cristinacce,justice_law,2,0,1,589,0,424
+L1912-02657,VEYRIER,Jean-Etienne,european_french,european,high,birth_france,,1855,Toulaud par Saint-Peray,education_science,2,0,1,2190,0,424
+L1912-02658,VIALAR,Anne - Marguerite - Adélaïde-Emilie DE,unknown,unknown,,,,,,,0,0,0,515,0,425
+L1912-02659,VIDAL,Martial-Camille,unknown,unknown,,,,1868,,,4,0,1,596,0,425
+L1912-02660,VIEU,Léon-Antoine-Louis,european_french,european,high,birth_france,,1873,Saint-Martin-de-Londres,education_science,3,0,1,780,0,425
+L1912-02661,VIGIER,Jean,unknown,unknown,,,,1859,Agris,,1,0,1,341,0,425
+L1912-02663,VILLATTE,Pierre-Auguste,european_french,european,high,birth_france,,1850,La Rochelle,justice_law,2,0,1,936,0,426
+L1912-02664,VILLATE,Louis-Edgard,european_french,european,high,birth_france,,1854,Saumur,military,2,0,1,2034,0,426
+L1912-02665,VILLEJACQUES,Menilba,unknown,unknown,,,,,,,0,0,0,122,0,426
+L1912-02667,VINCENSINI,Antoine,european_french,european,high,birth_france,,1855,Baslia,administration,4,1,1,609,0,427
+L1912-02668,VINCENT,Claude,european_french,european,high,birth_france,,1871,Laives,military,2,0,1,393,0,427
+L1912-02669,VINCENT,Henri-Marie,unknown,unknown,,,,1857,Pompey,education_science,1,0,1,399,0,427
+L1912-02670,VINCENTI,,unknown,unknown,,,,,,military,3,1,0,475,1,427
+L1912-02671,VIOLANTE,Gioacchino,unknown,unknown,,birth_tunisia,,1866,Mahdia,diplomacy,1,0,1,206,0,428
+L1912-02672,VIQUIER,Ernest,unknown,unknown,,birth_tunisia,,1877,Ingénieur civil des Mines à Metlaoui,engineering_architecture,0,0,0,259,0,428
+L1912-02673,VIRZI,Mineo-Paolo,european_italian,european,high,birth_italy,,1855,Trupani,military,1,0,1,1458,1,428
+L1912-02675,VIVONA,Nicaise,tunisian_jewish,tunisian,low,jewish_institution;birth_italy;livorno_jewish_note,tunisian_jewish;european_italian,1864,Castelvetrano,industry_crafts,0,0,0,554,1,428
+L1912-02678,VUILLAUME,Raymond,european_french,european,high,birth_france,,1857,Varnôville,education_science,4,1,1,628,0,429
+L1912-02679,VULLIEN,Marie-André,european_french,european,high,birth_france,,1881,Epinal,,2,0,1,1102,1,429
+L1912-02680,WARREN,,european_french,european,high,member_of:french_settler_body;birth_france,,1871,Rouen,agriculture,1,1,0,949,0,430
+L1912-02681,WARREN,,european_french,european,high,birth_france,,1877,Nancy,agriculture,0,0,0,249,0,430
+L1912-02682,WARTELLE,Eugène,european_french,european,high,birth_france,,1845,Lieusaint,agriculture,1,1,0,748,2,430
+L1912-02683,WARZÉE,Charles,unknown,unknown,,,,1858,Civet,justice_law,1,0,0,425,0,430
+L1912-02684,WARZÉE,Victor-Charles,european_french,european,high,birth_france,,1869,Wadelincourt,justice_law,1,0,1,321,0,430
+L1912-02685,WATRIN,Ernest-Dominique,unknown,unknown,,,,1861,,,1,0,1,470,0,430
+L1912-02686,WEBER,Jean-Frédéric,european_french,european,high,birth_france,,1858,Colmar,industry_crafts,3,0,1,727,0,430
+L1912-02687,WEISSEN-SZUMLANSKI,Wilfrid,european_french,european,high,birth_france,,1882,Annecy,education_science,0,0,0,587,0,430
+L1912-02688,WILLOT-BEAUCHEMIN,,european_french,european,high,birth_france,,1863,Verdun-sur-Meuse,engineering_architecture,3,0,1,619,0,431
+L1912-02689,WISSEMANS,Maurice-Mario-Joseph,european_french,european,high,birth_france,,1855,Cbaumonl,medicine_health,3,1,1,969,0,431
+L1912-02690,WITASSE,Pierre DE,european_french,european,high,birth_france,,1878,Senlis,,2,0,1,764,1,431
+L1912-02693,YOUSSOUF-KHODJA,,unknown,unknown,,,,,,,0,0,0,160,0,432
+L1912-02700,ZAKARIA,Mohsen,tunisian_muslim,tunisian,high,islamic_school;described_muslim,,1876,,press_letters_arts,0,0,0,522,0,433
+L1912-02701,ZAKARIA,Saïd,tunisian_muslim,tunisian,high,islamic_school;birth_tunisia,,1878,La Marsa,,1,0,1,288,0,433
+L1912-02704,ZAMMIT,Jean-T.,european_maltese,european,high,birth_malta,,1867,Malte,medicine_health,0,0,0,171,0,434
+L1912-02706,ZAOUCHE,Abdelaziz,unknown,unknown,,birth_tunisia,,1875,La ■Marsa,agriculture,2,0,1,511,0,434
+L1912-02707,ZAOUCHE,Abdeljelil,tunisian_muslim,tunisian,medium,member_of:muslim_body;birth_tunisia,,1873,La Marsa,industry_crafts,2,1,1,895,2,434
+L1912-02708,ZAOUCHE,Abdulhamid,unknown,unknown,,birth_tunisia,,1879,Tunis,,0,0,0,189,0,434
+L1912-02709,ZAOUCHE,Sellam,unknown,unknown,,birth_tunisia,,1878,La Marsa,,1,0,1,491,1,434
+L1912-02724,ZARRI,André-Baptiste,unknown,unknown,,,,1869,Digne,military,0,0,0,188,0,435
+L1912-02725,ZARROUK,Abou Baker,tunisian_muslim,tunisian,high,islamic_school;birth_tunisia,,1862,Tunis,,3,0,1,491,0,435
+L1912-02740,ZUMMO,Joseph,unknown,unknown,,,,1869,Païenne,,2,0,1,1022,0,436
+L1912-02741,ZURETTI,Louis,european_italian,european,high,islamic_school;described_israelite;italian_institution;maltese_marker;member_of:italian_body;member_of:maltese_body;member_of:jewish_body,european_maltese;tunisian_jewish;tunisian_muslim,,,engineering_architecture,9,1,1,62481,20,436
