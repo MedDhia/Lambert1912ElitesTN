@@ -37,6 +37,10 @@ USER_AGENT = (
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw"
 ALTO_DIR = RAW / "alto"
+# Committed, because it is a fact about the source rather than about whoever
+# ran the download: the ALTO cache itself is git-ignored, so nothing downstream
+# may infer coverage from whether it happens to be on disk.
+MANIFEST_RECORD = ROOT / "data" / "processed" / "source_manifest.json"
 
 
 def get(url: str, timeout: int = 120) -> bytes:
@@ -125,6 +129,24 @@ def main() -> int:
             counts[status] += 1
             if done % 25 == 0 or done == len(todo):
                 print(f"  {done}/{len(todo)} views  {counts}", file=sys.stderr, flush=True)
+
+    with_ocr = len(list(ALTO_DIR.glob("f*.xml")))
+    MANIFEST_RECORD.parent.mkdir(parents=True, exist_ok=True)
+    MANIFEST_RECORD.write_text(
+        json.dumps(
+            {
+                "ark": ARK,
+                "source": f"https://gallica.bnf.fr/ark:/12148/{ARK}",
+                "repository": "Bibliotheque nationale de France",
+                "views_in_manifest": len(views),
+                "views_with_alto_ocr": with_ocr,
+                "views_without_alto_ocr": len(views) - with_ocr,
+            },
+            indent=2,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
 
     print(json.dumps({"views": len(todo), **counts, "failed_views": failures}, indent=2))
     return 0

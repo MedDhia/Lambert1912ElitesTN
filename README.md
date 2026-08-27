@@ -93,7 +93,7 @@ src/                      the pipeline, five stages, each runnable on its own
   validate.py             -> docs/validation_report.md
 data/raw/                 ALTO XML cache (git-ignored, ~76 MB, re-fetchable)
 data/interim/             line stream and segmented entries (git-ignored)
-data/processed/           the dataset (committed)
+data/processed/           the dataset + source_manifest.json (committed)
 docs/                     codebook, provenance, validation report
 examples/quickstart.py    descriptive tables and network summaries, stdlib only
 tests/                    parsing-rule unit tests and dataset integrity checks

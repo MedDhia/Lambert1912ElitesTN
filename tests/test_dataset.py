@@ -9,6 +9,7 @@ own preface counts are still met.
 from __future__ import annotations
 
 import csv
+import json
 import pathlib
 import re
 import unittest
@@ -76,6 +77,28 @@ class TestEntries(DatasetTestCase):
         for r in self.entries:
             if r["ocr_confidence"]:
                 self.assertTrue(0.0 <= float(r["ocr_confidence"]) <= 1.0)
+
+
+class TestSourceManifest(DatasetTestCase):
+    """The report must be reproducible from committed files alone.
+
+    The ALTO cache is git-ignored, so coverage facts about the source are
+    recorded at fetch time instead of inferred from whatever happens to be on
+    disk -- otherwise the validation report reads differently in a fresh clone.
+    """
+
+    def test_manifest_is_committed_and_describes_the_source_volume(self):
+        manifest = json.loads((DATA / "source_manifest.json").read_text(encoding="utf-8"))
+        self.assertEqual(manifest["ark"], "bpt6k5505300s")
+        self.assertEqual(manifest["views_in_manifest"], 494)
+        self.assertEqual(
+            manifest["views_with_alto_ocr"] + manifest["views_without_alto_ocr"],
+            manifest["views_in_manifest"],
+        )
+
+    def test_entry_page_urls_point_at_the_ark_the_manifest_names(self):
+        ark = json.loads((DATA / "source_manifest.json").read_text(encoding="utf-8"))["ark"]
+        self.assertTrue(all(ark in r["page_url"] for r in self.entries))
 
 
 class TestPrefaceBenchmarks(DatasetTestCase):

@@ -32,6 +32,11 @@ Unit of observation, by table:
 | `network_nodes.csv` | a node in the combined network | 4,008 |
 | `network_edges.csv` | an edge in the combined network | 3,865 |
 
+`data/processed/source_manifest.json` sits alongside them: the ark, the number
+of IIIF views, and how many carry an ALTO OCR layer. It is written by the fetch
+stage and committed, so the validation report reads the same in a fresh clone as
+it does on the machine that ran the download.
+
 ---
 
 ## entries.csv

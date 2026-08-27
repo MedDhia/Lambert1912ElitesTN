@@ -20,8 +20,9 @@ The person count clears the stated minimum. Places and associations fall short o
 
 | measure | value |
 |---|---|
-| IIIF views fetched | 494 |
-| views with OCR text | 404 |
+| IIIF views in the manifest | 494 |
+| views with an ALTO OCR layer | 494 |
+| views that begin at least one entry | 404 |
 | entries segmented | 2741 |
 | characters of entry text | 1993334 |
 | mean OCR word confidence | 0.927 |

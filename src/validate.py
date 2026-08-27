@@ -69,6 +69,13 @@ def main() -> int:
     p_p = read("edges_person_person.csv")
     nodes = read("network_nodes.csv")
 
+    manifest_path = PROCESSED / "source_manifest.json"
+    manifest = (
+        json.loads(manifest_path.read_text(encoding="utf-8"))
+        if manifest_path.exists()
+        else {}
+    )
+
     by_type = collections.Counter(r["entry_type"] for r in entries)
     confs = [float(r["ocr_confidence"]) for r in entries if r["ocr_confidence"]]
     portraits = sum(int(r["n_portraits"]) for r in entries)
@@ -109,8 +116,9 @@ def main() -> int:
         table(
             ["measure", "value"],
             [
-                ["IIIF views fetched", len(list((ROOT / "data/raw/alto").glob("*.xml")))],
-                ["views with OCR text", len({r["view_first"] for r in entries})],
+                ["IIIF views in the manifest", manifest.get("views_in_manifest", "n/a")],
+                ["views with an ALTO OCR layer", manifest.get("views_with_alto_ocr", "n/a")],
+                ["views that begin at least one entry", len({r["view_first"] for r in entries})],
                 ["entries segmented", len(entries)],
                 ["characters of entry text", sum(int(r["n_chars"]) for r in entries)],
                 ["mean OCR word confidence", f"{statistics.mean(confs):.3f}" if confs else "n/a"],
