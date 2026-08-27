@@ -1,6 +1,6 @@
 PYTHON ?= python3
 
-.PHONY: all data text entries records networks validate test clean clean-derived
+.PHONY: all data text entries records networks validate test figures clean clean-derived
 
 all: validate
 
@@ -46,3 +46,8 @@ clean: clean-derived
 .PHONY: test
 test:
 	$(PYTHON) -m unittest discover -s tests -v
+
+## figures: render every figure to figures/output/ (needs figures/requirements.txt)
+.PHONY: figures
+figures:
+	cd figures && for f in fig*.py; do $(PYTHON) "$$f"; done

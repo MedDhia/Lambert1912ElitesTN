@@ -1,0 +1,5 @@
+# Figures only. The pipeline in src/ stays standard-library-only; nothing here
+# is needed to build or use the dataset itself.
+matplotlib>=3.8
+networkx>=3.0
+scipy>=1.10          # networkx uses it for the force-directed layout

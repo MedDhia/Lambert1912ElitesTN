@@ -96,6 +96,7 @@ data/interim/             line stream and segmented entries (git-ignored)
 data/processed/           the dataset + source_manifest.json (committed)
 docs/                     codebook, provenance, validation report
 examples/quickstart.py    descriptive tables and network summaries, stdlib only
+figures/                  18 descriptive and network figures, one script each
 tests/                    parsing-rule unit tests and dataset integrity checks
 ```
 
@@ -136,6 +137,22 @@ convenience, with large membership rolls excluded.
 
 `examples/quickstart.py` reproduces a set of descriptive tables and network
 summaries using only the standard library.
+
+## Figures
+
+`figures/` holds 18 descriptive and exploratory figures — birth cohorts,
+occupational composition, the two honours systems, associational life, the
+affiliation network and its co-membership projection, career transitions — one
+script and one output file each, in PNG and PDF. See
+[`figures/README.md`](figures/README.md) for the index and the design notes.
+
+```sh
+pip install -r figures/requirements.txt
+make figures
+```
+
+Matplotlib and NetworkX are needed for the figures only; the pipeline itself
+stays standard-library-only.
 
 ## Provenance and verification
 
