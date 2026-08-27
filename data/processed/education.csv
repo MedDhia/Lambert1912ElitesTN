@@ -1,0 +1,1159 @@
+entry_id,surname,institution,institution_kind,degrees
+L1912-00003,ABDELLI,Grande Mosquée,islamic_institution,
+L1912-00004,ABDELLI,Grande Mosquée,islamic_institution,diplome_superieur
+L1912-00004,ABDELLI,Khaldounia,islamic_institution,diplome_superieur
+L1912-00006,ABD UL WAHAB,Khaldounia,islamic_institution,
+L1912-00007,ABEASIS,lycée Carnot,secondary_lycee,licence_droit;baccalaureat;diplome_superieur
+L1912-00007,ABEASIS,Faculté de droit d'Aix-en-Provence,university_faculty,licence_droit;baccalaureat;diplome_superieur
+L1912-00011,ABRIBAT,Collège Saint,secondary_college,licence_droit
+L1912-00017,ADDA,lycée de Constantine,secondary_lycee,
+L1912-00017,ADDA,Faculté de Médecine de Paris et de Bordeaux,university_faculty,
+L1912-00018,ADDA,lycée de Constantine,secondary_lycee,
+L1912-00018,ADDA,Facultés de médecine et des sciences de Bordeaux,university_faculty,
+L1912-00018,ADDA,Faculté de Médecine,university_faculty,
+L1912-00018,ADDA,Institut Electro-Médical,institute,
+L1912-00034,AIACHI,Ecole Normale,teacher_training,licence_droit;brevet_superieur
+L1912-00064,Alaoui,collège Alaoui,secondary_college,
+L1912-00064,Alaoui,école normale,teacher_training,
+L1912-00069,ALBERTINI,Collège d'Aiuccio,secondary_college,
+L1912-00080,ALIS,école normale,teacher_training,brevet_superieur
+L1912-00081,ALIX,école normale,teacher_training,brevet_superieur;certificat
+L1912-00082,ALIX,lycée Carnot,secondary_lycee,agregation
+L1912-00083,ALLEMAND,lycée Ampère,secondary_lycee,baccalaureat;certificat
+L1912-00083,ALLEMAND,Faculté des Sciences de Lyon et de 1' enseignement colonial,university_faculty,baccalaureat;certificat
+L1912-00083,ALLEMAND,Faculté des Sciences de Lyon (1900),university_faculty,baccalaureat;certificat
+L1912-00083,ALLEMAND,collège de Blois,secondary_college,baccalaureat;certificat
+L1912-00094,ANCONA,lycée de Trapani,secondary_lycee,
+L1912-00096,ANDRÉ,lycée Carnot,secondary_lycee,baccalaureat
+L1912-00096,ANDRÉ,collège de Galllac,secondary_college,baccalaureat
+L1912-00096,ANDRÉ,lycée de Tunis,secondary_lycee,baccalaureat
+L1912-00098,ANGELOTTI,Lycée Victor-Emmanuel,secondary_lycee,licence_droit;doctorat_droit;baccalaureat;diplome_superieur
+L1912-00098,ANGELOTTI,Ecole des Hautes,other,licence_droit;doctorat_droit;baccalaureat;diplome_superieur
+L1912-00099,ANGLADE,école normale,teacher_training,baccalaureat
+L1912-00099,ANGLADE,lycée de Rodez,secondary_lycee,baccalaureat
+L1912-00120,ARÈNE,Collège Bourbon,secondary_college,
+L1912-00120,ARÈNE,lycée Mignet,secondary_lycee,
+L1912-00123,ARMAND,collège d'Orange,secondary_college,baccalaureat
+L1912-00128,ARNOULD,lycée Carnot,secondary_lycee,
+L1912-00130,ARRAGON,lycée Henri,secondary_lycee,licence_droit;doctorat_medecine
+L1912-00130,ARRAGON,Ecole de Santé,other,licence_droit;doctorat_medecine
+L1912-00170,ATGER,Faculté de théologie protestante de Afontauban,university_faculty,baccalaureat
+L1912-00171,ATHENOSY,lycée de Toumon,secondary_lycee,
+L1912-00171,ATHENOSY,école de pharmacie,other,
+L1912-00178,AUGIAS,collège Alaoui,secondary_college,diplome_superieur
+L1912-00180,AUNIS,lycée Carnot,secondary_lycee,
+L1912-00183,AURÈS,Ecole normale,teacher_training,brevet_superieur
+L1912-00183,AURÈS,collège Alaoui,secondary_college,brevet_superieur
+L1912-00186,AUVIN,lycée d'Angoulême,secondary_lycee,
+L1912-00188,AUZEPY,Ecole des Mines,grande_ecole,
+L1912-00193,AVIGDOR,Ecole Normale,teacher_training,brevet_superieur;certificat
+L1912-00193,AVIGDOR,Institut cle,institute,brevet_superieur;certificat
+L1912-00193,AVIGDOR,Institut ci-dessus,institute,brevet_superieur;certificat
+L1912-00193,AVIGDOR,Ecole de Djedeïda,other,brevet_superieur;certificat
+L1912-00200,AZERM,lycée de Carcasonne,secondary_lycee,baccalaureat
+L1912-00204,BACCOUGHE,collège Sadiki,secondary_college,
+L1912-00204,BACCOUGHE,lycée de Marseille,secondary_lycee,
+L1912-00204,BACCOUGHE,lycée Charlemogne,secondary_lycee,
+L1912-00204,BACCOUGHE,école de Gri-gïion,other,
+L1912-00207,BACH-HAMBA,collège Sadiki,secondary_college,diplome_superieur
+L1912-00211,BADER,Ecole supérieure de Guerre,grande_ecole,baccalaureat
+L1912-00217,BAILLE,Ecole Normale,teacher_training,certificat
+L1912-00219,BAILLY,Institut Pasteur,institute,
+L1912-00228,BARBAIS,lycée du,secondary_lycee,baccalaureat
+L1912-00229,BARBARAT,Ecole Polytechnique,grande_ecole,baccalaureat
+L1912-00234,BARÊS,collège de la,secondary_college,baccalaureat
+L1912-00234,BARÊS,lycée cle Bordeaux,secondary_lycee,baccalaureat
+L1912-00235,BARET,collège de Cette,secondary_college,
+L1912-00237,BARLIER,collège communal,secondary_college,
+L1912-00238,BARNAY,collège S'-,secondary_college,diplome_superieur
+L1912-00238,BARNAY,lycée Carnot,secondary_lycee,diplome_superieur
+L1912-00239,BAROGHE,lycée de Dijon,secondary_lycee,baccalaureat
+L1912-00243,BARRIOULET,lycée et,secondary_lycee,doctorat_droit
+L1912-00244,BARSOTTI,école des Frères,other,
+L1912-00245,BARTHOLOMË,Faculté de droit de Paris,university_faculty,licence_droit
+L1912-00246,BARUË,Lycée de Brest,secondary_lycee,baccalaureat
+L1912-00247,BASTIDE,lycée de Cahors,secondary_lycee,doctorat_medecine;baccalaureat
+L1912-00247,BASTIDE,faculté de droit de Toulouse et école de médecine d'Alge,university_faculty,doctorat_medecine;baccalaureat
+L1912-00247,BASTIDE,facultés de médecine de Bordeaux et de Paris,university_faculty,doctorat_medecine;baccalaureat
+L1912-00248,BASTIEN,lycée de Metz,secondary_lycee,
+L1912-00250,BATT,lycée de Flekkefjord,secondary_lycee,
+L1912-00250,BATT,Ecole des hautes,other,
+L1912-00252,BATTEROZE,collège de Lure,secondary_college,
+L1912-00257,BEAUQUIER,Ecole normale,teacher_training,brevet_superieur;certificat
+L1912-00259,BEC,Facultés des Lettres de Toulouse et de Montpellier,university_faculty,
+L1912-00259,BEC,lycée Carnot,secondary_lycee,
+L1912-00259,BEC,collège Alaoui,secondary_college,
+L1912-00267,BELAISCH,lycée Carnot,secondary_lycee,
+L1912-00268,BEL AJOUZA,collège Sadiki,secondary_college,licence_droit;diplome_superieur
+L1912-00268,BEL AJOUZA,grande mosquée,islamic_institution,licence_droit;diplome_superieur
+L1912-00268,BEL AJOUZA,Facultés de droit d'Aix-en-Provence et de Paris et Ecole,university_faculty,licence_droit;diplome_superieur
+L1912-00268,BEL AJOUZA,Khaldounia,islamic_institution,licence_droit;diplome_superieur
+L1912-00270,BEL KHODJA,collège Sadiki,secondary_college,
+L1912-00270,BEL KHODJA,grande mosquée,islamic_institution,
+L1912-00276,BEMBARON,lycée italien,secondary_lycee,diplome_superieur
+L1912-00281,BENAZET,école normale,teacher_training,brevet_superieur;certificat
+L1912-00281,BENAZET,école de la,other,brevet_superieur;certificat
+L1912-00286,BENEDETTI,lycée italien,secondary_lycee,
+L1912-00301,BEN KHALIFA,grande mosquée,islamic_institution,
+L1912-00301,BEN KHALIFA,Zitouna,islamic_institution,
+L1912-00304,BENOIT,Ecole des Beaux-Arts,other,
+L1912-00305,BEN SALAH,collège Sadiki,secondary_college,brevet_superieur
+L1912-00305,BEN SALAH,Ecole normale,teacher_training,brevet_superieur
+L1912-00308,BÉRARD,Ecole normale,teacher_training,
+L1912-00309,BERGE,lycée de Guôref,secondary_lycee,licence_droit
+L1912-00310,BERGTOLD,lycée Carnot,secondary_lycee,certificat
+L1912-00312,BËRIEL,lycée Ampère,secondary_lycee,diplome_superieur
+L1912-00312,BËRIEL,"Faculté des Lettres el Faculté cl es Sciences, à Lvon",university_faculty,diplome_superieur
+L1912-00312,BËRIEL,lycée Henri,secondary_lycee,diplome_superieur
+L1912-00312,BËRIEL,Ecole des Hautes,other,diplome_superieur
+L1912-00316,BERNE,lycée Carnot,secondary_lycee,brevet_superieur
+L1912-00317,BEROLSHEIMER,Ecole normale,teacher_training,
+L1912-00319,BERTAINCHAND,Collège -,secondary_college,doctorat_medecine;diplome_superieur
+L1912-00319,BERTAINCHAND,Institut national agronomique,institute,doctorat_medecine;diplome_superieur
+L1912-00319,BERTAINCHAND,Ecole des Mineurs,other,doctorat_medecine;diplome_superieur
+L1912-00319,BERTAINCHAND,Faculté des Sciences de Lyon,university_faculty,doctorat_medecine;diplome_superieur
+L1912-00320,BERTIN,Ecole normale,teacher_training,brevet_superieur
+L1912-00322,BERTIN,Ecole Normale,teacher_training,brevet_superieur
+L1912-00334,BEYNA,lycée de Alelz,secondary_lycee,
+L1912-00340,BIGHE-LATOUR,lycée de Metz,secondary_lycee,baccalaureat
+L1912-00343,BIGORRE,lycée d'Alger,secondary_lycee,
+L1912-00344,BIGOT,lycée Lakanal,secondary_lycee,agregation
+L1912-00344,BIGOT,lycée Carnot,secondary_lycee,agregation
+L1912-00360,BISGH,lycée de Strasbourg,secondary_lycee,
+L1912-00365,BLANC,lycée de Marseille,secondary_lycee,
+L1912-00367,BLANCHÈRÈ,Ecole Supérieure des,grande_ecole,
+L1912-00376,BOEUF,Ecole Coloniale,grande_ecole,
+L1912-00380,BONAN,lycée Carnol,secondary_lycee,doctorat_medecine;baccalaureat;diplome_superieur;certificat
+L1912-00380,BONAN,Faculté des Sciences et Faculté de A'iédecine de Alontpellie,university_faculty,doctorat_medecine;baccalaureat;diplome_superieur;certificat
+L1912-00381,BONAN,collège Saint-Charles,secondary_college,diplome_superieur
+L1912-00381,BONAN,lycée Carnot,secondary_lycee,diplome_superieur
+L1912-00384,BONNAND,Ecole normale,teacher_training,
+L1912-00384,BONNAND,collège Sadiki,secondary_college,
+L1912-00385,BONNEFOND,lycée de Bourges,secondary_lycee,licence_droit
+L1912-00388,BORDENET,Ecole normale,teacher_training,brevet_superieur;certificat
+L1912-00389,BORDES,lycée Carnot,secondary_lycee,diplome_superieur
+L1912-00389,BORDES,lycée cle Toulouse,secondary_lycee,diplome_superieur
+L1912-00389,BORDES,Ecole de Joinville-le-Pont,other,diplome_superieur
+L1912-00401,BORGEL,lycée Carnot,secondary_lycee,baccalaureat
+L1912-00401,BORGEL,lycée Saint-Louis,secondary_lycee,baccalaureat
+L1912-00401,BORGEL,Ecole centrale,grande_ecole,baccalaureat
+L1912-00403,BORROMEI,Lycée Carnot,secondary_lycee,
+L1912-00410,BOUBES,lycée cle Toulouse,secondary_lycee,licence_droit
+L1912-00411,BOUBILA,collège de Alugnac,secondary_college,baccalaureat
+L1912-00415,BOUCHET,collège Sadiki,secondary_college,
+L1912-00416,BOUDET,lycée d'Agen,secondary_lycee,
+L1912-00423,BOUHAGEB,collège Sadiki,secondary_college,licence_droit
+L1912-00423,BOUHAGEB,lycée Lakanal,secondary_lycee,licence_droit
+L1912-00423,BOUHAGEB,Faculté de droit cle Paris,university_faculty,licence_droit
+L1912-00424,BOUHAGEB,collège Sadiki,secondary_college,
+L1912-00424,BOUHAGEB,lycée Carnot,secondary_lycee,
+L1912-00424,BOUHAGEB,lycée Lakanal,secondary_lycee,
+L1912-00428,BOULAKIA,lycée Carnot,secondary_lycee,doctorat_medecine
+L1912-00430,BOULLIER,lycée cle Lyon,secondary_lycee,baccalaureat
+L1912-00430,BOULLIER,Faculté de droit de Grenoble,university_faculty,baccalaureat
+L1912-00432,BOUNIN,lycée d'Alger,secondary_lycee,licence_droit;baccalaureat;certificat
+L1912-00432,BOUNIN,Ecole de droit,other,licence_droit;baccalaureat;certificat
+L1912-00441,BOURGADE,collège Saint-Louis,secondary_college,
+L1912-00442,BOURGEOIS,Ecole coloniale,grande_ecole,diplome_superieur
+L1912-00443,BOURGEON,lycée de Di,secondary_lycee,doctorat_droit
+L1912-00443,BOURGEON,"Faculté des lettres cle D i j o n, Faculté de droit de Diio",university_faculty,doctorat_droit
+L1912-00448,BOUSSEN,collège Sadiki,secondary_college,
+L1912-00448,BOUSSEN,Ecole polytechnique,grande_ecole,
+L1912-00450,BOYER DE SAINT-GERVAIS,lycée d'Oran,secondary_lycee,baccalaureat
+L1912-00453,BRAQUEYAHE,lycée de Bordeaux,secondary_lycee,agregation
+L1912-00453,BRAQUEYAHE,Ecole Coloniale,grande_ecole,agregation
+L1912-00454,BREART,Ecole de Saint-Cyr,other,
+L1912-00454,BREART,école de Saint-Cyr,other,
+L1912-00455,BREFORT,Ecole des Beaux-Arts,other,diplome_superieur
+L1912-00455,BREFORT,lycée Carnot,secondary_lycee,diplome_superieur
+L1912-00456,BREIEAN,lycée Charlemagne,secondary_lycee,licence_droit;baccalaureat;diplome_superieur
+L1912-00456,BREIEAN,collège Rollin,secondary_college,licence_droit;baccalaureat;diplome_superieur
+L1912-00456,BREIEAN,Ecole des Langues,other,licence_droit;baccalaureat;diplome_superieur
+L1912-00457,BRESSON,Institut de,institute,
+L1912-00458,BRIERE,collège de Chartres,secondary_college,certificat
+L1912-00460,BRIGNONE,lycée cl,secondary_lycee,diplome_superieur
+L1912-00463,BROIDO,Institut cle,institute,diplome_superieur
+L1912-00465,BROUTIER DU PAVILLON,lycée d'Orléans,secondary_lycee,
+L1912-00466,BRUCH,lycée et,secondary_lycee,doctorat_medecine;baccalaureat
+L1912-00466,BRUCH,Ecole de médecine,other,doctorat_medecine;baccalaureat
+L1912-00466,BRUCH,lycée Carnot,secondary_lycee,doctorat_medecine;baccalaureat
+L1912-00467,BRULE,Ecole normale,teacher_training,certificat
+L1912-00470,BRUSSIAU,Collège cle Sélif,secondary_college,diplome_superieur
+L1912-00470,BRUSSIAU,lycée de Constantine,secondary_lycee,diplome_superieur
+L1912-00470,BRUSSIAU,Ecole des Arts,other,diplome_superieur
+L1912-00470,BRUSSIAU,Ecole des A,other,diplome_superieur
+L1912-00471,BUGEIA,Ecole des Frères,other,
+L1912-00472,BUISSON,lycée Condorcet,secondary_lycee,
+L1912-00472,BUISSON,Ecole normale,teacher_training,
+L1912-00473,BULLA-RËGIA,collège de Cholet,secondary_college,baccalaureat
+L1912-00473,BULLA-RËGIA,Institut de,institute,baccalaureat
+L1912-00477,BUSACCA Eugène,lycée de Messine,secondary_lycee,doctorat_medecine;diplome_superieur
+L1912-00479,CABANTOUS,collège de Alillau,secondary_college,licence_droit;baccalaureat
+L1912-00479,CABANTOUS,"Faculté de Théologie de Montauban, Faculté des Lettres cle T",university_faculty,licence_droit;baccalaureat
+L1912-00481,CACHIA,lycée cle Tunis,secondary_lycee,
+L1912-00488,CAILLAT,Collège Saint-Louis,secondary_college,
+L1912-00493,CALECA,lycée Carnot,secondary_lycee,
+L1912-00494,CALO,lycée Italien,secondary_lycee,
+L1912-00497,CAMILLERI,école des filles,other,
+L1912-00501,CAMPENON,Ecole polytechnique,grande_ecole,
+L1912-00502,CAMUSSI,collège de Ribérac,secondary_college,diplome_superieur
+L1912-00503,CANAL,lycée d'Alger,secondary_lycee,
+L1912-00507,CANTON,collège Saint-Charles,secondary_college,
+L1912-00507,CANTON,lycée Carnot,secondary_lycee,
+L1912-00507,CANTON,Faculté de Droit d'Alger,university_faculty,
+L1912-00512,CAPRIATA,lycée d,secondary_lycee,diplome_superieur
+L1912-00515,CARBONIÈRE,collège cle Sarlal,secondary_college,baccalaureat;diplome_superieur
+L1912-00515,CARBONIÈRE,lycée de Limoges,secondary_lycee,baccalaureat;diplome_superieur
+L1912-00515,CARBONIÈRE,Ecole de Alédecine,other,baccalaureat;diplome_superieur
+L1912-00515,CARBONIÈRE,Ecole des Auxiliaires,other,baccalaureat;diplome_superieur
+L1912-00516,CARCASONNE,collège de Cuis'on,secondary_college,
+L1912-00517,CARDALIAGUET,Faculté de Médecine de Bordeaux,university_faculty,
+L1912-00518,CARDOSO,lycée de Livourne,secondary_lycee,
+L1912-00519,CARDOSO,lycée de Livourne,secondary_lycee,
+L1912-00521,CARNIÈRES,lycée Bonaparte,secondary_lycee,licence_droit
+L1912-00529,CARTON,lycée de Lille,secondary_lycee,
+L1912-00531,CASELLA,Institut nautique,institute,
+L1912-00534,CASSUTO,collège Saint-Charles,secondary_college,doctorat_medecine;baccalaureat
+L1912-00534,CASSUTO,lycée Carnot,secondary_lycee,doctorat_medecine;baccalaureat
+L1912-00536,CATTAN,collège Saint,secondary_college,doctorat_medecine;baccalaureat
+L1912-00536,CATTAN,lycée Carnot,secondary_lycee,doctorat_medecine;baccalaureat
+L1912-00537,CATTAN,collège Saint-Charles,secondary_college,
+L1912-00538,CATTAN,école de l,other,licence_droit;brevet_superieur;diplome_superieur
+L1912-00538,CATTAN,collège Alaoui,secondary_college,licence_droit;brevet_superieur;diplome_superieur
+L1912-00538,CATTAN,Faculté de Droit d'Aix,university_faculty,licence_droit;brevet_superieur;diplome_superieur
+L1912-00538,CATTAN,Institut cle,institute,licence_droit;brevet_superieur;diplome_superieur
+L1912-00538,CATTAN,Institut de,institute,licence_droit;brevet_superieur;diplome_superieur
+L1912-00539,CATTAN,Faculté de Droit de Lyon,university_faculty,licence_droit
+L1912-00540,CAVALIN,Collège de Guérande,secondary_college,baccalaureat
+L1912-00565,CHABERT,Ecole de Médecine,other,
+L1912-00570,CHAFFANJON,lycée et,secondary_lycee,baccalaureat
+L1912-00570,CHAFFANJON,Ecole normale,teacher_training,baccalaureat
+L1912-00572,CHAILLEY,Facultés de Droit de Lille et de Paris,university_faculty,licence_droit;baccalaureat
+L1912-00573,CHAIX,Ecole des Arts,other,
+L1912-00575,CHALOM,lycée de Tunis,secondary_lycee,doctorat_droit;baccalaureat
+L1912-00575,CHALOM,Facultés de Droit d'Aix et de Paris,university_faculty,doctorat_droit;baccalaureat
+L1912-00576,CHAMBONCEL,Ecole normale,teacher_training,diplome_superieur;certificat
+L1912-00586,CHAMPAVER,collège Alaoui,secondary_college,
+L1912-00586,CHAMPAVER,lycée Ca,secondary_lycee,
+L1912-00599,CHARRIERE,collège Stanislas,secondary_college,baccalaureat
+L1912-00600,CHASSAGNY •,lycée Henri,secondary_lycee,baccalaureat
+L1912-00600,CHASSAGNY •,lycée d'Alger,secondary_lycee,baccalaureat
+L1912-00600,CHASSAGNY •,lycée de Gafsa,secondary_lycee,baccalaureat
+L1912-00600,CHASSAGNY •,lycée Carnot,secondary_lycee,baccalaureat
+L1912-00606,CHAUFFIN,Ecole normale,teacher_training,brevet_superieur
+L1912-00608,CHAVIGNY,collège de Saumur,secondary_college,baccalaureat
+L1912-00608,CHAVIGNY,Faculté des Lettres de Poitiers,university_faculty,baccalaureat
+L1912-00618,CHEMAMA,Faculté de Droit d'Aix-en-Provence,university_faculty,licence_droit
+L1912-00633,CHERVIN,Ecole Coloniale,grande_ecole,
+L1912-00638,CHEYLUS,Ecole Polytechnique,grande_ecole,
+L1912-00640,CHICOLI,collège et,secondary_college,
+L1912-00641,CHIDIAC,collège de Lazareth,secondary_college,
+L1912-00650,CHURCHER,Collège Londres,secondary_college,
+L1912-00652,CIRIER,collège de Cambrai,secondary_college,doctorat_droit;baccalaureat;certificat
+L1912-00652,CIRIER,Faculté de droit de Paris,university_faculty,doctorat_droit;baccalaureat;certificat
+L1912-00652,CIRIER,Collège Sainte-Barbe,secondary_college,doctorat_droit;baccalaureat;certificat
+L1912-00653,CITTANOVA,Institut Fleury,institute,
+L1912-00653,CITTANOVA,Faculté de droit d'Aix,university_faculty,
+L1912-00656,CLÉMENT,Collège de Valence,secondary_college,diplome_superieur
+L1912-00656,CLÉMENT,Ecole supérieure de Commerce de Mulhouse,grande_ecole,diplome_superieur
+L1912-00657,CLERINO,lycée Ampère,secondary_lycee,baccalaureat
+L1912-00657,CLERINO,Institut national agronomique,institute,baccalaureat
+L1912-00658,CLERMONT,lycée d'Alger,secondary_lycee,brevet_superieur;diplome_superieur;certificat
+L1912-00658,CLERMONT,collège Alaoui,secondary_college,brevet_superieur;diplome_superieur;certificat
+L1912-00658,CLERMONT,Ecole des Lettres,other,brevet_superieur;diplome_superieur;certificat
+L1912-00658,CLERMONT,lycée Carnot,secondary_lycee,brevet_superieur;diplome_superieur;certificat
+L1912-00658,CLERMONT,lycée de Tunis,secondary_lycee,brevet_superieur;diplome_superieur;certificat
+L1912-00659,CLERMONT,lycée Carnot,secondary_lycee,
+L1912-00660,CLEYET,lycée de Tunis,secondary_lycee,brevet_superieur;certificat
+L1912-00661,CLIDAT,lycée de Bordeaux,secondary_lycee,
+L1912-00661,CLIDAT,Ecole supérieure de Commerce et d'Industrie de,grande_ecole,
+L1912-00665,COANET,lycée de Nancy,secondary_lycee,diplome_superieur
+L1912-00665,COANET,école de Rouiba,other,diplome_superieur
+L1912-00669,COHEN,lycée Carnot,secondary_lycee,
+L1912-00671,COHEN,Ecole de lAinance,other,diplome_superieur
+L1912-00672,COHEN,école de Droit,other,
+L1912-00672,COHEN,Institut de,institute,
+L1912-00676,COLLET,lycée de Pontivy,secondary_lycee,
+L1912-00677,COLLIN,Ecole normale,teacher_training,diplome_superieur;certificat
+L1912-00679,COLONNA -CESARI,lycée Carnot,secondary_lycee,baccalaureat;certificat
+L1912-00679,COLONNA -CESARI,Faculté de droit d'Aix - en - Provence,university_faculty,baccalaureat;certificat
+L1912-00681,COLRAT,lycée de Rodez,secondary_lycee,
+L1912-00681,COLRAT,collège S',secondary_college,
+L1912-00685,COMBET,lycée Carnot,secondary_lycee,
+L1912-00694,COMITI,collège d'Ajaccio,secondary_college,baccalaureat
+L1912-00719,COMTE,collège Sainte-Barbe,secondary_college,doctorat_medecine
+L1912-00719,COMTE,lycée Louis-le,secondary_lycee,doctorat_medecine
+L1912-00719,COMTE,"Faculté de médecine de Paris, collège de France",university_faculty,doctorat_medecine
+L1912-00720,COMTE,collège Pasteur,secondary_college,doctorat_medecine
+L1912-00720,COMTE,lycée Victor,secondary_lycee,doctorat_medecine
+L1912-00731,CONVERTI,Collège Gavopoli,secondary_college,
+L1912-00731,CONVERTI,lycée Relesio,secondary_lycee,
+L1912-00731,CONVERTI,Institut Galilée,institute,
+L1912-00731,CONVERTI,Institut Marotte,institute,
+L1912-00731,CONVERTI,Faculté de médecine et chirurgie de l'Université de Naples,university_faculty,
+L1912-00731,CONVERTI,Institut Marot,institute,
+L1912-00736,CORBES,Collège Jules-Simon,secondary_college,baccalaureat
+L1912-00737,CORDEIL,lycée de Marseille,secondary_lycee,licence_droit;brevet_superieur
+L1912-00737,CORDEIL,Faculté de droit d'Aix,university_faculty,licence_droit;brevet_superieur
+L1912-00737,CORDEIL,lycée Carnot,secondary_lycee,licence_droit;brevet_superieur
+L1912-00739,CORRAS,Collège Alaoui,secondary_college,
+L1912-00740,COSSANGE,Faculté des sciences de Lille,university_faculty,
+L1912-00740,COSSANGE,Ecole des Mineurs,other,
+L1912-00741,COSSON,collège Saint,secondary_college,
+L1912-00743,COUDERG,lycée Carnot,secondary_lycee,baccalaureat
+L1912-00744,COUDERC,Collège de Philipeville,secondary_college,
+L1912-00745,COULON,lycée d'Aix,secondary_lycee,licence_droit
+L1912-00745,COULON,Faculté de droit d'Aix,university_faculty,licence_droit
+L1912-00748,COURT,Ecole normale,teacher_training,baccalaureat;brevet_superieur;diplome_superieur;certificat
+L1912-00748,COURT,Lycée de Sparte,secondary_lycee,baccalaureat;brevet_superieur;diplome_superieur;certificat
+L1912-00750,CRANCIER,collège de Pontarlier,secondary_college,licence_droit
+L1912-00750,CRANCIER,Faculté de droit d'Aix,university_faculty,licence_droit
+L1912-00752,CRETE,collège Stanislas,secondary_college,
+L1912-00762,CUÉNOD,collège et,secondary_college,doctorat_medecine
+L1912-00767,DABRIGEON,"Faculté de médecine et de pharmacie de Lyon, 1891-1S94",university_faculty,
+L1912-00768,DALIOT,lycée et,secondary_lycee,licence_droit
+L1912-00768,DALIOT,Ecole de droit,other,licence_droit
+L1912-00770,DALLARD,collège S',secondary_college,licence_droit;baccalaureat
+L1912-00770,DALLARD,lycée Saint,secondary_lycee,licence_droit;baccalaureat
+L1912-00771,DALLOZ,lycée de Lons-le-Saulnier,secondary_lycee,licence_droit;baccalaureat
+L1912-00771,DALLOZ,Faculté de droit de Paris,university_faculty,licence_droit;baccalaureat
+L1912-00776,DANINOS,collège de Bône,secondary_college,baccalaureat
+L1912-00777,DANOS,collège de Saint-Gaudens,secondary_college,
+L1912-00778,DANTON,collège de Sézanne,secondary_college,
+L1912-00785,DARGHOUT,Khaldounia,islamic_institution,
+L1912-00786,DARMON,Lycée Carnot,secondary_lycee,licence_droit;baccalaureat;diplome_superieur;certificat
+L1912-00786,DARMON,école des hautes,other,licence_droit;baccalaureat;diplome_superieur;certificat
+L1912-00786,DARMON,faculté de droit de Paris (1903-1908),university_faculty,licence_droit;baccalaureat;diplome_superieur;certificat
+L1912-00786,DARMON,Institut de,institute,licence_droit;baccalaureat;diplome_superieur;certificat
+L1912-00788,DASCONAGUERRE,Faculté de droit de Bordeaux,university_faculty,baccalaureat
+L1912-00791,DAVID,Ecole centrale,grande_ecole,
+L1912-00792,DAVOUX,Ecole Normale,teacher_training,brevet_superieur;certificat
+L1912-00801,DECKER-DAVID,Collège Rollin,secondary_college,diplome_superieur
+L1912-00801,DECKER-DAVID,Institut agronomique,institute,diplome_superieur
+L1912-00804,DEFRANCHI,collège de Tarascon,secondary_college,
+L1912-00807,DEGOMMIER,lycée Janson,secondary_lycee,licence_droit
+L1912-00807,DEGOMMIER,Faculté de Droit de Paris,university_faculty,licence_droit
+L1912-00809,DËGUT,lycée d'Aix,secondary_lycee,baccalaureat
+L1912-00810,DEHENNAULT,lycée de Douai,secondary_lycee,diplome_superieur
+L1912-00810,DEHENNAULT,Ecole des Beaux-Arts,other,diplome_superieur
+L1912-00812,DEJEANNE,lycée de Tarbes,secondary_lycee,diplome_superieur
+L1912-00814,DELARUE,Ecole Polytechnique,grande_ecole,
+L1912-00818,DELIEUX,lycée de Toulouse,secondary_lycee,
+L1912-00819,DELMAS,collège d'Auxerre,secondary_college,licence_droit;baccalaureat
+L1912-00819,DELMAS,lycée de Sens,secondary_lycee,licence_droit;baccalaureat
+L1912-00819,DELMAS,lycée de Toulouse,secondary_lycee,licence_droit;baccalaureat
+L1912-00819,DELMAS,collège S'-,secondary_college,licence_droit;baccalaureat
+L1912-00819,DELMAS,Faculté de droit de Paris,university_faculty,licence_droit;baccalaureat
+L1912-00820,DELMAS,collège Sadiki,secondary_college,
+L1912-00821,DELMOLINO,Ecole supérieure des Postes,grande_ecole,
+L1912-00823,DELORD,Ecole normale,teacher_training,
+L1912-00824,DEMARCQ,collège de Landi'ôcies,secondary_college,baccalaureat
+L1912-00824,DEMARCQ,lycée de Valenciennes,secondary_lycee,baccalaureat
+L1912-00824,DEMARCQ,lycée Saint-Louis,secondary_lycee,baccalaureat
+L1912-00825,DEMAY,collège S'-,secondary_college,licence_droit;baccalaureat;diplome_superieur
+L1912-00825,DEMAY,lycée Carnot,secondary_lycee,licence_droit;baccalaureat;diplome_superieur
+L1912-00826,DEMELLE,collège de Bazas,secondary_college,
+L1912-00826,DEMELLE,Facultés de médecine de Bordeaux et de Montpellier,university_faculty,
+L1912-00827,DEMOULIN,Ecole coloniale,grande_ecole,diplome_superieur
+L1912-00828,DENCAUSE,lycée de Toulouse,secondary_lycee,baccalaureat
+L1912-00829,DENJEAN-NAVAILLES,collège de Béziers,secondary_college,baccalaureat
+L1912-00837,DESTRÉES,collège des,secondary_college,
+L1912-00837,DESTRÉES,lycée de SaintEtienne,secondary_lycee,
+L1912-00837,DESTRÉES,collège de Moslaganem,secondary_college,
+L1912-00837,DESTRÉES,collège de Mostaganeni,secondary_college,
+L1912-00837,DESTRÉES,collège Sadiki,secondary_college,
+L1912-00837,DESTRÉES,Lycée Carnot,secondary_lycee,
+L1912-00837,DESTRÉES,"Ecole supérieure DESPORTES (Antoine), 24 nov",grande_ecole,
+L1912-00838,DESTREES,collège de Moslaganem,secondary_college,licence_droit;baccalaureat;diplome_superieur
+L1912-00838,DESTREES,lycée de Tunis,secondary_lycee,licence_droit;baccalaureat;diplome_superieur
+L1912-00838,DESTREES,Lycée Saint-Louis,secondary_lycee,licence_droit;baccalaureat;diplome_superieur
+L1912-00838,DESTREES,Ecole des langues,other,licence_droit;baccalaureat;diplome_superieur
+L1912-00838,DESTREES,école des sciences,other,licence_droit;baccalaureat;diplome_superieur
+L1912-00842,DIACONO,lycée de Tunis,secondary_lycee,baccalaureat
+L1912-00842,DIACONO,"Faculté des Sciences de Marseilles, Ecole de Mé- decine de M",university_faculty,baccalaureat
+L1912-00842,DIACONO,Faculté de Médecine de Montpellier,university_faculty,baccalaureat
+L1912-00843,DIACONO,lycée Carnot,secondary_lycee,
+L1912-00845,DIACONO,Ecole des Jésuites,other,
+L1912-00846,DIANOUS,Lycée de Versailles,secondary_lycee,
+L1912-00847,DINGUIZLI,collège Sadiki,secondary_college,brevet_superieur
+L1912-00847,DINGUIZLI,Ecole normale,teacher_training,brevet_superieur
+L1912-00856,DIRSSINE,Grande Mosquée,islamic_institution,
+L1912-00856,DIRSSINE,zitouna,islamic_institution,
+L1912-00862,DJAIBI,Grande Mosquée,islamic_institution,
+L1912-00862,DJAIBI,Khaldounia,islamic_institution,
+L1912-00865,DJAMAL,zitouna,islamic_institution,
+L1912-00865,DJAMAL,Khaldounia,islamic_institution,
+L1912-00866,DJAMAL,collège Alaoui,secondary_college,
+L1912-00902,DJEHANE,collège Sadiki,secondary_college,
+L1912-00908,DJELLOULI,collège Sadiki,secondary_college,
+L1912-00925,DJILANI,école des Frères,other,
+L1912-00928,DOLCEMASCOLO,Faculté de médecine de Palerme,university_faculty,
+L1912-00929,DOLLIN DU FRESNEL,Institut de,institute,
+L1912-00930,DOLOT,Ecole Polytechnique,grande_ecole,
+L1912-00931,DOMELA,Faculté de Médecine de Lausanne,university_faculty,doctorat_medecine
+L1912-00931,DOMELA,Collège royal,secondary_college,doctorat_medecine
+L1912-00936,DOUBLEDENT,lycée Carnot,secondary_lycee,baccalaureat;diplome_superieur
+L1912-00936,DOUBLEDENT,Ecole de physique,other,baccalaureat;diplome_superieur
+L1912-00940,DOUGNAC,Faculté des Sciences de Bordeaux,university_faculty,baccalaureat;certificat
+L1912-00940,DOUGNAC,collège Alaoui,secondary_college,baccalaureat;certificat
+L1912-00945,DOZEVILLE,collège Tinchehay,secondary_college,
+L1912-00947,DRAMARD,Faculté de droit de Poitiers,university_faculty,licence_droit
+L1912-00956,DROUILLARD,collège de Saintes,secondary_college,agregation;diplome_superieur
+L1912-00956,DROUILLARD,Faculté de médecine de Bordeaux,university_faculty,agregation;diplome_superieur
+L1912-00956,DROUILLARD,Institut de,institute,agregation;diplome_superieur
+L1912-00959,DUBOURDIEU,lycée de Toulouse,secondary_lycee,baccalaureat
+L1912-00960,DUBOURDIEU,Ecole de droit,other,
+L1912-00961,DUCLOS,Ecole centrale,grande_ecole,
+L1912-00963,DUCROQUET,collège de la,secondary_college,
+L1912-00964,DUFFAU,lycée de Mont-de-Marsan,secondary_lycee,brevet_superieur
+L1912-00966,DUFRÊNE,Ecole normale,teacher_training,certificat
+L1912-00966,DUFRÊNE,école de la,other,certificat
+L1912-00967,DUGLIN,lycée Carnot,secondary_lycee,baccalaureat
+L1912-00968,DULIMON,Ecole supérieure des Postes et Télégraphes,grande_ecole,
+L1912-00969,DUMAS,lycée de Lyon,secondary_lycee,
+L1912-00969,DUMAS,Faculté de droit de Lyon,university_faculty,
+L1912-00970,DUMERGUE,collège d'Aix,secondary_college,
+L1912-00971,DUMONT,collège d'Auxerre,secondary_college,
+L1912-00972,DUMONT,lycée Carnot,secondary_lycee,diplome_superieur
+L1912-00973,DUPLA,Facultés de droit de Toulouse et de Paris,university_faculty,doctorat_droit
+L1912-00974,DUPLAV,lycée de Saint-Etienne,secondary_lycee,diplome_superieur
+L1912-00978,DURAN,collège de Bergerac,secondary_college,licence_droit;baccalaureat
+L1912-00978,DURAN,lycée de Poitiers,secondary_lycee,licence_droit;baccalaureat
+L1912-00978,DURAN,Ecole des Hautes-Etudes,other,licence_droit;baccalaureat
+L1912-00978,DURAN,"Faculté de théologie de Montauban, Facultés de droit de Pari",university_faculty,licence_droit;baccalaureat
+L1912-00980,DUREL,Ecole centrale,grande_ecole,
+L1912-00982,DUREL,Faculté des lettres de Toulouse,university_faculty,
+L1912-00982,DUREL,collège Alaoui,secondary_college,
+L1912-00982,DUREL,lycée Carnot,secondary_lycee,
+L1912-00985,DURMEYER,lycée Carnot,secondary_lycee,baccalaureat
+L1912-00986,DURMEYER,lycée Biaise-Pascal,secondary_lycee,
+L1912-00988,DUVAL,lycée Carnot,secondary_lycee,
+L1912-00989,DUVAU,lycée de Sens,secondary_lycee,licence_droit;baccalaureat
+L1912-00989,DUVAU,Faculté de droit de Paris,university_faculty,licence_droit;baccalaureat
+L1912-00989,DUVAU,Institut Colonial,institute,licence_droit;baccalaureat
+L1912-01000,EIGENSCHENCK,lycée de Nancy,secondary_lycee,doctorat_droit
+L1912-01000,EIGENSCHENCK,Faculté de droit de Paris,university_faculty,doctorat_droit
+L1912-01001,EIGENSCHENCK,Ecole de jeunes,other,
+L1912-01001,EIGENSCHENCK,Ecole Centrale,grande_ecole,
+L1912-01013,EL ANNABI,collège Sadiki,secondary_college,
+L1912-01013,EL ANNABI,lycée Carnot,secondary_lycee,
+L1912-01013,EL ANNABI,collège Alaoui,secondary_college,
+L1912-01029,ELES,Faculté de droit de l'Université de Rome,university_faculty,doctorat_droit
+L1912-01032,EL FOURTI,Grande Mosquée,islamic_institution,diplome_superieur
+L1912-01032,EL FOURTI,Khaldounia,islamic_institution,diplome_superieur
+L1912-01032,EL FOURTI,zitouna,islamic_institution,diplome_superieur
+L1912-01066,EMONTS,Ecole des HautesEtudes,other,
+L1912-01078,ENGERER,collège de Malte,secondary_college,
+L1912-01081,ENRIQUEZ,Ecole des Hautes,other,
+L1912-01082,ENRIQUEZ,lycée Saint-Charles,secondary_lycee,doctorat_droit;baccalaureat
+L1912-01082,ENRIQUEZ,Faculté de droit de Paris,university_faculty,doctorat_droit;baccalaureat
+L1912-01097,ERRAIS,collège Alaoui,secondary_college,certificat
+L1912-01099,ESCANO,collège des,secondary_college,
+L1912-01104,ESSALMI,Zitouna,islamic_institution,
+L1912-01110,EXIGA-KAYSER,collège de Bône,secondary_college,
+L1912-01110,EXIGA-KAYSER,lycée de Constantine,secondary_lycee,
+L1912-01112,FABRY,lycée de Marseille,secondary_lycee,doctorat_droit
+L1912-01112,FABRY,Faculté de droit de Paris,university_faculty,doctorat_droit
+L1912-01113,FAGES DE LATOUR,lycée d'Albi,secondary_lycee,baccalaureat
+L1912-01113,FAGES DE LATOUR,Ecole Polytechnique,grande_ecole,baccalaureat
+L1912-01117,FARHAT,collège Sadiki,secondary_college,
+L1912-01121,FATTACIOLI,collège d'Ajaccio,secondary_college,
+L1912-01121,FATTACIOLI,lycée de Marseille,secondary_lycee,
+L1912-01122,FAUCHE,lycée Carnot,secondary_lycee,baccalaureat;brevet_superieur;certificat
+L1912-01131,FËLICI,collège Fesch,secondary_college,baccalaureat
+L1912-01143,FERRAND,lycée d'Alger,secondary_lycee,baccalaureat
+L1912-01145,FERRY,lycée de Lille,secondary_lycee,
+L1912-01145,FERRY,Faculté de médecine de Paris,university_faculty,
+L1912-01148,FESQUET,lycée Car,secondary_lycee,
+L1912-01148,FESQUET,école de Ferryville,other,
+L1912-01149,FESQUET,Ecole normale,teacher_training,brevet_superieur;certificat
+L1912-01149,FESQUET,école de la,other,brevet_superieur;certificat
+L1912-01154,FIESCHI,lycée Carnot,secondary_lycee,baccalaureat
+L1912-01154,FIESCHI,lycée de Reims,secondary_lycee,baccalaureat
+L1912-01157,FILIPFI,lycée de Bastia,secondary_lycee,
+L1912-01160,FINOCCHI,lycée de Bastia,secondary_lycee,
+L1912-01161,FINOCCHI,lycée de Bastia,secondary_lycee,licence_droit;baccalaureat
+L1912-01161,FINOCCHI,Faculté de droit d'Aix,university_faculty,licence_droit;baccalaureat
+L1912-01165,FITOUSSI,collège Alaoui,secondary_college,doctorat_droit;diplome_superieur
+L1912-01169,FLAMANT,école normale,teacher_training,brevet_superieur
+L1912-01172,FLEURY,lycée Fontanes,secondary_lycee,baccalaureat
+L1912-01173,FLOT,lycée Carnot,secondary_lycee,baccalaureat;diplome_superieur
+L1912-01173,FLOT,Ecole des Beaux-Arts,other,baccalaureat;diplome_superieur
+L1912-01187,FOUCAUD,collège d'issoudun,secondary_college,certificat
+L1912-01188,FOUCHER,Ecole de tir,other,
+L1912-01190,FOULQUIER,Faculté de médecine de Paris,university_faculty,
+L1912-01193,"• FRADET""",collège de Dax,secondary_college,
+L1912-01199,FRÊMAUX,Ecole de Musique,other,
+L1912-01202,FUNARO,collège de Livourne,secondary_college,
+L1912-01202,FUNARO,lycée Saint-Sébastien,secondary_lycee,
+L1912-01202,FUNARO,Ecole des éludes,other,
+L1912-01202,FUNARO,Institut de,institute,
+L1912-01202,FUNARO,Collège italien,secondary_college,
+L1912-01205,GADRAT,lycée de Foix,secondary_lycee,licence_droit;baccalaureat
+L1912-01205,GADRAT,Faculté de droit de Toulouse,university_faculty,licence_droit;baccalaureat
+L1912-01209,GAGEY,Ecole coloniale,grande_ecole,
+L1912-01211,GAILLARD,lycée de Constantine,secondary_lycee,
+L1912-01211,GAILLARD,collège de Bône,secondary_college,
+L1912-01217,GALLINI,Faculté de droit de Montpellier,university_faculty,licence_droit;baccalaureat
+L1912-01218,GALLUT,Collège Sainte-Barbe,secondary_college,baccalaureat
+L1912-01220,GAMET,Lycée Carnot,secondary_lycee,baccalaureat;certificat
+L1912-01220,GAMET,"Ecole supérieure de droit, Alger",grande_ecole,baccalaureat;certificat
+L1912-01222,GANDOLFO,Lycée Victor,secondary_lycee,
+L1912-01222,GANDOLFO,école de médecine,other,
+L1912-01225,GANDOLPHE,Ecole Centrale,grande_ecole,
+L1912-01230,GANOUNA,collège Alaoui,secondary_college,brevet_superieur
+L1912-01234,GASTU,Lycée d'Alger,secondary_lycee,
+L1912-01237,GAUDIANI,lycée de Bastia,secondary_lycee,licence_droit;baccalaureat
+L1912-01237,GAUDIANI,Facultés de droit d'Aix et de Par i s,university_faculty,licence_droit;baccalaureat
+L1912-01241,GAUTIER,lycée Charlemagne,secondary_lycee,diplome_superieur
+L1912-01242,GAVER,collège Saint-Louis,secondary_college,baccalaureat
+L1912-01246,GELLÉ,lycée Carnot,secondary_lycee,agregation
+L1912-01247,GENET,Faculté de droit de Paris,university_faculty,licence_droit;baccalaureat
+L1912-01250,GENTHON,Ecole supérieure de Télégraphie,grande_ecole,diplome_superieur
+L1912-01253,GEORGE,école Centrale,grande_ecole,
+L1912-01254,GEPT,lycée de Nîmes,secondary_lycee,
+L1912-01254,GEPT,Ecole Polytechnique,grande_ecole,
+L1912-01256,GÉRARD,Ecole normale,teacher_training,
+L1912-01267,GIGNAN,Ecole des mines,grande_ecole,
+L1912-01275,GIRAUD,Institut de,institute,
+L1912-01276,GIROU,lycée de Constantine,secondary_lycee,
+L1912-01279,GISTUCCI,collège d'Ajaccio,secondary_college,licence_droit
+L1912-01279,GISTUCCI,Faculté de droit d'Aix-en-Provence,university_faculty,licence_droit
+L1912-01282,GLUCK,Ecole Coloniale,grande_ecole,diplome_superieur
+L1912-01282,GLUCK,Institut de,institute,diplome_superieur
+L1912-01285,GONNOT,Ecole Normale,teacher_training,
+L1912-01285,GONNOT,école normale,teacher_training,
+L1912-01286,GORDON,"Faculté de médecine de Paris, cours d'encliyogénie comparée",university_faculty,
+L1912-01286,GORDON,Collège de France,secondary_college,
+L1912-01292,GOUNOT,"Faculté des sciences de Palerme (Italie), Ecole d'Agricultur",university_faculty,
+L1912-01292,GOUNOT,Ecole coloniale,grande_ecole,
+L1912-01297,GOUVET,lycée de Marseille,secondary_lycee,
+L1912-01297,GOUVET,collège de Sarlat,secondary_college,
+L1912-01298,GOYET,lycée de Nîmes,secondary_lycee,
+L1912-01299,GOZLAN,école de l,other,
+L1912-01302,GRASSET,collège de Bordeaux,secondary_college,
+L1912-01307,GRENOUILLEAU,Faculté de droit de Paris,university_faculty,licence_droit
+L1912-01316,GRUNDLER,lycée Janson-deSailly,secondary_lycee,certificat
+L1912-01316,GRUNDLER,lycée de Laval,secondary_lycee,certificat
+L1912-01316,GRUNDLER,lycée de Tunis,secondary_lycee,certificat
+L1912-01319,GUEDJ,lycée de Tunis,secondary_lycee,
+L1912-01319,GUEDJ,Faculté de droit de Paris,university_faculty,
+L1912-01320,GUËGAN,lycée de Versailles,secondary_lycee,baccalaureat
+L1912-01320,GUËGAN,Faculté de médecine de Paris,university_faculty,baccalaureat
+L1912-01321,GUELLATY,lycée Carnot,secondary_lycee,licence_droit;baccalaureat
+L1912-01321,GUELLATY,Faculté de droit de Toulouse,university_faculty,licence_droit;baccalaureat
+L1912-01322,GUELLATY,lycée d'Alger,secondary_lycee,
+L1912-01326,GUÉNIER,école des Frères,other,diplome_superieur
+L1912-01326,GUÉNIER,collège italien,secondary_college,diplome_superieur
+L1912-01332,GUEYDAN,collège de BourgohiRondeau,secondary_college,licence_droit
+L1912-01332,GUEYDAN,"Faculté de droit, de Grenoble",university_faculty,licence_droit
+L1912-01334,GUILHON,Ecole normale,teacher_training,diplome_superieur;certificat
+L1912-01334,GUILHON,école Normale,teacher_training,diplome_superieur;certificat
+L1912-01334,GUILHON,collège Alaoui,secondary_college,diplome_superieur;certificat
+L1912-01336,GUILLOCHON,Ecole Coloniale,grande_ecole,
+L1912-01341,GUNG'L,lycée de Versailles,secondary_lycee,baccalaureat
+L1912-01341,GUNG'L,lycée Napoléon,secondary_lycee,baccalaureat
+L1912-01341,GUNG'L,lycée Henri,secondary_lycee,baccalaureat
+L1912-01341,GUNG'L,Faculté de droit de Paris,university_faculty,baccalaureat
+L1912-01343,GUTTIERES,lycée italien,secondary_lycee,doctorat_droit
+L1912-01351,HADDAD,Collège italien,secondary_college,
+L1912-01355,HADJOUJ,collège Sadiki,secondary_college,
+L1912-01355,HADJOUJ,lycée Saint-Louis,secondary_lycee,
+L1912-01385,HANRIOT,collège Sain,secondary_college,licence_droit;baccalaureat
+L1912-01385,HANRIOT,"Faculté de droit (Nancy), Ecole des Sciences morales et",university_faculty,licence_droit;baccalaureat
+L1912-01385,HANRIOT,Faculté de droit (Paris),university_faculty,licence_droit;baccalaureat
+L1912-01392,HASSAN,lycée el,secondary_lycee,
+L1912-01392,HASSAN,école de l,other,
+L1912-01392,HASSAN,Faculté de médecine militaire de Coiistanlinople,university_faculty,
+L1912-01393,HASSID,école de l,other,
+L1912-01394,HASSID,Ecole de l,other,certificat
+L1912-01396,HAUT,Institut de,institute,
+L1912-01397,HAYAT,Lycée Carnot,secondary_lycee,doctorat_medecine;baccalaureat
+L1912-01397,HAYAT,faculté de médecine de Mont- ■ pellier,university_faculty,doctorat_medecine;baccalaureat
+L1912-01398,HAYDAR,collège Sadild,secondary_college,
+L1912-01405,HENRY,collège de Remiremont,secondary_college,
+L1912-01405,HENRY,Faculté de médecine de Nancy,university_faculty,
+L1912-01408,HENRY,lycée Carnot,secondary_lycee,baccalaureat
+L1912-01411,HERSON,école des cadets,other,
+L1912-01411,HERSON,Ecole de Tir,other,
+L1912-01415,HJALMAR,Ecole des hautes,other,
+L1912-01425,HOUDE,collège Rollin,secondary_college,licence_droit
+L1912-01425,HOUDE,"Faculté de Droit de Paris, licencié en droit",university_faculty,licence_droit
+L1912-01429,HSIN,collège et,secondary_college,
+L1912-01429,HSIN,lycée Sadiki,secondary_lycee,
+L1912-01430,HUARD,Institut de,institute,diplome_superieur
+L1912-01431,HUC,Ecole des Frères,other,
+L1912-01431,HUC,collège de Saint-Pons,secondary_college,
+L1912-01438,HURSTEL,Ecole de SaintCyr,other,
+L1912-01441,IGOLEN,Ecole Polytechnique,grande_ecole,
+L1912-01453,INERNY,Collège Blaekrock,secondary_college,diplome_superieur
+L1912-01453,INERNY,Institut des,institute,diplome_superieur
+L1912-01458,INGRAND,lycée de Mont-de-Marsan,secondary_lycee,licence_droit
+L1912-01465,INVERSIN,collège Alaoui,secondary_college,
+L1912-01465,INVERSIN,lycée Carnot,secondary_lycee,
+L1912-01467,ISAAC,Lycée Louis-leGrand,secondary_lycee,
+L1912-01468,ISNACK,collège de Toul,secondary_college,
+L1912-01472,JACQUIER,Collège Stanislas,secondary_college,baccalaureat
+L1912-01473,JACQUIER,Ecole Coloniale,grande_ecole,
+L1912-01473,JACQUIER,Ecole normale,teacher_training,
+L1912-01477,JAULMES,lycée Garnol,secondary_lycee,
+L1912-01479,JOUBERT,lycée de Gap,secondary_lycee,
+L1912-01482,JOYEUX,école de la,other,brevet_superieur
+L1912-01482,JOYEUX,école normale,teacher_training,brevet_superieur
+L1912-01483,JULIEN,Institut de,institute,
+L1912-01487,KADDOUR,collège Sadiki,secondary_college,
+L1912-01504,KËRAMBRIEG,lycée Henri,secondary_lycee,baccalaureat
+L1912-01504,KËRAMBRIEG,école de cavalerie,other,baccalaureat
+L1912-01504,KËRAMBRIEG,Institut de,institute,baccalaureat
+L1912-01519,KHIAT,Lycée Carnot,secondary_lycee,baccalaureat
+L1912-01520,KHIAT,Lycée Carnot,secondary_lycee,
+L1912-01521,KHIAT,Collège Alaoui,secondary_college,licence_droit;baccalaureat
+L1912-01521,KHIAT,Grande Mosquée,islamic_institution,licence_droit;baccalaureat
+L1912-01528,KLEPPER,lycée de Bordeaux,secondary_lycee,baccalaureat;diplome_superieur;certificat
+L1912-01542,KRAYENBUHL,Faculté de droit de Lausanne,university_faculty,
+L1912-01545,KRISKIS,école de droit,other,
+L1912-01558,LABBASSI,Ecole normale,teacher_training,diplome_superieur
+L1912-01558,LABBASSI,collège Alaoui,secondary_college,diplome_superieur
+L1912-01558,LABBASSI,Khaldounia,islamic_institution,diplome_superieur
+L1912-01559,LABBÈ,lycée Carnot,secondary_lycee,doctorat_droit
+L1912-01560,LACOMBRADE,lycée de Rochefort-sur-Mer,secondary_lycee,doctorat_droit;baccalaureat;diplome_superieur
+L1912-01560,LACOMBRADE,"Faculté de droit -de Paris, Ecole des sciences politique",university_faculty,doctorat_droit;baccalaureat;diplome_superieur
+L1912-01560,LACOMBRADE,Ecole des Sciences,other,doctorat_droit;baccalaureat;diplome_superieur
+L1912-01561,LACORRE,Ecole normale,teacher_training,brevet_superieur;certificat
+L1912-01562,LACORRE,école normale,teacher_training,brevet_superieur;certificat
+L1912-01562,LACORRE,école de Bijouville,other,brevet_superieur;certificat
+L1912-01563,LACROIX,lycée d'Alg,secondary_lycee,
+L1912-01564,LACROIX,lycée d'Avignon,secondary_lycee,baccalaureat
+L1912-01567,LAFFAGE,lycée Carnot,secondary_lycee,
+L1912-01567,LAFFAGE,Ecole de Musique,other,
+L1912-01568,LAFFORGUE,collège de Nogent-le-Rotrou,secondary_college,
+L1912-01568,LAFFORGUE,Lycée Janson,secondary_lycee,
+L1912-01568,LAFFORGUE,Lycée Carnot,secondary_lycee,
+L1912-01569,LAFITTE,lycée de Toulouse,secondary_lycee,
+L1912-01569,LAFITTE,Faculté des lettres de Lyon,university_faculty,
+L1912-01570,LAFONT,collège Sadiki,secondary_college,diplome_superieur
+L1912-01572,LAGRANGE,lycée et,secondary_lycee,
+L1912-01574,LAINE,Collège de la,secondary_college,doctorat_medecine;baccalaureat
+L1912-01574,LAINE,Ecole de Médecine,other,doctorat_medecine;baccalaureat
+L1912-01575,LAKBEGHE,collège Sadiki,secondary_college,
+L1912-01576,LAKHOUA,collège Sadiki,secondary_college,
+L1912-01576,LAKHOUA,lycée Carnot,secondary_lycee,
+L1912-01577,LAKHOUA,collège Sadild,secondary_college,
+L1912-01577,LAKHOUA,Collège Sadiki,secondary_college,
+L1912-01577,LAKHOUA,Khaldounia,islamic_institution,
+L1912-01581,LAMBERT,collège des,secondary_college,baccalaureat
+L1912-01581,LAMBERT,Facultés de médecine de Lyon et de Paris,university_faculty,baccalaureat
+L1912-01581,LAMBERT,Ecole de Médecine,other,baccalaureat
+L1912-01584,LAMOLINERIE,Ecole normale,teacher_training,
+L1912-01585,LAMOUROUX,Ecole des Hautes,other,baccalaureat
+L1912-01587,LANDEROIN,Ecole normale,teacher_training,brevet_superieur;diplome_superieur;certificat
+L1912-01589,LANGLOIS,lycée Carnot,secondary_lycee,
+L1912-01590,LANNE,Faculté de Médecine de Lyon,university_faculty,
+L1912-01593,LARGUÈGHE,collège Alaoui,secondary_college,brevet_superieur
+L1912-01594,LARROUYAT,collège Sadiki,secondary_college,brevet_superieur;diplome_superieur;certificat
+L1912-01594,LARROUYAT,Ecole normale,teacher_training,brevet_superieur;diplome_superieur;certificat
+L1912-01594,LARROUYAT,Collège Alaoui,secondary_college,brevet_superieur;diplome_superieur;certificat
+L1912-01594,LARROUYAT,Khaldounia,islamic_institution,brevet_superieur;diplome_superieur;certificat
+L1912-01595,LAURET,lycée d'Alger,secondary_lycee,diplome_superieur;certificat
+L1912-01596,LAVERDET,collège de SaintAmond,secondary_college,baccalaureat
+L1912-01596,LAVERDET,Institut agronomique,institute,baccalaureat
+L1912-01596,LAVERDET,Ecole Coloniale,grande_ecole,baccalaureat
+L1912-01596,LAVERDET,Institut de,institute,baccalaureat
+L1912-01599,LEAL,lycée de Nancy,secondary_lycee,
+L1912-01599,LEAL,lycée de Constantine,secondary_lycee,
+L1912-01600,LECA,collège de Pliilippeville,secondary_college,
+L1912-01600,LECA,lycée de Constantine,secondary_lycee,
+L1912-01600,LECA,Faculté des lettres de l'Université de Paris,university_faculty,
+L1912-01600,LECA,lycée Carnot,secondary_lycee,
+L1912-01601,LECA,collège Alaoui,secondary_college,
+L1912-01601,LECA,collège de Bône,secondary_college,
+L1912-01607,LELU,collège de Fontainebleau,secondary_college,baccalaureat
+L1912-01608,LEMAIRE,collège de Juilly,secondary_college,
+L1912-01608,LEMAIRE,Faculté de médecine de Paris,university_faculty,
+L1912-01609,LEMANSKI,lycée de Lyon,secondary_lycee,baccalaureat
+L1912-01609,LEMANSKI,Faculté de médecine de Paris,university_faculty,baccalaureat
+L1912-01609,LEMANSKI,Ecole des Chartes,other,baccalaureat
+L1912-01612,LEPINEY,lycée d'Alger,secondary_lycee,diplome_superieur
+L1912-01613,LEROY,lycée Carnot,secondary_lycee,
+L1912-01613,LEROY,Institut électro-technique,institute,
+L1912-01615,LESCOT,Institut dentaire,institute,
+L1912-01615,LESCOT,Ecole des BeauxArts,other,
+L1912-01617,LESSEPS,lycée de Quimper,secondary_lycee,doctorat_droit
+L1912-01618,LETOURNEUR,lycée Henri,secondary_lycee,licence_droit;baccalaureat;diplome_superieur
+L1912-01618,LETOURNEUR,"Faculté de droit de Paris, Institut Commercial de Paris",university_faculty,licence_droit;baccalaureat;diplome_superieur
+L1912-01618,LETOURNEUR,Institut Commercial,institute,licence_droit;baccalaureat;diplome_superieur
+L1912-01621,LËVY,école de l,other,
+L1912-01621,LËVY,collège Alaoui,secondary_college,
+L1912-01622,LEYGONIE,collège de Brive,secondary_college,baccalaureat
+L1912-01625,LIËGEY,lycée de Nancy,secondary_lycee,
+L1912-01625,LIËGEY,Faculté de Médecine de Bordeaux,university_faculty,
+L1912-01628,LIOTIER,lycée d'Avignon,secondary_lycee,licence_droit;baccalaureat;diplome_superieur
+L1912-01628,LIOTIER,Ecole de Commerce,other,licence_droit;baccalaureat;diplome_superieur
+L1912-01630,LIVET,lycée de Lyon,secondary_lycee,
+L1912-01635,LODS,école de Tozeur,other,
+L1912-01637,LOGOTHETTI,lycée de Moravie,secondary_lycee,
+L1912-01639,LOIR,lycée Lakanal,secondary_lycee,
+L1912-01639,LOIR,Institut de,institute,
+L1912-01641,LORIN,Faculté des Lettres de Bordeaux,university_faculty,licence_droit;agregation
+L1912-01641,LORIN,Ecole normale,teacher_training,licence_droit;agregation
+L1912-01641,LORIN,Institut en,institute,licence_droit;agregation
+L1912-01642,LOTH,collège Alaoui,secondary_college,
+L1912-01646,LOVY,Faculté de médecine de Paris,university_faculty,
+L1912-01646,LOVY,lycée national,secondary_lycee,
+L1912-01647,LUCIANI,collège d'Ajaccio,secondary_college,
+L1912-01647,LUCIANI,lycée cVAlger,secondary_lycee,
+L1912-01647,LUCIANI,"Ecole supérieure de pharmacie d'Alger, Faculté",university_faculty,
+L1912-01647,LUCIANI,Ecole supérieure d'Alger,grande_ecole,
+L1912-01653,LURIE,collège de Manosque,secondary_college,brevet_superieur;diplome_superieur;certificat
+L1912-01653,LURIE,collège Alaoui,secondary_college,brevet_superieur;diplome_superieur;certificat
+L1912-01659,MACHUEL,lycée d'Alger,secondary_lycee,baccalaureat;certificat
+L1912-01659,MACHUEL,collège arabe-français,secondary_college,baccalaureat;certificat
+L1912-01660,MACHWITZ,lycée de Tours,secondary_lycee,baccalaureat
+L1912-01661,MACLER,collège de Bône,secondary_college,
+L1912-01677,MAIRE,collège de Pontarlier,secondary_college,baccalaureat
+L1912-01677,MAIRE,lycée de Besançon,secondary_lycee,baccalaureat
+L1912-01683,MALET,collège et,secondary_college,baccalaureat
+L1912-01683,MALET,lycée de,secondary_lycee,baccalaureat
+L1912-01683,MALET,Institut agronomique,institute,baccalaureat
+L1912-01686,MALINAS,collège de Lunel,secondary_college,doctorat_medecine;baccalaureat
+L1912-01686,MALINAS,lycée de Montpellier,secondary_lycee,doctorat_medecine;baccalaureat
+L1912-01686,MALINAS,"Faculté de médecine de Montpellier, Ecole du Service de San",university_faculty,doctorat_medecine;baccalaureat
+L1912-01686,MALINAS,"Facultés de Médecine de Strasbourg, 1867-70, et 'de Paris, 1",university_faculty,doctorat_medecine;baccalaureat
+L1912-01694,MARCHIONI,Lycée de Bnstia,secondary_lycee,diplome_superieur
+L1912-01698,MARINI,lycée et,secondary_lycee,baccalaureat;diplome_superieur;certificat
+L1912-01698,MARINI,Faculté de Médecine de Toulouse,university_faculty,baccalaureat;diplome_superieur;certificat
+L1912-01698,MARINI,Faculté des Sciences (prix du certificat P,university_faculty,baccalaureat;diplome_superieur;certificat
+L1912-01701,MARQUET,Ecole normale,teacher_training,brevet_superieur;certificat
+L1912-01704,MARTEL,lycée de,secondary_lycee,baccalaureat
+L1912-01704,MARTEL,Faculté de droit de Paris,university_faculty,baccalaureat
+L1912-01705,MARTIN,Ecole normale,teacher_training,diplome_superieur
+L1912-01706,MARTIN,école normale,teacher_training,brevet_superieur;certificat
+L1912-01707,MARTINEAU,lycée du,secondary_lycee,licence_droit
+L1912-01707,MARTINEAU,Ecole de Droit,other,licence_droit
+L1912-01707,MARTINEAU,Ecole des Hautes,other,licence_droit
+L1912-01709,MARZAG,Lycée et,secondary_lycee,
+L1912-01709,MARZAG,Ecole supérieure de Commerce,grande_ecole,
+L1912-01711,MASSARI,lycée de Parme,secondary_lycee,
+L1912-01712,MASSÉ,lycée de Montauban,secondary_lycee,licence_droit;baccalaureat
+L1912-01712,MASSÉ,"Faculté des lettres et, Faculté de droit)",university_faculty,licence_droit;baccalaureat
+L1912-01714,MASSELOT,collège Chnplal,secondary_college,baccalaureat
+L1912-01715,MASSIGAULT,collège Saint-Charles,secondary_college,
+L1912-01715,MASSIGAULT,lycée el,secondary_lycee,
+L1912-01719,MATHIEU,Ecole normale,teacher_training,brevet_superieur;certificat
+L1912-01719,MATHIEU,école supérieure de garçons de Bizerte,grande_ecole,brevet_superieur;certificat
+L1912-01722,MATTEI,collège Chaplal,secondary_college,certificat
+L1912-01723,MATTÉI,Lycée de Baslia,secondary_lycee,
+L1912-01726,MAUBACQ,collège de Boulogne-sur-Mer,secondary_college,
+L1912-01727,MAUGER,Ecole normale,teacher_training,brevet_superieur;certificat
+L1912-01730,MAURIN,Faculté de droit cl'Aix-en-Provence,university_faculty,licence_droit;baccalaureat
+L1912-01735,MAZIËRES,lycée d'Alger,secondary_lycee,licence_droit;baccalaureat;diplome_superieur
+L1912-01735,MAZIËRES,Ecole supérieure d e droit d'Alger,grande_ecole,licence_droit;baccalaureat;diplome_superieur
+L1912-01735,MAZIËRES,Ecole de droit,other,licence_droit;baccalaureat;diplome_superieur
+L1912-01736,MAZOYER,Ecole supérieure des Posles et des Télégraphes,grande_ecole,
+L1912-01738,MEARY,Ecole de garçons,other,brevet_superieur
+L1912-01738,MEARY,Ecole normale,teacher_training,brevet_superieur
+L1912-01740,MECHIRKI,collège Sadiki,secondary_college,
+L1912-01767,MENVIELLE,Faculté de médecine,university_faculty,
+L1912-01775,MERCIER,lycée de Conslanline,secondary_lycee,
+L1912-01777,MERLIN,Ecole normale,teacher_training,agregation
+L1912-01793,MICHAUX,collège de Soissons,secondary_college,
+L1912-01797,MIFSUD,collège Saint-Charles,secondary_college,licence_droit
+L1912-01797,MIFSUD,"Ecole supérieure de droit d'Alger, l'acuité de",grande_ecole,licence_droit
+L1912-01799,MILLET,Collège électoral,secondary_college,
+L1912-01799,MILLET,Ecole coloniale,grande_ecole,
+L1912-01800,MILLOUD,lycée et,secondary_lycee,
+L1912-01800,MILLOUD,Faculté des Lettres de Lyon,university_faculty,
+L1912-01800,MILLOUD,lycée Carnot,secondary_lycee,
+L1912-01804,MINICONI,collège d'Ajaccio,secondary_college,baccalaureat
+L1912-01810,MOATTI,collège italien,secondary_college,
+L1912-01813,MOCQUERYS,lycée d'Evreux,secondary_lycee,
+L1912-01814,MODIGLIANI,lycée italien,secondary_lycee,
+L1912-01822,MOLCO,lycée Dante,secondary_lycee,diplome_superieur
+L1912-01822,MOLCO,Institut des,institute,diplome_superieur
+L1912-01827,MONCHICOURT,lycée Louis-Ie-Grand,secondary_lycee,licence_droit;diplome_superieur
+L1912-01827,MONCHICOURT,Ecole de droit,other,licence_droit;diplome_superieur
+L1912-01830,MONTEFIORE,Faculté de médecine de Bologna (Italie),university_faculty,
+L1912-01833,MONT-LOUIS,lycée BiaisePascal,secondary_lycee,baccalaureat
+L1912-01833,MONT-LOUIS,lycée Janson-de-Sailly,secondary_lycee,baccalaureat
+L1912-01835,MORALY,Ecole normale,teacher_training,
+L1912-01835,MORALY,collège Sadiki,secondary_college,
+L1912-01839,MORENO,collège de l'abbé,secondary_college,
+L1912-01840,MORENO,lycée italien,secondary_lycee,doctorat_droit
+L1912-01840,MORENO,Faculté de droit de Rome,university_faculty,doctorat_droit
+L1912-01842,MORIN,lycée d'Orléans,secondary_lycee,baccalaureat
+L1912-01842,MORIN,lycée S'-Louis,secondary_lycee,baccalaureat
+L1912-01842,MORIN,Ecole centrale,grande_ecole,baccalaureat
+L1912-01843,MORIZOT,lycée d'Avignon,secondary_lycee,licence_droit;baccalaureat
+L1912-01843,MORIZOT,Faculté de droit d'Aix,university_faculty,licence_droit;baccalaureat
+L1912-01846,MORPURGO,lycée à,secondary_lycee,
+L1912-01846,MORPURGO,Ecole supérieure de médecine do Florence,grande_ecole,
+L1912-01851,MOUCHARD,Ecole Polytechnique,grande_ecole,
+L1912-01856,MOURGNOT,Ecole Polytechnique,grande_ecole,
+L1912-01857,MOUSSARD,lycée d'Oran,secondary_lycee,
+L1912-01857,MOUSSARD,Ecole de droit,other,
+L1912-01859,MOUTET,Ecole de Médecine,other,
+L1912-01872,MUSCAT fils,lycée de Marseille,secondary_lycee,
+L1912-01877,MUSY,Ecole normale,teacher_training,
+L1912-01880,NABETH,collège de Pliilippeville,secondary_college,
+L1912-01884,NAIAC,Ecole normale,teacher_training,brevet_superieur
+L1912-01887,NATAF,"Faculté de droit""d'Aix",university_faculty,licence_droit;baccalaureat
+L1912-01895,NEGRONI,Collège Paoli,secondary_college,
+L1912-01902,NICOLAS,collège Saint-Louis,secondary_college,brevet_superieur;diplome_superieur;certificat
+L1912-01902,NICOLAS,collège Saint-Charles,secondary_college,brevet_superieur;diplome_superieur;certificat
+L1912-01902,NICOLAS,lycée Carnot,secondary_lycee,brevet_superieur;diplome_superieur;certificat
+L1912-01906,NICOLLE,Institut Pasteur,institute,
+L1912-01906,NICOLLE,Ecole de Médecine,other,
+L1912-01907,NICOUD,collège Alaoui,secondary_college,brevet_superieur;certificat
+L1912-01907,NICOUD,Ecole normale,teacher_training,brevet_superieur;certificat
+L1912-01908,NIEWENGLOWSKI,collège Rollin,secondary_college,doctorat_medecine;baccalaureat
+L1912-01908,NIEWENGLOWSKI,lycée Louis-le-Grand,secondary_lycee,doctorat_medecine;baccalaureat
+L1912-01908,NIEWENGLOWSKI,Faculté des Sciences et Faculté de Médecine de l'Université,university_faculty,doctorat_medecine;baccalaureat
+L1912-01908,NIEWENGLOWSKI,Ecole normale,teacher_training,doctorat_medecine;baccalaureat
+L1912-01908,NIEWENGLOWSKI,lycée Carnot,secondary_lycee,doctorat_medecine;baccalaureat
+L1912-01911,NORO,Ecole des Beaux,other,
+L1912-01925,OMESSA,collège au,secondary_college,
+L1912-01933,ORTONA,"Faculté de Médecine de Rome, docteur en médecine",university_faculty,doctorat_medecine
+L1912-01934,OSMAN,collège Sadiki,secondary_college,
+L1912-01987,PACE,Institut teclmolo,institute,
+L1912-01991,PADOVANI,lycée de Baslia,secondary_lycee,
+L1912-01992,PAILHÉ,lycée de Montpellier,secondary_lycee,licence_droit
+L1912-01992,PAILHÉ,Faculté de droit de Montpellier,university_faculty,licence_droit
+L1912-01996,PARIENTE,école de garçons,other,
+L1912-01998,PASQUIER,lycée de Bordeaux,secondary_lycee,baccalaureat
+L1912-02001,PASTOUR,lycée de Constantine,secondary_lycee,
+L1912-02002,PATEL,Ecole normale,teacher_training,
+L1912-02004,PATOU,collège de Privas,secondary_college,agregation
+L1912-02004,PATOU,lycée de Grenoble,secondary_lycee,agregation
+L1912-02004,PATOU,Faculté des Sciences de l'Université de Grenoble,university_faculty,agregation
+L1912-02004,PATOU,lycée Carnot,secondary_lycee,agregation
+L1912-02006,PATRICOT,Faculté de médecine de Lyon et Ecole dentaire de Genève,university_faculty,baccalaureat;diplome_superieur
+L1912-02009,PAULIN,Ecole normale,teacher_training,brevet_superieur;certificat
+L1912-02009,PAULIN,Ecole des Beaux-Arts,other,brevet_superieur;certificat
+L1912-02010,PAUTHIER,lycée Carnot,secondary_lycee,
+L1912-02011,PAVARD,lycée Carnot,secondary_lycee,
+L1912-02015,PEAN,lycée du,secondary_lycee,licence_droit;baccalaureat
+L1912-02015,PEAN,Faculté de Droit de Paris,university_faculty,licence_droit;baccalaureat
+L1912-02018,PEIRON,lycée de Lyon,secondary_lycee,
+L1912-02018,PEIRON,"Facultés de Droit el, des Lettres de Lyon",university_faculty,
+L1912-02023,PËLONI,Collège F,secondary_college,
+L1912-02024,PËLONI,école normale,teacher_training,brevet_superieur
+L1912-02029,PERGOLA,lycée Sainl-Louis,secondary_lycee,licence_droit
+L1912-02031,PERPETUA,lycée de Torre-Pellue,secondary_lycee,licence_droit;brevet_superieur
+L1912-02031,PERPETUA,Institut de,institute,licence_droit;brevet_superieur
+L1912-02034,PERRIER,Ecole de Nantes,other,
+L1912-02036,PERRIN,lycée de Besançon,secondary_lycee,licence_droit;baccalaureat;diplome_superieur
+L1912-02036,PERRIN,"Faculté de droit de Dijon, Ecole de droit d'Alger",university_faculty,licence_droit;baccalaureat;diplome_superieur
+L1912-02037,PERROCHON,lycée de Châléauroux,secondary_lycee,
+L1912-02040,PETIT,Ecole des BeauxArts,other,
+L1912-02041,PETITDIDIER,lycée Carnot,secondary_lycee,agregation
+L1912-02043,PET-ITJEAN,Ecole de Saint-Cyr,other,
+L1912-02055,PIAZZA,lycée de Bastia,secondary_lycee,licence_droit
+L1912-02055,PIAZZA,Facultés de droit d'Aix et de Paris,university_faculty,licence_droit
+L1912-02056,PICARD,Ecole Polytechnique,grande_ecole,
+L1912-02058,PICUT,lycée Carnot,secondary_lycee,
+L1912-02059,PIERRINI,lycée de Bastia,secondary_lycee,
+L1912-02060,PIETRA,lycée de Toulon,secondary_lycee,licence_droit;baccalaureat
+L1912-02060,PIETRA,lycée Carnot,secondary_lycee,licence_droit;baccalaureat
+L1912-02060,PIETRA,Faculté de droit de Paris,university_faculty,licence_droit;baccalaureat
+L1912-02065,PINHËDE,lycée Jânson-de-Sailly,secondary_lycee,
+L1912-02067,PIQJJOT,Institut médical,institute,diplome_superieur
+L1912-02068,PISANI,lycée de Montpellier,secondary_lycee,licence_droit
+L1912-02068,PISANI,Faculté de droit de Paris,university_faculty,licence_droit
+L1912-02070,PLACE,Institut 'Technologique,institute,
+L1912-02075,PLESSIX,Ecole Polytechnique,grande_ecole,licence_droit
+L1912-02080,POINSSOT,Ecole de Borne,other,licence_droit;diplome_superieur
+L1912-02080,POINSSOT,Ecole des hautes,other,licence_droit;diplome_superieur
+L1912-02081,POINT,lycée de Saint-Etienne,secondary_lycee,
+L1912-02082,POIRSON,Facultés de Médecine de Nancy et de Paris,university_faculty,
+L1912-02083,POIRSON,collège de Lunéville,secondary_college,
+L1912-02083,POIRSON,Faculté de Médecine de Nancy,university_faculty,
+L1912-02084,POIVRE,collège de Bône,secondary_college,baccalaureat
+L1912-02084,POIVRE,lycée Henri,secondary_lycee,baccalaureat
+L1912-02095,PORTE,collège Fesch,secondary_college,
+L1912-02104,POTERIE,lycée d'Angers,secondary_lycee,licence_droit;baccalaureat
+L1912-02104,POTERIE,Faculté de Droit de ' Paris,university_faculty,licence_droit;baccalaureat
+L1912-02106,POULY,Ecole normale,teacher_training,certificat
+L1912-02109,PRADIER,collège de Lorient,secondary_college,
+L1912-02114,PRËVERAUD DE VAUMAS,Institut national agronomique,institute,diplome_superieur
+L1912-02121,PROUST,collège de Chartres,secondary_college,
+L1912-02122,PROUST,lycée de Toulouse,secondary_lycee,baccalaureat
+L1912-02124,PROVENCE,Lycée du,secondary_lycee,
+L1912-02125,PUAUX,Faculté des Lettres de l'Université de Paris,university_faculty,licence_droit;diplome_superieur
+L1912-02125,PUAUX,Ecole des Sciences,other,licence_droit;diplome_superieur
+L1912-02126,PUCH,Ecole de S,other,
+L1912-02130,QUILLIÉ,collège de Clermonl,secondary_college,
+L1912-02131,QUINEL,école normale,teacher_training,brevet_superieur;certificat
+L1912-02132,QUINEL,lycée Carnot,secondary_lycee,
+L1912-02132,QUINEL,collège Alaoui,secondary_college,
+L1912-02132,QUINEL,collège Sadiki,secondary_college,
+L1912-02133,RACINE,Ecole supérieure de Commerce de Marseille,grande_ecole,baccalaureat;diplome_superieur
+L1912-02133,RACINE,Ecole de Commerce,other,baccalaureat;diplome_superieur
+L1912-02134,RADET,lycée de Reims,secondary_lycee,baccalaureat
+L1912-02136,RAGOUNEAU,lycée de Nevers,secondary_lycee,licence_droit;diplome_superieur
+L1912-02136,RAGOUNEAU,"Faculté de droit de Paris, Ecole coloniale (breveté), Ec",university_faculty,licence_droit;diplome_superieur
+L1912-02138,RAMONET,Lycée de M'arbes,secondary_lycee,certificat
+L1912-02140,RANDET,lycée el,secondary_lycee,licence_droit
+L1912-02141,RANDON,lycée Carnot,secondary_lycee,
+L1912-02149,RAVEL,école supérieure de Marseille,grande_ecole,brevet_superieur;certificat
+L1912-02155,RECLUS,collège de Libourne,secondary_college,diplome_superieur
+L1912-02157,REFALO,école des Frères,other,
+L1912-02159,REIBELL,école de guerre,other,
+L1912-02160,REIX,collège de Saint-l'riex,secondary_college,certificat
+L1912-02160,REIX,école normale,teacher_training,certificat
+L1912-02161,REMY,Faculté de Droit de Paris,university_faculty,licence_droit;baccalaureat
+L1912-02162,RENAULT,Ecole des Arts,other,
+L1912-02163,RESFLANDY,Ecole des Beaux-Arts,other,
+L1912-02166,REVERTEGAT,lycée de M'oulon,secondary_lycee,
+L1912-02168,REVOL,lycée de Lyon,secondary_lycee,
+L1912-02168,REVOL,collège Sa,secondary_college,
+L1912-02171,REY,école des Frères,other,diplome_superieur
+L1912-02172,REY,lycée de Conlantine,secondary_lycee,
+L1912-02177,RIBET,lycée Louis-le-Grand,secondary_lycee,licence_droit;diplome_superieur
+L1912-02177,RIBET,"Faculté de Droit, École libre des Sciences politiques",university_faculty,licence_droit;diplome_superieur
+L1912-02177,RIBET,Ecole des Langues,other,licence_droit;diplome_superieur
+L1912-02179,RICHARD-NICOLAS,"Faculté de Droit de Paris, 1",university_faculty,
+L1912-02180,RICHARD-NICOLAS,lycée de Tunis,secondary_lycee,licence_droit;baccalaureat
+L1912-02181,RICHARD,Faculté de théologie de Montauban,university_faculty,licence_droit;baccalaureat
+L1912-02181,RICHARD,Faculté de droit de Lille,university_faculty,licence_droit;baccalaureat
+L1912-02182,RICHARD,Lycée de Marseille,secondary_lycee,licence_droit
+L1912-02182,RICHARD,Faculté de droit d'Aix-e'n-Provence,university_faculty,licence_droit
+L1912-02183,RICKLIN,collège à,secondary_college,licence_droit
+L1912-02184,RIETMANN,lycée de Bordeaux,secondary_lycee,
+L1912-02184,RIETMANN,Institut industriel,institute,
+L1912-02187,RIOLS DE FONCLARE,collège de Pézenas,secondary_college,baccalaureat
+L1912-02188,RIOU,lycée d'Agen,secondary_lycee,baccalaureat
+L1912-02188,RIOU,collège de Mo'issac,secondary_college,baccalaureat
+L1912-02192,ROBAGLIA,collège Fesch,secondary_college,
+L1912-02193,ROBERT,"Faculté de Médecine de Strasbourg, Faculté de Médecine de P",university_faculty,baccalaureat
+L1912-02201,ROLLAND,Ecole Polytechnique,grande_ecole,
+L1912-02202,ROLLAND,collège Alaoui,secondary_college,
+L1912-02202,ROLLAND,école normale,teacher_training,
+L1912-02208,ROQUES,collège de Millau,secondary_college,
+L1912-02211,ROTALIER,Ecole Centrale,grande_ecole,
+L1912-02213,ROUDY,Ecole centrale,grande_ecole,
+L1912-02215,ROUQUIE,lycée de Toulouse,secondary_lycee,doctorat_medecine;baccalaureat
+L1912-02215,ROUQUIE,"Faculté des Sciences de Toulouse, Faculté de Médecine de Tou",university_faculty,doctorat_medecine;baccalaureat
+L1912-02221,ROYER,Collège de Saint-Girons,secondary_college,
+L1912-02223,RUPRICH-ROBERT,lycée Louis-le-Grand,secondary_lycee,baccalaureat
+L1912-02223,RUPRICH-ROBERT,Ecole des Beaux-Arts,other,baccalaureat
+L1912-02223,RUPRICH-ROBERT,Ecole des BeauxArts,other,baccalaureat
+L1912-02224,RUTILY,lycée cle Toulon,secondary_lycee,
+L1912-02224,RUTILY,collège Alaoui,secondary_college,
+L1912-02228,SAADA,Ecole de l,other,licence_droit;baccalaureat
+L1912-02228,SAADA,Faculté de droit d'Aix,university_faculty,licence_droit;baccalaureat
+L1912-02248,SAINT-ROMAS,lycée d'Alger,secondary_lycee,
+L1912-02253,SAKKA,collège Sadiki,secondary_college,certificat
+L1912-02253,SAKKA,lycée Carnot,secondary_lycee,certificat
+L1912-02254,SAKKA,Grande Mosquée,islamic_institution,
+L1912-02255,SAKKA,Grande mosquée,islamic_institution,
+L1912-02257,SAKKAT,collège Sadiki,secondary_college,
+L1912-02257,SAKKAT,lycée Carnot,secondary_lycee,
+L1912-02257,SAKKAT,Khaldounia,islamic_institution,
+L1912-02260,SALIBA,lycée de Marseille,secondary_lycee,
+L1912-02261,SALIÉGE,Ecole de Droit,other,
+L1912-02265,SAMAMA,Lycée Saint-Charles,secondary_lycee,diplome_superieur
+L1912-02266,SAMPERI,lycée italien,secondary_lycee,doctorat_droit;diplome_superieur
+L1912-02269,SANTILLANA,école supérieure de Médecine de Florence,grande_ecole,
+L1912-02270,SANTONI,lycée cle Tunis,secondary_lycee,certificat
+L1912-02270,SANTONI,lycée Carnot,secondary_lycee,certificat
+L1912-02272,SARABUSI,lycée de Constantine,secondary_lycee,licence_droit
+L1912-02272,SARABUSI,Faculté de droit d'Aix,university_faculty,licence_droit
+L1912-02274,SAURIN,collège d'Aixen,secondary_college,
+L1912-02274,SAURIN,Faculté de Droit et des Lettres de Lyon,university_faculty,
+L1912-02274,SAURIN,Lycée Carnot,secondary_lycee,
+L1912-02277,SAVARIAU,Ecole normale,teacher_training,
+L1912-02277,SAVARIAU,Institut agronomique,institute,
+L1912-02277,SAVARIAU,Ecole coloniale,grande_ecole,
+L1912-02279,SAYAH,Grande Mosquée,islamic_institution,diplome_superieur
+L1912-02279,SAYAH,collège Sadiki,secondary_college,diplome_superieur
+L1912-02279,SAYAH,lycée cle Tunis,secondary_lycee,diplome_superieur
+L1912-02279,SAYAH,lycée Carnot,secondary_lycee,diplome_superieur
+L1912-02283,SBRANA,Lycée et,secondary_lycee,doctorat_medecine
+L1912-02284,SBRANA,Ecole supérieure de Médecine vétérinaire,grande_ecole,doctorat_droit;baccalaureat
+L1912-02284,SBRANA,Lycée Carnot,secondary_lycee,doctorat_droit;baccalaureat
+L1912-02284,SBRANA,Faculté des Lettres d'Aix-en-Provence,university_faculty,doctorat_droit;baccalaureat
+L1912-02284,SBRANA,Faculté de Droit d'Aix (un premier el un deuxième prix),university_faculty,doctorat_droit;baccalaureat
+L1912-02284,SBRANA,Lycée cle Tunis,secondary_lycee,doctorat_droit;baccalaureat
+L1912-02285,SCHEMBRI,collège Alaoui,secondary_college,
+L1912-02287,SCHILLING,collège de Bône,secondary_college,
+L1912-02288,SCHLUMBERGER,lycée de Colmar,secondary_lycee,baccalaureat
+L1912-02288,SCHLUMBERGER,lycée Louis-leGrand,secondary_lycee,baccalaureat
+L1912-02288,SCHLUMBERGER,lycée cle Besançon,secondary_lycee,baccalaureat
+L1912-02291,SCIALOM,Ecole de l,other,diplome_superieur
+L1912-02291,SCIALOM,Lycée Carnot,secondary_lycee,diplome_superieur
+L1912-02291,SCIALOM,Institut de,institute,diplome_superieur
+L1912-02292,SCIALOM,Collège royal,secondary_college,licence_droit;baccalaureat
+L1912-02292,SCIALOM,Collège Rolhn,secondary_college,licence_droit;baccalaureat
+L1912-02297,SEBAG,Lycée de Tunis,secondary_lycee,licence_droit;baccalaureat
+L1912-02297,SEBAG,"Faculté de droit, de l'Université de Paris",university_faculty,licence_droit;baccalaureat
+L1912-02301,SÉCHERESSE,collège de Bergerac,secondary_college,agregation
+L1912-02301,SÉCHERESSE,lycée cle Borde,secondary_lycee,agregation
+L1912-02301,SÉCHERESSE,lycée Louis-le-Grand,secondary_lycee,agregation
+L1912-02301,SÉCHERESSE,Faculté des Lettres de Bordeaux el de Paris,university_faculty,agregation
+L1912-02301,SÉCHERESSE,lycée Carnot,secondary_lycee,agregation
+L1912-02311,SEGUIN,Lycée Charlemagne,secondary_lycee,
+L1912-02311,SEGUIN,Collège de Saint-Mihiel,secondary_college,
+L1912-02321,SÉRE,collège Saint-Louis,secondary_college,
+L1912-02323,SERRES,lycée Louis-le-Grand,secondary_lycee,baccalaureat;diplome_superieur
+L1912-02323,SERRES,Faculté des Lettres (Paris),university_faculty,baccalaureat;diplome_superieur
+L1912-02323,SERRES,Faculté des Lettres de Paris,university_faculty,baccalaureat;diplome_superieur
+L1912-02323,SERRES,Institut de,institute,baccalaureat;diplome_superieur
+L1912-02329,SESSELEGO,collège Vanzo,secondary_college,agregation
+L1912-02329,SESSELEGO,lycée Becca,secondary_lycee,agregation
+L1912-02329,SESSELEGO,Facultés de Médecine cle Pise,university_faculty,agregation
+L1912-02332,SFAR,collège Sadiki,secondary_college,
+L1912-02332,SFAR,lycée SaintLouis,secondary_lycee,
+L1912-02333,SFAR,Grande mosquée,islamic_institution,
+L1912-02333,SFAR,école normale,teacher_training,
+L1912-02338,SICAULT,lycée Louis-le-Grand,secondary_lycee,licence_droit;diplome_superieur;certificat
+L1912-02338,SICAULT,Faculté de Droit de Paris,university_faculty,licence_droit;diplome_superieur;certificat
+L1912-02338,SICAULT,Ecole des Langues,other,licence_droit;diplome_superieur;certificat
+L1912-02338,SICAULT,lycée Carnot,secondary_lycee,licence_droit;diplome_superieur;certificat
+L1912-02339,SICRE DE FONTBRUNE,lycée Sainte-Barbe,secondary_lycee,
+L1912-02390,SIMIER,Ecole supérieure indusli'ielle el commerciale,grande_ecole,diplome_superieur
+L1912-02391,SIMONNET,collège de Vitrj'-le-Français,secondary_college,baccalaureat
+L1912-02391,SIMONNET,collège de Provins,secondary_college,baccalaureat
+L1912-02391,SIMONNET,collège de Château-Thierry,secondary_college,baccalaureat
+L1912-02394,SIVAN,Faculté de Droit d'Aix - en - Provence,university_faculty,licence_droit
+L1912-02399,SMADJA,lycée d'Alger,secondary_lycee,brevet_superieur;diplome_superieur
+L1912-02400,SMAJA,lycée Carnot,secondary_lycee,licence_droit;baccalaureat;diplome_superieur
+L1912-02400,SMAJA,Faculté de Droit de Paris,university_faculty,licence_droit;baccalaureat;diplome_superieur
+L1912-02447,SOLAL,Lycée Oarnot,secondary_lycee,
+L1912-02455,SOUCIET,Lycée Fontanes,secondary_lycee,baccalaureat
+L1912-02463,SOULIER,collège Sainte-Bar,secondary_college,baccalaureat
+L1912-02463,SOULIER,Ecole Polytechnique,grande_ecole,baccalaureat
+L1912-02466,SOUTEYRAN,lycée du,secondary_lycee,
+L1912-02470,SPEZZAFUMO,collège Saint-Charles,secondary_college,
+L1912-02470,SPEZZAFUMO,lycée italien,secondary_lycee,
+L1912-02477,STALLA-BOURDILLON,lycée cle Marseille,secondary_lycee,licence_droit;diplome_superieur
+L1912-02477,STALLA-BOURDILLON,"école supérieure de Commerce de Marseille, Fac",grande_ecole,licence_droit;diplome_superieur
+L1912-02477,STALLA-BOURDILLON,Ecole supérieure de Commerce de Marseille»,grande_ecole,licence_droit;diplome_superieur
+L1912-02479,STELLA-COSTA,Ecole normale,teacher_training,
+L1912-02480,STOFATI,collège et,secondary_college,
+L1912-02482,STRESINO,lycée Andréa,secondary_lycee,
+L1912-02483,STRESINO,lycée de Marseille,secondary_lycee,
+L1912-02484,STUREL,lycée de Toulouse,secondary_lycee,baccalaureat
+L1912-02484,STUREL,lycée de Tunis,secondary_lycee,baccalaureat
+L1912-02485,SUCH,Ecole de Pharmacie,other,diplome_superieur
+L1912-02485,SUCH,Institut cic,institute,diplome_superieur
+L1912-02487,SURDON,Ecole normale,teacher_training,brevet_superieur
+L1912-02487,SURDON,Collège Sadiki,secondary_college,brevet_superieur
+L1912-02490,SUSINI,lycée cle Bastia,secondary_lycee,
+L1912-02505,TAHAR,Collège arabe-français,secondary_college,
+L1912-02505,TAHAR,collège Sadiki,secondary_college,
+L1912-02506,TAHAR-BEY,Collège Sadiki,secondary_college,
+L1912-02525,TAYEB,lycée cle Tunis,secondary_lycee,baccalaureat
+L1912-02525,TAYEB,Faculté de Droit d'Aix et de Paris,university_faculty,baccalaureat
+L1912-02541,TERRAILLON,collège de Millau,secondary_college,baccalaureat
+L1912-02541,TERRAILLON,Ecole centrale,grande_ecole,baccalaureat
+L1912-02544,TERRYN,Ecole coloniale,grande_ecole,
+L1912-02552,THELLER,lycée de Constantine,secondary_lycee,
+L1912-02553,THERMES,lycée d'Albi,secondary_lycee,certificat
+L1912-02555,THIBAUDET,lycée de SaintQuentin,secondary_lycee,
+L1912-02555,THIBAUDET,lycée Saint-Louis,secondary_lycee,
+L1912-02555,THIBAUDET,Ecole centrale,grande_ecole,
+L1912-02558,THOMAS,"Faculté des Sciences, à l'Ecole cle Médecine et de Pharmacie",university_faculty,
+L1912-02564,TIBI,lycée Carnot,secondary_lycee,
+L1912-02564,TIBI,Faculté de Droit d'Aix,university_faculty,
+L1912-02566,TIPHAINE,lycée de Lyon,secondary_lycee,
+L1912-02569,TIRET,lycée Carnot,secondary_lycee,baccalaureat;certificat
+L1912-02569,TIRET,lycée Carnôt,secondary_lycee,baccalaureat;certificat
+L1912-02571,TIXIER,Ecole de Pharmacie,other,
+L1912-02573,TLILI,collège Sadiki,secondary_college,
+L1912-02576,TOUCON,lycée de Lyon,secondary_lycee,licence_droit;baccalaureat
+L1912-02587,TREMSAL,lycée de Chaumont,secondary_lycee,
+L1912-02587,TREMSAL,lycée Janson-de-Sailly,secondary_lycee,
+L1912-02589,TRIBAUDEAU,Faculté de Médecine de Paris,university_faculty,
+L1912-02597,TRIDON,Collège Sainte-i,secondary_college,baccalaureat
+L1912-02597,TRIDON,Lycée LouisJe-Grand,secondary_lycee,baccalaureat
+L1912-02598,TRIOLO,Institut d'hygiène,institute,certificat
+L1912-02602,TROUILLET,lycée de Grenoble,secondary_lycee,
+L1912-02604,TULLIER,collège de Blois,secondary_college,baccalaureat;diplome_superieur
+L1912-02604,TULLIER,lycée cle Toulouse,secondary_lycee,baccalaureat;diplome_superieur
+L1912-02604,TULLIER,lycée Saint-Louis,secondary_lycee,baccalaureat;diplome_superieur
+L1912-02617,USANNAZ-JORIS,Faculté de Droit de Paris,university_faculty,doctorat_droit;baccalaureat;diplome_superieur
+L1912-02620,UZAN,lycée Nicolini,secondary_lycee,
+L1912-02622,UZAN,lycée Carnot,secondary_lycee,baccalaureat;certificat
+L1912-02622,UZAN,lycée SaintLouis,secondary_lycee,baccalaureat;certificat
+L1912-02622,UZAN,Institut national agronomique,institute,baccalaureat;certificat
+L1912-02622,UZAN,Institut de,institute,baccalaureat;certificat
+L1912-02623,VACHEROT,lycée Carnot,secondary_lycee,agregation
+L1912-02627,VALENSI,Collège Suint-Charles,secondary_college,doctorat_droit
+L1912-02627,VALENSI,lycée Carnot,secondary_lycee,doctorat_droit
+L1912-02627,VALENSI,Faculté de droit de Montpellier (1900),university_faculty,doctorat_droit
+L1912-02628,VALENSI,collège Saint-Louis,secondary_college,
+L1912-02629,VALENSI,Faculté de Droit de Pa ris,university_faculty,certificat
+L1912-02632,VALENSI,lycée de Marseille,secondary_lycee,licence_droit
+L1912-02632,VALENSI,Faculté de Droit d'Aix-en-Provence,university_faculty,licence_droit
+L1912-02633,VALENSI,lycée Carnot,secondary_lycee,baccalaureat
+L1912-02633,VALENSI,Faculté de Médecine de Montpellier,university_faculty,baccalaureat
+L1912-02635,VALENSI,lycée Carnot,secondary_lycee,licence_droit;doctorat_droit;baccalaureat
+L1912-02635,VALENSI,lycée de Marseille,secondary_lycee,licence_droit;doctorat_droit;baccalaureat
+L1912-02635,VALENSI,Ecole de Droit,other,licence_droit;doctorat_droit;baccalaureat
+L1912-02635,VALENSI,Faculté de Droit et des Lettres d'Aix-en-Provence,university_faculty,licence_droit;doctorat_droit;baccalaureat
+L1912-02636,VALENTIN,lycée de Tunis,secondary_lycee,diplome_superieur
+L1912-02637,VALENTINI,collège Paoli,secondary_college,
+L1912-02640,VALLETTA,Lycée et,secondary_lycee,
+L1912-02641,VALOIS,lycée Carnot,secondary_lycee,licence_droit
+L1912-02641,VALOIS,lycée Thiers,secondary_lycee,licence_droit
+L1912-02641,VALOIS,Faculté de Droit d'Aix,university_faculty,licence_droit
+L1912-02645,VAQUIER,lycée de Toulouse,secondary_lycee,
+L1912-02645,VAQUIER,Faculté des Sciences et de Médecine de Toulouse,university_faculty,
+L1912-02649,VENDEL,lycée cle Caen,secondary_lycee,baccalaureat;diplome_superieur
+L1912-02649,VENDEL,Ecole normale,teacher_training,baccalaureat;diplome_superieur
+L1912-02651,VENTRE,lycée de Marseille,secondary_lycee,baccalaureat
+L1912-02654,VERRIER,lycée Carnot,secondary_lycee,
+L1912-02657,VERSINI,Faculté de Droit de Paris,university_faculty,licence_droit;baccalaureat
+L1912-02661,VIDAL,Collège de Montélimnr,secondary_college,brevet_superieur;certificat
+L1912-02661,VIDAL,école normale,teacher_training,brevet_superieur;certificat
+L1912-02662,VIEU,Ecole Normale,teacher_training,brevet_superieur;certificat
+L1912-02662,VIEU,collège Alaoui,secondary_college,brevet_superieur;certificat
+L1912-02662,VIEU,Ecole de la,other,brevet_superieur;certificat
+L1912-02663,VIGIER,collège de La,secondary_college,
+L1912-02665,VILLATTE,lycée d'Angoulême,secondary_lycee,licence_droit;baccalaureat
+L1912-02665,VILLATTE,Faculté de droit de Poitiers,university_faculty,licence_droit;baccalaureat
+L1912-02665,VILLATTE,Faculté de droit de Paris,university_faculty,licence_droit;baccalaureat
+L1912-02671,VINCENT,lycée Carnot,secondary_lycee,
+L1912-02673,VIOLANTE,lycée de Marseille,secondary_lycee,
+L1912-02674,VIQUIER,Ecole des Mines,grande_ecole,
+L1912-02681,VULLIEN,collège d'Epinal,secondary_college,
+L1912-02681,VULLIEN,Faculté des Sciences de Nancy,university_faculty,
+L1912-02681,VULLIEN,Faculté de Médecine de Bordeaux,university_faculty,
+L1912-02687,WATRIN,Faculté de Droit de Nancy,university_faculty,licence_droit
+L1912-02688,WEBER,collège de Strasbourg,secondary_college,
+L1912-02688,WEBER,école normale,teacher_training,
+L1912-02689,WEISSEN-SZUMLANSKI,lycée de Poitiers,secondary_lycee,baccalaureat
+L1912-02689,WEISSEN-SZUMLANSKI,lycée de Guéret,secondary_lycee,baccalaureat
+L1912-02691,WISSEMANS,Lycée de Troyes,secondary_lycee,
+L1912-02692,WITASSE,collège de Dreux,secondary_college,diplome_superieur
+L1912-02692,WITASSE,Ecole des Sciences,other,diplome_superieur
+L1912-02702,ZAKARIA,collège Sadiki,secondary_college,
+L1912-02703,ZAKARIA,collège Sadiki,secondary_college,certificat
+L1912-02703,ZAKARIA,lycée Carnot,secondary_lycee,certificat
+L1912-02706,ZAMMIT,lycée et,secondary_lycee,certificat
+L1912-02708,ZAOUCHE,collège SaintCharles,secondary_college,diplome_superieur
+L1912-02708,ZAOUCHE,lycée Carnot,secondary_lycee,diplome_superieur
+L1912-02709,ZAOUCHE,collège SaintCharles,secondary_college,licence_droit
+L1912-02709,ZAOUCHE,lycée Carnot,secondary_lycee,licence_droit
+L1912-02709,ZAOUCHE,Faculté de Droit de Paris,university_faculty,licence_droit
+L1912-02710,ZAOUCHE,lycée Carnot,secondary_lycee,
+L1912-02711,ZAOUCHE,lycée Carnot,secondary_lycee,
+L1912-02727,ZARROUK,collège Sadiki,secondary_college,diplome_superieur
+L1912-02727,ZARROUK,collège cle Constantinople,secondary_college,diplome_superieur
+L1912-02743,ZURETTI,collège cle Bône,secondary_college,doctorat_medecine;baccalaureat;diplome_superieur;certificat
+L1912-02743,ZURETTI,lycée cle Conslanline,secondary_lycee,doctorat_medecine;baccalaureat;diplome_superieur;certificat
+L1912-02743,ZURETTI,Ecole centrale,grande_ecole,doctorat_medecine;baccalaureat;diplome_superieur;certificat
+L1912-02743,ZURETTI,Collège Henri,secondary_college,doctorat_medecine;baccalaureat;diplome_superieur;certificat
+L1912-02743,ZURETTI,Institut V,institute,doctorat_medecine;baccalaureat;diplome_superieur;certificat
+L1912-02743,ZURETTI,collège Alaoui,secondary_college,doctorat_medecine;baccalaureat;diplome_superieur;certificat
+L1912-02743,ZURETTI,Lycée Carnot,secondary_lycee,doctorat_medecine;baccalaureat;diplome_superieur;certificat
+L1912-02743,ZURETTI,collège S'-,secondary_college,doctorat_medecine;baccalaureat;diplome_superieur;certificat
+L1912-02743,ZURETTI,collège d'Ajaccio,secondary_college,doctorat_medecine;baccalaureat;diplome_superieur;certificat
+L1912-02743,ZURETTI,école des Mines,grande_ecole,doctorat_medecine;baccalaureat;diplome_superieur;certificat
+L1912-02743,ZURETTI,Ecole polytechnique,grande_ecole,doctorat_medecine;baccalaureat;diplome_superieur;certificat
+L1912-02743,ZURETTI,Institut de,institute,doctorat_medecine;baccalaureat;diplome_superieur;certificat
+L1912-02743,ZURETTI,Lycée national,secondary_lycee,doctorat_medecine;baccalaureat;diplome_superieur;certificat
+L1912-02743,ZURETTI,collège de Genève,secondary_college,doctorat_medecine;baccalaureat;diplome_superieur;certificat
+L1912-02743,ZURETTI,école des Frères,other,doctorat_medecine;baccalaureat;diplome_superieur;certificat
+L1912-02743,ZURETTI,collège de Ponl-l'Evôque,secondary_college,doctorat_medecine;baccalaureat;diplome_superieur;certificat
+L1912-02743,ZURETTI,Institut do,institute,doctorat_medecine;baccalaureat;diplome_superieur;certificat

@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+title: >-
+  Lambert 1912: a dataset of the colonial elite of Tunisia
+message: >-
+  If you use this dataset, please cite both this repository and the source
+  volume it was built from.
+type: dataset
+authors:
+  - family-names: Hammami
+    given-names: Mohamed Dhia
+    email: mhammami@syr.edu
+repository-code: https://github.com/MedDhia/Lambert1912ElitesTN
+abstract: >-
+  Machine-readable tables built from Paul Lambert's Dictionnaire illustre de la
+  Tunisie: choses et gens de Tunisie (Tunis, 1912), an illustrated who's-who and
+  gazetteer of the French Protectorate. Covers 1,307 biographical notices, 736
+  localities and 159 associations, with individual attributes, career sequences,
+  French and beylical honours, and the affiliation ties linking people to
+  associations, public bodies and places. Built from the BnF/Gallica ALTO OCR of
+  ark:/12148/bpt6k5505300s.
+keywords:
+  - Tunisia
+  - French Protectorate
+  - colonial elites
+  - prosopography
+  - social network analysis
+  - historical text mining
+license: MIT
+references:
+  - type: book
+    title: >-
+      Dictionnaire illustre de la Tunisie: choses et gens de Tunisie
+    authors:
+      - family-names: Lambert
+        given-names: Paul
+    year: 1912
+    publisher:
+      name: C. Saliba aine
+    location:
+      name: Tunis
+    url: https://gallica.bnf.fr/ark:/12148/bpt6k5505300s
+    notes: Digitised by the Bibliotheque nationale de France.

@@ -1,0 +1,8 @@
+# The ALTO OCR cache (~76 MB) and the intermediate line stream are both
+# regenerable: `make data` refetches from Gallica, `make all` rebuilds the rest.
+data/raw/
+data/interim/
+
+__pycache__/
+*.pyc
+.DS_Store
