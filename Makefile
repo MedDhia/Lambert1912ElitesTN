@@ -33,8 +33,10 @@ example: data/processed/network_edges.csv
 	$(PYTHON) examples/quickstart.py
 
 ## clean-derived: drop everything rebuildable from the ALTO cache
+## (source_manifest.json is kept: it is written by the fetch stage, not rebuilt)
 clean-derived:
-	rm -rf data/interim data/processed docs/validation_report.md
+	rm -rf data/interim docs/validation_report.md
+	rm -f data/processed/*.csv
 
 ## clean: also drop the ~76 MB ALTO cache (forces a re-download)
 clean: clean-derived
