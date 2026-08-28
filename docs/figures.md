@@ -131,6 +131,23 @@ Two further conventions:
   from a CSV in `data/processed/`, which is the table view; bar charts label
   their tips directly rather than making the reader measure against a grid.
 
+### Reproducibility
+
+Rendered output is committed, so a figure that draws differently on each run
+produces a spurious diff every time the figures are rebuilt — and if the varying
+thing feeds a caption, the figure states a different fact each time. Both
+happened here before the rule below existed: `fig28` drew its edges in a set's
+iteration order, and `fig32` picked "the broker holding fewest ties" with `min`
+over a set, naming Nestler on some runs and Vendel on others.
+
+**Never let a set's iteration order reach the output.** Sort it. Where nodes are
+ranked by a score, go through `_networks.ranked`, which sorts on
+`(-score, node id)` so ties break on something stable rather than on the
+interpreter's hash seed. `tests/test_figure_determinism.py` enforces this: it
+unit-tests the ordering rule and fails the build if a figure ranks betweenness
+inline. Both checks are standard-library only, so they run in the ordinary test
+suite without installing the plotting dependencies.
+
 Figures inherit every limitation of the dataset — see `docs/validation_report.md`.
 Two matter most when reading them: coverage is Lambert's coverage, not a
 population, and an absent value (no honour named, no occupation coded) means the

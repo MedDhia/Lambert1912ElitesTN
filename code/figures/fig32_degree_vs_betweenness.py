@@ -21,12 +21,11 @@ names = N.display_names()
 
 betweenness = nx.betweenness_centrality(giant)
 degree = dict(giant.degree())
-# Ordered, with the node id as a final tiebreak, and a set kept only for the
-# membership test. Iterating a set here would order the drawing by hash seed,
-# and -- far worse -- `min` below would break the tie between the two four-tie
-# brokers differently from run to run, so the subtitle would name a different
-# person each time the figure was rebuilt.
-brokers = sorted(betweenness, key=lambda n: (-betweenness[n], n))[:20]
+# Ordered via N.ranked, with a set kept only for the membership test. Iterating
+# a set here would order the drawing by hash seed, and -- far worse -- `min`
+# below would break the tie between the two four-tie brokers differently from
+# run to run, so the subtitle would name a different person on each rebuild.
+brokers = N.ranked(betweenness, n=20)
 broker_set = set(brokers)
 rest = [n for n in giant if n not in broker_set]
 

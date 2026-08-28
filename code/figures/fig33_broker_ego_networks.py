@@ -19,7 +19,7 @@ names = N.display_names()
 betweenness = nx.betweenness_centrality(giant)
 
 people = [n for n in giant if giant.nodes[n]["kind"] == "person"]
-brokers = sorted(people, key=lambda n: (-betweenness[n], n))[:4]
+brokers = N.ranked(betweenness, among=people, n=4)
 
 fig, axes = S.plt.subplots(1, 4, figsize=(9.6, 3.8))
 # Room at the foot for the legend, which otherwise lands below the source line.

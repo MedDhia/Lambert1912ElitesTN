@@ -37,14 +37,14 @@ for members, colour, name in (
 # Each label carries its node's radius so the label's backing patch clears the
 # mark instead of covering the biggest ones.
 sizes = dict(zip(list(giant), S.betweenness_sizes(betweenness, list(giant))))
-top = sorted(betweenness, key=lambda n: (-betweenness[n], n))[:12]
+top = N.ranked(betweenness, n=12)
 labelled = S.annotate_nodes(
     ax, [(pos[n], N.pretty(n, names, labels), (sizes[n] / 3.1416) ** 0.5)
          for n in top], width=18)
 ax.legend(loc="upper left", bbox_to_anchor=(-0.02, 1.0), scatterpoints=1)
 
 zero = sum(1 for n in giant if betweenness[n] == 0)
-brokers = sorted(people, key=lambda n: (-betweenness[n], n))[:3]
+brokers = N.ranked(betweenness, among=people, n=3)
 S.titles(
     ax,
     "Brokerage is far more concentrated than membership",
