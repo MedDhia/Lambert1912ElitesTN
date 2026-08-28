@@ -18,7 +18,7 @@ jobs:
 
       # The pipeline is standard library only, so there is nothing to install.
       - name: Compile every module
-        run: python -m compileall -q src examples tests
+        run: python -m compileall -q code tests
 
       # Unit tests cover the parsing rules; the dataset tests check the
       # committed CSVs join, stay inside their documented value domains, and
@@ -29,9 +29,9 @@ jobs:
 
       - name: Regenerate the validation report and check it is up to date
         run: |
-          python src/validate.py
+          python code/pipeline/validate.py
           git diff --exit-code -- docs/validation_report.md \
             || { echo "::error::docs/validation_report.md is stale — run 'make validate' and commit"; exit 1; }
 
       - name: Smoke-test the example
-        run: python examples/quickstart.py > /dev/null
+        run: python code/examples/quickstart.py > /dev/null

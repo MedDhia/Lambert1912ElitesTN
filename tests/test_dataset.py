@@ -173,6 +173,84 @@ class TestTypedTables(DatasetTestCase):
                     self.assertTrue(r["population"].isdigit())
 
 
+class TestInterpretiveLayer(DatasetTestCase):
+    """The coded community and gender tables.
+
+    These code what the page implies rather than what it says, so the tests hold
+    them to the discipline the codebook promises: a closed vocabulary, evidence
+    on every classified row, and silence where the volume is silent.
+    """
+
+    @classmethod
+    def setUpClass(cls):
+        super().setUpClass()
+        cls.communities = load("person_communities.csv")
+        cls.genders = load("person_gender.csv")
+
+    def test_every_person_is_coded_exactly_once(self):
+        person_ids = {p["entry_id"] for p in self.persons}
+        for table in (self.communities, self.genders):
+            ids = [r["entry_id"] for r in table]
+            self.assertEqual(len(ids), len(person_ids))
+            self.assertEqual(set(ids), person_ids)
+
+    def test_community_vocabulary_is_closed(self):
+        self.assertLessEqual(
+            {r["community"] for r in self.communities},
+            {"european_french", "european_italian", "european_maltese",
+             "european_other", "tunisian_muslim", "tunisian_jewish", "unknown"},
+        )
+        self.assertLessEqual(
+            {r["community_group"] for r in self.communities},
+            {"european", "tunisian", "unknown"},
+        )
+
+    def test_group_follows_from_community(self):
+        for r in self.communities:
+            with self.subTest(entry=r["entry_id"]):
+                expected = ("unknown" if r["community"] == "unknown"
+                            else r["community"].split("_")[0])
+                self.assertEqual(r["community_group"], expected)
+
+    def test_gender_vocabulary_is_closed(self):
+        self.assertLessEqual({r["gender"] for r in self.genders},
+                             {"MALE", "FEMALE", "UNKNOWN"})
+
+    def test_a_classification_always_carries_its_evidence(self):
+        for r in self.communities:
+            with self.subTest(entry=r["entry_id"]):
+                if r["community"] != "unknown":
+                    self.assertTrue(r["evidence"], "classified with no evidence")
+                    self.assertIn(r["confidence"], {"high", "medium", "low"})
+        for r in self.genders:
+            with self.subTest(entry=r["entry_id"]):
+                if r["gender"] != "UNKNOWN":
+                    self.assertTrue(r["gender_evidence"])
+
+    def test_unknown_carries_no_confidence(self):
+        for r in self.communities:
+            if r["community"] == "unknown":
+                self.assertEqual(r["confidence"], "")
+        for r in self.genders:
+            if r["gender"] == "UNKNOWN":
+                self.assertEqual(r["gender_confidence"], "")
+
+    def test_nobody_is_classified_from_a_surname_alone(self):
+        # The evidence vocabulary contains no surname rule, by design.
+        vocabulary = {
+            e for r in self.communities for e in r["evidence"].split(";") if e
+        }
+        self.assertFalse({e for e in vocabulary if "surname" in e})
+
+    def test_the_volume_contains_the_eleven_women_found_by_hand(self):
+        # Each was verified against its page image; the count is a finding about
+        # the source, and a regression here means the rules drifted.
+        women = [r["surname"] for r in self.genders if r["gender"] == "FEMALE"]
+        self.assertEqual(len(women), 11, f"expected 11 women, got {women}")
+        self.assertIn("EIGENSCHENCK", women)
+        self.assertIn("VIALAR", women)
+
+
 class TestNetwork(DatasetTestCase):
     @classmethod
     def setUpClass(cls):

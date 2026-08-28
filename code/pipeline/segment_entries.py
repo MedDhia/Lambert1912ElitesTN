@@ -32,7 +32,7 @@ import pathlib
 import re
 import unicodedata
 
-ROOT = pathlib.Path(__file__).resolve().parents[1]
+ROOT = pathlib.Path(__file__).resolve().parents[2]
 INTERIM = ROOT / "data" / "interim"
 
 # The dictionary proper: printed pages 1-468 == IIIF views 25-492. Views 1-24
