@@ -61,6 +61,19 @@ The pipeline in `src/` remains standard-library-only; nothing in
 | 19 | `fig19_community_composition` | European and Tunisian communities in the volume |
 | 20 | `fig20_honours_by_community` | Honours and portraits across the two communities |
 | 21 | `fig21_women_in_the_record` | Every notice as one mark; the eleven women |
+| 22 | `fig22_occupations_by_community` | Near-identical occupational profiles |
+| 23 | `fig23_education_by_community` | Where each community was schooled |
+| 24 | `fig24_community_mixing` | Co-membership across communities, against chance |
+| 25 | `fig25_network_by_community` | The affiliation network, coloured by community |
+
+**Honours, and the record itself**
+
+| | Figure | What it shows |
+|---|---|---|
+| 26 | `fig26_honour_cooccurrence` | Which orders were held together |
+| 27 | `fig27_awarding_states` | Sixteen awarding authorities; two that matter |
+| 28 | `fig28_landowners_and_localities` | Named landowners, and how few have a notice |
+| 29 | `fig29_ocr_and_recovery` | Field recovery against OCR confidence |
 
 ## Design notes
 
@@ -73,6 +86,13 @@ re-checked with the palette validator rather than eyeballed:
 | Network node classes | all-pairs (scatter forms cap at 3) | PASS |
 | Four-part stacked bar | adjacent pairs | PASS, contrast WARN on aqua/yellow |
 | Ordered categories | ordinal ramp | PASS |
+| Sequential magnitude (fig. 26 matrix) | single hue, light to dark | PASS |
+
+Three of the four categorical slots are the ceiling for a scatter or network
+form, which is why fig. 25 draws the associations as hollow rings rather than
+taking a fourth hue: the three person classes are the only fills in the plot.
+Where a null model is shown beside an observation (fig. 24), the null takes the
+de-emphasis grey rather than a hue — it is a benchmark, not a series.
 
 Where the validator returns a contrast warning, those segments carry direct
 labels — the "relief" the warning obliges. Sequential magnitude uses one hue,
