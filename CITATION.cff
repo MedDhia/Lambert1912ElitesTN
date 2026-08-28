@@ -10,13 +10,18 @@ authors:
     given-names: Mohamed Dhia
     email: mhammami@syr.edu
 repository-code: https://github.com/MedDhia/Lambert1912ElitesTN
+version: 1.0.0
+date-released: 2026-08-28
 abstract: >-
   Machine-readable tables built from Paul Lambert's Dictionnaire illustre de la
   Tunisie: choses et gens de Tunisie (Tunis, 1912), an illustrated who's-who and
   gazetteer of the French Protectorate. Covers 1,307 biographical notices, 736
   localities and 159 associations, with individual attributes, career sequences,
   French and beylical honours, and the affiliation ties linking people to
-  associations, public bodies and places. Built from the BnF/Gallica ALTO OCR of
+  associations, public bodies and places. Adds an interpretive layer coding each
+  notice by community (European or Tunisian) and gender from the entry's own
+  evidence, never from a surname, and exports each person's position in the
+  affiliation and co-membership networks. Built from the BnF/Gallica ALTO OCR of
   ark:/12148/bpt6k5505300s.
 keywords:
   - Tunisia
