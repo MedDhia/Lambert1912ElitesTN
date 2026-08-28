@@ -14,6 +14,13 @@ The second is the one that matters, so it is the one tested here. These tests
 need neither matplotlib nor networkx: the ordering rule is deliberately plain
 data manipulation over a dict, so it can be checked in the standard-library
 test suite that CI already runs.
+
+That last point is why the rule lives in `_ordering.py` rather than in
+`_networks.py`. The first version of this file imported `_networks`, which
+imports networkx at module level, and CI -- which installs no plotting
+dependencies -- could not import the test at all. `test_the_rule_needs_no_
+plotting_dependencies` below pins the separation so it cannot be undone by
+someone tidying the two modules back together.
 """
 
 from __future__ import annotations
@@ -26,7 +33,7 @@ import unittest
 FIGURES = pathlib.Path(__file__).resolve().parents[1] / "code" / "figures"
 sys.path.insert(0, str(FIGURES))
 
-import _networks as N  # noqa: E402
+import _ordering as O  # noqa: E402
 
 
 class TestRankingIsTotal(unittest.TestCase):
@@ -34,33 +41,33 @@ class TestRankingIsTotal(unittest.TestCase):
 
     def test_orders_by_score_descending(self):
         scores = {"b": 0.5, "a": 0.9, "c": 0.1}
-        self.assertEqual(N.ranked(scores), ["a", "b", "c"])
+        self.assertEqual(O.ranked(scores), ["a", "b", "c"])
 
     def test_breaks_ties_by_node_id_not_insertion_order(self):
         # The real case: two nodes scoring identically. Whichever order the
         # caller's dict happens to be built in, the answer must be the same.
         forwards = {"vendel": 0.089, "nestler": 0.089, "gounot": 0.161}
         backwards = {"nestler": 0.089, "vendel": 0.089, "gounot": 0.161}
-        self.assertEqual(N.ranked(forwards), ["gounot", "nestler", "vendel"])
-        self.assertEqual(N.ranked(forwards), N.ranked(backwards))
+        self.assertEqual(O.ranked(forwards), ["gounot", "nestler", "vendel"])
+        self.assertEqual(O.ranked(forwards), O.ranked(backwards))
 
     def test_truncation_is_stable_across_a_tie_at_the_boundary(self):
         # A tie straddling the cut is the nastiest case: an unstable sort could
         # include a different node in the top N on different runs.
         scores = {"a": 1.0, "b": 0.5, "c": 0.5, "d": 0.5, "e": 0.1}
-        self.assertEqual(N.ranked(scores, n=3), ["a", "b", "c"])
+        self.assertEqual(O.ranked(scores, n=3), ["a", "b", "c"])
         for _ in range(50):
-            self.assertEqual(N.ranked(dict(reversed(list(scores.items()))), n=3),
+            self.assertEqual(O.ranked(dict(reversed(list(scores.items()))), n=3),
                              ["a", "b", "c"])
 
     def test_among_restricts_candidates_without_disturbing_the_order(self):
         scores = {"a": 0.9, "b": 0.5, "c": 0.1}
-        self.assertEqual(N.ranked(scores, among=["c", "b"]), ["b", "c"])
+        self.assertEqual(O.ranked(scores, among=["c", "b"]), ["b", "c"])
 
     def test_accepts_a_set_of_candidates_and_still_orders_deterministically(self):
         # Callers may hand in a set; `ranked` must not inherit its disorder.
         scores = {"a": 0.5, "b": 0.5, "c": 0.5}
-        self.assertEqual(N.ranked(scores, among={"c", "a", "b"}), ["a", "b", "c"])
+        self.assertEqual(O.ranked(scores, among={"c", "a", "b"}), ["a", "b", "c"])
 
 
 class TestFiguresRouteRankingThroughTheHelper(unittest.TestCase):
@@ -112,9 +119,36 @@ class TestFiguresRouteRankingThroughTheHelper(unittest.TestCase):
             path = FIGURES / name
             with self.subTest(figure=name):
                 self.assertTrue(path.exists(), f"{name} is missing")
+                # The figures reach it as N.ranked, re-exported by _networks.
                 self.assertIn("N.ranked(", path.read_text(encoding="utf-8"),
                               f"{name} selects nodes by betweenness but does not "
                               "order them through _networks.ranked")
+
+
+class TestTheRuleStaysImportableWithoutPlotting(unittest.TestCase):
+    """CI installs no plotting dependencies, so this suite must not need them.
+
+    An earlier version of this file imported `_networks`, which imports networkx
+    at module level. Every test here failed to load on CI while passing locally,
+    where networkx happens to be installed. Keeping the rule in its own module is
+    the fix; this keeps it kept.
+    """
+
+    def test_the_rule_needs_no_plotting_dependencies(self):
+        source = (FIGURES / "_ordering.py").read_text(encoding="utf-8")
+        for forbidden in ("networkx", "matplotlib", "numpy", "scipy", "_style",
+                          "_networks"):
+            with self.subTest(module=forbidden):
+                self.assertNotIn(
+                    f"import {forbidden}", source,
+                    f"_ordering.py imports {forbidden}; it must stay standard "
+                    "library only so the test suite can load it without the "
+                    "figure dependencies installed",
+                )
+
+    def test_this_test_module_does_not_import_networks(self):
+        source = pathlib.Path(__file__).read_text(encoding="utf-8")
+        self.assertNotIn("\nimport _networks", source)
 
 
 if __name__ == "__main__":

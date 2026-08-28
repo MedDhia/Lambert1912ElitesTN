@@ -141,12 +141,15 @@ iteration order, and `fig32` picked "the broker holding fewest ties" with `min`
 over a set, naming Nestler on some runs and Vendel on others.
 
 **Never let a set's iteration order reach the output.** Sort it. Where nodes are
-ranked by a score, go through `_networks.ranked`, which sorts on
-`(-score, node id)` so ties break on something stable rather than on the
-interpreter's hash seed. `tests/test_figure_determinism.py` enforces this: it
-unit-tests the ordering rule and fails the build if a figure ranks betweenness
-inline. Both checks are standard-library only, so they run in the ordinary test
-suite without installing the plotting dependencies.
+ranked by a score, go through `ranked`, which sorts on `(-score, node id)` so
+ties break on something stable rather than on the interpreter's hash seed.
+`tests/test_figure_determinism.py` enforces this: it unit-tests the ordering
+rule and fails the build if a figure ranks betweenness inline.
+
+The rule lives in `_ordering.py` and is re-exported by `_networks.py`, so the
+figures reach it as `N.ranked`. The split is deliberate and tested: `_ordering`
+imports nothing outside the standard library, which is what lets the test suite
+load it on CI, where the plotting dependencies are not installed.
 
 Figures inherit every limitation of the dataset — see `docs/validation_report.md`.
 Two matter most when reading them: coverage is Lambert's coverage, not a
