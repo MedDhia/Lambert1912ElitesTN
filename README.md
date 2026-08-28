@@ -33,6 +33,7 @@ service; no page is scraped from the reading interface.
 | Network nodes / edges | 4,008 / 3,865 |
 | Persons with a coded community | 825 of 1,307 |
 | Persons with a coded gender | 1,126 of 1,307 (11 women) |
+| Person nodes with exported network measures | 1,134 |
 
 Lambert's preface states his own totals — "more than 1,300" biographies, "more
 than 750" localities, "more than 175" societies, 420 portraits. The pipeline
@@ -103,6 +104,8 @@ code/pipeline/            the pipeline, each stage runnable on its own
   build_networks.py       records -> mentions, ties, nodes and edges
   code_communities.py     interpretive layer: European / Tunisian community
   code_gender.py          interpretive layer: gender
+  graph_metrics.py        centrality in pure Python (no dependencies)
+  network_measures.py     -> data/processed/person_network_measures.csv
   compare_populations.py  -> output/tables/comparison_tables.md
   validate.py             -> docs/validation_report.md
 code/figures/             33 figure scripts, one per figure, plus _style.py and _networks.py
@@ -127,6 +130,7 @@ promised. (The figures in `code/figures/` are the exception and have their own
 make all        # fetch, build, segment, extract, network, code, compare, validate
 make coding     # just the interpretive layer (community, gender)
 make compare    # -> output/tables/comparison_tables.md
+make measures   # -> data/processed/person_network_measures.csv
 make test       # parsing-rule unit tests + dataset integrity checks
 make data       # just the download (~20 min, polite to Gallica, resumable)
 python3 code/pipeline/extract_records.py   # re-run one stage after editing

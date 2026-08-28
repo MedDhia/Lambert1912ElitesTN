@@ -44,5 +44,11 @@ jobs:
           git diff --exit-code -- output/tables/comparison_tables.md \
             || { echo "::error::output/tables/comparison_tables.md is stale — run 'make compare' and commit"; exit 1; }
 
+      - name: Regenerate the network measures and check they are up to date
+        run: |
+          python code/pipeline/network_measures.py > /dev/null
+          git diff --exit-code -- data/processed/person_network_measures.csv \
+            || { echo "::error::data/processed/person_network_measures.csv is stale — run 'make measures' and commit"; exit 1; }
+
       - name: Smoke-test the example
         run: python code/examples/quickstart.py > /dev/null
