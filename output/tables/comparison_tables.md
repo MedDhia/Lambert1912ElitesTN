@@ -43,7 +43,7 @@ Persons with a notice, a coded community and a place in the giant component: **n
 | + degree, closeness, clustering (standardised) | 0.352 | 0.152 | 2.31 |
 
 - Zero brokerage: 48.1% of Tunisians, 57.8% of Europeans in the component.
-- Permutation test on mean log brokerage (20,000 draws): difference +0.252, p = 0.2504
+- Permutation test on mean log brokerage (20,000 draws): difference +0.252, p = 0.2499
 
 ## 4. Gender
 

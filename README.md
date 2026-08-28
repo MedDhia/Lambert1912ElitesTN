@@ -33,6 +33,7 @@ service; no page is scraped from the reading interface.
 | Network nodes / edges | 4,008 / 3,865 |
 | Persons with a coded community | 825 of 1,307 |
 | Persons with a coded gender | 1,126 of 1,307 (11 women) |
+| Person nodes with network measures | 1,134 (556 with a notice) |
 
 Lambert's preface states his own totals — "more than 1,300" biographies, "more
 than 750" localities, "more than 175" societies, 420 portraits. The pipeline
@@ -70,6 +71,10 @@ makes it usable for questions such as:
 - **Colonial space.** Localities carry both administrative geographies —
   *contrôle civil* and *caïdat* — plus infrastructure mentions and named
   landowners, which link individuals to specific rural properties.
+- **Network position as a variable.** `person_network_measures.csv` gives each
+  person's degree, betweenness, closeness and clustering in both the two-mode
+  affiliation network and its one-mode projection, with the component they sit
+  in, so structure can go straight into a model without rebuilding the graph.
 - **The volume as an object of study.** Entry length, portrait presence, and the
   editorial rubrics are measures of the compiler's own hierarchy of attention.
 - **Comparing the communities the Protectorate governed separately.**
@@ -103,9 +108,12 @@ code/pipeline/            the pipeline, each stage runnable on its own
   build_networks.py       records -> mentions, ties, nodes and edges
   code_communities.py     interpretive layer: European / Tunisian community
   code_gender.py          interpretive layer: gender
+  graph_metrics.py        centrality in pure Python (no dependencies)
+  network_measures.py     -> data/processed/person_network_measures.csv
   compare_populations.py  -> output/tables/comparison_tables.md
   validate.py             -> docs/validation_report.md
-code/figures/             29 figure scripts, one per figure, plus _style.py
+code/figures/             33 figure scripts, one per figure, plus the shared
+                          _style.py, _networks.py and _ordering.py
 code/examples/quickstart.py   descriptive tables and network summaries, stdlib only
 data/raw/                 ALTO XML cache (git-ignored, ~76 MB, re-fetchable)
 data/interim/             line stream and segmented entries (git-ignored)
@@ -118,12 +126,16 @@ tests/                    parsing-rule unit tests and dataset integrity checks
 
 ## Rebuilding from source
 
-Python 3.11+, standard library only — no third-party dependencies.
+Python 3.11+, standard library only — no third-party dependencies. CI runs every
+stage on a runner with nothing installed, so that is enforced rather than
+promised. (The figures in `code/figures/` are the exception and have their own
+`requirements.txt`; nothing there is needed to build or use the dataset.)
 
 ```sh
-make all        # fetch, build, segment, extract, network, code, compare, validate
+make all        # fetch, build, segment, extract, network, code, measure, compare, validate
 make coding     # just the interpretive layer (community, gender)
 make compare    # -> output/tables/comparison_tables.md
+make measures   # -> data/processed/person_network_measures.csv
 make test       # parsing-rule unit tests + dataset integrity checks
 make data       # just the download (~20 min, polite to Gallica, resumable)
 python3 code/pipeline/extract_records.py   # re-run one stage after editing
@@ -132,6 +144,21 @@ python3 code/pipeline/extract_records.py   # re-run one stage after editing
 Each stage caches its output, so re-running after a change to one rule costs
 seconds rather than a re-download. `data/raw/` and `data/interim/` are
 git-ignored; `make all` regenerates everything in `data/processed/` bit for bit.
+
+Rebuilding is reproducible in a strict sense. From the cached OCR, every
+committed artefact — all sixteen CSVs, the source manifest, the validation
+report and the comparison tables — comes back byte for byte, in about 50
+seconds. The figures do too, in both PNG and PDF. Nothing that reaches an
+output is ordered by a dictionary or a set, so a rebuild does not shuffle its
+own results, and a diff under `data/processed/` or `output/` always signals a
+real change rather than rebuild noise.
+
+CI enforces the part it can reach. It has neither the 76 MB OCR cache nor the
+plotting packages, so it regenerates the three stages that need only the
+committed CSVs — the validation report, the comparison tables and
+`person_network_measures.csv` — and fails if any differs from what is
+committed. The core tables and the figures are checked the same way, but by
+hand before a commit rather than by the runner.
 
 ## Using the network files
 
@@ -145,7 +172,11 @@ G = nx.Graph()
 for n in csv.DictReader(open("data/processed/network_nodes.csv")):
     G.add_node(n["node_id"], **n)
 for e in csv.DictReader(open("data/processed/network_edges.csv")):
-    if e["edge_type"] == "affiliation" and e["resolution"] != "ambiguous":
+    # startswith, not != "ambiguous": there are two ambiguous resolutions,
+    # `ambiguous` and `ambiguous_fuzzy`, and both mean the same thing — the
+    # surname matched more than one person, so the tie names nobody in
+    # particular. Testing only the first would readmit 27 unresolved ties.
+    if e["edge_type"] == "affiliation" and not e["resolution"].startswith("ambiguous"):
         G.add_edge(e["source"], e["target"], role=e["role"])
 ```
 
@@ -153,15 +184,23 @@ The affiliation network is two-mode (people × organisations). Prefer analysing
 it as such; `edges_person_person.csv` offers a one-mode projection for
 convenience, with large membership rolls excluded.
 
+If all you need is each person's position rather than the graph itself,
+`person_network_measures.csv` already carries degree, betweenness, closeness and
+clustering for both networks, computed within each node's component and flagged
+for whether that component is the giant one. Read the codebook entry first: the
+measures are not comparable across components, and a blank there means the
+person is absent from that network, which is not the same as a score of zero.
+
 `code/examples/quickstart.py` reproduces a set of descriptive tables and network
 summaries using only the standard library.
 
 ## Figures
 
-`code/figures/` holds 29 descriptive, exploratory and comparative figures — birth cohorts,
+`code/figures/` holds 33 descriptive, exploratory and comparative figures — birth cohorts,
 occupational composition, the two honours systems and how they overlap,
 associational life, the affiliation network and its co-membership projection,
-career transitions, the two communities compared, and a check on whether the OCR
+career transitions, the two communities compared, who brokers between otherwise
+unconnected parts of the network, and a check on whether the OCR
 is what limits the dataset — one script and one output file each, in PNG and PDF. See
 [`docs/figures.md`](docs/figures.md) for the index and the design notes.
 
@@ -170,8 +209,8 @@ pip install -r requirements.txt
 make figures
 ```
 
-Matplotlib and NetworkX are needed for the figures only; the pipeline itself
-stays standard-library-only.
+Matplotlib, NetworkX and SciPy are needed for the figures only; the pipeline
+itself stays standard-library-only.
 
 ## Provenance and verification
 
@@ -181,6 +220,12 @@ tie carries an `evidence` snippet. Segmentation and classification decisions are
 recorded per row (`segmentation_rule`, `classification_rule`) rather than
 discarded, so the dataset can be audited and re-coded rather than taken on
 trust.
+
+`make test` runs 108 checks in five files: the parsing rules are pinned to the
+OCR strings that once broke them, the committed tables are checked for joins and
+documented value domains, the counts are held against Lambert's own preface
+figures, and the derived measures are checked against the edge lists they come
+from. They need no network access and no third-party packages.
 
 ## Licence and citation
 

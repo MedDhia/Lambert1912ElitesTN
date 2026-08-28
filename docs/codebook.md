@@ -292,6 +292,60 @@ each other. Note that this projection is a derived convenience — the two-mode
 edge list is the primary object, and most affiliation-network methods should be
 run on that instead.
 
+## person_network_measures.csv
+
+Each person's position in the two networks, so that network structure can be
+used as a variable without rebuilding the graphs. One row per person node
+appearing in either network — 1,134 nodes, of which 556 have a notice of their
+own and the rest are people named only inside someone else's entry.
+
+| variable | type | definition |
+|---|---|---|
+| `node_id` | string | Person node id, joins to `network_nodes.csv`. |
+| `label` | string | Display name. |
+| `entry_id` | string | The person's own notice, blank if they have none. |
+| `has_notice` | 0/1 | Whether `entry_id` is filled. |
+| `affil_degree` | integer | Distinct bodies the person is recorded in. |
+| `affil_component_size` | integer | Nodes in their component of the two-mode graph, people *and* bodies. |
+| `affil_in_giant` | 0/1 | Whether that component is the largest. |
+| `affil_betweenness` | float | Normalised betweenness within their component. |
+| `affil_closeness` | float | Closeness (Wasserman–Faust) within their component. |
+| `comem_degree` | integer | Distinct people they share a body with. |
+| `comem_component_size` | integer | Nodes in their component of the projection. |
+| `comem_in_giant` | 0/1 | Whether that component is the largest (745 nodes). |
+| `comem_betweenness` | float | Normalised betweenness within their component. |
+| `comem_closeness` | float | Closeness within their component. |
+| `comem_clustering` | float | Local clustering coefficient. |
+
+Four things to know before using these columns.
+
+**`affil_` and `comem_` are different graphs.** `affil_` is the two-mode people ×
+bodies network, where paths run person → body → person, so betweenness measures
+brokerage *between organisations*. `comem_` is the one-mode projection, which is
+the graph the comparison tables model; its giant-component values are identical
+to the ones that stage computes.
+
+**Every measure is computed inside the node's own component**, because
+centrality is undefined across components. `*_component_size` is exported so
+that comparing a score from a three-node component with one from the giant — a
+meaningless comparison — is at least a visible one. Most uses should filter on
+`*_in_giant`.
+
+**Blank is not zero.** A person absent from a network has no score there; a
+person present in it with a score of 0 brokers nothing. The file keeps the two
+apart, and so should any analysis: reading blanks as zeros invents 578 people
+with measured-but-null positions.
+
+**No `affil_clustering`.** A two-mode graph has no triangles, so it would be
+zero for every row.
+
+Both graphs are taken exactly as the published edge lists give them. Ties
+resolved only ambiguously are included, as they are in those files and in the
+comparison tables. The betweenness *figures* additionally drop
+generically-named organisation nodes — see `code/figures/_networks.py` — and
+that filter is deliberately not applied here, so this table stays a faithful
+function of its inputs rather than of a figure's editorial choice.
+
 ## network_nodes.csv / network_edges.csv
 
 A single node and edge table for Gephi, igraph, or NetworkX, combining the

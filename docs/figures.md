@@ -75,6 +75,20 @@ The pipeline in `code/pipeline/` remains standard-library-only; nothing in
 | 28 | `fig28_landowners_and_localities` | Named landowners, and how few have a notice |
 | 29 | `fig29_ocr_and_recovery` | Field recovery against OCR confidence |
 
+**Brokerage**
+
+Figures 14, 15 and 25 size nodes by degree, which finds the big bodies. These
+four size by betweenness, which finds the people the network would fall apart
+without. They share `_networks.py`, which also documents why a handful of
+generically-named organisation nodes are excluded from them.
+
+| | Figure | What it shows |
+|---|---|---|
+| 30 | `fig30_broker_affiliation_network` | Two-mode network, area linear in betweenness |
+| 31 | `fig31_broker_comembership_by_community` | The same for co-membership, coloured by community |
+| 32 | `fig32_degree_vs_betweenness` | What betweenness adds to degree, and what it does not |
+| 33 | `fig33_broker_ego_networks` | The bodies four brokers alone hold together |
+
 ## Design notes
 
 Colours come from a validated reference palette, and the subsets used here were
@@ -87,6 +101,15 @@ re-checked with the palette validator rather than eyeballed:
 | Four-part stacked bar | adjacent pairs | PASS, contrast WARN on aqua/yellow |
 | Ordered categories | ordinal ramp | PASS |
 | Sequential magnitude (fig. 26 matrix) | single hue, light to dark | PASS |
+
+Node **area** is linear in betweenness wherever it encodes it, so a mark twice
+the area brokers twice the paths. The scale is deliberately not square-rooted:
+two thirds of the nodes sit on no shortest path at all, and a compressing
+transform would flatter those zeroes into looking like small positive values.
+A floor size keeps them visible as points without pretending they broker
+anything. Because marks then vary hugely in size, `annotate_nodes` takes each
+label's clearance from its own mark's radius — at a fixed offset a label's
+backing patch covers the very node it names.
 
 Three of the four categorical slots are the ceiling for a scatter or network
 form, which is why fig. 25 draws the associations as hollow rings rather than
@@ -107,6 +130,35 @@ Two further conventions:
 - **No value is reachable only by looking at a colour.** Every figure is drawn
   from a CSV in `data/processed/`, which is the table view; bar charts label
   their tips directly rather than making the reader measure against a grid.
+
+### Reproducibility
+
+Rendered output is committed, so a figure that draws differently on each run
+produces a spurious diff every time the figures are rebuilt — and if the varying
+thing feeds a caption, the figure states a different fact each time. Both
+happened here before the rule below existed: `fig28` drew its edges in a set's
+iteration order, and `fig32` picked "the broker holding fewest ties" with `min`
+over a set, naming Nestler on some runs and Vendel on others.
+
+**Never let a set's iteration order reach the output.** Sort it. Where nodes are
+ranked by a score, go through `ranked`, which sorts on `(-score, node id)` so
+ties break on something stable rather than on the interpreter's hash seed.
+`tests/test_figure_determinism.py` enforces this: it unit-tests the ordering
+rule and fails the build if a figure ranks betweenness inline.
+
+The rule lives in `_ordering.py` and is re-exported by `_networks.py`, so the
+figures reach it as `N.ranked`. The split is deliberate and tested: `_ordering`
+imports nothing outside the standard library, which is what lets the test suite
+load it on CI, where the plotting dependencies are not installed.
+
+The same concern applies to the files themselves. Matplotlib's PDF backend
+stamps the current time into `/CreationDate`, so an otherwise identical rebuild
+rewrote all 33 PDFs and every commit carried a binary diff that meant nothing;
+`_style.save` passes `metadata={"CreationDate": None}` to suppress it. Both
+formats now reproduce byte for byte on a given machine, so a diff in
+`output/figures/` means the figure actually changed. The one piece of varying
+metadata left is `/Producer`, which records the Matplotlib version — that
+*should* change when the library does.
 
 Figures inherit every limitation of the dataset — see `docs/validation_report.md`.
 Two matter most when reading them: coverage is Lambert's coverage, not a

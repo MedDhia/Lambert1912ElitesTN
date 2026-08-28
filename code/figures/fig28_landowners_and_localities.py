@@ -80,7 +80,10 @@ ax.set_aspect("equal")
 ax.set_axis_off()
 for node, neighbours in adjacency.items():
     x0, y0 = cell_positions[node]
-    for other in neighbours:
+    # sorted(), not the raw set: set order over string tuples varies with the
+    # interpreter's hash seed, so the segments would be drawn in a different
+    # order on every run and the PNG would never reproduce byte for byte.
+    for other in sorted(neighbours):
         x1, y1 = cell_positions[other]
         ax.plot([x0, x1], [y0, y1], color=S.GRID, linewidth=0.7, zorder=1)
 

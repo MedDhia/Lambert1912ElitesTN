@@ -3,7 +3,7 @@ CODE := code/pipeline
 
 .PHONY: all data text entries records networks coding compare validate test figures clean clean-derived
 
-all: validate compare
+all: validate compare measures
 
 ## data: download the BnF ALTO OCR and the IIIF manifest (cached, resumable)
 data:
@@ -32,9 +32,16 @@ data/processed/person_communities.csv: $(CODE)/code_communities.py data/processe
 data/processed/person_gender.csv: $(CODE)/code_gender.py data/processed/person_communities.csv
 	$(PYTHON) $(CODE)/code_gender.py
 
+## measures: each person's position in the two networks, as dataset columns
+measures: data/processed/person_network_measures.csv
+data/processed/person_network_measures.csv: $(CODE)/network_measures.py \
+		$(CODE)/graph_metrics.py data/processed/network_edges.csv
+	$(PYTHON) $(CODE)/network_measures.py
+
 ## compare: population comparison tables
 compare: output/tables/comparison_tables.md
-output/tables/comparison_tables.md: $(CODE)/compare_populations.py data/processed/person_gender.csv
+output/tables/comparison_tables.md: $(CODE)/compare_populations.py \
+		$(CODE)/graph_metrics.py data/processed/person_gender.csv
 	$(PYTHON) $(CODE)/compare_populations.py > /dev/null
 
 validate: docs/validation_report.md
