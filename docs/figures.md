@@ -151,6 +151,15 @@ figures reach it as `N.ranked`. The split is deliberate and tested: `_ordering`
 imports nothing outside the standard library, which is what lets the test suite
 load it on CI, where the plotting dependencies are not installed.
 
+The same concern applies to the files themselves. Matplotlib's PDF backend
+stamps the current time into `/CreationDate`, so an otherwise identical rebuild
+rewrote all 33 PDFs and every commit carried a binary diff that meant nothing;
+`_style.save` passes `metadata={"CreationDate": None}` to suppress it. Both
+formats now reproduce byte for byte on a given machine, so a diff in
+`output/figures/` means the figure actually changed. The one piece of varying
+metadata left is `/Producer`, which records the Matplotlib version — that
+*should* change when the library does.
+
 Figures inherit every limitation of the dataset — see `docs/validation_report.md`.
 Two matter most when reading them: coverage is Lambert's coverage, not a
 population, and an absent value (no honour named, no occupation coded) means the

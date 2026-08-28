@@ -274,6 +274,10 @@ def save(fig, name: str, note: str = "") -> None:
     # include it, so the note never forces a reserved band of empty surface.
     fig.text(0.008, -0.012, footer, ha="left", va="top", fontsize=7, color=INK_MUTED)
     for ext in ("png", "pdf"):
-        fig.savefig(OUT / f"{name}.{ext}")
+        # The PDF backend stamps the current time into /CreationDate, so an
+        # otherwise identical rebuild rewrote all 33 PDFs and every commit
+        # carried a binary diff that meant nothing. Passing None omits the key.
+        metadata = {"CreationDate": None} if ext == "pdf" else None
+        fig.savefig(OUT / f"{name}.{ext}", metadata=metadata)
     plt.close(fig)
     print(f"  wrote output/figures/{name}.png / .pdf")
