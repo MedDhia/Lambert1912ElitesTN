@@ -23,8 +23,8 @@ volume is a record of who the colonial elite counted as notable, and it counted
 almost no women. The coding below recovers the handful it does contain. That
 number is a finding about the source, and it is far too small to support the
 regression apparatus the gender-and-networks literature applies to modern elite
-data -- see `docs/gender_analysis.md`, which states which models are estimable
-here and which are not.
+data -- see `docs/comparison_tables.md`, which states which models are
+estimable here and which are not.
 
 Output: data/processed/person_gender.csv, one row per person.
 """
