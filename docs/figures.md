@@ -1,9 +1,8 @@
 # Figures
 
-Descriptive, exploratory and comparative figures over the dataset in
-`data/processed/`. One
-script per figure, one output file per figure, written to `output/figures/` as
-**PNG** (for reading) and **PDF** (vector, for inclusion in a paper).
+Thirty-three descriptive, exploratory and comparative figures over the dataset in
+`data/processed/`. One script per figure, each writing two files to
+`output/figures/`: a **PNG** to read and a **PDF** to place in a paper.
 
 ```sh
 pip install -r requirements.txt
@@ -16,78 +15,98 @@ The pipeline in `code/pipeline/` remains standard-library-only; nothing in
 
 ## The figures
 
+Each row below is the figure's own claim, not a description of its chart type —
+the same title it carries when rendered. Figures are grouped by subject; the
+numbers are filenames and run in the order the figures were written.
+
 **Who they were**
 
-| | Figure | What it shows |
+| | Figure | The claim |
 |---|---|---|
-| 1 | `fig01_birth_cohorts` | Birth decades: half the volume was born in the 1860s–70s |
-| 2 | `fig02_occupations` | Occupational composition — a service elite |
-| 3 | `fig03_age_at_settlement` | Age on arrival in Tunisia (median 27) |
-| 4 | `fig04_settlement_timeline` | Arrivals by five-year period, against 1881 |
-| 5 | `fig05_education` | Institutions named in the ETUDES rubric |
-| 6 | `fig06_attention` | Entry length by whether the entry carries a portrait |
+| 1 | `fig01_birth_cohorts` | Half the volume was born in the 1860s and 1870s |
+| 2 | `fig02_occupations` | A service elite: soldiers, officials, lawyers and doctors first |
+| 3 | `fig03_age_at_settlement` | They arrived young — a career made in the Protectorate, not brought to it |
+| 4 | `fig04_settlement_timeline` | Arrivals track the Protectorate, not the conquest |
+| 5 | `fig05_education` | A French secondary education is the common credential |
+| 6 | `fig06_attention` | A portrait comes with roughly twice the words |
 
 **Status and honours**
 
-| | Figure | What it shows |
+| | Figure | The claim |
 |---|---|---|
-| 7 | `fig07_honour_systems` | French vs beylical recognition, mutually exclusive groups |
-| 8 | `fig08_honour_grades` | Grade structure within each order |
-| 9 | `fig09_honours_by_sector` | Dumbbell: which sectors each state decorates |
-| 10 | `fig10_attention_and_honours` | Entry length by number of honours |
+| 7 | `fig07_honour_systems` | The Bey's order reaches four times as many people as the Légion d'honneur |
+| 8 | `fig08_honour_grades` | The beylical order is granted freely at the middle grades |
+| 9 | `fig09_honours_by_sector` | Both states decorate office-holders and soldiers; only the Bey decorates traders |
+| 10 | `fig10_attention_and_honours` | More honours, more column inches — the volume ranks as the state ranks |
+| 26 | `fig26_honour_cooccurrence` | The Bey's order accompanies the French ones; it does not replace them |
+| 27 | `fig27_awarding_states` | Two states did the decorating; sixteen awarding authorities appear in all |
 
 **Colonial geography and associational life**
 
-| | Figure | What it shows |
+| | Figure | The claim |
 |---|---|---|
-| 11 | `fig11_localities_by_controle` | Localities per *contrôle civil* |
-| 12 | `fig12_association_founding` | Cumulative foundings, 1860–1912 |
-| 13 | `fig13_association_kinds` | What kind of bodies they were |
+| 11 | `fig11_localities_by_controle` | Coverage follows the colonial administration, and thickens around Tunis |
+| 12 | `fig12_association_founding` | Associational life is a creation of the Protectorate's second generation |
+| 13 | `fig13_association_kinds` | Chambers, mutual aid and professional bodies dominate the associational field |
+| 28 | `fig28_landowners_and_localities` | The named owners of the land are mostly not the people in the book |
 
 **Networks**
 
-| | Figure | What it shows |
+| | Figure | The claim |
 |---|---|---|
-| 14 | `fig14_affiliation_network` | Two-mode people × bodies, largest component |
-| 15 | `fig15_comembership_backbone` | One-mode co-membership core |
-| 16 | `fig16_degree_distribution` | Rank–size of affiliation degree, log-log |
-| 17 | `fig17_top_bodies_roles` | Role composition of the best-recorded bodies |
-| 18 | `fig18_career_transitions` | Sector-to-sector moves in career sequences |
+| 14 | `fig14_affiliation_network` | One connected elite: two thirds of all affiliation ties form a single component |
+| 15 | `fig15_comembership_backbone` | Four in five committee-sharers sit in a single connected core |
+| 16 | `fig16_degree_distribution` | A few bodies carry the network; almost everyone belongs to one thing |
+| 17 | `fig17_top_bodies_roles` | Mostly office-holders — except where the volume prints a membership roll |
+| 18 | `fig18_career_transitions` | Careers move between the army, the administration and the courts |
 
-**Populations compared**
+**The two communities compared**
 
-| | Figure | What it shows |
+| | Figure | The claim |
 |---|---|---|
-| 19 | `fig19_community_composition` | European and Tunisian communities in the volume |
-| 20 | `fig20_honours_by_community` | Honours and portraits across the two communities |
-| 21 | `fig21_women_in_the_record` | Every notice as one mark; the eleven women |
-| 22 | `fig22_occupations_by_community` | Near-identical occupational profiles |
-| 23 | `fig23_education_by_community` | Where each community was schooled |
-| 24 | `fig24_community_mixing` | Co-membership across communities, against chance |
-| 25 | `fig25_network_by_community` | The affiliation network, coloured by community |
-
-**Honours, and the record itself**
-
-| | Figure | What it shows |
-|---|---|---|
-| 26 | `fig26_honour_cooccurrence` | Which orders were held together |
-| 27 | `fig27_awarding_states` | Sixteen awarding authorities; two that matter |
-| 28 | `fig28_landowners_and_localities` | Named landowners, and how few have a notice |
-| 29 | `fig29_ocr_and_recovery` | Field recovery against OCR confidence |
+| 19 | `fig19_community_composition` | Four Europeans recorded for every Tunisian |
+| 20 | `fig20_honours_by_community` | Recognition does not divide along the colonial line |
+| 21 | `fig21_women_in_the_record` | Eleven women in a volume of 1,307 notables |
+| 22 | `fig22_occupations_by_community` | The two communities are recorded in much the same trades |
+| 23 | `fig23_education_by_community` | The Islamic institutions educate Tunisians only — the French ones educate both |
+| 24 | `fig24_community_mixing` | Europeans and Tunisians belonged to the same bodies less often than chance |
+| 25 | `fig25_network_by_community` | Tunisian notables sit inside the network, not on its rim |
 
 **Brokerage**
 
 Figures 14, 15 and 25 size nodes by degree, which finds the big bodies. These
-four size by betweenness, which finds the people the network would fall apart
-without. They share `_networks.py`, which also documents why a handful of
-generically-named organisation nodes are excluded from them.
+four size by betweenness, which finds the people the network would come apart
+without — a different question, and a different answer. They share
+`_networks.py` for graph construction and `_ordering.py` for ranking.
 
-| | Figure | What it shows |
+| | Figure | The claim |
 |---|---|---|
-| 30 | `fig30_broker_affiliation_network` | Two-mode network, area linear in betweenness |
-| 31 | `fig31_broker_comembership_by_community` | The same for co-membership, coloured by community |
-| 32 | `fig32_degree_vs_betweenness` | What betweenness adds to degree, and what it does not |
-| 33 | `fig33_broker_ego_networks` | The bodies four brokers alone hold together |
+| 30 | `fig30_broker_affiliation_network` | Brokerage is far more concentrated than membership |
+| 31 | `fig31_broker_comembership_by_community` | The brokers are not all Europeans |
+| 32 | `fig32_degree_vs_betweenness` | Degree mostly predicts brokerage — and misses the people who matter most |
+| 33 | `fig33_broker_ego_networks` | Take one person out and these bodies stop touching |
+
+These four exclude sixteen organisation nodes whose printed name is a bare
+common noun ("Société", "Municipalité") and which therefore merge bodies the
+volume never distinguishes — 48 of the 1,639 ties these figures read, under 3%.
+Betweenness does not merely blur across such a merge; it invents a path and then
+rewards whatever sits on it.
+`_networks.py` documents the rule and its limits.
+
+That filter is why the figures' numbers differ slightly from
+`data/processed/person_network_measures.csv`, which exports the same measures
+for every person from the *unfiltered* edge lists, so that the dataset stays a
+function of its published inputs rather than of a figure's editorial choice. Use
+the exported columns for modelling; read these figures for the shape.
+
+**The record as an object of study**
+
+| | Figure | The claim |
+|---|---|---|
+| 29 | `fig29_ocr_and_recovery` | OCR quality is not what limits the dataset |
+
+Figures 6 and 10 belong here too, and are listed above only because entry length
+is easier to read beside the attributes it tracks.
 
 ## Design notes
 

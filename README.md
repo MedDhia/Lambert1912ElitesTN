@@ -221,11 +221,12 @@ recorded per row (`segmentation_rule`, `classification_rule`) rather than
 discarded, so the dataset can be audited and re-coded rather than taken on
 trust.
 
-`make test` runs 108 checks in five files: the parsing rules are pinned to the
+`make test` runs 113 checks in six files: the parsing rules are pinned to the
 OCR strings that once broke them, the committed tables are checked for joins and
 documented value domains, the counts are held against Lambert's own preface
-figures, and the derived measures are checked against the edge lists they come
-from. They need no network access and no third-party packages.
+figures, the derived measures are checked against the edge lists they come from,
+and the figure index is checked against the titles the figures actually render.
+They need no network access and no third-party packages.
 
 ## Licence and citation
 
