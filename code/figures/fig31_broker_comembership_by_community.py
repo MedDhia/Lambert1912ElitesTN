@@ -44,7 +44,7 @@ for key in ("unknown", "european", "tunisian"):
 sizes = dict(zip(list(giant), S.betweenness_sizes(betweenness, list(giant))))
 labelled = S.annotate_nodes(
     ax, [(pos[n], N.pretty(n, names), (sizes[n] / 3.1416) ** 0.5)
-         for n in sorted(betweenness, key=lambda n: -betweenness[n])[:10]], width=16)
+         for n in sorted(betweenness, key=lambda n: (-betweenness[n], n))[:10]], width=16)
 ax.legend(loc="upper left", bbox_to_anchor=(-0.01, 1.0), scatterpoints=1)
 
 

@@ -21,8 +21,14 @@ names = N.display_names()
 
 betweenness = nx.betweenness_centrality(giant)
 degree = dict(giant.degree())
-brokers = set(sorted(betweenness, key=lambda n: -betweenness[n])[:20])
-rest = [n for n in giant if n not in brokers]
+# Ordered, with the node id as a final tiebreak, and a set kept only for the
+# membership test. Iterating a set here would order the drawing by hash seed,
+# and -- far worse -- `min` below would break the tie between the two four-tie
+# brokers differently from run to run, so the subtitle would name a different
+# person each time the figure was rebuilt.
+brokers = sorted(betweenness, key=lambda n: (-betweenness[n], n))[:20]
+broker_set = set(brokers)
+rest = [n for n in giant if n not in broker_set]
 
 # The median at each degree is the "typical" node with that many ties. Degrees
 # with fewer than five nodes are dropped: a median of two points is not one.
@@ -44,7 +50,7 @@ ax.scatter([degree[n] for n in brokers], [betweenness[n] for n in brokers],
            label=f"The {len(brokers)} highest-betweenness nodes")
 
 # Name the brokers holding fewest ties -- the ones a degree ranking would miss.
-fewest = sorted(brokers, key=lambda n: degree[n])[:8]
+fewest = sorted(brokers, key=lambda n: (degree[n], -betweenness[n], n))[:8]
 placed = S.annotate_nodes(
     ax, [((degree[n], betweenness[n]), N.pretty(n, names, labels)) for n in fewest],
     fontsize=7, width=17)
@@ -62,7 +68,7 @@ correlation = sum((a - mx) * (b - my) for a, b in zip(xs, ys)) / math.sqrt(
     sum((a - mx) ** 2 for a in xs) * sum((b - my) ** 2 for b in ys))
 small = sum(1 for n in brokers if degree[n] < 10)
 # The example has to be one of the marked nodes, or the reader cannot find it.
-leanest = min(brokers, key=lambda n: degree[n])
+leanest = min(brokers, key=lambda n: (degree[n], -betweenness[n], n))
 typical_at = statistics.median(by_degree[degree[leanest]])
 
 S.titles(
