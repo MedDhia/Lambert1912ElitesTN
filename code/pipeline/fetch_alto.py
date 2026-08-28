@@ -34,7 +34,7 @@ USER_AGENT = (
     "https://github.com/MedDhia/Lambert1912ElitesTN)"
 )
 
-ROOT = pathlib.Path(__file__).resolve().parents[1]
+ROOT = pathlib.Path(__file__).resolve().parents[2]
 RAW = ROOT / "data" / "raw"
 ALTO_DIR = RAW / "alto"
 # Committed, because it is a fact about the source rather than about whoever

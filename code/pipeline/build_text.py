@@ -25,7 +25,7 @@ import re
 import statistics
 import xml.etree.ElementTree as ET
 
-ROOT = pathlib.Path(__file__).resolve().parents[1]
+ROOT = pathlib.Path(__file__).resolve().parents[2]
 ALTO_DIR = ROOT / "data" / "raw" / "alto"
 INTERIM = ROOT / "data" / "interim"
 

@@ -32,7 +32,7 @@ import re
 import unicodedata
 from collections import Counter, defaultdict
 
-ROOT = pathlib.Path(__file__).resolve().parents[1]
+ROOT = pathlib.Path(__file__).resolve().parents[2]
 PROCESSED = ROOT / "data" / "processed"
 ARK = "bpt6k5505300s"
 PAGE_URL = "https://gallica.bnf.fr/ark:/12148/" + ARK + "/f{view}.item"

@@ -3,7 +3,7 @@
 Standard library only, so it runs anywhere Python does. Everything here is meant
 to be read as much as run: it shows which columns answer which kind of question.
 
-    python3 examples/quickstart.py
+    python3 code/examples/quickstart.py
 """
 
 from __future__ import annotations
@@ -13,7 +13,7 @@ import csv
 import itertools
 import pathlib
 
-ROOT = pathlib.Path(__file__).resolve().parents[1]
+ROOT = pathlib.Path(__file__).resolve().parents[2]
 DATA = ROOT / "data" / "processed"
 
 

@@ -29,7 +29,7 @@ advertisements and the preface; 493–494 the endpapers. The mapping is exact:
 
 ## 2. From ALTO to a readable line stream
 
-`src/build_text.py`. Four problems had to be solved before the text was usable.
+`code/pipeline/build_text.py`. Four problems had to be solved before the text was usable.
 
 **Encoding.** The ALTO files declare `ISO-8859-1` but are UTF-8. Decoding by the
 declaration turns every accented character into mojibake.
@@ -63,7 +63,7 @@ units down a column, which is the same order of magnitude as the indent itself.
 
 ## 3. Segmenting entries
 
-`src/segment_entries.py`. Lambert indents the first line of every paragraph, and
+`code/pipeline/segment_entries.py`. Lambert indents the first line of every paragraph, and
 long association entries run to several paragraphs — so an indent marks a
 paragraph, not necessarily an entry. Separating the two uses the one structural
 property a dictionary guarantees, alphabetical order:
@@ -96,7 +96,7 @@ inside an entry.
 
 ## 4. Coding the entries
 
-`src/extract_records.py`. Lambert writes to three templates:
+`code/pipeline/extract_records.py`. Lambert writes to three templates:
 
 ```
 SURNAME (Forenames), <birth date>, <birthplace>, <honours>. <occupation>,
@@ -136,7 +136,7 @@ Nothing is imputed. A field that could not be read is empty.
 
 ## 5. Building ties
 
-`src/build_networks.py`. Three tie sources, of unequal quality, and the source is
+`code/pipeline/build_networks.py`. Three tie sources, of unequal quality, and the source is
 recorded on every edge:
 
 1. **Officer lists inside association entries** — explicit, role-bearing, current

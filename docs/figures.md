@@ -2,16 +2,16 @@
 
 Descriptive, exploratory and comparative figures over the dataset in
 `data/processed/`. One
-script per figure, one output file per figure, written to `figures/output/` as
+script per figure, one output file per figure, written to `output/figures/` as
 **PNG** (for reading) and **PDF** (vector, for inclusion in a paper).
 
 ```sh
-pip install -r figures/requirements.txt
+pip install -r requirements.txt
 make figures                       # render all of them
-cd figures && python3 fig07_honour_systems.py   # or just one
+cd code/figures && python3 fig07_honour_systems.py   # or just one
 ```
 
-The pipeline in `src/` remains standard-library-only; nothing in
+The pipeline in `code/pipeline/` remains standard-library-only; nothing in
 `requirements.txt` is needed to build or use the dataset itself.
 
 ## The figures

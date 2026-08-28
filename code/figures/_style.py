@@ -15,7 +15,7 @@ re-checked with the palette validator before being written down:
 Every figure is also backed by a table: the CSV it reads is in data/processed/,
 so no value is reachable only by looking at a colour.
 
-Figures are written to figures/output/ as PNG (for reading) and PDF (vector, for
+Figures are written to output/figures/ as PNG (for reading) and PDF (vector, for
 inclusion in a paper).
 """
 
@@ -30,9 +30,9 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402
 
-ROOT = pathlib.Path(__file__).resolve().parents[1]
+ROOT = pathlib.Path(__file__).resolve().parents[2]
 DATA = ROOT / "data" / "processed"
-OUT = ROOT / "figures" / "output"
+OUT = ROOT / "output" / "figures"
 
 # --- palette ---------------------------------------------------------------
 SURFACE = "#fcfcfb"
@@ -251,4 +251,4 @@ def save(fig, name: str, note: str = "") -> None:
     for ext in ("png", "pdf"):
         fig.savefig(OUT / f"{name}.{ext}")
     plt.close(fig)
-    print(f"  wrote figures/output/{name}.png / .pdf")
+    print(f"  wrote output/figures/{name}.png / .pdf")

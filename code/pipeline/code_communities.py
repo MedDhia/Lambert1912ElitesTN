@@ -59,7 +59,7 @@ import pathlib
 import re
 import unicodedata
 
-ROOT = pathlib.Path(__file__).resolve().parents[1]
+ROOT = pathlib.Path(__file__).resolve().parents[2]
 PROCESSED = ROOT / "data" / "processed"
 
 # --- gazetteers -------------------------------------------------------------
