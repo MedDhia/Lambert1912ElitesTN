@@ -118,7 +118,10 @@ tests/                    parsing-rule unit tests and dataset integrity checks
 
 ## Rebuilding from source
 
-Python 3.11+, standard library only — no third-party dependencies.
+Python 3.11+, standard library only — no third-party dependencies. CI runs every
+stage on a runner with nothing installed, so that is enforced rather than
+promised. (The figures in `code/figures/` are the exception and have their own
+`requirements.txt`; nothing there is needed to build or use the dataset.)
 
 ```sh
 make all        # fetch, build, segment, extract, network, code, compare, validate
