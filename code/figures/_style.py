@@ -202,13 +202,21 @@ def annotate_nodes(ax, items, fontsize=7.5, width=20) -> int:
     A label that overlaps another label is worse than no label, so each one is
     measured against those already placed and dropped if no offset is free. The
     node stays in the plot either way -- only its name is withheld.
+
+    An item is `(position, label)`, or `(position, label, clearance)` where
+    clearance is the mark's radius in points. Pass it whenever marks vary in
+    size: the label sits on a fixed offset otherwise, which on a large mark
+    means the label's own background patch covers the very node it names.
     """
     fig = ax.figure
     fig.canvas.draw()
     renderer = fig.canvas.get_renderer()
     placed = []
-    offsets = [(0, 11), (0, -13), (16, 4), (-16, 4), (0, 22), (0, -24), (26, -10)]
-    for (x, y), label in items:
+    for item in items:
+        (x, y), label = item[0], item[1]
+        gap = item[2] if len(item) > 2 else 0.0
+        offsets = [(0, 11 + gap), (0, -13 - gap), (16 + gap, 4), (-16 - gap, 4),
+                   (0, 22 + gap), (0, -24 - gap), (26 + gap, -10)]
         text = shorten(label, width)
         for dx, dy in offsets:
             ann = ax.annotate(
@@ -223,6 +231,23 @@ def annotate_nodes(ax, items, fontsize=7.5, width=20) -> int:
             placed.append(box)
             break
     return len(placed)
+
+
+def betweenness_sizes(betweenness, nodes, floor: float = 7.0, ceiling: float = 520.0):
+    """Marker areas linear in betweenness, so area reads as share of paths brokered.
+
+    Both Matplotlib's `s` and NetworkX's `node_size` are areas, so a linear map
+    from the value to the area is the one that lets a reader compare two marks
+    by eye and be right.
+
+    The scale is deliberately not square-rooted. Betweenness in this network is
+    extremely concentrated -- most nodes sit on no shortest path at all -- and a
+    compressing transform would flatter the many zeroes into looking like small
+    positive values. The floor keeps a zero-betweenness node visible as a point
+    without pretending it brokers anything.
+    """
+    top = max(betweenness.values()) or 1.0
+    return [floor + (ceiling - floor) * (betweenness[n] / top) for n in nodes]
 
 
 def on_color(fill: str) -> str:

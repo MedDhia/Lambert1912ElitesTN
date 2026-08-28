@@ -75,6 +75,20 @@ The pipeline in `code/pipeline/` remains standard-library-only; nothing in
 | 28 | `fig28_landowners_and_localities` | Named landowners, and how few have a notice |
 | 29 | `fig29_ocr_and_recovery` | Field recovery against OCR confidence |
 
+**Brokerage**
+
+Figures 14, 15 and 25 size nodes by degree, which finds the big bodies. These
+four size by betweenness, which finds the people the network would fall apart
+without. They share `_networks.py`, which also documents why a handful of
+generically-named organisation nodes are excluded from them.
+
+| | Figure | What it shows |
+|---|---|---|
+| 30 | `fig30_broker_affiliation_network` | Two-mode network, area linear in betweenness |
+| 31 | `fig31_broker_comembership_by_community` | The same for co-membership, coloured by community |
+| 32 | `fig32_degree_vs_betweenness` | What betweenness adds to degree, and what it does not |
+| 33 | `fig33_broker_ego_networks` | The bodies four brokers alone hold together |
+
 ## Design notes
 
 Colours come from a validated reference palette, and the subsets used here were
@@ -87,6 +101,15 @@ re-checked with the palette validator rather than eyeballed:
 | Four-part stacked bar | adjacent pairs | PASS, contrast WARN on aqua/yellow |
 | Ordered categories | ordinal ramp | PASS |
 | Sequential magnitude (fig. 26 matrix) | single hue, light to dark | PASS |
+
+Node **area** is linear in betweenness wherever it encodes it, so a mark twice
+the area brokers twice the paths. The scale is deliberately not square-rooted:
+two thirds of the nodes sit on no shortest path at all, and a compressing
+transform would flatter those zeroes into looking like small positive values.
+A floor size keeps them visible as points without pretending they broker
+anything. Because marks then vary hugely in size, `annotate_nodes` takes each
+label's clearance from its own mark's radius — at a fixed offset a label's
+backing patch covers the very node it names.
 
 Three of the four categorical slots are the ceiling for a scatter or network
 form, which is why fig. 25 draws the associations as hollow rings rather than

@@ -105,7 +105,7 @@ code/pipeline/            the pipeline, each stage runnable on its own
   code_gender.py          interpretive layer: gender
   compare_populations.py  -> output/tables/comparison_tables.md
   validate.py             -> docs/validation_report.md
-code/figures/             29 figure scripts, one per figure, plus _style.py
+code/figures/             33 figure scripts, one per figure, plus _style.py and _networks.py
 code/examples/quickstart.py   descriptive tables and network summaries, stdlib only
 data/raw/                 ALTO XML cache (git-ignored, ~76 MB, re-fetchable)
 data/interim/             line stream and segmented entries (git-ignored)
@@ -158,10 +158,11 @@ summaries using only the standard library.
 
 ## Figures
 
-`code/figures/` holds 29 descriptive, exploratory and comparative figures — birth cohorts,
+`code/figures/` holds 33 descriptive, exploratory and comparative figures — birth cohorts,
 occupational composition, the two honours systems and how they overlap,
 associational life, the affiliation network and its co-membership projection,
-career transitions, the two communities compared, and a check on whether the OCR
+career transitions, the two communities compared, who brokers between otherwise
+unconnected parts of the network, and a check on whether the OCR
 is what limits the dataset — one script and one output file each, in PNG and PDF. See
 [`docs/figures.md`](docs/figures.md) for the index and the design notes.
 
