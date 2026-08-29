@@ -134,23 +134,44 @@ MUSLIM_OFFICE = re.compile(
     r"medjless|conseil\s+mixte\s+immobilier.{0,30}musulman",
     re.IGNORECASE,
 )
+# "Sadiki" must carry its school word. Bare `sadiki` matched three other things
+# in this volume, none of them a school: the Tunis street "rue Es-Sadikia", the
+# hopital Sadiki (where the people named are French doctors on its staff), and
+# the Ecole des Auxiliaires medicaux attached to it. It coded 32 people, most of
+# them European traders with a shop address, as Tunisian Muslims at high
+# confidence. The school words below are exact: all 48 people they reach were
+# coded Tunisian on other evidence too.
 ISLAMIC_SCHOOL = re.compile(
     r"khaldounia|grande\s+mosqu[ée]e|zitouna|djama[\s-]?ez[\s-]?zitouna|medersa|"
-    r"coll[èe]ge\s+sadiki|sadiki", re.IGNORECASE,
+    r"(?:coll[èe]ge|[ée]coles?|lyc[ée]e)\s+sadiki\b", re.IGNORECASE,
 )
 JEWISH_OFFICE = re.compile(
     r"\brabbin|grand[\s-]rabbin|communaut[ée]\s+isra[ée]lite|culte\s+isra[ée]lite|"
     r"caisse\s+de\s+secours\s+isra[ée]lite|h[oô]pital\s+isra[ée]lite|"
     r"alliance\s+isra[ée]lite|[ée]coles?\s+de\s+l[’']alliance|talmud", re.IGNORECASE,
 )
-DESCRIBED_JEWISH = re.compile(r"\bisra[ée]lite\b", re.IGNORECASE)
-DESCRIBED_MUSLIM = re.compile(r"\bmusulman", re.IGNORECASE)
+# There is no `DESCRIBED_JEWISH` or `DESCRIBED_MUSLIM` rule, and there was one.
+# `\bisra[ée]lite` and `\bmusulman` were read as descriptions of the person, but
+# in this volume the words almost never describe anybody: they name a newspaper
+# ("Es Sabah", "La Justice"), a book the person wrote ("La Domination musulmane
+# en Sicile", "La litterature populaire des Israelites tunisiens"), a field of
+# law ("docteur en droit musulman"), a sports club, a census line ("francais,
+# musulmans, italiens, maltais, israelites"), or -- once -- a breed of goat.
+# The volume shows a person's community through the institutions they belong
+# to, which the rules above already read; it does not predicate religion of
+# them. Removing the two rules costs 5 true positives and removes 28 errors.
 ITALIAN_MARKER = re.compile(
     r"consulat\s+g[ée]n[ée]ral\s+d[’']Italie|consul.{0,20}d[’']Italie|"
     r"societ[aà]\s+italiana|associazione|scuole\s+italiane|[ée]coles?\s+italiennes|"
     r"couronne\s+d[’']Italie|Maurice\s+et\s+Lazare|regio\s+", re.IGNORECASE,
 )
-MALTESE_MARKER = re.compile(r"\bmaltais|anglo[\s-]maltaise", re.IGNORECASE)
+# Same failure as the descriptors above: bare `maltais` matched "rue des
+# Maltais", the census line, and "la chevre maltaise". Only the institutional
+# forms survive.
+MALTESE_MARKER = re.compile(
+    r"anglo[\s-]maltaise|(?:soci[ée]t[ée]|communaut[ée]|[ée]coles?|cercle|union)"
+    r"\s+(?:anglo[\s-])?maltais|sujets?\s+maltais", re.IGNORECASE,
+)
 
 # Community-marked organisations, matched against affiliation ties.
 ORG_PATTERNS = [
@@ -251,14 +272,17 @@ def main() -> int:
         # --- tier A: the person's own institutions ------------------------
         if MUSLIM_OFFICE.search(text):
             votes.append(("tunisian_muslim", "high")); evidence.append("muslim_office")
+        # A school is weaker evidence than an office, because a notice names the
+        # school someone *attended* and the school someone *taught at* in the
+        # same words. A professor from Lyon running a laboratory at Sfax was
+        # coded Tunisian Muslim on a school mention that outvoted his French
+        # birthplace. Medium keeps a school below a recorded birthplace and
+        # above nothing, while an office or a communal body still outranks
+        # birth -- which is what keeps the Livornese Jewish case Jewish.
         if ISLAMIC_SCHOOL.search(text):
-            votes.append(("tunisian_muslim", "high")); evidence.append("islamic_school")
+            votes.append(("tunisian_muslim", "medium")); evidence.append("islamic_school")
         if JEWISH_OFFICE.search(text):
             votes.append(("tunisian_jewish", "high")); evidence.append("jewish_institution")
-        if DESCRIBED_JEWISH.search(text) and not JEWISH_OFFICE.search(text):
-            votes.append(("tunisian_jewish", "medium")); evidence.append("described_israelite")
-        if DESCRIBED_MUSLIM.search(text) and not MUSLIM_OFFICE.search(text):
-            votes.append(("tunisian_muslim", "medium")); evidence.append("described_muslim")
         if ITALIAN_MARKER.search(text):
             votes.append(("european_italian", "high")); evidence.append("italian_institution")
         if MALTESE_MARKER.search(text):

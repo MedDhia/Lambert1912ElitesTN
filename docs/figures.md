@@ -1,6 +1,6 @@
 # Figures
 
-Fifty-three descriptive, exploratory and comparative figures over the dataset in
+Sixty-three descriptive, exploratory and comparative figures over the dataset in
 `data/processed/`. One script per figure, each writing two files to
 `output/figures/`: a **PNG** to read and a **PDF** to place in a paper.
 
@@ -91,13 +91,51 @@ survives that objection, and answer plainly where it does not.
 
 | | Figure | The claim |
 |---|---|---|
-| 19 | `fig19_community_composition` | Four Europeans recorded for every Tunisian |
-| 20 | `fig20_honours_by_community` | Recognition does not divide along the colonial line |
+| 19 | `fig19_community_composition` | Five Europeans recorded for every Tunisian |
+| 20 | `fig20_honours_by_community` | Where recognition divides, it favours the Tunisians |
 | 21 | `fig21_women_in_the_record` | Eleven women in a volume of 1,307 notables |
 | 22 | `fig22_occupations_by_community` | The two communities are recorded in much the same trades |
 | 23 | `fig23_education_by_community` | The Islamic institutions educate Tunisians only — the French ones educate both |
 | 24 | `fig24_community_mixing` | Europeans and Tunisians belonged to the same bodies less often than chance |
 | 25 | `fig25_network_by_community` | Tunisian notables sit inside the network, not on its rim |
+
+**Positionality: colonist and native**
+
+The figures above ask which of the volume's *communities* a person belonged to.
+These ask a different question of the same evidence: on which side of the
+colonial relation the record places them — colonist (European-origin, settler or
+metropolitan) or native (Tunisian-origin, Muslim and Jewish alike, which is the
+volume's own usage). `code/pipeline/code_positionality.py` documents the mapping,
+the one rule it adds, and that rule's measured error rate.
+
+Read figs. 54 and 55 before the rest. A third of the volume cannot be placed at
+all, and the two sides are reached by different kinds of evidence — natives
+mostly through a communal institution, colonists mostly through a European
+birthplace. Since institutional ties are also what put a person in the network,
+the raw comparison measures the coding rather than the elite. Figs. 56 to 63 are
+drawn on a matched basis for that reason, and `_positionality.py` holds the
+restriction in one place.
+
+| | Figure | The claim |
+|---|---|---|
+| 54 | `fig54_positionality_coding` | A third of this elite cannot be placed on either side of the colonial line |
+| 55 | `fig55_identification_artefact` | How a person was identified moves this measure more than which side he was on |
+| 56 | `fig56_position_in_network` | Natives broker as much as colonists, from fewer memberships and further out |
+| 57 | `fig57_position_and_honours` | Both states decorated both sides at the same rate |
+| 58 | `fig58_position_and_attention` | The volume gives both sides the same space on the page |
+| 59 | `fig59_position_and_occupation` | The native administration is a career ladder with almost no colonists on it |
+| 60 | `fig60_position_and_cohort` | Only one side of this elite has a date of arrival |
+| 61 | `fig61_positionality_network` | Natives sit inside the network, in clumps rather than on the rim |
+| 62 | `fig62_position_mixing` | Colonists and natives belonged to the same bodies far less often than chance |
+| 63 | `fig63_native_muslim_and_jewish` | The native side is two populations: one in the state, one in the professions |
+
+Taken together they say something narrower than "the colonial line organised
+this elite" and something more specific. Among the people Lambert chose to
+print, the line is nearly invisible in what the two states awarded (57), in the
+space the volume gave them (58), and in how much of the network's brokerage they
+carried (56). It is unmistakable in two places: which part of the state they
+served (59), and who they sat on committees with (62). The last of those is the
+strongest single result in this repository.
 
 **Brokerage**
 

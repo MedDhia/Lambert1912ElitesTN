@@ -44,13 +44,21 @@ ax.scatter([], [], s=80, color=S.BLUE,
 ax.scatter([], [], s=80, color=S.ORANGE,
            label=f"Tunisian ({len(people['tunisian'])} people)")
 ax.legend(loc="lower right")
+islamic = 100 * counts["tunisian"]["islamic_institution"] / totals["tunisian"]
+closest = min(keys, key=lambda k: (
+    abs(100 * counts["european"][k] / totals["european"]
+        - 100 * counts["tunisian"][k] / totals["tunisian"]), k))
 S.titles(
     ax,
     "The Islamic institutions educate Tunisians only — the French ones educate both",
-    "Share of each community's institution mentions, by kind. Zitouna, the "
-    "Khaldounia and the Collège Sadiki account for 12% of Tunisian mentions and "
-    "for none at all of the 643 European ones. The école normale is identical in "
-    "both (6.2%), so its two dots are nudged apart to stay visible.",
+    f"Share of each community's institution mentions, by kind. Zitouna, the Khaldounia "
+    f"and the Collège Sadiki account for {islamic:.0f}% of the "
+    f"{totals['tunisian']} Tunisian mentions and for none at all of the "
+    f"{totals['european']} European ones, while every French institution on the chart "
+    f"carries both communities. The nearest thing to a shared credential is the "
+    f"{LABELS[closest].lower()}, where the two shares are within half a point — close "
+    "enough that the dots are nudged apart to stay visible.",
     xlabel="Share of the community's institution mentions (%)",
+    wrap=100,
 )
 S.save(fig, "fig23_education_by_community", "Institutions named in the ETUDES rubric; a person may name several")

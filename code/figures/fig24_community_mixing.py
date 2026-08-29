@@ -82,9 +82,11 @@ S.titles(
     "Europeans and Tunisians belonged to the same bodies less often than chance",
     f"Co-membership ties among the {len(tied_people)} people whose community the "
     f"entry settles and who share a body with another such person: {n_ties:,} ties. "
-    f"Cross-community ties run a fifth below the random benchmark, and "
-    f"Tunisian-Tunisian ties at nearly twice it. Assortativity r = {r:.2f} — "
-    "mild segregation, not separation.",
+    f"Cross-community ties run {100 * (1 - obs[1] / exp[1]):.0f}% below the random "
+    f"benchmark, and Tunisian-Tunisian ties at {obs[2] / exp[2]:.1f} times it. "
+    f"Assortativity r = {r:.2f} — mild segregation, not separation. Fig. 62 puts the "
+    "same question to the colonist/native coding, against a null that shuffles labels "
+    "rather than assuming independence, and finds the gap wider.",
     ylabel="Share of coded co-membership ties",
     wrap=100,
 )

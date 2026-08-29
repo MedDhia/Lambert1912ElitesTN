@@ -42,12 +42,26 @@ ax.set_xticks([])
 ax.set_xlim(0, max(eu + tn) * 1.18)
 S.despine(ax, keep=("left",))
 ax.legend(loc="lower right")
+
+# Named from the data rather than remembered: an earlier caption called out
+# engineering "at more than twice the Tunisian rate" and the coding has since
+# moved the ratio to seven.
+widest_key, widest_ratio = max(
+    ((k, e / t) for k, e, t in zip(keys, eu, tn) if t > 0),
+    key=lambda pair: (pair[1], pair[0]))
+widest_label = LABELS[widest_key]
 S.titles(
     ax,
     "The two communities are recorded in much the same trades",
-    "Share of each community's coded notices, by primary occupational category. "
-    "Ten largest categories. The clearest gap is engineering and architecture, "
-    "where Europeans are recorded at more than twice the Tunisian rate.",
+    f"Share of each community's coded notices, by primary occupational category. Ten "
+    f"largest categories. Law, medicine, commerce and the crafts sit within a couple of "
+    f"points of each other. The gaps that do open are in the categories tied to one "
+    f"state or the other: {widest_label.lower()} is {widest_ratio:.0f} times heavier on "
+    f"the European side, and office-holding in the beylical administration — the "
+    "Tunisian side's own ladder — barely appears among Europeans at all. See fig. 59 "
+    "for the same split drawn on the colonist/native axis.",
     xlabel="Share of the community's notices (%)",
+    wrap=100,
 )
-S.save(fig, "fig22_occupations_by_community", "Among the 825 notices whose community the entry's own evidence settles")
+S.save(fig, "fig22_occupations_by_community",
+       f"Among the {totals['european'] + totals['tunisian']} coded notices that name an occupation")

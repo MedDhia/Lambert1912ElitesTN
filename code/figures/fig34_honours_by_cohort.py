@@ -49,4 +49,5 @@ S.titles(
     wrap=100,
 )
 S.save(fig, "fig34_honours_by_cohort",
-       "Decades with fewer than 20 people are omitted; birth year is printed for 1,072 of 1,307")
+       f"Birth year is printed for {len(persons):,} of 1,307; decades with fewer than 20 "
+       f"people are omitted, leaving {sum(len(cohorts[d]) for d in decades):,} plotted")

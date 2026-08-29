@@ -33,6 +33,7 @@ Unit of observation, by table:
 | `network_edges.csv` | an edge in the combined network | 3,865 |
 | `person_communities.csv` | a person × their coded community | 1,307 |
 | `person_gender.csv` | a person × their coded gender | 1,307 |
+| `person_positionality.csv` | a person × their side of the colonial line | 1,307 |
 
 `data/processed/source_manifest.json` sits alongside them: the ark, the number
 of IIIF views, and how many carry an ALTO OCR layer. It is written by the fetch
@@ -367,22 +368,23 @@ is observable rather than missing.
 
 ---
 
-## The interpretive layer: person_communities.csv and person_gender.csv
+## The interpretive layer: communities, positionality and gender
 
-These two tables differ in kind from everything above. The rest of the dataset
+These three tables differ in kind from everything above. The rest of the dataset
 transcribes what the page says; these two **code what the page implies**. They
 are kept in separate files, joined by `entry_id`, so that the transcription can
 be used without them and so that anyone who disagrees with the coding can
 replace it without touching the rest.
 
-Three rules hold in both:
+Three rules hold in all of them:
 
 1. **Evidence over inference.** Each row carries an `evidence` column naming the
    rules that fired, and a confidence. A researcher can restrict to `high`, or
    re-code from the evidence, without re-running anything.
 2. **Silence stays silent.** Where the volume prints nothing diagnostic the value
-   is `unknown` / `UNKNOWN` — 37% of community codings and 14% of gender
-   codings. That share is not a defect to be imputed away.
+   is `unknown` / `UNKNOWN` — 39% of community codings, 36% of positionality
+   codings and 14% of gender codings. That share is not a defect to be imputed
+   away.
 3. **Nobody is classified from a surname.** Surname-based ethnic attribution is
    the standard way this coding goes wrong, and in Tunisia it goes wrong
    predictably: Cardoso, Valensi, Lumbroso and Bessis are borne by Tunisian
@@ -395,8 +397,8 @@ Three rules hold in both:
 | `entry_id`, `surname`, `forenames` | string | Join key and name. |
 | `community` | categorical | `european_french`, `european_italian`, `european_maltese`, `european_other`, `tunisian_muslim`, `tunisian_jewish`, `unknown`. |
 | `community_group` | categorical | `european`, `tunisian`, `unknown`. |
-| `confidence` | categorical | `high` (an institution the person held office in or attended, or a birthplace outside Tunisia), `medium` (a community body they belonged to, an Algerian birth, an Arabic patronymic in the printed name), `low` (competing evidence, or a French settler body alone). |
-| `evidence` | string | Semicolon-separated rules that fired: `muslim_office`, `islamic_school`, `jewish_institution`, `described_israelite`, `italian_institution`, `maltese_marker`, `member_of:*_body`, `birth_france`, `birth_italy`, `birth_algeria`, `birth_malta`, `birth_tunisia`, `nasab_particle`, `honorific`, `livorno_jewish_note`. |
+| `confidence` | categorical | `high` (an office the person held, a communal institution, or a birthplace outside Tunisia), `medium` (a community body they belonged to, a school, an Algerian birth, an Arabic patronymic in the printed name), `low` (competing evidence, or a French settler body alone). |
+| `evidence` | string | Semicolon-separated rules that fired: `muslim_office`, `islamic_school`, `jewish_institution`, `italian_institution`, `maltese_marker`, `member_of:*_body`, `birth_france`, `birth_italy`, `birth_algeria`, `birth_malta`, `birth_tunisia`, `nasab_particle`, `honorific`, `livorno_jewish_note`. |
 | `competing_categories` | string | Other categories the evidence also supported. Non-empty for 70 rows. |
 
 **The categories are the volume's own.** Lambert's *Israélites* entry calls Jews
@@ -413,6 +415,64 @@ people with no other marker code `european_french` at medium confidence, flagged
 flagged `birth_tunisia` — a Tunis birth fits all three communities, second-
 generation settlers included, and it is the single largest reason a row is not
 classified.
+
+### person_positionality.csv
+
+A re-reading of `person_communities.csv` on the axis the Protectorate was
+organised around: **colonist** against **native**. It is not independent
+evidence — 787 of the 830 people it places are a documented mapping of the
+community coding — but it is a different question, and it carries three columns
+the community table does not.
+
+| variable | type | definition |
+|---|---|---|
+| `entry_id`, `surname`, `forenames` | string | Join key and name. |
+| `positionality` | categorical | `colonist` (704), `native` (126), `unknown` (477). |
+| `position_detail` | categorical | `metropolitan_colonist`, `colony_born_colonist`, `colonist_unspecified`, `native_muslim`, `native_jewish`, `native_jewish_european_status`, `unknown`. |
+| `position_basis` | categorical | **How** the person was placed: `institutional`, `birthplace`, `reserved_post`, `name`, or empty when unplaced. See the warning below. |
+| `birth_context` | categorical | `europe`, `algeria`, `tunisia`, `unrecorded` — the birthplace at the granularity that changes the position. |
+| `confidence` | categorical | Carried from the community coding, or `medium` for a row placed by the reserved-post rule. |
+| `community` | categorical | The `person_communities.csv` value this row derives from. |
+| `evidence` | string | The community coding's evidence tokens, plus `french_reserved_post` and `merged_entry` where they apply. |
+
+Attributes (`birth_year`, `n_decorations`, `n_chars`, …) are joined on for
+convenience, exactly as `person_gender.csv` joins the community.
+
+**Jews are natives here**, following the volume's own usage and the
+Protectorate's own jurisdiction: beylical subjects, not French citizens or
+consular-protected foreigners. Two intermediary groups are kept findable rather
+than absorbed. The **Grana** — Livornese Jews with Italian nationality — and
+Algeria-born Jews, French citizens since the Crémieux decree of 1870, both take
+`position_detail = native_jewish_european_status`. Only the first case occurs in
+this volume, twice; the five Algeria-born natives here are Muslims, who were
+French subjects rather than citizens.
+
+**The one rule this module adds** is a set of posts the colonial order reserved
+to French citizens: the colonial regiments, the French magistracy, the *contrôle
+civil* and the Residence, matched against posts the person is recorded as
+holding rather than against the entry text. Against the community coding it runs
+96% precise (69 agreements, 3 disagreements) and places 43 people the community
+coding could not. Those rows are marked `reserved_post`, so any analysis of
+office-holding can drop them rather than argue in a circle. The mirror rule —
+caïd, cadi, khalifa, oukil, adel, imam — is 100% precise and places nobody new;
+it is kept as a check. Both rates are recomputed on every run.
+
+**Read `position_basis` before comparing the two sides.** Natives are mostly
+placed by a communal institution (113 of 126) and colonists mostly by a
+birthplace (567 of 704). Holding an institutional tie is also what puts a person
+in the network, so the coding and any network outcome share a cause. Among
+colonists alone, those placed institutionally sit on 3.6 times the betweenness
+of those placed by birthplace — a gap that has nothing to do with the colonial
+order. Hold the basis constant, as fig. 55 shows and `_positionality.matched()`
+does.
+
+**Two known limits.** 36% of the volume is unplaced, and asymmetrically: the
+commonest reason is a Tunisian birthplace with no communal marker, which
+withholds more natives than colonists, so the native count is a floor. And 33
+entries of 2,741 are merged — the two-column OCR ran one notice into the next —
+which carries the following person's institutions into the first person's row;
+where such a row was placed institutionally it is reset to `unknown` and flagged
+`merged_entry` (16 people).
 
 ### person_gender.csv
 

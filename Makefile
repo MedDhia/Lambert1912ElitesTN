@@ -3,7 +3,7 @@ CODE := code/pipeline
 
 .PHONY: all data text entries records networks coding compare validate test figures clean clean-derived
 
-all: validate compare measures
+all: validate compare measures coding
 
 ## data: download the BnF ALTO OCR and the IIIF manifest (cached, resumable)
 data:
@@ -25,12 +25,15 @@ networks: data/processed/network_edges.csv
 data/processed/network_edges.csv: $(CODE)/build_networks.py data/processed/entries.csv
 	$(PYTHON) $(CODE)/build_networks.py
 
-## coding: interpretive layer -- community and gender
-coding: data/processed/person_gender.csv
+## coding: interpretive layer -- community, positionality and gender
+coding: data/processed/person_gender.csv data/processed/person_positionality.csv
 data/processed/person_communities.csv: $(CODE)/code_communities.py data/processed/network_edges.csv
 	$(PYTHON) $(CODE)/code_communities.py
 data/processed/person_gender.csv: $(CODE)/code_gender.py data/processed/person_communities.csv
 	$(PYTHON) $(CODE)/code_gender.py
+data/processed/person_positionality.csv: $(CODE)/code_positionality.py \
+		data/processed/person_communities.csv
+	$(PYTHON) $(CODE)/code_positionality.py
 
 ## measures: each person's position in the two networks, as dataset columns
 measures: data/processed/person_network_measures.csv
