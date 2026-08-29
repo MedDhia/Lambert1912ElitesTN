@@ -112,7 +112,7 @@ code/pipeline/            the pipeline, each stage runnable on its own
   network_measures.py     -> data/processed/person_network_measures.csv
   compare_populations.py  -> output/tables/comparison_tables.md
   validate.py             -> docs/validation_report.md
-code/figures/             33 figure scripts, one per figure, plus the shared
+code/figures/             43 figure scripts, one per figure, plus the shared
                           _style.py, _networks.py and _ordering.py
 code/examples/quickstart.py   descriptive tables and network summaries, stdlib only
 data/raw/                 ALTO XML cache (git-ignored, ~76 MB, re-fetchable)
@@ -196,7 +196,7 @@ summaries using only the standard library.
 
 ## Figures
 
-`code/figures/` holds 33 descriptive, exploratory and comparative figures — birth cohorts,
+`code/figures/` holds 43 descriptive, exploratory and comparative figures — birth cohorts,
 occupational composition, the two honours systems and how they overlap,
 associational life, the affiliation network and its co-membership projection,
 career transitions, the two communities compared, who brokers between otherwise

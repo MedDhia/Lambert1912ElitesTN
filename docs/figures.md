@@ -1,6 +1,6 @@
 # Figures
 
-Thirty-three descriptive, exploratory and comparative figures over the dataset in
+Forty-three descriptive, exploratory and comparative figures over the dataset in
 `data/processed/`. One script per figure, each writing two files to
 `output/figures/`: a **PNG** to read and a **PDF** to place in a paper.
 
@@ -29,6 +29,9 @@ numbers are filenames and run in the order the figures were written.
 | 4 | `fig04_settlement_timeline` | Arrivals track the Protectorate, not the conquest |
 | 5 | `fig05_education` | A French secondary education is the common credential |
 | 6 | `fig06_attention` | A portrait comes with roughly twice the words |
+| 34 | `fig34_honours_by_cohort` | Honours accumulate with time served |
+| 35 | `fig35_origins_and_residence` | A scattered origin, a single destination |
+| 36 | `fig36_credentials` | A secondary certificate, not a doctorate, is what this elite carries |
 
 **Status and honours**
 
@@ -49,6 +52,8 @@ numbers are filenames and run in the order the figures were written.
 | 12 | `fig12_association_founding` | Associational life is a creation of the Protectorate's second generation |
 | 13 | `fig13_association_kinds` | Chambers, mutual aid and professional bodies dominate the associational field |
 | 28 | `fig28_landowners_and_localities` | The named owners of the land are mostly not the people in the book |
+| 39 | `fig39_locality_infrastructure` | For half the localities the volume records no amenity at all |
+| 40 | `fig40_association_size` | A membership roll and a committee are not the same kind of tie |
 
 **Networks**
 
@@ -59,6 +64,9 @@ numbers are filenames and run in the order the figures were written.
 | 16 | `fig16_degree_distribution` | A few bodies carry the network; almost everyone belongs to one thing |
 | 17 | `fig17_top_bodies_roles` | Mostly office-holders — except where the volume prints a membership roll |
 | 18 | `fig18_career_transitions` | Careers move between the army, the administration and the courts |
+| 37 | `fig37_career_length` | Three quarters of the notices print no career sequence at all |
+| 38 | `fig38_career_sector_change` | Most careers cross a sector line; half still end where they began |
+| 42 | `fig42_network_components` | Four in five people sit in one component; the rest sit in fragments |
 
 **The two communities compared**
 
@@ -104,6 +112,8 @@ the exported columns for modelling; read these figures for the shape.
 | | Figure | The claim |
 |---|---|---|
 | 29 | `fig29_ocr_and_recovery` | OCR quality is not what limits the dataset |
+| 41 | `fig41_name_resolution` | Most names the volume drops are people it never gave an entry |
+| 43 | `fig43_who_writes` | Medicine publishes four times as often as the administration |
 
 Figures 6 and 10 belong here too, and are listed above only because entry length
 is easier to read beside the attributes it tracks.
