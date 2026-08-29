@@ -31,7 +31,8 @@ service; no page is scraped from the reading interface.
 | Affiliation ties (person → organisation) | 1,761 |
 | Person → place ties (birth, residence, property) | 2,104 |
 | Network nodes / edges | 4,008 / 3,865 |
-| Persons with a coded community | 825 of 1,307 |
+| Persons with a coded community | 802 of 1,307 |
+| Persons placed as colonist or native | 830 of 1,307 (704 / 126) |
 | Persons with a coded gender | 1,126 of 1,307 (11 women) |
 | Person nodes with network measures | 1,134 (556 with a notice) |
 
@@ -84,6 +85,17 @@ makes it usable for questions such as:
   surname. `person_gender.csv` does the same for gender. Both keep their
   evidence and a confidence on every row, and both leave silence as silence.
   See [`output/tables/comparison_tables.md`](output/tables/comparison_tables.md).
+- **Position in the colonial order.** `person_positionality.csv` re-reads the
+  same evidence on a different axis: `colonist` (European-origin, metropolitan
+  or settler) against `native` (Tunisian-origin, Muslim and Jewish alike, which
+  is the volume's own usage). It carries `position_detail` for the intermediary
+  cases — colony-born settlers, and the Grana, Jews with Italian nationality —
+  and `position_basis` for *how* each person was placed. That last column is not
+  bookkeeping: natives are mostly identified through a communal institution and
+  colonists through a birthplace, and institutional ties are also what put a
+  person in the network, so any comparison that does not hold the basis constant
+  measures the coding rather than the elite. A third of the volume stays
+  unplaced, and asymmetrically so — the native count is a floor.
 
 ## What it is not
 
@@ -108,12 +120,14 @@ code/pipeline/            the pipeline, each stage runnable on its own
   build_networks.py       records -> mentions, ties, nodes and edges
   code_communities.py     interpretive layer: European / Tunisian community
   code_gender.py          interpretive layer: gender
+  code_positionality.py   interpretive layer: colonist / native position
   graph_metrics.py        centrality in pure Python (no dependencies)
   network_measures.py     -> data/processed/person_network_measures.csv
   compare_populations.py  -> output/tables/comparison_tables.md
   validate.py             -> docs/validation_report.md
-code/figures/             53 figure scripts, one per figure, plus the shared
-                          _style.py, _networks.py and _ordering.py
+code/figures/             63 figure scripts, one per figure, plus the shared
+                          _style.py, _networks.py, _ordering.py and
+                          _positionality.py
 code/examples/quickstart.py   descriptive tables and network summaries, stdlib only
 data/raw/                 ALTO XML cache (git-ignored, ~76 MB, re-fetchable)
 data/interim/             line stream and segmented entries (git-ignored)
@@ -133,7 +147,7 @@ promised. (The figures in `code/figures/` are the exception and have their own
 
 ```sh
 make all        # fetch, build, segment, extract, network, code, measure, compare, validate
-make coding     # just the interpretive layer (community, gender)
+make coding     # just the interpretive layer (community, positionality, gender)
 make compare    # -> output/tables/comparison_tables.md
 make measures   # -> data/processed/person_network_measures.csv
 make test       # parsing-rule unit tests + dataset integrity checks
@@ -196,11 +210,11 @@ summaries using only the standard library.
 
 ## Figures
 
-`code/figures/` holds 53 descriptive, exploratory and comparative figures — birth cohorts,
+`code/figures/` holds 63 descriptive, exploratory and comparative figures — birth cohorts,
 occupational composition, the two honours systems and how they overlap,
 associational life, the affiliation network and its co-membership projection,
 the bodies seen as an interlock and the places seen as a route map, career
-transitions, the two communities compared, who brokers between otherwise
+transitions, the two communities compared, the colonist/native line and where it does and does not show, who brokers between otherwise
 unconnected parts of the network and how little would have to be removed to
 break it, how much of the network's structure the projection manufactures, and a
 check on whether the OCR

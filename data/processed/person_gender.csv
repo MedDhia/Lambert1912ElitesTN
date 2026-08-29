@@ -16,7 +16,7 @@ L1912-00028,AGNEL,,UNKNOWN,,,unknown,unknown,1875,administration,1,106,0,4
 L1912-00031,AHMED BEN OTHMAN,SI,MALE,medium,masculine_occupation,tunisian_muslim,tunisian,1840,military,3,2182,0,4
 L1912-00034,AIACHI,,MALE,medium,masculine_occupation,tunisian_muslim,tunisian,1873,justice_law,0,631,1,5
 L1912-00035,AIGROT,Charles,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1876,industry_crafts,0,386,0,5
-L1912-00064,Alaoui,Collège,UNKNOWN,,,tunisian_muslim,tunisian,,education_science,2,726,0,6
+L1912-00064,Alaoui,Collège,UNKNOWN,,,unknown,unknown,,education_science,2,726,0,6
 L1912-00065,Alaoui,Musée,UNKNOWN,,,unknown,unknown,1888,,1,834,0,6
 L1912-00066,ALAPETITE,Gabriel,MALE,medium,masculine_forename,unknown,unknown,,,0,48,0,6
 L1912-00067,ALBERT,Léon-Auguste,MALE,medium,masculine_forename,european_italian,european,1860,,2,307,0,7
@@ -32,7 +32,7 @@ L1912-00077,ALI-BEY,,UNKNOWN,,,tunisian_muslim,tunisian,,,0,460,0,8
 L1912-00080,ALIS,Joseph-Pierre-François,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1880,education_science,1,223,0,9
 L1912-00081,ALIX,Ernest-Adolphe,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1880,,1,565,0,9
 L1912-00082,ALIX,Jacques-Marie-Auguste,MALE,medium,masculine_forename,european_french,european,1860,education_science,2,260,0,9
-L1912-00083,ALLEMAND,Antoine,MALE,medium,masculine_occupation;masculine_forename,tunisian_muslim,tunisian,1876,education_science,4,6193,1,9
+L1912-00083,ALLEMAND,Antoine,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1876,education_science,4,6193,1,9
 L1912-00089,AMAT J.-C.) 1856,,UNKNOWN,,,european_french,european,,administration,1,378,0,11
 L1912-00092,AMURATH,,UNKNOWN,,,unknown,unknown,1700,,0,97,0,11
 L1912-00093,ANAGNOSTAKI,André,MALE,medium,masculine_forename,european_other,european,1865,,1,346,0,11
@@ -143,10 +143,10 @@ L1912-00311,BERHAULT,Jean,MALE,medium,masculine_occupation;masculine_forename,eu
 L1912-00312,BËRIEL,Philippe,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1877,military,3,1033,0,56
 L1912-00314,BERKELEY,Ernest- James - Lennox,MALE,medium,masculine_occupation;masculine_forename,unknown,unknown,1857,diplomacy,0,425,0,57
 L1912-00315,BERNARD,Paul,MALE,medium,masculine_forename,unknown,unknown,1867,military,1,218,0,57
-L1912-00316,BERNE,Jean-Marie,MALE,medium,masculine_occupation;masculine_forename,tunisian_muslim,tunisian,1866,education_science,3,286,1,57
+L1912-00316,BERNE,Jean-Marie,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1866,education_science,3,286,1,57
 L1912-00317,BEROLSHEIMER,V.,UNKNOWN,,,european_italian,european,1865,,0,567,1,57
 L1912-00318,BERRA,J,UNKNOWN,,,unknown,unknown,1886,commerce,0,93,0,57
-L1912-00319,BERTAINCHAND,Ernest,MALE,medium,masculine_occupation;masculine_forename,tunisian_muslim,tunisian,1864,engineering_architecture,5,3425,4,57
+L1912-00319,BERTAINCHAND,Ernest,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1864,engineering_architecture,5,3425,4,57
 L1912-00320,BERTIN,Célestin,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1870,,2,713,0,58
 L1912-00321,BERTHON,Louis,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1864,engineering_architecture,2,114,0,58
 L1912-00322,BERTIN,,FEMALE,high,civil_title;feminine_occupation,european_french,european,1872,,0,272,0,58
@@ -175,8 +175,8 @@ L1912-00377,BOEUF,,UNKNOWN,,,unknown,unknown,1864,military,5,489,0,66
 L1912-00378,BOIANOWSKI,,UNKNOWN,,,unknown,unknown,1866,diplomacy,1,402,0,66
 L1912-00379,BOIZEL,Auguste,MALE,medium,masculine_forename,unknown,unknown,1877,agriculture,2,185,0,67
 L1912-00380,BONAN,Abraham,MALE,medium,masculine_forename,tunisian_jewish,tunisian,1878,medicine_health,1,1005,0,67
-L1912-00381,BONAN,Jules,MALE,medium,masculine_forename,tunisian_muslim,tunisian,1876,education_science,2,3807,2,67
-L1912-00384,BONNAND,Jules-Antoine,MALE,medium,masculine_occupation;masculine_forename,tunisian_muslim,tunisian,1854,military,2,291,0,68
+L1912-00381,BONAN,Jules,MALE,medium,masculine_forename,tunisian_jewish,tunisian,1876,education_science,2,3807,2,67
+L1912-00384,BONNAND,Jules-Antoine,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1854,military,2,291,0,68
 L1912-00385,BONNEFOND,Louis - Alariei- HenriEdouard,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1848,,1,542,0,68
 L1912-00386,BONNET,Edmond,MALE,medium,masculine_forename,unknown,unknown,,,0,311,1,68
 L1912-00387,BONNET,Prosper,MALE,medium,masculine_forename,european_french,european,1867,transport_maritime,0,118,0,68
@@ -208,7 +208,7 @@ L1912-00451,BOYER,Jean,MALE,medium,masculine_forename,unknown,unknown,,politics_
 L1912-00452,BRANDENBURG,Godefrov,UNKNOWN,,,unknown,unknown,1850,,1,284,0,75
 L1912-00453,BRAQUEYAHE,Jules-Pie-Louis,MALE,medium,masculine_forename,european_french,european,1865,,2,2567,2,75
 L1912-00454,BREART,Jules-Aimé,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1826,military,1,868,0,76
-L1912-00455,BREFORT,Anlonin,UNKNOWN,,,tunisian_muslim,tunisian,,education_science,2,246,0,76
+L1912-00455,BREFORT,Anlonin,UNKNOWN,,,unknown,unknown,,education_science,2,246,0,76
 L1912-00456,BREIEAN,Paul - Auguste - René,MALE,medium,masculine_forename,european_french,european,1884,,0,346,0,76
 L1912-00457,BRESSON,Henri,MALE,medium,masculine_occupation;masculine_forename,unknown,unknown,1838,,3,391,0,76
 L1912-00458,BRIERE,Emile,MALE,medium,masculine_forename,european_french,european,1861,diplomacy,3,721,0,76
@@ -221,7 +221,7 @@ L1912-00466,BRUCH,Alfred,MALE,medium,masculine_forename,european_french,european
 L1912-00467,BRULE,Léa,FEMALE,high,feminine_occupation;feminine_forename,unknown,unknown,,,2,417,0,78
 L1912-00468,BRUN,Marins,MALE,medium,masculine_occupation,unknown,unknown,,education_science,0,184,0,78
 L1912-00470,BRUSSIAU,Albert,MALE,medium,masculine_forename,european_french,european,1871,commerce,0,794,0,78
-L1912-00471,BUGEIA,Lorenzo,MALE,medium,masculine_forename,tunisian_muslim,tunisian,1858,,0,163,0,78
+L1912-00471,BUGEIA,Lorenzo,MALE,medium,masculine_forename,unknown,unknown,1858,,0,163,0,78
 L1912-00472,BUISSON,Benjamin-Paul,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1846,administration,3,2027,1,78
 L1912-00473,BULLA-RËGIA,,MALE,medium,masculine_occupation,european_french,european,,religion,2,1705,1,79
 L1912-00475,BURSAUX,,MALE,medium,masculine_occupation,unknown,unknown,1866,military,1,224,0,79
@@ -247,7 +247,7 @@ L1912-00506,CANI,,UNKNOWN,,,unknown,unknown,,,0,587,0,87
 L1912-00507,CANTON,Albert,MALE,medium,masculine_forename,european_french,european,1875,,2,454,0,87
 L1912-00511,CAPDEVILLE,Xavier - Jean - MarieCharles,MALE,medium,masculine_forename,unknown,unknown,1873,administration,0,725,0,89
 L1912-00512,CAPRIATA,Victor-François,MALE,medium,masculine_occupation;masculine_forename,european_italian,european,1864,military,2,688,1,89
-L1912-00515,CARBONIÈRE,Jean - Henry,MALE,medium,masculine_forename,tunisian_muslim,tunisian,1865,,2,751,0,89
+L1912-00515,CARBONIÈRE,Jean - Henry,MALE,medium,masculine_forename,unknown,unknown,1865,,2,751,0,89
 L1912-00516,CARCASONNE,Alphonse-Sylvain,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1863,,3,673,0,89
 L1912-00517,CARDALIAGUET,Félix-Joseph-Alarie,MALE,medium,masculine_forename,unknown,unknown,,,3,336,0,89
 L1912-00518,CARDOSO,David,MALE,medium,masculine_occupation;masculine_forename,tunisian_jewish,tunisian,1852,justice_law,0,629,1,89
@@ -294,7 +294,7 @@ L1912-00632,CHERIF,Tahar,MALE,medium,masculine_forename,unknown,unknown,1860,,1,
 L1912-00633,CHERVIN,Pierre,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1873,,3,428,1,113
 L1912-00634,CHESNE DE BELLECOURT,,MALE,medium,masculine_occupation,unknown,unknown,,military,0,122,0,114
 L1912-00636,CHEVALIER,Jacques-Cyrille,MALE,medium,masculine_forename,european_french,european,1855,military,2,431,0,114
-L1912-00637,CHEVALIER,Joseph,MALE,medium,masculine_occupation;masculine_forename,tunisian_muslim,tunisian,1855,military,2,1181,0,114
+L1912-00637,CHEVALIER,Joseph,MALE,medium,masculine_occupation;masculine_forename,european_other,european,1855,military,2,1181,0,114
 L1912-00638,CHEYLUS,Victor-Marie,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1839,engineering_architecture,1,770,0,114
 L1912-00640,CHICOLI,Tolomeo,MALE,medium,masculine_forename,european_italian,european,1866,medicine_health,2,490,0,114
 L1912-00641,CHIDIAC,Naja,UNKNOWN,,,unknown,unknown,1853,military,3,270,0,114
@@ -320,7 +320,7 @@ L1912-00671,COHEN,Jacob,MALE,medium,masculine_forename,tunisian_jewish,tunisian,
 L1912-00672,COHEN,Joseph,MALE,medium,masculine_occupation;masculine_forename,tunisian_jewish,tunisian,1881,education_science,1,1775,0,120
 L1912-00673,COIGNET,Jean,MALE,medium,masculine_occupation;masculine_forename,unknown,unknown,,engineering_architecture,0,759,1,120
 L1912-00676,COLLET,Emmanuel,MALE,medium,masculine_forename,european_french,european,1863,,0,555,0,120
-L1912-00677,COLLIN,Julien,MALE,medium,masculine_forename,tunisian_muslim,tunisian,1862,education_science,4,1201,0,120
+L1912-00677,COLLIN,Julien,MALE,medium,masculine_forename,european_french,european,1862,education_science,4,1201,0,120
 L1912-00678,COLLOMP,,UNKNOWN,,,unknown,unknown,1864,administration,2,493,0,120
 L1912-00679,COLONNA -CESARI,Jean-Paul,MALE,medium,masculine_occupation;masculine_forename,unknown,unknown,1888,military,1,424,0,121
 L1912-00680,COLONNA-CESARI,Sébastien,MALE,medium,masculine_forename,european_french,european,1871,diplomacy,5,495,0,121
@@ -331,19 +331,19 @@ L1912-00684,COMBES,DE,UNKNOWN,,,unknown,unknown,1864,military,2,236,0,121
 L1912-00685,COMBET,Candide-Aimé,MALE,medium,masculine_forename,unknown,unknown,1862,education_science,2,369,1,121
 L1912-00694,COMITI,Paul,MALE,medium,masculine_forename,european_french,european,1870,administration,1,3228,1,124
 L1912-00699,COMMUNAUX,Etienne-Victor,MALE,medium,masculine_forename,european_french,european,1849,engineering_architecture,1,832,1,125
-L1912-00718,COMTE,Louis-IIippolyte,MALE,medium,masculine_forename,tunisian_muslim,tunisian,1852,commerce,1,482,0,129
-L1912-00719,COMTE,Philippe-Charles,MALE,medium,masculine_forename,tunisian_muslim,tunisian,1869,medicine_health,3,1534,1,129
+L1912-00718,COMTE,Louis-IIippolyte,MALE,medium,masculine_forename,unknown,unknown,1852,commerce,1,482,0,129
+L1912-00719,COMTE,Philippe-Charles,MALE,medium,masculine_forename,unknown,unknown,1869,medicine_health,3,1534,1,129
 L1912-00720,COMTE,Victor,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1874,medicine_health,0,278,0,129
 L1912-00722,CONSTANT,Charles,MALE,medium,masculine_occupation;masculine_forename,unknown,unknown,,military,0,124,0,132
 L1912-00731,CONVERTI,Nicolas,MALE,medium,masculine_forename,european_italian,european,1858,medicine_health,0,2416,1,134
 L1912-00736,CORBES,,UNKNOWN,,,unknown,unknown,1871,administration,2,860,0,135
 L1912-00737,CORDEIL,Paul-Baptiste,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1866,education_science,2,1002,0,136
-L1912-00739,CORRAS,Etienne,MALE,medium,masculine_forename,tunisian_muslim,tunisian,1876,education_science,2,850,1,136
+L1912-00739,CORRAS,Etienne,MALE,medium,masculine_forename,european_french,european,1876,education_science,2,850,1,136
 L1912-00740,COSSANGE,,MALE,medium,masculine_occupation,european_french,european,1862,engineering_architecture,3,938,0,136
 L1912-00741,COSSON,Ernest,MALE,medium,masculine_forename,european_french,european,1891,medicine_health,2,8087,2,136
 L1912-00743,COUDERG,Fernand,MALE,medium,masculine_forename,european_french,european,1887,,0,431,0,138
 L1912-00744,COUDERC,Pierre,MALE,medium,masculine_forename,european_french,european,1856,commerce,1,238,0,138
-L1912-00745,COULON,Louis,MALE,medium,masculine_occupation;masculine_forename,tunisian_muslim,tunisian,1865,justice_law,2,1212,1,138
+L1912-00745,COULON,Louis,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1865,justice_law,2,1212,1,138
 L1912-00747,COURT,Calixte,MALE,medium,masculine_occupation;masculine_forename,unknown,unknown,1853,justice_law,1,358,0,139
 L1912-00748,COURT,Gustave,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1883,,3,2442,0,139
 L1912-00749,COUVE,Edmond,MALE,medium,masculine_forename,european_french,european,1865,justice_law,0,423,0,139
@@ -369,7 +369,7 @@ L1912-00777,DANOS,Joseph,MALE,medium,masculine_forename,unknown,unknown,1877,,1,
 L1912-00778,DANTON,Edmond,MALE,medium,masculine_forename,european_french,european,1874,,1,670,0,146
 L1912-00785,DARGHOUT,Chadli,MALE,medium,masculine_forename,tunisian_muslim,tunisian,1867,commerce,0,628,0,147
 L1912-00786,DARMON,,MALE,medium,masculine_occupation,unknown,unknown,1885,justice_law,1,1854,0,147
-L1912-00787,DARMONY,V.,UNKNOWN,,,tunisian_muslim,tunisian,1875,,1,228,0,147
+L1912-00787,DARMONY,V.,UNKNOWN,,,unknown,unknown,1875,,1,228,0,147
 L1912-00788,DASCONAGUERRE,Ferdinand,MALE,medium,masculine_occupation;masculine_forename,unknown,unknown,1851,justice_law,3,456,0,147
 L1912-00790,DAVER,François-Joseph-Paul,MALE,medium,masculine_forename,european_french,european,1861,military,2,1031,1,148
 L1912-00791,DAVID,Paul,MALE,medium,masculine_occupation;masculine_forename,european_french,european,,engineering_architecture,1,1556,0,148
@@ -467,10 +467,10 @@ L1912-00985,DURMEYER,Louis-Gustavc-Alexis,MALE,medium,masculine_occupation;mascu
 L1912-00986,DURMEYER,,UNKNOWN,,,european_french,european,1866,justice_law,1,403,0,169
 L1912-00987,DUSSOUILLEZ,Ferdinand-VictorLouis,MALE,medium,masculine_forename,european_french,european,1878,,1,1110,1,169
 L1912-00988,DUVAL,Joseph,MALE,medium,masculine_forename,european_french,european,1860,education_science,3,320,0,169
-L1912-00989,DUVAU,Albert,MALE,medium,masculine_occupation;masculine_forename,tunisian_muslim,tunisian,1851,agriculture,2,1165,1,169
+L1912-00989,DUVAU,Albert,MALE,medium,masculine_occupation;masculine_forename,unknown,unknown,1851,agriculture,2,1165,1,169
 L1912-00999,EICHMULER,Georges,MALE,medium,masculine_forename,european_french,european,1866,medicine_health,1,190,0,173
 L1912-01000,EIGENSCHENCK,Henri- Kilien,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1851,military,2,415,0,173
-L1912-01001,EIGENSCHENCK,Charlotte,FEMALE,high,feminine_occupation;feminine_forename,tunisian_muslim,tunisian,,military,2,1417,1,173
+L1912-01001,EIGENSCHENCK,Charlotte,FEMALE,high,feminine_occupation;feminine_forename,unknown,unknown,,military,2,1417,1,173
 L1912-01012,EL ANNABI,Béchir,MALE,medium,masculine_occupation;masculine_forename,tunisian_muslim,tunisian,1871,administration,2,477,0,174
 L1912-01013,EL ANNABI,Sadok,MALE,medium,masculine_occupation;masculine_forename,tunisian_muslim,tunisian,1875,administration,1,332,0,174
 L1912-01029,ELES,Emilio,MALE,medium,masculine_occupation;masculine_forename,european_italian,european,1874,diplomacy,0,369,0,175
@@ -499,7 +499,7 @@ L1912-01105,Essor,L',UNKNOWN,,,unknown,unknown,,,0,1195,0,183
 L1912-01106,ESTIBAL,Jean-Romain.-Camille,MALE,medium,masculine_forename,european_french,european,1870,administration,2,764,0,183
 L1912-01107,ESTRAGNAT,Jules,MALE,medium,masculine_forename,unknown,unknown,1875,,0,34,0,184
 L1912-01108,ETTIJANNI,Mohamed Cherif,MALE,medium,masculine_occupation;masculine_forename,unknown,unknown,1884,,0,557,1,184
-L1912-01110,EXIGA-KAYSER,Charles-Jacques,MALE,medium,masculine_forename,european_maltese,european,1859,,2,1423,1,184
+L1912-01110,EXIGA-KAYSER,Charles-Jacques,MALE,medium,masculine_forename,european_french,european,1859,,2,1423,1,184
 L1912-01111,EYMON,Louis,MALE,medium,masculine_forename,european_italian,european,1840,hospitality_services,2,1374,0,184
 L1912-01112,FABRY,Paul-Auguste,MALE,medium,masculine_forename,european_french,european,1855,justice_law,2,822,0,185
 L1912-01113,FAGES DE LATOUR,Eugène DE,MALE,medium,masculine_forename,european_french,european,1862,military,5,1015,3,185
@@ -527,7 +527,7 @@ L1912-01161,FINOCCHI,Louis,MALE,medium,masculine_forename,european_french,europe
 L1912-01162,FINZI,Joseph,MALE,medium,masculine_occupation;masculine_forename,unknown,unknown,1865,finance_banking,1,135,0,191
 L1912-01163,FISCHEL,Félix,MALE,medium,masculine_forename,european_french,european,1868,industry_crafts,1,436,0,191
 L1912-01164,FISGHEL,Maurice,MALE,medium,masculine_forename,european_french,european,1873,commerce,2,369,0,192
-L1912-01165,FITOUSSI,Elle,MALE,medium,masculine_occupation,tunisian_muslim,tunisian,1872,justice_law,3,911,2,192
+L1912-01165,FITOUSSI,Elle,MALE,medium,masculine_occupation,tunisian_jewish,tunisian,1872,justice_law,3,911,2,192
 L1912-01166,FLACK,Félix,MALE,medium,masculine_forename,unknown,unknown,,,0,865,0,192
 L1912-01168,FLAMANT,Albert,MALE,medium,masculine_forename,european_other,european,1875,administration,1,435,0,192
 L1912-01169,FLAMANT,,FEMALE,high,nee_participle;feminine_occupation,unknown,unknown,,,1,603,0,192
@@ -609,9 +609,9 @@ L1912-01278,GISTUCCI,Alexandre-Valère,MALE,medium,masculine_forename,european_f
 L1912-01279,GLANDUT,Séraphin,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1863,industry_crafts,1,259,0,211
 L1912-01281,GLUCK,André-Robert,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1882,,0,742,0,211
 L1912-01282,GOBILLOT,Jacques-Philippe-Lucien,MALE,medium,masculine_forename,unknown,unknown,1859,,2,595,1,211
-L1912-01283,GOIN,Georges,MALE,medium,masculine_forename,tunisian_muslim,tunisian,1906,transport_maritime,2,247,0,211
+L1912-01283,GOIN,Georges,MALE,medium,masculine_forename,unknown,unknown,1906,transport_maritime,2,247,0,211
 L1912-01284,GONNOT,Marie,FEMALE,high,feminine_occupation;feminine_forename,unknown,unknown,1859,,2,415,0,211
-L1912-01285,GORDON,Gerlrude,UNKNOWN,,,tunisian_muslim,tunisian,,medicine_health,0,327,0,211
+L1912-01285,GORDON,Gerlrude,UNKNOWN,,,unknown,unknown,,medicine_health,0,327,0,211
 L1912-01287,GORSSE,Louis,MALE,medium,masculine_forename,european_french,european,1865,commerce,1,175,0,211
 L1912-01291,GOUNOT,André,MALE,medium,masculine_forename,european_italian,european,1878,agriculture,1,974,0,212
 L1912-01294,GOUTTENOIRE,Jean,MALE,medium,masculine_occupation;masculine_forename,unknown,unknown,1879,military,0,135,1,212
@@ -621,7 +621,7 @@ L1912-01298,GOZLAN,A.,UNKNOWN,,,tunisian_jewish,tunisian,1866,industry_crafts,6,
 L1912-01301,GRASSET,Alfred-Louis-Benjamin,MALE,medium,masculine_forename,european_french,european,1866,,2,497,0,213
 L1912-01302,GRÉBAUVAL,Lôonidas-Adolphe,MALE,medium,masculine_occupation;masculine_forename,unknown,unknown,1856,justice_law,1,279,0,213
 L1912-01306,GRENOUILLEAU,Marc,MALE,medium,masculine_forename,unknown,unknown,1865,justice_law,1,267,0,213
-L1912-01307,GRENY,Hilaire-Albert,MALE,medium,masculine_forename,tunisian_muslim,tunisian,1867,engineering_architecture,1,600,0,213
+L1912-01307,GRENY,Hilaire-Albert,MALE,medium,masculine_forename,european_french,european,1867,engineering_architecture,1,600,0,213
 L1912-01308,GRÉSILLON,Emile-Albert,MALE,medium,masculine_forename,unknown,unknown,1865,press_letters_arts,0,588,0,213
 L1912-01309,GRESSE,Paul,MALE,medium,masculine_occupation;masculine_forename,unknown,unknown,1868,education_science,3,820,1,214
 L1912-01310,GREZEL,,UNKNOWN,,,unknown,unknown,1866,administration,2,190,0,214
@@ -698,11 +698,11 @@ L1912-01470,JACQUIER,,UNKNOWN,,,european_french,european,1857,military,3,631,0,2
 L1912-01471,JACQUIER,Eugène,MALE,medium,masculine_forename,european_french,european,1861,finance_banking,2,577,0,244
 L1912-01472,JAEGGY,Ernest,MALE,medium,masculine_forename,european_other,european,1878,medicine_health,0,249,0,244
 L1912-01475,JAULMES,Henri,MALE,medium,masculine_forename,european_french,european,1867,education_science,2,286,0,244
-L1912-01476,JEANGOLAS,Louis,MALE,medium,masculine_forename,tunisian_muslim,tunisian,1858,administration,3,294,0,244
-L1912-01477,JOUBERT,Jules-Frédéric,MALE,medium,masculine_forename,european_maltese,european,1859,military,1,948,0,244
+L1912-01476,JEANGOLAS,Louis,MALE,medium,masculine_forename,european_french,european,1858,administration,3,294,0,244
+L1912-01477,JOUBERT,Jules-Frédéric,MALE,medium,masculine_forename,european_french,european,1859,military,1,948,0,244
 L1912-01480,JOYEUX,Emile,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1872,,0,325,0,245
 L1912-01481,JULIEN,Cyprien-Edouard-Paul,MALE,medium,masculine_occupation;masculine_forename,unknown,unknown,1872,industry_crafts,0,946,0,245
-L1912-01482,JUNÈS,Sauveur,MALE,medium,masculine_forename,european_maltese,european,1871,commerce,0,461,0,245
+L1912-01482,JUNÈS,Sauveur,MALE,medium,masculine_forename,unknown,unknown,1871,commerce,0,461,0,245
 L1912-01485,KADDOUR,Mohamed,MALE,medium,masculine_forename,tunisian_muslim,tunisian,1882,administration,1,121,0,247
 L1912-01502,KËRAMBRIEG,,UNKNOWN,,,european_french,european,1868,military,2,855,1,248
 L1912-01506,KHAIRALLAH,Ben Moslefa,MALE,medium,masculine_forename,tunisian_muslim,tunisian,1867,administration,3,486,0,249
@@ -753,9 +753,9 @@ L1912-01599,LECA,Toussaint,MALE,medium,masculine_forename,european_italian,europ
 L1912-01600,LEFEBVRE,Louis-Georges,MALE,medium,masculine_forename,european_french,european,1863,education_science,2,547,1,262
 L1912-01601,LÉGER,Bernard,MALE,medium,masculine_forename,unknown,unknown,1871,administration,3,1173,0,262
 L1912-01604,LEJOSNE,Henri-Joseph,MALE,medium,masculine_occupation;masculine_forename,unknown,unknown,1857,military,2,341,0,263
-L1912-01605,LELU,Lucien-Victor,MALE,medium,masculine_forename,tunisian_muslim,tunisian,1865,education_science,2,669,0,263
-L1912-01606,LEMAIRE,Georges,MALE,medium,masculine_forename,tunisian_muslim,tunisian,,medicine_health,0,634,1,263
-L1912-01607,LEMANSKI,Witold-Charles,MALE,medium,masculine_forename,tunisian_muslim,tunisian,1862,medicine_health,2,2590,1,263
+L1912-01605,LELU,Lucien-Victor,MALE,medium,masculine_forename,unknown,unknown,1865,education_science,2,669,0,263
+L1912-01606,LEMAIRE,Georges,MALE,medium,masculine_forename,unknown,unknown,,medicine_health,0,634,1,263
+L1912-01607,LEMANSKI,Witold-Charles,MALE,medium,masculine_forename,european_french,european,1862,medicine_health,2,2590,1,263
 L1912-01609,LEONI,Paul,MALE,medium,masculine_forename,european_french,european,1876,administration,0,293,0,264
 L1912-01610,LEPINEY,Charles-Pierre,MALE,medium,masculine_forename,european_french,european,1854,military,2,2615,1,264
 L1912-01611,LEROY,Louis,MALE,medium,masculine_occupation;masculine_forename,european_french,european,,engineering_architecture,0,240,0,264
@@ -765,7 +765,7 @@ L1912-01614,LESCURE,Paul,MALE,medium,masculine_occupation;masculine_forename,eur
 L1912-01615,LESSEPS,Mathieu DE,MALE,medium,masculine_occupation;masculine_forename,unknown,unknown,1774,justice_law,1,1018,0,265
 L1912-01616,LETOURNEUR,Reilé-Charles-Albcrl,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1876,justice_law,2,1021,2,265
 L1912-01617,LEVI,Guglielmo,MALE,medium,masculine_forename,european_italian,european,1868,medicine_health,0,495,0,266
-L1912-01618,LÉVY,,MALE,medium,masculine_occupation,tunisian_jewish,tunisian,,military,0,377,0,266
+L1912-01618,LÉVY,,MALE,medium,masculine_occupation,unknown,unknown,,military,0,377,0,266
 L1912-01619,LËVY,,UNKNOWN,,,tunisian_jewish,tunisian,,press_letters_arts,2,539,0,266
 L1912-01620,LEYGONIE,,MALE,medium,masculine_occupation,european_french,european,1848,military,1,1144,1,266
 L1912-01621,LIBY,Henri-Auguste-Marcel,MALE,medium,masculine_forename,european_french,european,1876,agriculture,2,277,0,267
@@ -776,18 +776,18 @@ L1912-01629,LOCHE,Fernand DE,MALE,medium,masculine_forename,european_french,euro
 L1912-01630,LOCHE,Paulin,MALE,medium,masculine_forename,european_french,european,1864,administration,2,1077,0,268
 L1912-01631,LOCHET,François,MALE,medium,masculine_forename,european_french,european,1861,,2,526,1,269
 L1912-01632,LODS,Ernest,MALE,medium,masculine_occupation;masculine_forename,unknown,unknown,1865,,2,296,0,269
-L1912-01633,LODS,Louis,MALE,medium,masculine_occupation;masculine_forename,tunisian_muslim,tunisian,1865,education_science,3,586,0,269
+L1912-01633,LODS,Louis,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1865,education_science,3,586,0,269
 L1912-01634,LOGEROT,François-Auguste,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1825,military,1,660,0,269
 L1912-01635,LOGOTHETTI,,MALE,medium,masculine_occupation,unknown,unknown,1852,military,1,495,0,269
 L1912-01637,LOIR,Adrien,MALE,medium,masculine_forename,european_french,european,1862,,3,505,0,269
 L1912-01638,LOIZON,Louis-Joseph,MALE,medium,masculine_forename,european_french,european,1841,justice_law,2,568,0,269
 L1912-01639,LORIN,Henri,MALE,medium,masculine_forename,european_french,european,1866,education_science,2,991,0,269
 L1912-01640,LOTH,Gaston,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1866,administration,4,1242,0,270
-L1912-01644,LOVY,F.,UNKNOWN,,,tunisian_muslim,tunisian,1864,medicine_health,1,683,0,270
+L1912-01644,LOVY,F.,UNKNOWN,,,european_french,european,1864,medicine_health,1,683,0,270
 L1912-01645,LUCIANI,Pierre-Paul,MALE,medium,masculine_forename,european_french,european,1867,medicine_health,2,751,2,270
 L1912-01646,LUMBROSO,Abramino,UNKNOWN,,,unknown,unknown,1869,commerce,0,278,0,271
 L1912-01647,LUMBROSO,Achille,MALE,medium,masculine_forename,european_italian,european,1858,commerce,2,661,0,271
-L1912-01648,LUMBROSO,Alexandre,MALE,medium,masculine_forename,european_maltese,european,1859,medicine_health,0,81,0,271
+L1912-01648,LUMBROSO,Alexandre,MALE,medium,masculine_forename,unknown,unknown,1859,medicine_health,0,81,0,271
 L1912-01649,LUMBROSO,Eugène,MALE,medium,masculine_forename,european_italian,european,1853,industry_crafts,1,189,0,271
 L1912-01650,LUMBROSO,Giacomo,MALE,medium,masculine_forename,unknown,unknown,1847,diplomacy,0,103,0,271
 L1912-01651,LURIE,Jules-Pierre,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1877,education_science,1,363,0,271
@@ -836,7 +836,7 @@ L1912-01728,MAURIN,Georges-ConstanHoachim,MALE,medium,masculine_forename,europea
 L1912-01729,M A U R Y,Armand-Pierre-Louis-JeanBaptisle,MALE,medium,masculine_forename,european_french,european,1871,agriculture,1,488,0,283
 L1912-01731,MAZET,Antoine-Antonin,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1863,justice_law,1,230,0,283
 L1912-01732,MAZET,Pierre,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1867,justice_law,1,396,2,283
-L1912-01733,MAZIËRES,Marc-Alfred DE,MALE,medium,masculine_forename,tunisian_muslim,tunisian,1875,transport_maritime,3,2121,1,284
+L1912-01733,MAZIËRES,Marc-Alfred DE,MALE,medium,masculine_forename,unknown,unknown,1875,transport_maritime,3,2121,1,284
 L1912-01734,MAZOYER,Emile,MALE,medium,masculine_occupation;masculine_forename,european_italian,european,1863,military,2,614,0,284
 L1912-01736,MEARY,,MALE,medium,masculine_occupation,european_french,european,1879,,0,493,0,284
 L1912-01738,MECHIRKI,Mohamed,MALE,medium,masculine_forename,tunisian_muslim,tunisian,1885,administration,0,944,2,284
@@ -893,12 +893,12 @@ L1912-01842,MORNAG,HAUT-,UNKNOWN,,,unknown,unknown,,,0,563,0,296
 L1912-01844,MORPURGO,Léonidas,MALE,medium,masculine_forename,european_italian,european,1863,medicine_health,2,1494,1,296
 L1912-01846,MOSTAFA,,UNKNOWN,,,unknown,unknown,1833,commerce,0,85,0,297
 L1912-01847,MOTTE-DARIÉS,DE LA,MALE,medium,masculine_occupation,unknown,unknown,,military,0,173,0,297
-L1912-01849,MOUCHARD,Louis-Marie-Lucien-Vicor,MALE,medium,masculine_occupation;masculine_forename,tunisian_muslim,tunisian,1871,,3,456,0,297
+L1912-01849,MOUCHARD,Louis-Marie-Lucien-Vicor,MALE,medium,masculine_occupation;masculine_forename,unknown,unknown,1871,,3,456,0,297
 L1912-01851,MOULARD,Eugène,MALE,medium,masculine_forename,european_french,european,1877,justice_law,0,330,0,297
 L1912-01854,MOURGNOT,Paul,MALE,medium,masculine_occupation;masculine_forename,unknown,unknown,1873,engineering_architecture,2,246,0,297
 L1912-01855,MOUSSARD,Georges,MALE,medium,masculine_forename,european_french,european,1868,justice_law,2,284,0,297
 L1912-01857,MOUTET,Louis-Victor-Maxime,MALE,medium,masculine_forename,european_french,european,1867,medicine_health,2,1025,0,298
-L1912-01862,MUCCHIELI,Félix-Antoine,MALE,medium,masculine_forename,tunisian_muslim,tunisian,1865,administration,1,538,0,299
+L1912-01862,MUCCHIELI,Félix-Antoine,MALE,medium,masculine_forename,european_french,european,1865,administration,1,538,0,299
 L1912-01865,MULGEY,Benoît,MALE,medium,masculine_forename,european_french,european,1875,administration,0,655,0,299
 L1912-01868,MURACCIOLE,Valentin,MALE,medium,masculine_forename,unknown,unknown,1865,administration,1,248,0,299
 L1912-01869,MURACCIOLI,Paul,MALE,medium,masculine_forename,european_french,european,1879,,1,345,0,299
@@ -920,7 +920,7 @@ L1912-01903,NICOLE,Gustave,MALE,medium,masculine_forename,unknown,unknown,1866,f
 L1912-01904,NICOLLE,Charles-Jules-Henri,MALE,medium,masculine_occupation;masculine_forename,unknown,unknown,1861,religion,0,230,0,306
 L1912-01905,NICOUD,Henri,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1881,education_science,1,503,0,306
 L1912-01906,NIEWENGLOWSKI,Gaston-Henri,MALE,medium,masculine_forename,european_french,european,1871,,3,2805,1,306
-L1912-01907,NISARD,Sion,MALE,medium,masculine_occupation,tunisian_muslim,tunisian,1868,justice_law,0,152,0,306
+L1912-01907,NISARD,Sion,MALE,medium,masculine_occupation,unknown,unknown,1868,justice_law,0,152,0,306
 L1912-01909,NORO,Jean,MALE,medium,masculine_forename,unknown,unknown,,press_letters_arts,3,1241,0,307
 L1912-01912,NOVAK,Nicolo,MALE,medium,masculine_occupation;masculine_forename,unknown,unknown,1853,diplomacy,3,662,0,307
 L1912-01921,OLIVIER,Paul-Louis-Joseph,MALE,medium,masculine_forename,european_french,european,1863,military,3,1124,0,311
@@ -1024,9 +1024,9 @@ L1912-02125,PUJAT,Frédéric,MALE,medium,masculine_forename,european_french,euro
 L1912-02127,QUEISEL,,UNKNOWN,,,unknown,unknown,1859,administration,1,164,0,338
 L1912-02128,QUILLIÉ,Pierre-Emile,MALE,medium,masculine_forename,unknown,unknown,1846,agriculture,2,356,0,338
 L1912-02129,QUINEL,,MALE,medium,masculine_occupation,unknown,unknown,1874,,0,167,0,338
-L1912-02130,QUINEL,Georges-Frédéric,MALE,medium,masculine_forename,tunisian_muslim,tunisian,1816,education_science,6,2718,1,338
+L1912-02130,QUINEL,Georges-Frédéric,MALE,medium,masculine_forename,tunisian_jewish,tunisian,1816,education_science,6,2718,1,338
 L1912-02131,RACINE,Henry-Marie,MALE,medium,masculine_forename,european_french,european,1876,industry_crafts,1,711,0,339
-L1912-02132,RADET,André-Amédée-Julien,MALE,medium,masculine_occupation;masculine_forename,tunisian_muslim,tunisian,1885,engineering_architecture,0,1091,0,339
+L1912-02132,RADET,André-Amédée-Julien,MALE,medium,masculine_occupation;masculine_forename,unknown,unknown,1885,engineering_architecture,0,1091,0,339
 L1912-02134,RAGOUNEAU,Louis - Gaston - Maurice,MALE,medium,masculine_forename,unknown,unknown,,military,2,455,0,339
 L1912-02135,RAIGHLEN,Louis-Jacques,MALE,medium,masculine_occupation;masculine_forename,european_other,european,1862,finance_banking,0,926,0,339
 L1912-02136,RAMONET,Joseph,MALE,medium,masculine_occupation;masculine_forename,unknown,unknown,1864,,2,400,0,340
@@ -1070,7 +1070,7 @@ L1912-02190,ROBAGLIA,Pascal-Nonce,MALE,medium,masculine_forename,european_french
 L1912-02191,ROBERT,Henri-Léon,MALE,medium,masculine_forename,european_french,european,1849,medicine_health,4,867,1,347
 L1912-02192,ROBICHON,Ludovic,MALE,medium,masculine_forename,unknown,unknown,,politics_native_admin,2,267,0,347
 L1912-02193,ROBINET,Pierre,MALE,medium,masculine_forename,unknown,unknown,1878,education_science,2,360,0,347
-L1912-02194,ROCHES,Léon,MALE,medium,masculine_occupation;masculine_forename,tunisian_muslim,tunisian,,military,0,4195,0,347
+L1912-02194,ROCHES,Léon,MALE,medium,masculine_occupation;masculine_forename,unknown,unknown,,military,0,4195,0,347
 L1912-02195,RODERIE,,UNKNOWN,,,european_french,european,1871,agriculture,0,743,0,348
 L1912-02196,ROEDERER,Léon-Georges,MALE,medium,masculine_forename,unknown,unknown,1870,agriculture,2,315,0,348
 L1912-02197,ROGER,Hubert-Louis,MALE,medium,masculine_forename,unknown,unknown,1870,,1,597,0,348
@@ -1108,8 +1108,8 @@ L1912-02254,SAKKAT,Ahmed,MALE,medium,masculine_occupation;masculine_forename,tun
 L1912-02255,SAKKAT,Ali,MALE,medium,masculine_forename,tunisian_muslim,tunisian,1876,administration,2,324,2,357
 L1912-02257,SALANCOURT,Paul GRENIER DE,MALE,medium,masculine_forename,european_french,european,1853,administration,2,303,0,358
 L1912-02258,SALIBA,Carmel,MALE,medium,masculine_forename,unknown,unknown,1865,commerce,2,246,0,358
-L1912-02259,SALIÉGE,Henri,MALE,medium,masculine_occupation;masculine_forename,tunisian_muslim,tunisian,1865,justice_law,1,290,0,358
-L1912-02260,SALIH,Mohamed,MALE,medium,masculine_forename,tunisian_muslim,tunisian,1874,,0,380,0,358
+L1912-02259,SALIÉGE,Henri,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1865,justice_law,1,290,0,358
+L1912-02260,SALIH,Mohamed,MALE,medium,masculine_forename,unknown,unknown,1874,,0,380,0,358
 L1912-02263,SAMAMA,Alberl-Chikli,UNKNOWN,,,unknown,unknown,1872,press_letters_arts,0,550,0,358
 L1912-02264,SAMPERI,Carmeo,MALE,medium,masculine_occupation,european_italian,european,1880,justice_law,0,346,0,358
 L1912-02265,SANGÉS,Giuseppe,MALE,medium,masculine_forename,european_italian,european,1873,medicine_health,1,188,0,358
@@ -1186,7 +1186,7 @@ L1912-02480,STRESINO,Aureliû,UNKNOWN,,,unknown,unknown,1879,medicine_health,0,2
 L1912-02481,STRESINO,Charles-Pascal,MALE,medium,masculine_forename,european_italian,european,1843,medicine_health,2,659,0,386
 L1912-02482,STUREL,François,MALE,medium,masculine_forename,european_french,european,1886,press_letters_arts,0,435,0,386
 L1912-02483,SUCH,Antonin,MALE,medium,masculine_forename,european_french,european,1874,medicine_health,0,236,0,386
-L1912-02485,SURDON,Rômi-Elie,MALE,medium,masculine_occupation;masculine_forename,tunisian_muslim,tunisian,1868,,2,769,0,386
+L1912-02485,SURDON,Rômi-Elie,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1868,,2,769,0,386
 L1912-02487,SUSINI,Jean-Paul,MALE,medium,masculine_forename,unknown,unknown,1852,justice_law,2,350,0,387
 L1912-02488,SUSINI,Paul,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1870,,1,299,0,387
 L1912-02500,TABONE,Salvator,MALE,medium,masculine_forename,european_italian,european,1865,industry_crafts,1,245,1,389
@@ -1254,7 +1254,7 @@ L1912-02638,VALLETTA,Joseph,MALE,medium,masculine_occupation;masculine_forename,
 L1912-02639,VALOIS,Jean-Francois-Henrî DE,MALE,medium,masculine_forename,european_french,european,1879,administration,1,409,0,421
 L1912-02641,VANNEY,Jean-Baptiste,MALE,medium,masculine_forename,european_french,european,1875,,1,384,0,422
 L1912-02642,VAQUIË,Paul-Louis,MALE,medium,masculine_forename,european_french,european,1877,justice_law,0,261,0,422
-L1912-02643,VAQUIER,,UNKNOWN,,,tunisian_muslim,tunisian,,medicine_health,1,620,1,422
+L1912-02643,VAQUIER,,UNKNOWN,,,unknown,unknown,,medicine_health,1,620,1,422
 L1912-02644,VARATASSI,Alexandre,MALE,medium,masculine_occupation;masculine_forename,unknown,unknown,1864,diplomacy,2,559,0,422
 L1912-02645,VASSEL,Marie-Joseph-Eusôbe,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1844,,3,1945,2,422
 L1912-02646,VEIGY,Paul-Emile DE,MALE,medium,masculine_occupation;masculine_forename,european_french,european,1869,justice_law,0,199,0,423

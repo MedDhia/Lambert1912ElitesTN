@@ -26,14 +26,18 @@ ax.set_xlim(0, max(values) * 1.14)
 ax.scatter([], [], s=45, color=S.BLUE, label="European")
 ax.scatter([], [], s=45, color=S.ORANGE, label="Tunisian")
 ax.scatter([], [], s=45, color=S.DE_EMPHASIS, label="Evidence insufficient")
-ax.legend(loc="lower right")
+ax.legend(loc="lower left", bbox_to_anchor=(0.30, 0.0))
 eu = sum(counts[k] for k in order if k.startswith("european"))
 tn = sum(counts[k] for k in order if k.startswith("tunisian"))
 S.titles(
     ax,
-    "Four Europeans recorded for every Tunisian",
+    "Five Europeans recorded for every Tunisian",
     f"Community coded from institutional, educational and birthplace evidence in "
     f"each entry ({eu} European, {tn} Tunisian, {counts['unknown']} not classifiable "
-    f"of {len(rows)}). Nobody is classified from a surname.",
+    f"of {len(rows)}) — a ratio of {eu / tn:.1f} to one among those it settles. Nobody "
+    f"is classified from a surname, and the {counts['unknown']} unclassified are not "
+    "neutral: a Tunis birth with no communal marker is the commonest reason, and it "
+    "withholds more Tunisians than Europeans.",
+    wrap=100,
 )
 S.save(fig, "fig19_community_composition", "Coding rules and the evidence behind each row are in person_communities.csv")
