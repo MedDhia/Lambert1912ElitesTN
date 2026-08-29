@@ -1,6 +1,6 @@
 # Figures
 
-Forty-three descriptive, exploratory and comparative figures over the dataset in
+Fifty-three descriptive, exploratory and comparative figures over the dataset in
 `data/processed/`. One script per figure, each writing two files to
 `output/figures/`: a **PNG** to read and a **PDF** to place in a paper.
 
@@ -43,6 +43,7 @@ numbers are filenames and run in the order the figures were written.
 | 10 | `fig10_attention_and_honours` | More honours, more column inches — the volume ranks as the state ranks |
 | 26 | `fig26_honour_cooccurrence` | The Bey's order accompanies the French ones; it does not replace them |
 | 27 | `fig27_awarding_states` | Two states did the decorating; sixteen awarding authorities appear in all |
+| 49 | `fig49_centrality_and_honours` | The most decorated sit on nine times as many paths as the undecorated |
 
 **Colonial geography and associational life**
 
@@ -54,6 +55,7 @@ numbers are filenames and run in the order the figures were written.
 | 28 | `fig28_landowners_and_localities` | The named owners of the land are mostly not the people in the book |
 | 39 | `fig39_locality_infrastructure` | For half the localities the volume records no amenity at all |
 | 40 | `fig40_association_size` | A membership roll and a committee are not the same kind of tie |
+| 51 | `fig51_place_network` | Every route runs through Tunis |
 
 **Networks**
 
@@ -67,6 +69,23 @@ numbers are filenames and run in the order the figures were written.
 | 37 | `fig37_career_length` | Three quarters of the notices print no career sequence at all |
 | 38 | `fig38_career_sector_change` | Most careers cross a sector line; half still end where they began |
 | 42 | `fig42_network_components` | Four in five people sit in one component; the rest sit in fragments |
+| 44 | `fig44_interlock_network` | The associations interlock through one shared member at a time |
+| 48 | `fig48_office_and_position` | Holding office is a structural position, not just a title |
+
+**How much of the structure is the projection's own**
+
+The one-mode network is built by turning every body into a clique of its
+members, and that operation manufactures structure: triangles, hubs of equal
+degree, dense cores. These five ask how much of what the network figures show
+survives that objection, and answer plainly where it does not.
+
+| | Figure | The claim |
+|---|---|---|
+| 45 | `fig45_k_core` | Forty-one people each share a body with forty of the others |
+| 46 | `fig46_small_world` | Any two of these people are four handshakes apart |
+| 47 | `fig47_degree_assortativity` | The projection says hubs cluster together; the raw graph says the opposite |
+| 50 | `fig50_structural_holes` | Constraint here measures how few people you know, not how closed they are |
+| 52 | `fig52_two_mode_marginals` | Both sides of the network are mostly ones |
 
 **The two communities compared**
 
@@ -83,7 +102,7 @@ numbers are filenames and run in the order the figures were written.
 **Brokerage**
 
 Figures 14, 15 and 25 size nodes by degree, which finds the big bodies. These
-four size by betweenness, which finds the people the network would come apart
+five rank by betweenness, which finds the people the network would come apart
 without — a different question, and a different answer. They share
 `_networks.py` for graph construction and `_ordering.py` for ranking.
 
@@ -93,13 +112,15 @@ without — a different question, and a different answer. They share
 | 31 | `fig31_broker_comembership_by_community` | The brokers are not all Europeans |
 | 32 | `fig32_degree_vs_betweenness` | Degree mostly predicts brokerage — and misses the people who matter most |
 | 33 | `fig33_broker_ego_networks` | Take one person out and these bodies stop touching |
+| 53 | `fig53_attack_tolerance` | Eighty people hold four fifths of this network together |
 
-These four exclude sixteen organisation nodes whose printed name is a bare
-common noun ("Société", "Municipalité") and which therefore merge bodies the
-volume never distinguishes — 48 of the 1,639 ties these figures read, under 3%.
-Betweenness does not merely blur across such a merge; it invents a path and then
-rewards whatever sits on it.
-`_networks.py` documents the rule and its limits.
+Every figure that builds its graph through `_networks.py` — these five and the
+structural figures above — excludes sixteen organisation nodes whose printed
+name is a bare common noun ("Société", "Municipalité") and which therefore merge
+bodies the volume never distinguishes: 48 of the 1,639 ties those figures read,
+under 3%. The exclusion matters most here, because betweenness does not merely
+blur across such a merge; it invents a path and then rewards whatever sits on
+it. `_networks.py` documents the rule and its limits.
 
 That filter is why the figures' numbers differ slightly from
 `data/processed/person_network_measures.csv`, which exports the same measures
