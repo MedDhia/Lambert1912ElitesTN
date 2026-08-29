@@ -8,11 +8,11 @@ The preface (pp. III-IV) states how many notices of each kind the volume contain
 
 | entry_type | Lambert's claim | stated | extracted | ratio |
 |---|---|---|---|---|
-| person | more than 1,300 biographical notices | 1300 | 1307 | 101% |
-| place | more than 750 notices on localities | 750 | 736 | 98% |
+| person | more than 1,300 biographical notices | 1300 | 1333 | 103% |
+| place | more than 750 notices on localities | 750 | 737 | 98% |
 | organisation | more than 175 notices on societies and associations | 175 | 159 | 91% |
-| topic | more than 250 Arabic or Tunisian terms explained | 250 | 470 | 188% |
-| portraits | 420 photogravure portraits | 420 | 422 | 100% |
+| topic | more than 250 Arabic or Tunisian terms explained | 250 | 481 | 192% |
+| portraits | 420 photogravure portraits | 420 | 419 | 100% |
 
 The person count clears the stated minimum. Places and associations fall short of theirs: some notices are absorbed into the entry above them when the first-line indent is lost to OCR, and some association notices are coded as `topic` because they carry none of the organisational template's markers. Treat the place and organisation tables as high-precision, incomplete samples of their populations, not as complete enumerations.
 
@@ -22,41 +22,41 @@ The person count clears the stated minimum. Places and associations fall short o
 |---|---|
 | IIIF views in the manifest | 494 |
 | views with an ALTO OCR layer | 494 |
-| views that begin at least one entry | 404 |
-| entries segmented | 2741 |
-| characters of entry text | 1993334 |
+| views that begin at least one entry | 411 |
+| entries segmented | 2779 |
+| characters of entry text | 1958668 |
 | mean OCR word confidence | 0.927 |
 | entries below 0.80 confidence | 28 |
-| illustrations located | 422 |
+| illustrations located | 419 |
 
 ### Entries by type
 
 | entry_type | n | share |
 |---|---|---|
-| person | 1307 | 47.7% |
-| place | 736 | 26.9% |
-| topic | 470 | 17.1% |
-| organisation | 159 | 5.8% |
+| person | 1333 | 48.0% |
+| place | 737 | 26.5% |
+| topic | 481 | 17.3% |
+| organisation | 159 | 5.7% |
 | cross_reference | 69 | 2.5% |
 
 ### How each entry boundary was decided
 
 | segmentation rule | n |
 |---|---|
-| anchor_surname | 2028 |
-| alphabetical_window | 713 |
+| anchor_surname | 2056 |
+| alphabetical_window | 723 |
 
 | classification rule | n |
 |---|---|
-| forenames_and_life_dates | 1021 |
-| administrative_unit | 629 |
-| residual | 470 |
+| forenames_and_life_dates | 1042 |
+| administrative_unit | 630 |
+| residual | 481 |
 | organisational_template | 159 |
-| caps_headword_with_date | 133 |
-| caps_headword_with_forenames | 128 |
+| caps_headword_with_date | 134 |
+| caps_headword_with_forenames | 131 |
 | administrative_markers | 95 |
 | see_also_only | 69 |
-| caps_headword_with_occupation | 14 |
+| caps_headword_with_occupation | 15 |
 | caps_headword_with_honour | 11 |
 | administrative_markers_late | 8 |
 | settlement_noun_and_measure | 4 |
@@ -65,34 +65,34 @@ The person count clears the stated minimum. Places and associations fall short o
 
 Share of rows where the field is non-empty. A low rate means Lambert did not print that detail for most cases, or that the OCR lost it -- not that a value was dropped.
 
-### persons.csv (n = 1307)
+### persons.csv (n = 1333)
 
 | field | n non-empty | % |
 |---|---|---|
-| forenames | 1149 | 87.9 |
-| birth_year | 1134 | 86.8 |
-| birth_place | 993 | 76.0 |
-| birth_place_detail | 544 | 41.6 |
-| occupation_primary | 1055 | 80.7 |
-| address_raw | 271 | 20.7 |
-| city | 980 | 75.0 |
-| settled_tunisia_year | 581 | 44.5 |
-| decoration_orders | 918 | 70.2 |
-| education_raw | 752 | 57.5 |
-| education_institutions | 705 | 53.9 |
-| degrees | 432 | 33.1 |
-| career_raw | 328 | 25.1 |
-| works_raw | 153 | 11.7 |
+| forenames | 1173 | 88.0 |
+| birth_year | 1158 | 86.9 |
+| birth_place | 1014 | 76.1 |
+| birth_place_detail | 549 | 41.2 |
+| occupation_primary | 1079 | 80.9 |
+| address_raw | 281 | 21.1 |
+| city | 1004 | 75.3 |
+| settled_tunisia_year | 584 | 43.8 |
+| decoration_orders | 934 | 70.1 |
+| education_raw | 764 | 57.3 |
+| education_institutions | 717 | 53.8 |
+| degrees | 438 | 32.9 |
+| career_raw | 328 | 24.6 |
+| works_raw | 153 | 11.5 |
 
-### places.csv (n = 736)
+### places.csv (n = 737)
 
 | field | n non-empty | % |
 |---|---|---|
-| controle_civil | 521 | 70.8 |
-| caidat | 583 | 79.2 |
-| distance_km | 367 | 49.9 |
-| population | 133 | 18.1 |
-| altitude_m | 21 | 2.9 |
+| controle_civil | 521 | 70.7 |
+| caidat | 584 | 79.2 |
+| distance_km | 367 | 49.8 |
+| population | 133 | 18.0 |
+| altitude_m | 21 | 2.8 |
 | tribe_mentioned | 5 | 0.7 |
 | owners_raw | 84 | 11.4 |
 
@@ -111,10 +111,10 @@ Share of rows where the field is non-empty. A low rate means Lambert did not pri
 
 | order | awarding state | n persons |
 |---|---|---|
-| nichan_iftikhar | Tunisia | 707 |
-| palmes_academiques | France | 437 |
+| nichan_iftikhar | Tunisia | 720 |
+| palmes_academiques | France | 442 |
 | merite_agricole | France | 189 |
-| legion_honneur | France | 178 |
+| legion_honneur | France | 181 |
 | medaille_coloniale | France | 70 |
 | ouissam_alaouite | Morocco | 61 |
 | couronne_italie | Italy | 40 |
@@ -122,9 +122,9 @@ Share of rows where the field is non-empty. A low rate means Lambert did not pri
 | medjidie | Ottoman Empire | 15 |
 | saint_stanislas | Russia | 11 |
 | osmanie | Ottoman Empire | 9 |
-| leopold_belgique | Belgium | 9 |
 | etoile_noire_benin | France (Benin) | 8 |
 | francois_joseph | Austria-Hungary | 8 |
+| leopold_belgique | Belgium | 8 |
 | christ_portugal | Portugal | 6 |
 | saints_maurice_lazare | Italy | 6 |
 | etoile_anjouan | France (Comoros) | 5 |
@@ -139,10 +139,10 @@ Share of rows where the field is non-empty. A low rate means Lambert did not pri
 
 | grade | n |
 |---|---|
-| officier | 945 |
-| chevalier | 367 |
-| (not stated) | 240 |
-| commandeur | 183 |
+| officier | 957 |
+| chevalier | 369 |
+| (not stated) | 245 |
+| commandeur | 184 |
 | grand_officier | 46 |
 | grand_cordon | 9 |
 | grand_croix | 9 |
@@ -153,32 +153,32 @@ Share of rows where the field is non-empty. A low rate means Lambert did not pri
 
 | measure | value |
 |---|---|
-| person-organisation edges | 1761 |
+| person-organisation edges | 1754 |
 |   from officer lists in association entries | 968 |
-|   from statements in a person's own entry | 793 |
-| person-place edges | 2104 |
-| person-person co-membership edges | 5378 |
-| network nodes | 4008 |
+|   from statements in a person's own entry | 786 |
+| person-place edges | 2149 |
+| person-person co-membership edges | 5366 |
+| network nodes | 4032 |
 
 ### Name resolution for people named in someone else's entry
 
 | resolution | n | share |
 |---|---|---|
-| unmatched | 608 | 55.3% |
-| resolved | 269 | 24.5% |
-| ambiguous | 101 | 9.2% |
-| resolved_fuzzy | 92 | 8.4% |
+| unmatched | 599 | 54.5% |
+| resolved | 272 | 24.7% |
+| ambiguous | 106 | 9.6% |
+| resolved_fuzzy | 93 | 8.5% |
 | ambiguous_fuzzy | 29 | 2.6% |
 
 `unmatched` mostly means what it says: the volume names far more people in its association and property lists than it gives notices to. Those people are kept as `person_named_only` nodes. `ambiguous` means two or more people with entries share the surname; no tie is assigned, and the mention is left in `mentions.csv` for manual disambiguation.
 
 | node type | n |
 |---|---|
-| person_with_entry | 1307 |
-| place_with_entry | 736 |
-| person_named_only | 671 |
-| place_named_only | 601 |
-| organisation_named_only | 534 |
+| person_with_entry | 1333 |
+| place_with_entry | 737 |
+| person_named_only | 667 |
+| place_named_only | 607 |
+| organisation_named_only | 529 |
 | organisation_with_entry | 159 |
 
 ### Affiliation network degree
@@ -186,10 +186,10 @@ Share of rows where the field is non-empty. A low rate means Lambert did not pri
 | measure | value |
 |---|---|
 | nodes with at least one affiliation | 1795 |
-| mean degree | 1.96 |
+| mean degree | 1.95 |
 | median degree | 1 |
 | max degree | 99 |
-| isolates in the node table | 2213 |
+| isolates in the node table | 2237 |
 
 ## 6. Known limitations
 

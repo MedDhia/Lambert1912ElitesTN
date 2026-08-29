@@ -49,5 +49,6 @@ S.titles(
     wrap=100,
 )
 S.save(fig, "fig34_honours_by_cohort",
-       f"Birth year is printed for {len(persons):,} of 1,307; decades with fewer than 20 "
+       f"Birth year is printed for {len(persons):,} of {len(S.read('persons.csv')):,}; "
+       f"decades with fewer than 20 "
        f"people are omitted, leaving {sum(len(cohorts[d]) for d in decades):,} plotted")

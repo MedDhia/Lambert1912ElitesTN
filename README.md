@@ -20,27 +20,27 @@ service; no page is scraped from the reading interface.
 
 | | n |
 |---|---|
-| Dictionary entries segmented | 2,741 |
-| Biographical notices (persons) | 1,307 |
-| Localities | 736 |
+| Dictionary entries segmented | 2,779 |
+| Biographical notices (persons) | 1,333 |
+| Localities | 737 |
 | Associations and public bodies | 159 |
-| Arabic/Tunisian terms and other topics | 470 |
+| Arabic/Tunisian terms and other topics | 481 |
 | Cross-references | 69 |
-| Honours coded (person × order) | 1,810 |
-| Career posts | 1,449 |
-| Educational institutions attended | 1,158 |
-| Affiliation ties (person → organisation) | 1,761 |
-| Person → place ties (birth, residence, property) | 2,104 |
-| Network nodes / edges | 4,008 / 3,865 |
-| Persons with a coded community | 802 of 1,307 |
-| Persons placed as colonist or native | 830 of 1,307 (704 / 126) |
-| Persons with a coded gender | 1,126 of 1,307 (11 women) |
-| Person nodes with network measures | 1,134 (556 with a notice) |
+| Honours coded (person × order) | 1,830 |
+| Career posts | 1,448 |
+| Educational institutions attended | 1,159 |
+| Affiliation ties (person → organisation) | 1,754 |
+| Person → place ties (birth, residence, property) | 2,149 |
+| Network nodes / edges | 4,032 / 3,903 |
+| Persons with a coded community | 813 of 1,333 |
+| Persons placed as colonist or native | 841 of 1,333 (715 / 126) |
+| Persons with a coded gender | 1,148 of 1,333 (11 women) |
+| Person nodes with network measures | 1,139 (565 with a notice) |
 
 Lambert's preface states his own totals — "more than 1,300" biographies, "more
 than 750" localities, "more than 175" societies, 420 portraits. The pipeline
 never sees those figures, so they serve as an independent check: it recovers
-101%, 98%, 91% and 100% of them. The two shortfalls are real and are not
+103%, 98%, 91% and 100% of them. The two shortfalls are real and are not
 smoothed over — some locality and association notices are absorbed into the
 entry above when OCR loses the first-line indent, so those two tables are
 high-precision but incomplete. See
@@ -64,8 +64,8 @@ makes it usable for questions such as:
 - **State recognition as a resource.** Two honours systems operate side by side:
   the French Légion d'honneur and Palmes académiques, and the Bey's Nichan
   Iftikhar. Who accumulates which, and in what grade, is a direct measure of
-  how each authority distributed status — and 707 of 1,307 people carry a
-  beylical honour against 178 with the Légion d'honneur.
+  how each authority distributed status — and 720 of 1,333 people carry a
+  beylical honour against 181 with the Légion d'honneur.
 - **Associational life as social structure.** The affiliation network links
   people to mutual-aid societies, chambers of commerce and agriculture, learned
   societies, sporting clubs, masonic lodges, and national-community associations
@@ -112,12 +112,21 @@ population quantity — the dataset is evidence about a colonial elite's
 self-representation, and is most defensible when used as such.
 
 Nor is the transcription perfect. The volume is set in two columns and the OCR
-occasionally runs one notice into the next: 33 entries of 2,741 carry two or
-three people's text under the first one's name, so attributes read out of the
-tail of an entry can belong to the following person. The effect is small and
-detectable — a notice header is a recognisable string — but it is real, and it
-was large enough to produce a false finding before it was caught. Anything
-derived from the free text of a long entry deserves a glance at the page.
+occasionally runs one notice into the next: 34 entries of 2,779 still carry two
+or three people's text under the first one's name, burying about 38 notices, so
+attributes read out of the tail of an entry can belong to the following person.
+The effect is small and detectable — a notice header is a recognisable string —
+but it is real. Anything derived from the free text of a long entry deserves a
+glance at the page.
+
+The worst case of this has been fixed rather than documented. The volume files a
+second alphabetical sequence behind a `SUPPLÉMENT` heading on p. 437, which the
+segmenter's monotone-order assumption could not represent, so twenty pages
+collapsed into `ZURETTI`, the last notice of the main sequence: a single entry of
+62,481 characters that made an architect from Guelma the most connected and most
+decorated man in the dataset. Segmentation now restarts at a sequence heading and
+stops at the back matter, which recovers 26 people and returns Zuretti to the
+1,164 characters that are actually his.
 
 ## Layout
 

@@ -78,6 +78,38 @@ class TestEntries(DatasetTestCase):
             if r["ocr_confidence"]:
                 self.assertTrue(0.0 <= float(r["ocr_confidence"]) <= 1.0)
 
+    def test_no_entry_swallows_a_run_of_pages(self):
+        """A notice runs to a few thousand characters, never to sixty thousand.
+
+        The volume files a second alphabetical sequence behind a SUPPLEMENT
+        heading on p. 437. The segmenter assumed one monotone order, so twenty
+        pages collapsed into ZURETTI, the last notice of the main sequence: one
+        entry of 62,481 characters, which made an architect from Guelma the most
+        connected and most decorated man in the dataset. The longest genuine
+        entries are the volume's thematic articles, and they stop well below
+        this bound.
+        """
+        longest = max(self.entries, key=lambda r: int(r["n_chars"]))
+        self.assertLess(
+            int(longest["n_chars"]), 50_000,
+            f"{longest['entry_id']} ({longest['headword']!r}, pages "
+            f"{longest['page_first']}-{longest['page_last']}) is "
+            f"{longest['n_chars']} characters; an entry that long has swallowed "
+            "its neighbours")
+
+    def test_the_supplement_notices_are_their_own_entries(self):
+        """The people filed behind the SUPPLEMENT heading are separate rows.
+
+        Named rather than counted: these are the notices the old segmentation
+        lost, so the check is that they exist as entries at all.
+        """
+        by_headword = {r["headword"].split("(")[0].strip(): r for r in self.entries}
+        for name in ("CAPELLANO", "DOUMET-ADANSON", "LETOURNEUX", "FUCHS", "XUËREB"):
+            with self.subTest(headword=name):
+                self.assertIn(name, by_headword,
+                              f"{name} is filed in the supplement and should be "
+                              "an entry of its own")
+
 
 class TestSourceManifest(DatasetTestCase):
     """The report must be reproducible from committed files alone.
