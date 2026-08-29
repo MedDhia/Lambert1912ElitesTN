@@ -25,6 +25,7 @@ service; no page is scraped from the reading interface.
 | Localities | 736 |
 | Associations and public bodies | 159 |
 | Arabic/Tunisian terms and other topics | 470 |
+| Cross-references | 69 |
 | Honours coded (person × order) | 1,810 |
 | Career posts | 1,449 |
 | Educational institutions attended | 1,158 |
@@ -39,7 +40,10 @@ service; no page is scraped from the reading interface.
 Lambert's preface states his own totals — "more than 1,300" biographies, "more
 than 750" localities, "more than 175" societies, 420 portraits. The pipeline
 never sees those figures, so they serve as an independent check: it recovers
-100%, 98%, 91% and 100% of them respectively. See
+101%, 98%, 91% and 100% of them. The two shortfalls are real and are not
+smoothed over — some locality and association notices are absorbed into the
+entry above when OCR loses the first-line indent, so those two tables are
+high-precision but incomplete. See
 [`docs/validation_report.md`](docs/validation_report.md).
 
 Files live in `data/processed/`; every variable is defined in
@@ -107,6 +111,14 @@ the limitations section of the validation report before treating any count as a
 population quantity — the dataset is evidence about a colonial elite's
 self-representation, and is most defensible when used as such.
 
+Nor is the transcription perfect. The volume is set in two columns and the OCR
+occasionally runs one notice into the next: 33 entries of 2,741 carry two or
+three people's text under the first one's name, so attributes read out of the
+tail of an entry can belong to the following person. The effect is small and
+detectable — a notice header is a recognisable string — but it is real, and it
+was large enough to produce a false finding before it was caught. Anything
+derived from the free text of a long entry deserves a glance at the page.
+
 ## Layout
 
 All code lives under `code/`, everything a script generates under `output/`.
@@ -160,7 +172,7 @@ seconds rather than a re-download. `data/raw/` and `data/interim/` are
 git-ignored; `make all` regenerates everything in `data/processed/` bit for bit.
 
 Rebuilding is reproducible in a strict sense. From the cached OCR, every
-committed artefact — all sixteen CSVs, the source manifest, the validation
+committed artefact — all seventeen CSVs, the source manifest, the validation
 report and the comparison tables — comes back byte for byte, in about 50
 seconds. The figures do too, in both PNG and PDF. Nothing that reaches an
 output is ordered by a dictionary or a set, so a rebuild does not shuffle its
@@ -210,16 +222,20 @@ summaries using only the standard library.
 
 ## Figures
 
-`code/figures/` holds 63 descriptive, exploratory and comparative figures — birth cohorts,
-occupational composition, the two honours systems and how they overlap,
-associational life, the affiliation network and its co-membership projection,
-the bodies seen as an interlock and the places seen as a route map, career
-transitions, the two communities compared, the colonist/native line and where it does and does not show, who brokers between otherwise
-unconnected parts of the network and how little would have to be removed to
-break it, how much of the network's structure the projection manufactures, and a
-check on whether the OCR
-is what limits the dataset — one script and one output file each, in PNG and PDF. See
-[`docs/figures.md`](docs/figures.md) for the index and the design notes.
+`code/figures/` holds 63 descriptive, exploratory and comparative figures, one
+script and one output file each, in PNG and PDF. They cover birth cohorts and
+occupational composition; the two honours systems and how they overlap;
+associational life; the affiliation network and its co-membership projection;
+the bodies seen as an interlock and the places seen as a route map; career
+sequences; the two communities compared, and the colonist/native line beside
+them; who brokers between otherwise unconnected parts of the network, and how
+few removals would break it; how much of the network's structure the projection
+manufactures rather than finds; and whether the OCR is what limits the dataset.
+
+Each figure's title states a claim rather than naming a chart type, and
+[`docs/figures.md`](docs/figures.md) indexes all 63 by that claim — a test holds
+the index to the titles the figures actually render. The design notes at the end
+of that file record the palette checks.
 
 ```sh
 pip install -r requirements.txt
@@ -238,12 +254,20 @@ recorded per row (`segmentation_rule`, `classification_rule`) rather than
 discarded, so the dataset can be audited and re-coded rather than taken on
 trust.
 
-`make test` runs 113 checks in six files: the parsing rules are pinned to the
+`make test` runs 123 checks in seven files: the parsing rules are pinned to the
 OCR strings that once broke them, the committed tables are checked for joins and
 documented value domains, the counts are held against Lambert's own preface
 figures, the derived measures are checked against the edge lists they come from,
-and the figure index is checked against the titles the figures actually render.
-They need no network access and no third-party packages.
+the interpretive codings are checked against the rules that produced them, and
+the figure index is checked against the titles the figures actually render. They
+need no network access and no third-party packages.
+
+Several of those checks exist because something went wrong. The parsing tests
+carry the OCR strings that broke them; the figure-index test was added after a
+title was reworded and the index quietly went on describing a figure that no
+longer existed; the positionality tests pin two coding bugs that had reached
+committed figures and, between them, reversed a finding. A test in this
+repository is usually a scar, not a precaution.
 
 ## Licence and citation
 
