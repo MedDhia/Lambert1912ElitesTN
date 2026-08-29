@@ -47,7 +47,7 @@ NAME:TESI,Tesi,,unmatched,L1912-00784,DAR-EL-BIDA,property_owner,Tunis,147,https
 L1912-01702,Martel,L1912-01702,resolved,L1912-00805,DEGACH,property_owner,Gafsa,150,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f174.item,M. Martel
 NAME:LAGRENEE,Lagrenée,,unmatched,L1912-00861,DJAFFAR,property_owner,Tunis,158,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f182.item,"M"""" Lagrenée, MM"
 L1912-00384,Bonnard,L1912-00384,resolved_fuzzy,L1912-00872,DJEBEL-AHMAR,property_owner,Tunis,158,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f182.item,"MM. Bonnard, Licari, 11"
-NAME:LICARI,Licari,,unmatched,L1912-00872,DJEBEL-AHMAR,property_owner,Tunis,158,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f182.item,"MM. Bonnard, Licari, 11"
+NAME:LICARI,Licari,,ambiguous,L1912-00872,DJEBEL-AHMAR,property_owner,Tunis,158,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f182.item,"MM. Bonnard, Licari, 11"
 NAME:DONEGANI,Donégani,,unmatched,L1912-00875,DJEBEL-BOIT-JABER,property_owner,Kef,158,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f182.item,M. Donégani
 NAME:ALCOOLS,Alcools,,unmatched,L1912-00876,DJEBEL-CARROUBA,property_owner,Tunis,159,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f183.item,Société des Tartres et Alcools
 NAME:DJEBEL CHARRA MINING COMPAGNY LIMITED,Djebel-Charra Mining Compagny Limited,,unmatched,L1912-00877,DJEBEL-CHARRA,property_owner,,159,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f183.item,Djebel-Charra Mining Compagny Limited
@@ -2103,3 +2103,48 @@ L1912-02725,ZARROUK Abou Baker,L1912-02725,resolved,PLACE:tunis,Tunis,birthplace
 L1912-02740,ZUMMO Joseph,L1912-02740,resolved,L1912-02463,Sousse,residence,,436,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f460.item,
 L1912-02740,ZUMMO Joseph,L1912-02740,resolved,PLACE:paienne,Païenne,birthplace,,436,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f460.item,juin 1869
 L1912-02741,ZURETTI Louis,L1912-02741,resolved,PLACE:tunis,Tunis,residence,,436,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f460.item,"20, rue de Russie, Tunis"
+L1912-02743,CAMPS Damicn,L1912-02743,resolved,PLACE:tunis,Tunis,residence,,437,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f461.item,"9, avenue do Paris, Tunis"
+L1912-02743,CAMPS Damicn,L1912-02743,resolved,PLACE:beziers,Béziers,birthplace,,437,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f461.item,3 nov. 1.S54
+L1912-02744,CAPELLANO Halo,L1912-02744,resolved,PLACE:tunis,Tunis,residence,,437,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f461.item,"5, rue d'Allemagne (Family Hôtel), 'l'unis"
+L1912-02744,CAPELLANO Halo,L1912-02744,resolved,PLACE:tunis,Tunis,birthplace,,437,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f461.item,14 août 1S72
+L1912-02745,CHOLET,L1912-02745,resolved,L1912-01824,Monastir,residence,,437,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f461.item,
+L1912-02746,DOMINICI Jacques,L1912-02746,resolved,PLACE:tunis,Tunis,residence,,438,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f462.item,
+L1912-02747,DOUMET-ADANSON Paul-Napoléon,L1912-02747,resolved,PLACE:tunis,Tunis,residence,,438,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f462.item,"17, avenue de France"
+L1912-02747,DOUMET-ADANSON Paul-Napoléon,L1912-02747,resolved,PLACE:guerel,Guérel,birthplace,,438,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f462.item,1834
+L1912-02748,EDDAOUNl DIACOMO Hector,L1912-02748,resolved,PLACE:tunis,Tunis,residence,,438,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f462.item,
+L1912-02749,FELICI Jean-Olivier,L1912-02749,resolved,PLACE:tunis,Tunis,residence,,439,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f463.item,
+L1912-02749,FELICI Jean-Olivier,L1912-02749,resolved,PLACE:ajaccio,Ajaccio,birthplace,,439,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f463.item,13 avril 1862
+L1912-02750,FUCHS Edmond,L1912-02750,resolved,L1912-02699,Zaghouan,residence,,439,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f463.item,"2, rue Annibal à Tunis et à Peisez,""par Medjez-el-Bab"
+L1912-02750,FUCHS Edmond,L1912-02750,resolved,PLACE:strasbourg,Strasbourg,birthplace,,439,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f463.item,"1"" avril 1.837"
+L1912-02753,KELLER Paul-Adolphe,L1912-02753,resolved,PLACE:tunis,Tunis,residence,,440,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f464.item,"5, av. de Paris, Tunis"
+L1912-02753,KELLER Paul-Adolphe,L1912-02753,resolved,PLACE:oran,Oran,birthplace,,440,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f464.item,30 janvier 1875
+L1912-02754,LETOURNEUX Arlistide-Horace,L1912-02754,resolved,PLACE:rennes,Rennes,birthplace,,440,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f464.item,1820
+L1912-02755,LICARI Emmanuel,L1912-02755,resolved,PLACE:tunis,Tunis,residence,,440,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f464.item,
+L1912-02755,LICARI Emmanuel,L1912-02755,resolved,PLACE:malle,Malle,birthplace,,440,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f464.item,1S69
+L1912-02756,LICARI Giuseppe,L1912-02756,resolved,PLACE:tunis,Tunis,residence,,440,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f464.item,
+L1912-02756,LICARI Giuseppe,L1912-02756,resolved,PLACE:malle,Malle,birthplace,,440,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f464.item,1859
+L1912-02759,MEDINA Gabriel,L1912-02759,resolved,PLACE:smyrne,Smyrne,birthplace,,441,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f465.item,1.842
+L1912-02762,MIFSUD Joseph,L1912-02762,resolved,PLACE:tunis,Tunis,residence,,442,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f466.item,"25, rue de"
+L1912-02762,MIFSUD Joseph,L1912-02762,resolved,PLACE:tunis,Tunis,birthplace,,442,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f466.item,21 janvier 1844
+L1912-02766,NAAMÉ Chucri,L1912-02766,resolved,PLACE:tunis,Tunis,residence,,442,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f466.item,
+L1912-02766,NAAMÉ Chucri,L1912-02766,resolved,PLACE:beyrouth,Beyrouth,birthplace,,442,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f466.item,26 novembre 1.869
+L1912-02767,NANI Elconide,L1912-02767,resolved,PLACE:tunis,Tunis,residence,,442,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f466.item,
+L1912-02767,NANI Elconide,L1912-02767,resolved,PLACE:malte,Malte,birthplace,,442,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f466.item,1856
+L1912-02770,PATTI Pietro,L1912-02770,resolved,PLACE:tunis,Tunis,residence,,442,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f466.item,
+L1912-02770,PATTI Pietro,L1912-02770,resolved,PLACE:negociant en vins,Négociant en vins,birthplace,,442,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f466.item,28 janvier 185 5
+L1912-02771,PISANI François,L1912-02771,resolved,PLACE:tunis,Tunis,residence,,443,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f467.item,
+L1912-02771,PISANI François,L1912-02771,resolved,PLACE:tunis,Tunis,birthplace,,443,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f467.item,"1"" janvier 1884"
+L1912-02772,PONDEVAUX Georges,L1912-02772,resolved,PLACE:tunis,Tunis,residence,,443,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f467.item,
+L1912-02772,PONDEVAUX Georges,L1912-02772,resolved,PLACE:lyon,Lyon,birthplace,,443,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f467.item,12 mars 1882
+L1912-02773,SAINSOUS Marcelin,L1912-02773,resolved,PLACE:tunis,Tunis,residence,,443,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f467.item,
+L1912-02774,SALIBA Joseph,L1912-02774,resolved,PLACE:tunis,Tunis,residence,,443,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f467.item,"3, rue de Bab-Carlhagène, Tunis"
+L1912-02774,SALIBA Joseph,L1912-02774,resolved,PLACE:malle,Malle,birthplace,,443,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f467.item,1839
+L1912-02775,TUOR Florin,L1912-02775,resolved,PLACE:tunis,Tunis,residence,,443,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f467.item,
+L1912-02775,TUOR Florin,L1912-02775,resolved,PLACE:sontoiz,Sontoiz,birthplace,,443,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f467.item,28 décembre 1863
+L1912-02776,VUARNET Lucien,L1912-02776,resolved,PLACE:tunis,Tunis,residence,,443,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f467.item,"12, rue d'Italie, Tunis"
+L1912-02776,VUARNET Lucien,L1912-02776,resolved,PLACE:messiry,Messiry,birthplace,,443,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f467.item,2 juin 1870
+L1912-02777,XERRI,L1912-02777,resolved,L1912-00919,Djerba,residence,,443,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f467.item,
+L1912-02778,XERRI Carmel,L1912-02778,resolved,PLACE:tunis,Tunis,residence,,443,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f467.item,"7, rue d'Italie, Tunis"
+L1912-02778,XERRI Carmel,L1912-02778,resolved,PLACE:tunis,Tunis,birthplace,,443,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f467.item,"1"" août 1879"
+L1912-02779,XUËREB Salvator,L1912-02779,resolved,PLACE:tunis,Tunis,residence,,443,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f467.item,"8, rue des Maltais, Tunis"
+L1912-02779,XUËREB Salvator,L1912-02779,resolved,PLACE:tunis,Tunis,birthplace,,443,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f467.item,2 avril 1859

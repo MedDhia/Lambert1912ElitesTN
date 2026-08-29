@@ -93,7 +93,7 @@ survives that objection, and answer plainly where it does not.
 |---|---|---|
 | 19 | `fig19_community_composition` | Five Europeans recorded for every Tunisian |
 | 20 | `fig20_honours_by_community` | Where recognition divides, it favours the Tunisians |
-| 21 | `fig21_women_in_the_record` | Eleven women in a volume of 1,307 notables |
+| 21 | `fig21_women_in_the_record` | Eleven women in a volume of 1,333 notables |
 | 22 | `fig22_occupations_by_community` | The two communities are recorded in much the same trades |
 | 23 | `fig23_education_by_community` | The Islamic institutions educate Tunisians only — the French ones educate both |
 | 24 | `fig24_community_mixing` | Europeans and Tunisians belonged to the same bodies less often than chance |

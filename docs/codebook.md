@@ -18,22 +18,22 @@ Unit of observation, by table:
 
 | file | one row is | n |
 |---|---|---|
-| `entries.csv` | a dictionary entry | 2,741 |
-| `persons.csv` | a person with a biographical notice | 1,307 |
-| `places.csv` | a locality with a notice | 736 |
+| `entries.csv` | a dictionary entry | 2,779 |
+| `persons.csv` | a person with a biographical notice | 1,333 |
+| `places.csv` | a locality with a notice | 737 |
 | `organizations.csv` | an association or public body with a notice | 159 |
-| `decorations.csv` | a person × an honour | 1,810 |
-| `career_positions.csv` | a person × a post in their career sequence | 1,449 |
-| `education.csv` | a person × an educational institution | 1,158 |
+| `decorations.csv` | a person × an honour | 1,830 |
+| `career_positions.csv` | a person × a post in their career sequence | 1,448 |
+| `education.csv` | a person × an educational institution | 1,159 |
 | `mentions.csv` | a person named inside someone else's entry | 1,099 |
-| `edges_person_organisation.csv` | an affiliation tie | 1,761 |
-| `edges_person_place.csv` | a person-to-place tie | 2,104 |
-| `edges_person_person.csv` | a co-membership tie | 5,378 |
-| `network_nodes.csv` | a node in the combined network | 4,008 |
-| `network_edges.csv` | an edge in the combined network | 3,865 |
-| `person_communities.csv` | a person × their coded community | 1,307 |
-| `person_gender.csv` | a person × their coded gender | 1,307 |
-| `person_positionality.csv` | a person × their side of the colonial line | 1,307 |
+| `edges_person_organisation.csv` | an affiliation tie | 1,754 |
+| `edges_person_place.csv` | a person-to-place tie | 2,149 |
+| `edges_person_person.csv` | a co-membership tie | 5,366 |
+| `network_nodes.csv` | a node in the combined network | 4,032 |
+| `network_edges.csv` | an edge in the combined network | 3,903 |
+| `person_communities.csv` | a person × their coded community | 1,333 |
+| `person_gender.csv` | a person × their coded gender | 1,333 |
+| `person_positionality.csv` | a person × their side of the colonial line | 1,333 |
 
 `data/processed/source_manifest.json` sits alongside them: the ark, the number
 of IIIF views, and how many carry an ALTO OCR layer. It is written by the fetch
@@ -420,14 +420,14 @@ classified.
 
 A re-reading of `person_communities.csv` on the axis the Protectorate was
 organised around: **colonist** against **native**. It is not independent
-evidence — 787 of the 830 people it places are a documented mapping of the
+evidence — 798 of the 841 people it places are a documented mapping of the
 community coding — but it is a different question, and it carries three columns
 the community table does not.
 
 | variable | type | definition |
 |---|---|---|
 | `entry_id`, `surname`, `forenames` | string | Join key and name. |
-| `positionality` | categorical | `colonist` (704), `native` (126), `unknown` (477). |
+| `positionality` | categorical | `colonist` (715), `native` (126), `unknown` (492). |
 | `position_detail` | categorical | `metropolitan_colonist`, `colony_born_colonist`, `colonist_unspecified`, `native_muslim`, `native_jewish`, `native_jewish_european_status`, `unknown`. |
 | `position_basis` | categorical | **How** the person was placed: `institutional`, `birthplace`, `reserved_post`, `name`, or empty when unplaced. See the warning below. |
 | `birth_context` | categorical | `europe`, `algeria`, `tunisia`, `unrecorded` — the birthplace at the granularity that changes the position. |
@@ -459,7 +459,7 @@ it is kept as a check. Both rates are recomputed on every run.
 
 **Read `position_basis` before comparing the two sides.** Natives are mostly
 placed by a communal institution (113 of 126) and colonists mostly by a
-birthplace (567 of 704). Holding an institutional tie is also what puts a person
+birthplace (578 of 715). Holding an institutional tie is also what puts a person
 in the network, so the coding and any network outcome share a cause. Among
 colonists alone, those placed institutionally sit on 3.6 times the betweenness
 of those placed by birthplace — a gap that has nothing to do with the colonial
@@ -468,8 +468,8 @@ does.
 
 **Two known limits.** 36% of the volume is unplaced, and asymmetrically: the
 commonest reason is a Tunisian birthplace with no communal marker, which
-withholds more natives than colonists, so the native count is a floor. And 33
-entries of 2,741 are merged — the two-column OCR ran one notice into the next —
+withholds more natives than colonists, so the native count is a floor. And 34
+entries of 2,779 are merged — the two-column OCR ran one notice into the next —
 which carries the following person's institutions into the first person's row;
 where such a row was placed institutionally it is reset to `unknown` and flagged
 `merged_entry` (16 people).
@@ -479,7 +479,7 @@ where such a row was placed institutionally it is reset to `unknown` and flagged
 | variable | type | definition |
 |---|---|---|
 | `entry_id`, `surname`, `forenames` | string | Join key and name. |
-| `gender` | categorical | `MALE` (1,115), `FEMALE` (11), `UNKNOWN` (181). |
+| `gender` | categorical | `MALE` (1,137), `FEMALE` (11), `UNKNOWN` (185). |
 | `gender_confidence` | categorical | `high` (civil title, "née", feminine occupational noun), `medium` (forename or grammatically gendered occupation), `low` (conflicting). |
 | `gender_evidence` | string | `civil_title`, `nee_participle`, `feminine_occupation`, `masculine_occupation`, `feminine_forename`, `masculine_forename`. |
 | `community`, `community_group` | categorical | Joined from `person_communities.csv` for convenience. |

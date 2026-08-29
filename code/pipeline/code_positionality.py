@@ -37,12 +37,12 @@ whatever their community.
 
 THIS IS A RE-READING, NOT NEW EVIDENCE
 --------------------------------------
-For 787 of the 830 people it places, this module is a documented mapping of
+For 798 of the 841 people it places, this module is a documented mapping of
 `person_communities.csv`, not an independent coding. It adds one rule of its
 own: a small set of posts the colonial order reserved to French citizens (the
 colonial regiments, the French magistracy, the controle civil and the
 Residence). Against the community coding those rules run 96% precise -- they
-agree on 69 people and disagree on 3 -- so the 43 they place on their own are
+agree on 70 people and disagree on 3 -- so the 43 they place on their own are
 recorded at medium confidence and marked `reserved_post` in `position_basis`,
 so that any analysis of office-holding can drop them and avoid arguing in a
 circle. The mirror-image rule -- caid, cadi, khalifa, oukil, adel, imam -- is
@@ -52,7 +52,7 @@ and printed on every run rather than quoted from here.
 
 THE COVERAGE PROBLEM, WHICH IS NOT SYMMETRIC
 --------------------------------------------
-Some 36% of the volume stays `unknown`, and they are not a random 36%. The
+Some 37% of the volume stays `unknown`, and they are not a random 37%. The
 largest single reason is a Tunis birth with no other marker, which is
 compatible with a native family and with a second-generation settler alike; 16
 more are people whose entry is merged with a neighbour's (see below). Two
@@ -121,7 +121,7 @@ NAME_EVIDENCE = {"nasab_particle", "honorific"}
 # The volume is set in two columns and the OCR occasionally runs one notice into
 # the next, so a handful of entries carry two or three people's text under the
 # first one's name. A notice header is `SURNAME (Forenames),` -- more than one of
-# them in a single entry means the entry is merged. 33 of 2,741 entries are, and
+# them in a single entry means the entry is merged. 34 of 2,779 entries are, and
 # the effect on this variable is specific: the trailing text brings the *next*
 # person's institutions with it, so a French printer inherits a chair at the
 # college Sadiki and codes as a Tunisian Muslim at high confidence. Birthplace

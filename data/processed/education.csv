@@ -1140,20 +1140,21 @@ L1912-02708,ZAOUCHE,lycée Carnot,secondary_lycee,
 L1912-02709,ZAOUCHE,lycée Carnot,secondary_lycee,
 L1912-02725,ZARROUK,collège Sadiki,secondary_college,diplome_superieur
 L1912-02725,ZARROUK,collège cle Constantinople,secondary_college,diplome_superieur
-L1912-02741,ZURETTI,collège cle Bône,secondary_college,doctorat_medecine;baccalaureat;diplome_superieur;certificat
-L1912-02741,ZURETTI,lycée cle Conslanline,secondary_lycee,doctorat_medecine;baccalaureat;diplome_superieur;certificat
-L1912-02741,ZURETTI,Ecole centrale,grande_ecole,doctorat_medecine;baccalaureat;diplome_superieur;certificat
-L1912-02741,ZURETTI,Collège Henri,secondary_college,doctorat_medecine;baccalaureat;diplome_superieur;certificat
-L1912-02741,ZURETTI,Institut V,institute,doctorat_medecine;baccalaureat;diplome_superieur;certificat
-L1912-02741,ZURETTI,collège Alaoui,secondary_college,doctorat_medecine;baccalaureat;diplome_superieur;certificat
-L1912-02741,ZURETTI,Lycée Carnot,secondary_lycee,doctorat_medecine;baccalaureat;diplome_superieur;certificat
-L1912-02741,ZURETTI,collège S'-,secondary_college,doctorat_medecine;baccalaureat;diplome_superieur;certificat
-L1912-02741,ZURETTI,collège d'Ajaccio,secondary_college,doctorat_medecine;baccalaureat;diplome_superieur;certificat
-L1912-02741,ZURETTI,école des Mines,grande_ecole,doctorat_medecine;baccalaureat;diplome_superieur;certificat
-L1912-02741,ZURETTI,Ecole polytechnique,grande_ecole,doctorat_medecine;baccalaureat;diplome_superieur;certificat
-L1912-02741,ZURETTI,Institut de,institute,doctorat_medecine;baccalaureat;diplome_superieur;certificat
-L1912-02741,ZURETTI,Lycée national,secondary_lycee,doctorat_medecine;baccalaureat;diplome_superieur;certificat
-L1912-02741,ZURETTI,collège de Genève,secondary_college,doctorat_medecine;baccalaureat;diplome_superieur;certificat
-L1912-02741,ZURETTI,école des Frères,other,doctorat_medecine;baccalaureat;diplome_superieur;certificat
-L1912-02741,ZURETTI,collège de Ponl-l'Evôque,secondary_college,doctorat_medecine;baccalaureat;diplome_superieur;certificat
-L1912-02741,ZURETTI,Institut do,institute,doctorat_medecine;baccalaureat;diplome_superieur;certificat
+L1912-02741,ZURETTI,collège cle Bône,secondary_college,diplome_superieur
+L1912-02741,ZURETTI,lycée cle Conslanline,secondary_lycee,diplome_superieur
+L1912-02741,ZURETTI,Ecole centrale,grande_ecole,diplome_superieur
+L1912-02743,CAMPS,Collège Henri,secondary_college,
+L1912-02744,CAPELLANO,Institut V,institute,baccalaureat
+L1912-02744,CAPELLANO,collège Alaoui,secondary_college,baccalaureat
+L1912-02745,CHOLET,Lycée Carnot,secondary_lycee,baccalaureat
+L1912-02747,DOUMET-ADANSON,collège S'-,secondary_college,doctorat_medecine;baccalaureat;certificat
+L1912-02747,DOUMET-ADANSON,lycée Carnot,secondary_lycee,doctorat_medecine;baccalaureat;certificat
+L1912-02749,FELICI,collège d'Ajaccio,secondary_college,
+L1912-02750,FUCHS,école des Mines,grande_ecole,
+L1912-02750,FUCHS,Ecole polytechnique,grande_ecole,
+L1912-02753,KELLER,Lycée Carnot,secondary_lycee,
+L1912-02759,MEDINA,Institut de,institute,
+L1912-02766,NAAMÉ,Lycée national,secondary_lycee,doctorat_medecine
+L1912-02771,PISANI,Ecole Centrale,grande_ecole,
+L1912-02776,VUARNET,collège de Genève,secondary_college,
+L1912-02779,XUËREB,école des Frères,other,

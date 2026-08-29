@@ -187,11 +187,11 @@ coverage:
   coverage substantially and would encode the coder's assumptions rather than
   the volume's evidence. `tests/test_dataset.py` asserts that no rule does it.
 - **Silence stays silence.** A Tunisia-born person with no other marker is
-  flagged and left `unknown`, not assigned. 482 of 1,307 notices are uncoded for
-  community and 181 for gender, and that is the honest number rather than a
+  flagged and left `unknown`, not assigned. 520 of 1,333 notices are uncoded for
+  community and 185 for gender, and that is the honest number rather than a
   failure to try harder.
 
-The results are 825 of 1,307 coded for community and 1,126 for gender, of whom
+The results are 813 of 1,333 coded for community and 1,148 for gender, of whom
 eleven are women. Eleven is small enough that most comparisons on gender are not
 estimable, which `compare_populations.py` says rather than working around.
 

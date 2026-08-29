@@ -18,6 +18,14 @@ the one structural property a dictionary guarantees -- alphabetical order:
    merged back into the entry above.
 3. **Rubrics.** The volume's own in-entry labels -- ETUDES, SUCCESS',
    TRAVAUX, BUT -- are capitalised like surnames and are excluded explicitly.
+4. **Sequences.** The alphabet does not run once from end to end. On p. 437 the
+   volume prints ``SUPPLÉMENT`` and files a second A-Z sequence of late
+   additions behind it. A scaffold monotone over the whole volume cannot hold
+   both, so the supplement's anchors were dropped and its 37 notices merged
+   into ``ZURETTI``, the last notice of the main sequence -- a single entry of
+   62,481 characters, 130 times the median, which then led every measure of
+   size and connection in the dataset. The scaffold is therefore built once per
+   sequence, and the windows in rule 2 do not reach across a boundary.
 
 Every decision is written to disk with the rule that produced it
 (``accept_reason``), so segmentation can be audited rather than trusted.
@@ -53,6 +61,45 @@ CONTINUATION_OPENERS = {
 }
 
 ROMAN_NUM_RE = re.compile(r"^[IVXLCDM]+$")
+
+# A section heading that restarts the filing order. The volume prints exactly
+# one, "SUPPLÉMENT" on p. 437; the pattern is written for the general case
+# because a heading is cheap to recognise and a missed one is expensive. It has
+# to be a heading rather than a mention, so the paragraph must be short and
+# essentially nothing but the word -- "contrôleur civil suppléant" is a post
+# thirteen people held, and "supplément. 1re classe : 54 fr." is a railway fare.
+SEQUENCE_HEADING = re.compile(
+    r"^(SUPPLEMENT|SUPPLEMENTS|ADDENDA|ADDITIONS|APPENDICE|ANNEXE)\b"
+)
+
+
+def is_sequence_heading(head: str, text: str) -> bool:
+    """Does this paragraph announce a fresh alphabetical sequence?"""
+    stripped = strip_accents(text).upper()
+    return bool(SEQUENCE_HEADING.match(strip_accents(head).upper())
+                and len(re.sub(r"[^A-Z]", "", stripped)) <= 24)
+
+
+# Where the dictionary stops. After the supplement the volume prints a portrait
+# index ("AUDEMARD (B.-J.) Biogr. page 5"), then ADDITIONS ET RECTIFICATIONS,
+# then twenty pages of railway advertising. None of it is a notice, and left in
+# the body it all merges into the last entry of the supplement -- which is the
+# same failure as the supplement itself, one step later.
+BACK_MATTER = (
+    # a portrait-index pointer: the page number is what distinguishes it from
+    # the several entries that discuss somebody's biographers in prose
+    re.compile(r"\bBIOGR\.?,?\s*(?:PAGE|P\.)\s*\d"),
+    re.compile(r"^(?:ADDITIONS|RECTIFICATIONS|ERRATA|TABLE\s+DES\s+MATIERES)\b"),
+)
+
+
+def back_matter_start(cand: list[dict]) -> int:
+    """Index of the first paragraph that is no longer part of the dictionary."""
+    for i, c in enumerate(cand):
+        text = strip_accents(c["text"]).upper()
+        if any(rx.search(text) for rx in BACK_MATTER):
+            return i
+    return len(cand)
 
 # In-entry rubric labels. Lambert prints these in capitals inside an entry, so
 # they mimic a surname headword; the OCR variants are frequent enough to matter.
@@ -237,28 +284,51 @@ def main() -> int:
         head = split_headword(text)
         cand.append({"para": para, "text": text, "head": head, "key": sort_key(head)})
 
-    # --- scaffold: monotone capitalised surname headwords -------------------
+    dropped_back_matter = len(cand) - back_matter_start(cand)
+    cand = cand[: back_matter_start(cand)]
+
+    # --- sequences: where the filing order restarts --------------------------
+    # Boundaries split the candidates into runs that each file A-Z on their own.
+    boundaries = [i for i, c in enumerate(cand)
+                  if is_sequence_heading(c["head"], c["text"])]
+    starts = [0] + [i + 1 for i in boundaries] + [len(cand)]
+    sequences = [range(a, b) for a, b in zip(starts, starts[1:]) if a < b]
+
+    # --- scaffold: monotone capitalised surname headwords, once per sequence --
     anchor_idx = [
         i for i, c in enumerate(cand) if is_caps_surname(c["head"], c["key"])
     ]
-    keep = longest_nondecreasing([cmp_key(cand[i]["key"]) for i in anchor_idx])
-    scaffold = sorted(anchor_idx[k] for k in keep)
+    scaffold: list[int] = []
+    for seq in sequences:
+        within = [i for i in anchor_idx if i in seq]
+        keep = longest_nondecreasing([cmp_key(cand[i]["key"]) for i in within])
+        scaffold.extend(within[k] for k in keep)
+    scaffold.sort()
     is_anchor = set(scaffold)
-    # next_anchor_key[i] = sort key of the first scaffold anchor at or after i
-    next_key: list[str] = [""] * len(cand)
-    nxt = "￿"
-    for i in range(len(cand) - 1, -1, -1):
-        next_key[i] = nxt
-        if i in is_anchor:
-            nxt = cmp_key(cand[i]["key"])
+    # next_anchor_key[i] = sort key of the first scaffold anchor at or after i,
+    # within i's own sequence. A window must not reach past a boundary: the key
+    # after one is lower than the key before it, which would close the window on
+    # every entry in the new sequence.
+    next_key: list[str] = ["￿"] * len(cand)
+    for seq in sequences:
+        nxt = "￿"
+        for i in reversed(seq):
+            next_key[i] = nxt
+            if i in is_anchor:
+                nxt = cmp_key(cand[i]["key"])
 
     entries: list[dict] = []
     rejects: dict[str, int] = {}
     rejected_examples: dict[str, list[str]] = {}
+    boundary = set(boundaries)
     last_key = ""
     for i, c in enumerate(cand):
         para, text, head, key = c["para"], c["text"], c["head"], c["key"]
-        if i in is_anchor:
+        if i in boundary:
+            # The heading is not a notice. It joins the entry above it, and the
+            # filing order starts again from nothing beneath it.
+            accepted, reason = False, "sequence_heading"
+        elif i in is_anchor:
             accepted, reason = True, "anchor_surname"
         elif not is_plausible_headword(head) or key.split(" ")[0] in RUBRICS:
             accepted, reason = False, "implausible_headword"
@@ -311,6 +381,8 @@ def main() -> int:
                     max(r["vpos"] for r in para),
                 ]
             )
+        if i in boundary:
+            last_key = ""
 
     attach_illustrations(entries)
 
@@ -330,6 +402,8 @@ def main() -> int:
         json.dumps(
             {
                 "paragraphs": len(cand),
+                "sequences": len(sequences),
+                "back_matter_paragraphs_dropped": dropped_back_matter,
                 "entries": len(entries),
                 "accept_reasons": reasons,
                 "reject_reasons": rejects,

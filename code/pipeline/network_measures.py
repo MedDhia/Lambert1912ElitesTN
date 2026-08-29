@@ -36,7 +36,7 @@ no triangles, so it would be zero for everyone.
 
 Output: data/processed/person_network_measures.csv, one row per person node
 appearing in either network. A person whose notice records no affiliation has no
-row -- 556 of the 1,307 notices are represented, plus the people who appear only
+row -- 565 of the 1,333 notices are represented, plus the people who appear only
 inside someone else's entry.
 """
 
