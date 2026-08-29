@@ -164,7 +164,63 @@ The one-mode projection excludes bodies with more than 60 recorded members: a
 membership roll of several hundred is not evidence that any two names on it knew
 each other.
 
-## 6. What is not solved
+## 6. The interpretive layer: community and gender
+
+Sections 2 to 5 describe transcription — turning what is printed into rows. This
+section describes something different in kind: assigning people to categories
+Lambert did not print. It is kept separate for that reason, produces its own
+files rather than columns on `persons.csv`, and can be ignored entirely by
+anyone who wants only what the volume states.
+
+`code/pipeline/code_communities.py` codes each notice as European (French,
+Italian, Maltese, other) or Tunisian (Muslim, Jewish). `code_gender.py` codes
+gender. Both work from evidence tiers in the entry itself, in this order:
+institutions held or attended, membership of a community body, birthplace, and
+name particles or honorifics. Every classified row carries the evidence string
+and a confidence, so a reader can disagree with a particular call rather than
+with the file.
+
+Two constraints are deliberate and worth stating plainly, because both cost
+coverage:
+
+- **No rule reads a surname.** Surname-based ethnic classification would raise
+  coverage substantially and would encode the coder's assumptions rather than
+  the volume's evidence. `tests/test_dataset.py` asserts that no rule does it.
+- **Silence stays silence.** A Tunisia-born person with no other marker is
+  flagged and left `unknown`, not assigned. 482 of 1,307 notices are uncoded for
+  community and 181 for gender, and that is the honest number rather than a
+  failure to try harder.
+
+The results are 825 of 1,307 coded for community and 1,126 for gender, of whom
+eleven are women. Eleven is small enough that most comparisons on gender are not
+estimable, which `compare_populations.py` says rather than working around.
+
+## 7. Derived measures and comparisons
+
+`graph_metrics.py` implements connected components, Brandes betweenness,
+Wasserman–Faust closeness and local clustering in the standard library. It exists
+because this stage previously imported networkx, which broke the no-dependencies
+promise the rest of the pipeline keeps: `make all` failed for anyone who followed
+the README and installed nothing. On the graph in question the results match
+networkx exactly for closeness, clustering and degree, and to 3.6e-16 for
+betweenness.
+
+`network_measures.py` writes those measures out per person. Each is computed
+inside the node's own component, since centrality is undefined across
+components, and the component size travels with it so that comparing a score
+from a three-node component with one from the giant is at least a visible
+mistake. Absence from a network is left blank rather than zero: a person with no
+recorded tie has no betweenness, which is not a betweenness of nothing.
+
+`compare_populations.py` writes the comparison tables. It uses Fisher exact
+tests and permutation inference — both valid at these sample sizes — and states
+explicitly where the models the source methodology specifies do not fit. One
+detail matters for reproducibility: the sample fed to the permutation test is
+sorted, because the test shuffles under a fixed seed and an unsorted list made
+the resulting p-value depend on how the graph happened to be built rather than
+on the data.
+
+## 8. What is not solved
 
 - **Merged entries.** Where the first-line indent is lost to OCR and no fallback
   shape matches, a notice is absorbed into the one above. This is the main reason
@@ -178,10 +234,28 @@ each other.
 Each of these is measured, where it can be measured, in
 [`validation_report.md`](validation_report.md).
 
-## 7. Reproducibility
+## 9. Reproducibility
 
-`make all` rebuilds `data/processed/` from the cached ALTO; `make data` refetches
-the ALTO from Gallica. Python 3.11+, standard library only, no third-party
-dependencies, no network access after the fetch stage. Each stage is
-independently runnable and caches its output, so re-running one rule change costs
-seconds.
+`code/pipeline/fetch_alto.py` downloads the ALTO and the IIIF manifest, caching
+each view so the fetch is resumable and run once. `make all` rebuilds
+`data/processed/` from that cache; `make data` refetches from Gallica. Python
+3.11+, standard library only, no third-party dependencies, no network access
+after the fetch stage. Each stage is independently runnable and caches its
+output, so re-running one rule change costs seconds.
+
+Rebuilding is reproducible in the strict sense. From the cached OCR every
+committed artefact — all sixteen CSVs, the source manifest, the validation
+report and the comparison tables — comes back byte for byte in about 50 seconds,
+and the figures do too, in both PNG and PDF. That is a property worth protecting
+rather than assuming, and it took three fixes to get: figure scripts that
+iterated a set drew in hash order, one of them breaking a tie that named a
+person in a caption, so a rebuild could change a stated fact; and Matplotlib
+stamps a timestamp into every PDF unless told not to. Nothing that reaches an
+output is now ordered by a dictionary or a set.
+
+CI enforces the part it can reach. The runner has neither the OCR cache nor the
+plotting packages, so it regenerates the three stages that need only the
+committed CSVs — the validation report, the comparison tables and
+`person_network_measures.csv` — and fails if any differs from what is committed.
+`validate.py` recomputes the report from the committed files alone, which is why
+it can run there at all.

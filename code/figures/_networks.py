@@ -34,8 +34,8 @@ the specific `ORG:` nodes: "Touring-Club", "Société Franc-Comtoise", "Institut
 Carthage et la Société de Géographie commerciale de Paris" all survive, because
 each carries at least one word that is not boilerplate.
 
-This removes 16 nodes and 48 of 1,217 ties — about 4% — and it is a deliberately
-conservative cut. It is applied only to the betweenness figures, where a false
+This removes 16 nodes and 48 of the 1,639 ties this function reads — under 3% —
+and it is a deliberately conservative cut. It is applied only to the betweenness figures, where a false
 bridge is actively misleading. Figures 14, 15 and 25 draw the unfiltered graph;
 their measure is degree, which a merged node inflates only locally.
 """
