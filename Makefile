@@ -1,9 +1,9 @@
 PYTHON ?= python3
 CODE := code/pipeline
 
-.PHONY: all data text entries records networks coding compare validate test figures clean clean-derived
+.PHONY: all data text entries records networks coding compare homophily validate test figures clean clean-derived
 
-all: validate compare measures coding
+all: validate compare measures coding homophily
 
 ## data: download the BnF ALTO OCR and the IIIF manifest (cached, resumable)
 data:
@@ -41,6 +41,12 @@ data/processed/person_network_measures.csv: $(CODE)/network_measures.py \
 		$(CODE)/graph_metrics.py data/processed/network_edges.csv
 	$(PYTHON) $(CODE)/network_measures.py
 
+## homophily: assortativity tests on the co-membership network
+homophily: output/tables/homophily.md
+output/tables/homophily.md: $(CODE)/homophily.py \
+		data/processed/person_positionality.csv
+	$(PYTHON) $(CODE)/homophily.py > /dev/null
+
 ## compare: population comparison tables
 compare: output/tables/comparison_tables.md
 output/tables/comparison_tables.md: $(CODE)/compare_populations.py \
@@ -60,7 +66,7 @@ example: data/processed/network_edges.csv
 clean-derived:
 	rm -rf data/interim docs/validation_report.md
 	rm -f data/processed/*.csv
-	rm -f output/tables/comparison_tables.md
+	rm -f output/tables/comparison_tables.md output/tables/homophily.md
 
 ## clean: also drop the ~76 MB ALTO cache (forces a re-download)
 clean: clean-derived

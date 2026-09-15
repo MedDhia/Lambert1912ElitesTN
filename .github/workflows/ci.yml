@@ -50,5 +50,13 @@ jobs:
           git diff --exit-code -- data/processed/person_network_measures.csv \
             || { echo "::error::data/processed/person_network_measures.csv is stale — run 'make measures' and commit"; exit 1; }
 
+      # Also checks that the permutation tests are seeded: an unseeded shuffle
+      # would rewrite this file on every run and fail here.
+      - name: Regenerate the homophily tables and check they are up to date
+        run: |
+          python code/pipeline/homophily.py > /dev/null
+          git diff --exit-code -- output/tables/homophily.md \
+            || { echo "::error::output/tables/homophily.md is stale — run 'make homophily' and commit"; exit 1; }
+
       - name: Smoke-test the example
         run: python code/examples/quickstart.py > /dev/null
