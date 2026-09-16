@@ -21,29 +21,32 @@ service; no page is scraped from the reading interface.
 | | n |
 |---|---|
 | Dictionary entries segmented | 2,779 |
-| Biographical notices (persons) | 1,333 |
-| Localities | 737 |
-| Associations and public bodies | 159 |
-| Arabic/Tunisian terms and other topics | 481 |
-| Cross-references | 69 |
-| Honours coded (person × order) | 1,830 |
-| Career posts | 1,448 |
-| Educational institutions attended | 1,159 |
-| Affiliation ties (person → organisation) | 1,754 |
-| Person → place ties (birth, residence, property) | 2,149 |
-| Network nodes / edges | 4,032 / 3,903 |
-| Persons with a coded community | 813 of 1,333 |
-| Persons placed as colonist or native | 841 of 1,333 (715 / 126) |
-| Persons with a coded gender | 1,148 of 1,333 (11 women) |
-| Person nodes with network measures | 1,139 (565 with a notice) |
+| Biographical notices (persons) | 1,346 |
+| Localities | 741 |
+| Voluntary associations | 159 |
+| Organs of the Protectorate (directorates, offices, services) | 19 |
+| Arabic/Tunisian terms and other topics | 443 |
+| Cross-references | 71 |
+| Honours coded (person × order) | 1,842 |
+| Career posts | 1,464 |
+| Educational institutions attended | 1,169 |
+| Affiliation ties (person → organisation) | 1,760 |
+| Person → place ties (birth, residence, property) | 2,168 |
+| Network nodes / edges | 4,055 / 3,928 |
+| Persons with a coded community | 821 of 1,346 |
+| Persons placed as colonist or native | 850 of 1,346 (720 / 130) |
+| Persons with a coded gender | 1,169 of 1,346 (13 women) |
+| Person nodes with network measures | 1,142 (567 with a notice) |
 
 Lambert's preface states his own totals — "more than 1,300" biographies, "more
 than 750" localities, "more than 175" societies, 420 portraits. The pipeline
 never sees those figures, so they serve as an independent check: it recovers
-103%, 98%, 91% and 100% of them. The two shortfalls are real and are not
-smoothed over — some locality and association notices are absorbed into the
-entry above when OCR loses the first-line indent, so those two tables are
-high-precision but incomplete. See
+104%, 99%, 91% and 100% of them. The association shortfall is real and is not
+smoothed over — some notices are absorbed into the entry above when OCR loses
+the first-line indent, so that table is high-precision but incomplete. The
+organs of the Protectorate are counted separately, as `state_body`, because
+Lambert's 175 is a count of societies and associations and folding nineteen
+directorates into it would flatter the ratio against the wrong population. See
 [`docs/validation_report.md`](docs/validation_report.md).
 
 Files live in `data/processed/`; every variable is defined in
@@ -64,8 +67,8 @@ makes it usable for questions such as:
 - **State recognition as a resource.** Two honours systems operate side by side:
   the French Légion d'honneur and Palmes académiques, and the Bey's Nichan
   Iftikhar. Who accumulates which, and in what grade, is a direct measure of
-  how each authority distributed status — and 720 of 1,333 people carry a
-  beylical honour against 181 with the Légion d'honneur.
+  how each authority distributed status — and 726 of 1,346 people carry a
+  beylical honour against 182 with the Légion d'honneur.
 - **Associational life as social structure.** The affiliation network links
   people to mutual-aid societies, chambers of commerce and agriculture, learned
   societies, sporting clubs, masonic lodges, and national-community associations
@@ -118,6 +121,19 @@ attributes read out of the tail of an entry can belong to the following person.
 The effect is small and detectable — a notice header is a recognisable string —
 but it is real. Anything derived from the free text of a long entry deserves a
 glance at the page.
+
+`topic` also used to be where unmatched entries went, and it hid real ones. It
+now has rules of its own, so `residual` means only what it says: 108 entries of
+2,779, down from 481. Naming the rules turned up 14 biographical notices whose
+surname the OCR had run together with the forenames behind it (`GHEZ jeune`,
+`BOULANGER Georges-Ernest-Jean-Alarie`) or whose birth year it had mangled past
+recognition (`AZEDINEBEY. 1SS2` is 1882) — two of them women, which takes the
+volume's count of women from eleven to thirteen — along with nineteen
+directorates and offices and six cross-references. A `headword_is_fragment`
+column flags the nineteen clearest cases of the opposite defect: a headword that
+is really a clause, either a gloss that ran on (`Djebel signifie montagne`) or
+the tail of the entry above (`Carthage était encore puissante`, 20,997
+characters of the Carthage article). That flag is a floor, not an inventory.
 
 The worst case of this has been fixed rather than documented. The volume files a
 second alphabetical sequence behind a `SUPPLÉMENT` heading on p. 437, which the
@@ -267,7 +283,7 @@ recorded per row (`segmentation_rule`, `classification_rule`) rather than
 discarded, so the dataset can be audited and re-coded rather than taken on
 trust.
 
-`make test` runs 123 checks in seven files: the parsing rules are pinned to the
+`make test` runs 139 checks in seven files: the parsing rules are pinned to the
 OCR strings that once broke them, the committed tables are checked for joins and
 documented value domains, the counts are held against Lambert's own preface
 figures, the derived measures are checked against the edge lists they come from,

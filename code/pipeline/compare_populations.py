@@ -8,15 +8,15 @@ reports.
 The comparison is run at two very different sample sizes, and the tests differ
 accordingly:
 
-* **Community** (652 European, 173 Tunisian) supports the full apparatus:
+* **Community** (681 European, 140 Tunisian) supports the full apparatus:
   regression on log-transformed betweenness with degree, closeness and
   clustering as controls, plus the zero/positive hurdle decomposition.
-* **Gender** does not. The volume contains eleven women, three with any
+* **Gender** does not. The volume contains thirteen women, three with any
   affiliation tie and two in the giant component. At that size a zero-inflated
   negative binomial, a quantile regression, an IPTW re-weighting or a
   gender-by-community interaction are not estimable in any meaningful sense --
   a model will return coefficients, and they will be noise. What *is* valid at
-  n = 11 is exact and permutation inference, which makes no large-sample
+  n = 13 is exact and permutation inference, which makes no large-sample
   assumption, so that is what is run.
 
 Writes output/tables/comparison_tables.md and prints the same tables.

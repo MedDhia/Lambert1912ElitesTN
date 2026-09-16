@@ -3,6 +3,7 @@ import collections
 import _style as S
 
 education = S.read("education.csv")
+persons = S.read("persons.csv")
 LABELS = {
     "secondary_lycee": "Lycée", "secondary_college": "Collège",
     "university_faculty": "University faculty", "teacher_training": "École normale",
@@ -29,4 +30,7 @@ S.titles(
     f"{len({r['entry_id'] for r in education})} persons; a person may name several). "
     "Islamic institutions highlighted.",
 )
-S.save(fig, "fig05_education", "The ETUDES rubric is present in 58% of notices")
+S.save(fig, "fig05_education",
+       f"The ETUDES rubric is present in "
+       f"{100 * sum(1 for p in persons if p['education_raw'].strip()) / len(persons):.0f}% "
+       "of notices")

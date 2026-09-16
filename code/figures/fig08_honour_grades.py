@@ -42,4 +42,6 @@ S.titles(
     "Persons by grade within each order. Grades with no holder in either order are "
     "omitted. A person may hold both orders at different grades.",
 )
-S.save(fig, "fig08_honour_grades", "Grade is unstated for 16% of honours")
+S.save(fig, "fig08_honour_grades",
+       f"Grade is unstated for "
+       f"{100 * sum(1 for d in decs if not d['grade']) / len(decs):.0f}% of honours")

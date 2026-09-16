@@ -29,4 +29,6 @@ S.titles(
     xlabel="Age on arrival in Tunisia",
     ylabel="Persons",
 )
-S.save(fig, "fig03_age_at_settlement", "Both dates readable for 40% of notices")
+S.save(fig, "fig03_age_at_settlement",
+       f"Both dates readable for {100 * sum(1 for p in persons if p['birth_year'] and p['settled_tunisia_year']) / len(persons):.0f}% "
+       "of notices")

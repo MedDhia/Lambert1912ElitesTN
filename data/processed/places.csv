@@ -241,6 +241,7 @@ L1912-00993,EBBA-KSOUR,Kef,Kef,,70,Gaffour,,,,,1,0,0,1,0,,309,170,0.881
 L1912-00994,ECHAMUNES,Tunis,la banlieue,,,,,,,,0,0,0,0,0,,917,171,0.9814
 L1912-00995,ECH-CHAAR,Tunis,la,,,,,,,M. Vassel,0,0,0,0,0,,69,171,0.976
 L1912-01003,EL-AALEM,,,,6,Sbikha et centre d'une importan,,,,,0,0,0,0,0,,130,173,0.9728
+L1912-01004,EL-ABRASIA,Sfax,Sfax,,,,,,,,0,0,0,0,0,,110,173,0.9623
 L1912-01005,EL-AFAREG,Béja,Béja,,7,Béja,,,,"MM. Rosenweig, Latil, Verdelet, Delboulbé, Bonneau, Trachat, Dechoudan",0,0,0,0,0,,157,173,0.9518
 L1912-01006,EL-AFRANE,Tunis et caïtet de la banlieue,,,,,,,,"MM. Despéroux, Bidali, etc",0,1,0,0,0,,157,173,0.958
 L1912-01007,EL-AGHAIR,Sfax,Sfax,,16,Triaga,,,,,0,0,0,0,0,,70,173,0.92
@@ -280,7 +281,6 @@ L1912-01048,EL-KEBIRA,Souk-el-Arba,Ouled-bou-Salem et Chiahia,,,,,,,M. de Villen
 L1912-01050,EL-KSAR,Gafsa,Gafsa,,2,Gafsa,550,,,,0,0,0,0,0,,148,176,0.8475
 L1912-01051,ELLES,Kef,Kef,,16,Sers,,,,,0,0,0,0,0,"Célèbres tombes mégalithiques,composées de plusieurs Chambres, aux couloirs en pierres de dimensions énormes. D' L. C.",206,176,0.9388
 L1912-01053,EL-LOUZA,Sfax,Sfax,,,,700,,,"MM. Walker, Debono, Awocato, Gily, etc",0,0,0,0,0,,162,177,0.9482
-L1912-01054,EL MABROUK,,,,,,,,,,0,0,0,0,0,,276,177,0.9194
 L1912-01055,EL-MAI,Gabès,,,10,Djerba,,,,,0,0,0,0,0,,83,177,0.9507
 L1912-01056,EL-MECHREF,Mactar,Ouled-Ayar,,11,Mactar,75,,,,0,0,0,1,0,,164,177,0.8642
 L1912-01057,EL-MELLAHA,Tunis,la banlieue,,20,Chuiggui,,,,,0,0,0,0,0,,77,177,0.919
@@ -382,6 +382,7 @@ L1912-01401,HENCHIR-EL-TURK,Sfax,Sfax,,47,Sfax,,,,,0,0,0,0,1,"l'ancienne Segerm�
 L1912-01402,HENCHIR-SAADIA,Kairouan,Kairouan,,,,,,,,0,0,0,0,0,,126,225,0.931
 L1912-01408,HERGLA,Sousse,Sousse,,25,Enlidaville,,,,,0,0,0,0,0,,272,226,0.9123
 L1912-01410,HIBOUN,Sousse,Mahdia,,,,,,,,0,0,0,0,0,,67,227,0.936
+L1912-01414,HOFRA,Grombalia,Cap-Bon,,15,Menzel-bouZalfa,,,,,0,0,0,0,0,,102,228,0.9433
 L1912-01424,HOUMET-EL-KAHIA,Gabès,l'Arad,,5,Gabès,,,,,0,0,0,0,0,,108,230,0.9627
 L1912-01425,HOUMT-SOUK,Gabès,l'Arad,contrôle civil et des services,,,,,,,0,1,0,1,1,,1207,230,0.9702
 L1912-01432,Huile,,,,,,,,,,0,0,0,0,0,,2182,231,0.9539
@@ -435,7 +436,6 @@ L1912-01554,KSOUR-ESSAF,Sousse,Mahdia,,,,6000,,,,0,1,0,1,0,,199,253,0.905
 L1912-01555,KSOUR-D'OUED-OUZAFA,Mactar,Oulad-Aoun,,,,,,,,0,1,0,0,1,,1063,253,0.9316
 L1912-01564,LADJERED,Tala,Fraichich,,20,Tala,,,,,0,0,0,0,0,,69,255,0.9515
 L1912-01576,LALA,Gafsa,Gafsa,,,,,,,,0,0,0,0,0,,121,257,0.962
-L1912-01581,LAMINE,,,,,,,,,,0,0,0,0,0,,307,258,0.9151
 L1912-01589,LANSARINE,Tunis,la banlieue,,20,Schuiggui,,,,,0,1,0,0,0,,622,259,0.9741
 L1912-01595,LAVERIE,Tunis,JUBOL - URODONAL - GLOBÉOL de l,,,,,,,,1,1,0,0,1,ruines du Djebel-Reças.,245,260,0.8694
 L1912-01642,LOUKANDA,Tunis,Zaghouan,,13,Pont-du-Fahs,,,,,0,0,0,0,0,,93,270,0.9163
@@ -606,6 +606,7 @@ L1912-02305,SEDJOUMI,Tunis,la banlieue,,,,,,,,0,1,0,0,0,,301,364,0.9254
 L1912-02306,SEDJNANE,Bizerte,Mateur,,45,Michaud,,,,,0,0,0,0,0,,99,364,0.952
 L1912-02307,SEDOUIKEH,Gabès,l'Arad,,8,El-Kantara,,,,,0,0,0,0,0,,150,364,0.9463
 L1912-02308,SEGERMÈS,,Sousse,,20,Zaghouan,,,,,0,0,0,0,0,,325,364,0.9129
+L1912-02311,SELDJA,,,,7,Philippe-Thomas (Metlaoui),,,,,1,0,0,1,1,,1445,364,0.9457
 L1912-02313,SELLEM,,Aïn-Draham,,15,AïnDraham,,,,,0,0,0,1,0,,118,364,0.9043
 L1912-02315,SEMBAT,Gabès,,,3,EI-Hamma,,,,,0,0,0,0,0,,74,364,0.9295
 L1912-02316,SENED,,,,30,Maknassv,300,,,,1,0,0,0,0,,160,364,0.9323
@@ -649,6 +650,7 @@ L1912-02379,SIDI-SALAH,Tunis,Zaghouan,,3,Depienne (Smindja),,,,"1 immatriculée 
 L1912-02380,SIDI-SALEM,Bizerte,Mateur,,,,,,,,0,0,0,0,0,,84,372,0.954
 L1912-02381,SIDI-TABET,Tunis,,,,,,,,,0,1,0,0,0,,395,372,0.9165
 L1912-02382,SIDI-ZEHILI,Kef,Teboursouk,,13,Thibaref à 34 kil,,,,,1,0,0,1,0,,200,372,0.884
+L1912-02383,SIDI-ZID,,,,30,Pont-du-Fahs,,,,,0,0,0,1,0,,192,372,0.9446
 L1912-02384,SIDI-ZIT,,Bizerle,,,,,,,,0,0,0,0,0,,67,372,0.9235
 L1912-02386,SILIANA,Mactar,,,33,Mactar,,,,,0,0,0,1,0,,332,372,0.9824
 L1912-02393,SKALBA,Grombalia,Cap-Bon,,,,,,,,0,0,0,0,0,,83,373,0.8997
@@ -709,6 +711,7 @@ L1912-02580,TOUZA,,Monastir,,5,Ksar-Ellal et à 6 kil,1000,,,,0,0,0,0,0,,238,403
 L1912-02581,TOZEUR,,Djerid,Contrôle civil de Gafsa et du c,86,Gafsa et à 52 k,10000,,,,0,0,0,0,0,,431,403,0.9356
 L1912-02586,TRIAGA,,Sfax,ce nom,,,,,,,0,1,0,0,0,,459,406,0.9633
 L1912-02611,TURKI,Grombalia,Cap-Bon,,3,Grombalia,400,,,,0,0,0,0,0,,449,414,0.9455
+L1912-02617,UTIQUE C,Bizerle,Bizerle,,,,,,,,0,0,0,0,0,,104,417,0.9737
 L1912-02691,YAKOUBIA,,Sfax,,16,Triaga,,,,,0,0,0,0,0,,76,432,0.895
 L1912-02694,YVERDONNOISE,,,,,,,,,,0,0,0,0,0,,104,432,0.8165
 L1912-02695,ZAAFRANE,,Nefzaoua,,,,,,,,0,0,0,0,0,,88,433,0.8247
@@ -720,6 +723,7 @@ L1912-02702,ZAMA,Souk-el-Arba,Ouled-bou-Salem et Chiahia,,5,Souk-elKhemis,,,,,0,
 L1912-02710,ZAOUEN,,Ouled-bou-Salem et Chiahia,,,,,,,,0,0,0,1,0,,166,434,0.9576
 L1912-02711,ZAOUIA,Tunis,la banlieue,,2,La Cebala-du-Mornag,,,,,1,0,0,0,0,,154,434,0.9087
 L1912-02714,ZAOUIA-SIDI-ABD-EL-MLEK,,OuledAoun,,37,Mactar et à 10 kil,,,,,0,1,0,0,0,,325,434,0.9713
+L1912-02715,ZAOUIA-SOUSSE,,,,,,920,,,,0,0,0,0,1,,288,435,0.9552
 L1912-02716,ZAOUIET-BOU-KRIM,Grombalia,Cap-Bon,,19,Kelibia,,,,,0,0,0,0,0,,85,435,0.956
 L1912-02717,ZAOUIET-CHEBAANE,Grombalia,Cap-Bon,,15,Menzel-Temime,,,,,0,0,0,0,0,,213,435,0.9448
 L1912-02718,ZAOUIET-EL-ARAB,Gafsa,Djerid,,2,Degache,500,,,,0,0,0,0,0,,86,435,0.9263

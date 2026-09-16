@@ -1,8 +1,12 @@
-"""Fig. 21 — The eleven women.
+"""Fig. 21 — The thirteen women.
 
 The story here is a single number, so the form is emphasis on a unit grid rather
-than a chart of series: every notice in the volume is one mark, and the eleven
+than a chart of series: every notice in the volume is one mark, and the thirteen
 women are the only ones that carry colour.
+
+It was eleven until the classifier stopped filing two of them as topics: a
+headmistress at Gabès and the proprietor of a Tunis café, both printed with their
+forenames run into the headword.
 """
 import _style as S
 
@@ -11,8 +15,8 @@ women = [r for r in rows if r["gender"] == "FEMALE"]
 # The title names both counts, and a title cannot be checked against the data by
 # the index test the way a subtitle can. So the figure checks them itself: it
 # fails to render rather than print a number the dataset no longer supports.
-assert (len(women), len(rows)) == (11, 1333), (
-    f"title says 11 women of 1,333 notables; data says {len(women)} of {len(rows)}")
+assert (len(women), len(rows)) == (13, 1346), (
+    f"title says 13 women of 1,346 notables; data says {len(women)} of {len(rows)}")
 affiliated = {e["person_node"] for e in S.read("edges_person_organisation.csv")}
 total = len(rows)
 men = sum(1 for r in rows if r["gender"] == "MALE")
@@ -44,12 +48,12 @@ ax.annotate(
 # reads out of the source. The numbers in it are asserted above instead.
 S.titles(
     ax,
-    "Eleven women in a volume of 1,333 notables",
+    "Thirteen women in a volume of 1,346 notables",
     "Every biographical notice in the volume, one mark each, in printed order. "
     "Gender is coded from civil titles, feminine occupational nouns and forenames; "
-    f"only {sum(1 for w in women if w['entry_id'] in affiliated)} of the eleven "
+    f"only {sum(1 for w in women if w['entry_id'] in affiliated)} of the thirteen "
     "women are recorded in any organisation at all.",
     wrap=92,
 )
 S.save(fig, "fig21_women_in_the_record",
-       f"{100 * len(women) / total:.2f}% of notices; all eleven verified against the page image")
+       f"{100 * len(women) / total:.2f}% of notices; all thirteen verified against the page image")

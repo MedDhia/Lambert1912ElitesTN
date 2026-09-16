@@ -19,21 +19,21 @@ Unit of observation, by table:
 | file | one row is | n |
 |---|---|---|
 | `entries.csv` | a dictionary entry | 2,779 |
-| `persons.csv` | a person with a biographical notice | 1,333 |
-| `places.csv` | a locality with a notice | 737 |
-| `organizations.csv` | an association or public body with a notice | 159 |
-| `decorations.csv` | a person × an honour | 1,830 |
-| `career_positions.csv` | a person × a post in their career sequence | 1,448 |
-| `education.csv` | a person × an educational institution | 1,159 |
+| `persons.csv` | a person with a biographical notice | 1,346 |
+| `places.csv` | a locality with a notice | 741 |
+| `organizations.csv` | an association or an organ of the Protectorate, with a notice | 178 |
+| `decorations.csv` | a person × an honour | 1,842 |
+| `career_positions.csv` | a person × a post in their career sequence | 1,464 |
+| `education.csv` | a person × an educational institution | 1,169 |
 | `mentions.csv` | a person named inside someone else's entry | 1,099 |
-| `edges_person_organisation.csv` | an affiliation tie | 1,754 |
-| `edges_person_place.csv` | a person-to-place tie | 2,149 |
-| `edges_person_person.csv` | a co-membership tie | 5,366 |
-| `network_nodes.csv` | a node in the combined network | 4,032 |
-| `network_edges.csv` | an edge in the combined network | 3,903 |
-| `person_communities.csv` | a person × their coded community | 1,333 |
-| `person_gender.csv` | a person × their coded gender | 1,333 |
-| `person_positionality.csv` | a person × their side of the colonial line | 1,333 |
+| `edges_person_organisation.csv` | an affiliation tie | 1,760 |
+| `edges_person_place.csv` | a person-to-place tie | 2,168 |
+| `edges_person_person.csv` | a co-membership tie | 5,381 |
+| `network_nodes.csv` | a node in the combined network | 4,055 |
+| `network_edges.csv` | an edge in the combined network | 3,928 |
+| `person_communities.csv` | a person × their coded community | 1,346 |
+| `person_gender.csv` | a person × their coded gender | 1,346 |
+| `person_positionality.csv` | a person × their side of the colonial line | 1,346 |
 
 `data/processed/source_manifest.json` sits alongside them: the ark, the number
 of IIIF views, and how many carry an ALTO OCR layer. It is written by the fetch
@@ -52,8 +52,9 @@ re-code anything differently — the full text of each entry is here.
 | `entry_id` | string | Stable key, `L1912-#####`, assigned in reading order. Used as the join key everywhere and as the node id in the network files. |
 | `headword` | string | The headword as printed, OCR errors included. |
 | `sort_key` | string | Headword normalised for alphabetical comparison (accents and punctuation stripped, upper-cased). |
-| `entry_type` | categorical | `person`, `place`, `organisation`, `topic`, `cross_reference`. See the classification rules below. |
-| `classification_rule` | categorical | Which rule assigned `entry_type`. Lets you filter to the high-confidence rules (`administrative_unit`, `forenames_and_life_dates`, `organisational_template`) or audit the residual ones. |
+| `entry_type` | categorical | `person`, `place`, `organisation`, `state_body`, `topic`, `cross_reference`. `organisation` is a voluntary association; `state_body` is an organ of the Protectorate — a directorate, office or service. The two are kept apart because Lambert's preface counts only the former, and because a directorship is an appointment rather than a joined membership. See the classification rules below. |
+| `classification_rule` | categorical | Which rule assigned `entry_type`. Lets you filter to the high-confidence rules (`administrative_unit`, `forenames_and_life_dates`, `organisational_template`) or audit the weaker ones. Every type now has at least one positive rule, `topic` included, so `residual` means only that no rule matched (108 rows). |
+| `headword_is_fragment` | 0/1 | The printed headword is a sentence fragment rather than a heading — a gloss whose headword ran on (`Djebel signifie montagne`) or the tail of the preceding entry broken out on its own (`Carthage était encore puissante`). 19 rows, all of them `topic`. **A floor, not an inventory**: it fires on a conjugated verb or a leading digit, and headwords broken in other ways are not caught. Exclude these rows from any count of entries. |
 | `segmentation_rule` | categorical | `anchor_surname` (a capitalised personal headword in the monotone alphabetical scaffold) or `alphabetical_window` (accepted because its sort key fell between the surrounding anchors). |
 | `page_first`, `page_last` | string | Printed page numbers the entry spans. Roman numerals for front matter. |
 | `view_first`, `view_last` | integer | Gallica IIIF view numbers (= printed page + 24 in the dictionary proper). |
@@ -74,9 +75,13 @@ re-code anything differently — the full text of each entry is here.
 | `caps_headword_with_forenames` | Forenames but no date. | person |
 | `caps_headword_with_date` / `_with_honour` / `_with_occupation` | Capitalised headword whose forenames were lost to OCR, identified by a life date, an honour, or a stated occupation. | person |
 | `organisational_template` | Headword begins with an organisational noun, or the entry carries "BUT :", "Siège social", or an officer list. | organisation |
+| `directorate_or_office` | Headword names, or is followed by a parenthesis naming, an organ of the Protectorate ("Office Postal (Direction de l')", "FORETS (Direction des)"). | state_body |
 | `administrative_markers` / `_late` / `settlement_noun_and_measure` | Population, distance, or settlement nouns without the opening formula. | place |
-| `see_also_only` | A short cross-reference ("Juifs. (V. Israélites.)"). | cross_reference |
-| `residual` | None of the above: Arabic and Tunisian terms, flora and fauna, institutions, customs, statistics. | topic |
+| `bearing_and_population` | Neither formula nor settlement noun, but the entry fixes its subject at a distance from a named town *and* gives a head-count ("à 5 kil. au sud-ouest de Sousse, 920 hab."). | place |
+| `see_also_only` | The entry's body opens with a pointer and nothing else ("Juifs. (V. Israélites.)", "Collège Sadiki. Voir Sadiki (Collège)."). The pointer has to come first: a locality that also cross-refers is still a locality. | cross_reference |
+| `glossary_gloss` | The entry opens by glossing a term — "Signifie", "Littéralement", "Nom donné par les Arabes à", "(mot italien)". This is the rule that answers to Lambert's "more than 250 Arabic, Turkish and Judaeo-Arabic words explained". | topic |
+| `thematic_article` | 400 characters or more of prose matching none of the templates: Lambert's articles on agriculture, the army, the press, the courts. | topic |
+| `residual` | None of the above — short, and with no formula to read. | topic |
 
 ---
 
@@ -161,6 +166,7 @@ with `has_school = 0` may well have had a school Lambert did not name.
 | variable | type | definition |
 |---|---|---|
 | `entry_id`, `organisation_name` | string | Key and headword. |
+| `organisation_class` | categorical | `voluntary_association` (159) or `state_body` (19), matching `entry_type`. The affiliation network is built from the associations only: a directorship of the Office Postal is an appointment, not a joined membership, and admitting the two on the same footing would change what a co-membership tie means. Drop the filter in `build_networks.py` and rebuild to study them together. |
 | `founded_raw`, `founded_year` | string, integer | Foundation date as printed and its year. |
 | `seat_raw` | string | The "Siège social" line. |
 | `city` | categorical | City of the seat. |
@@ -466,7 +472,7 @@ of those placed by birthplace — a gap that has nothing to do with the colonial
 order. Hold the basis constant, as fig. 55 shows and `_positionality.matched()`
 does.
 
-**Two known limits.** 36% of the volume is unplaced, and asymmetrically: the
+**Two known limits.** 37% of the volume is unplaced, and asymmetrically: the
 commonest reason is a Tunisian birthplace with no communal marker, which
 withholds more natives than colonists, so the native count is a floor. And 34
 entries of 2,779 are merged — the two-column OCR ran one notice into the next —
@@ -479,12 +485,12 @@ where such a row was placed institutionally it is reset to `unknown` and flagged
 | variable | type | definition |
 |---|---|---|
 | `entry_id`, `surname`, `forenames` | string | Join key and name. |
-| `gender` | categorical | `MALE` (1,137), `FEMALE` (11), `UNKNOWN` (185). |
+| `gender` | categorical | `MALE` (1,156), `FEMALE` (13), `UNKNOWN` (177). |
 | `gender_confidence` | categorical | `high` (civil title, "née", feminine occupational noun), `medium` (forename or grammatically gendered occupation), `low` (conflicting). |
 | `gender_evidence` | string | `civil_title`, `nee_participle`, `feminine_occupation`, `masculine_occupation`, `feminine_forename`, `masculine_forename`. |
 | `community`, `community_group` | categorical | Joined from `person_communities.csv` for convenience. |
 
-All eleven women were checked individually against the page image. Two coding
+All thirteen women were checked individually against the page image. Two coding
 traps are worth naming, because both produced false positives in a first pass:
 *"école primaire supérieure"* carries feminine agreement with the school, not the
 person, and the OCR renders both "Mme" and *Maître* as `M` plus punctuation, so

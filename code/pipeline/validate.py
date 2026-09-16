@@ -77,6 +77,7 @@ def main() -> int:
     )
 
     by_type = collections.Counter(r["entry_type"] for r in entries)
+    cls = collections.Counter(r["classification_rule"] for r in entries)
     confs = [float(r["ocr_confidence"]) for r in entries if r["ocr_confidence"]]
     portraits = sum(int(r["n_portraits"]) for r in entries)
 
@@ -103,12 +104,25 @@ def main() -> int:
     )
     out.append(table(["entry_type", "Lambert's claim", "stated", "extracted", "ratio"], rows))
     out.append(
-        "The person count clears the stated minimum. Places and associations fall "
-        "short of theirs: some notices are absorbed into the entry above them when "
-        "the first-line indent is lost to OCR, and some association notices are "
-        "coded as `topic` because they carry none of the organisational template's "
-        "markers. Treat the place and organisation tables as high-precision, "
-        "incomplete samples of their populations, not as complete enumerations.\n"
+        "The person count clears the stated minimum; places all but do. Associations "
+        "fall short of theirs, because some notices are absorbed into the entry above "
+        "them when the first-line indent is lost to OCR. Treat `organisation` as a "
+        "high-precision, incomplete sample of that population rather than a complete "
+        "enumeration.\n"
+    )
+    out.append(
+        "Two rows above need reading against what Lambert was counting. His 175 is a "
+        "count of *societies and associations*, so the organs of the Protectorate -- "
+        "directorates, offices, services -- are typed `state_body` and kept out of that "
+        "comparison rather than allowed to flatter it; they are in `organizations.csv` "
+        "under `organisation_class`. And `topic` is wider than the glossary Lambert is "
+        "describing, which is why it overshoots 250: it holds his thematic articles too. "
+        "Neither figure in that row is the glossary. The one rule that identifies a gloss "
+        "positively, `glossary_gloss`, fires on %d entries, and that is a floor rather "
+        "than a count -- it needs an explicit formula (\"Signifie\", \"Litteralement\", "
+        "\"Nom donne par les Arabes a\"), and Lambert glosses plenty of words without "
+        "one (\"Chechia. Bonnet de laine rouge...\").\n"
+        % cls.get("glossary_gloss", 0)
     )
 
     out.append("## 2. Corpus\n")
@@ -136,7 +150,6 @@ def main() -> int:
     )
     out.append("### How each entry boundary was decided\n")
     seg = collections.Counter(r["segmentation_rule"] for r in entries)
-    cls = collections.Counter(r["classification_rule"] for r in entries)
     out.append(table(["segmentation rule", "n"], [[k, v] for k, v in seg.most_common()]))
     out.append(table(["classification rule", "n"], [[k, v] for k, v in cls.most_common()]))
 

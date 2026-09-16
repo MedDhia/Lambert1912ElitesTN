@@ -135,6 +135,116 @@ class TestClassification(unittest.TestCase):
         )
         self.assertEqual(er.classify(e)[0], "person")
 
+    def test_a_society_acronym_is_not_a_set_of_forenames(self):
+        # The acronym is indistinguishable from initialled forenames, and the
+        # founding date behind it then reads as a birth date.
+        e = self.entry(
+            "Association des Elèves des Ecoles d'Agriculture en Tunisie "
+            "(A.E.E.A.T.). 13 juillet 1902. Tunis. Siège social : Hôtel des "
+            "Sociétés françaises. 50 membres.",
+            "Association des Elèves des Ecoles d'Agriculture en Tunisie",
+        )
+        self.assertEqual(er.classify(e), ("organisation", "organisational_template"))
+
+    def test_a_directorate_is_a_state_body_not_a_topic(self):
+        e = self.entry(
+            "Office Postal (Direction de V). Les premières lignes télégraphiques "
+            "aériennes qui aient fonctionné en Tunisie datent de 1847.",
+            "Office Postal",
+        )
+        self.assertEqual(er.classify(e), ("state_body", "directorate_or_office"))
+
+    def test_a_department_named_in_capitals_is_not_a_surname(self):
+        e = self.entry(
+            "FORETS (Direction des). La Direction des Forêts est un service "
+            "dépendant de la Direction générale de l'Agriculture.",
+            "FORETS",
+        )
+        self.assertEqual(er.classify(e)[0], "state_body")
+
+    def test_an_ocr_mangled_date_still_marks_a_person(self):
+        # "1SS2" is 1882: the strict year pattern misses roughly one date in six.
+        e = self.entry(
+            "AZEDINEBEY. 1SS2, La Marsa. Grand cordon de l'Ordre du Sang. "
+            "Prince de la famille beylicale.",
+            "AZEDINEBEY",
+        )
+        self.assertEqual(er.classify(e), ("person", "caps_headword_with_date"))
+
+    def test_forenames_read_into_the_headword_still_leave_a_person(self):
+        e = self.entry(
+            "BOULANGER Georges-Ernest-Jean-Alarie. 1S37. Rennes. Général et "
+            "homme politique français.",
+            "BOULANGER Georges-Ernest-Jean-Alarie",
+        )
+        self.assertEqual(er.classify(e)[0], "person")
+
+    def test_a_numbered_clause_of_a_decree_is_not_a_person(self):
+        # Capitals plus an occupation, but the leading digit gives it away.
+        e = self.entry(
+            "2° PHARMACIENS TOLÉRÉS, SANS DIPLÔME, ET INDIGÈNES : Ar. 17. — La "
+            "tolérance de l'exercice pourra être accordée aux pharmaciens.",
+            "2° PHARMACIENS TOLÉRÉS",
+        )
+        self.assertNotEqual(er.classify(e)[0], "person")
+
+    def test_a_glossary_entry_is_not_a_person_for_saying_jeune(self):
+        # "jeune arabe" reads as "ne a" without the word boundaries.
+        e = self.entry(
+            "YAOULED (arabe ya ouled, vocatif de garçon). En français local : "
+            "jeune arabe, cireur, portefaix.",
+            "YAOULED",
+            chars=109,
+        )
+        self.assertEqual(er.classify(e), ("topic", "glossary_gloss"))
+
+    def test_an_unparenthesised_pointer_is_a_cross_reference(self):
+        e = self.entry("Collège Sadiki. Voir Sadiki (Collège).", "Collège Sadiki", chars=38)
+        self.assertEqual(er.classify(e)[0], "cross_reference")
+
+    def test_a_locality_that_also_cross_refers_stays_a_locality(self):
+        e = self.entry(
+            "BORDJ-EL-ALAOUINE. C. c. de Tunis, caïdat de la Banlieue. Centre "
+            "de colonisation français. (Voy. Massicault.)",
+            "BORDJ-EL-ALAOUINE",
+            chars=110,
+        )
+        self.assertEqual(er.classify(e)[0], "place")
+
+    def test_the_verb_voir_is_not_a_cross_reference_pointer(self):
+        e = self.entry(
+            "ALAPETITE (Gabriel), voir au début de l'ouvrage,", "ALAPETITE", chars=48
+        )
+        self.assertNotEqual(er.classify(e)[0], "cross_reference")
+
+    def test_a_stray_glyph_before_the_headword_does_not_hide_the_birth_date(self):
+        e = self.entry(
+            ". STALIO (Matteo di Vincenzo), Citlaventria, Dalmasia (Autriche), "
+            "20 mai 1854. Eponges en gros.",
+            "STALIO",
+        )
+        self.assertEqual(er.classify(e)[0], "person")
+
+
+class TestHeadwordFragments(unittest.TestCase):
+    """The flag claims only that the printed headword is not a heading."""
+
+    def test_a_conjugated_verb_marks_a_fragment(self):
+        self.assertTrue(er.headword_is_fragment("Carthage était encore puissante"))
+        self.assertTrue(er.headword_is_fragment("Djebel signifie montagne"))
+        self.assertTrue(er.headword_is_fragment("1° PHARMACIENS AVEC UN DIPLÔME"))
+
+    def test_prepositions_and_articles_are_ordinary_in_headwords(self):
+        for head in (
+            "Administrateur de la Liste civile du Bey",
+            "Office du Gouvernement tunisien à Paris",
+            "Quatrième régiment de chasseurs d'Afrique",
+            "Doublon ou double-besant d'or",
+            "Charâa",
+        ):
+            with self.subTest(head=head):
+                self.assertFalse(er.headword_is_fragment(head))
+
 
 class TestSegmentation(unittest.TestCase):
     def test_longest_nondecreasing_keeps_the_monotone_run(self):

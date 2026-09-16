@@ -42,8 +42,8 @@ Ranked by how much they worried the author:
    association, a French settler club. Those people are in that body with
    others of their kind by construction, so part of the homophily could be the
    coding rule reflected back. Dropping every community-marked body takes the
-   colonist/native `r` from +0.33 to +0.24: about a quarter of the raw effect is
-   circular, and three quarters is not.
+   colonist/native `r` from +0.34 to +0.28: about a sixth of the raw effect is
+   circular, and five sixths is not.
 2. **Degree.** Natives hold fewer ties than colonists, and a plain label shuffle
    breaks that association. Permuting labels *within degree quartiles* leaves
    the result where it was.
@@ -439,7 +439,7 @@ def main() -> int:
         "Removing the community-marked bodies is the check that matters: those are",
         "the bodies the community coding reads as evidence, so a person placed by",
         "one is in it with others of their kind by construction. The effect falls",
-        "by about a quarter and survives.",
+        "by about a sixth and survives.",
         "",
         "## 5. Leave-one-body-out",
         "",

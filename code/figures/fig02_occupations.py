@@ -35,4 +35,6 @@ S.titles(
     f"{len(persons)}). Categories are multi-label; the primary is the first match "
     "in a fixed priority order.",
 )
-S.save(fig, "fig02_occupations", "19% of notices carry no readable occupation clause")
+S.save(fig, "fig02_occupations",
+       f"{100 * sum(1 for p in persons if not p['occupation_categories']) / len(persons):.0f}% "
+       "of notices carry no readable occupation clause")
