@@ -149,6 +149,7 @@ L1912-00424,BOUHAGEB,collège Sadiki,secondary_college,
 L1912-00424,BOUHAGEB,lycée Carnot,secondary_lycee,
 L1912-00424,BOUHAGEB,lycée Lakanal,secondary_lycee,
 L1912-00428,BOULAKIA,lycée Carnot,secondary_lycee,doctorat_medecine
+L1912-00429,BOULANGER Georges-Ernest-Jean-Alarie,Ecole de SaintCyr,other,
 L1912-00430,BOULLIER,lycée cle Lyon,secondary_lycee,baccalaureat
 L1912-00430,BOULLIER,Faculté de droit de Grenoble,university_faculty,baccalaureat
 L1912-00432,BOUNIN,lycée d'Alger,secondary_lycee,licence_droit;baccalaureat;certificat
@@ -187,6 +188,7 @@ L1912-00472,BUISSON,lycée Condorcet,secondary_lycee,
 L1912-00472,BUISSON,Ecole normale,teacher_training,
 L1912-00473,BULLA-RËGIA,collège de Cholet,secondary_college,baccalaureat
 L1912-00473,BULLA-RËGIA,Institut de,institute,baccalaureat
+L1912-00476,BURY Charles-Frédéric),Ecole des Arts,other,
 L1912-00477,BUSACCA Eugène,lycée de Messine,secondary_lycee,doctorat_medecine;diplome_superieur
 L1912-00479,CABANTOUS,collège de Alillau,secondary_college,licence_droit;baccalaureat
 L1912-00479,CABANTOUS,"Faculté de Théologie de Montauban, Faculté des Lettres cle T",university_faculty,licence_droit;baccalaureat
@@ -442,6 +444,9 @@ L1912-01029,ELES,Faculté de droit de l'Université de Rome,university_faculty,d
 L1912-01032,EL FOURTI,Grande Mosquée,islamic_institution,diplome_superieur
 L1912-01032,EL FOURTI,Khaldounia,islamic_institution,diplome_superieur
 L1912-01032,EL FOURTI,zitouna,islamic_institution,diplome_superieur
+L1912-01036,EL HADI BEN TAHAR,collège Sadiki,secondary_college,certificat
+L1912-01036,EL HADI BEN TAHAR,lycée Carnot,secondary_lycee,certificat
+L1912-01036,EL HADI BEN TAHAR,Faculté de droit d'Aixi-en-Provence,university_faculty,certificat
 L1912-01066,EMONTS,Ecole des HautesEtudes,other,
 L1912-01078,ENGERER,collège de Malte,secondary_college,
 L1912-01081,ENRIQUEZ,Ecole des Hautes,other,
@@ -644,6 +649,7 @@ L1912-01575,LAKHOUA,Khaldounia,islamic_institution,
 L1912-01579,LAMBERT,collège des,secondary_college,baccalaureat
 L1912-01579,LAMBERT,Facultés de médecine de Lyon et de Paris,university_faculty,baccalaureat
 L1912-01579,LAMBERT,Ecole de Médecine,other,baccalaureat
+L1912-01581,LAMINE,collège Sadiki,secondary_college,diplome_superieur
 L1912-01582,LAMOLINERIE,Ecole normale,teacher_training,
 L1912-01583,LAMOUROUX,Ecole des Hautes,other,baccalaureat
 L1912-01585,LANDEROIN,Ecole normale,teacher_training,brevet_superieur;diplome_superieur;certificat
@@ -715,6 +721,7 @@ L1912-01675,MAIRE,lycée de Besançon,secondary_lycee,baccalaureat
 L1912-01681,MALET,collège et,secondary_college,baccalaureat
 L1912-01681,MALET,lycée de,secondary_lycee,baccalaureat
 L1912-01681,MALET,Institut agronomique,institute,baccalaureat
+L1912-01683,■MALFILATRE,Ecole normale,teacher_training,brevet_superieur;certificat
 L1912-01684,MALINAS,collège de Lunel,secondary_college,doctorat_medecine;baccalaureat
 L1912-01684,MALINAS,lycée de Montpellier,secondary_lycee,doctorat_medecine;baccalaureat
 L1912-01684,MALINAS,"Faculté de médecine de Montpellier, Ecole du Service de San",university_faculty,doctorat_medecine;baccalaureat
@@ -733,6 +740,7 @@ L1912-01705,MARTINEAU,Ecole de Droit,other,licence_droit
 L1912-01705,MARTINEAU,Ecole des Hautes,other,licence_droit
 L1912-01707,MARZAG,Lycée et,secondary_lycee,
 L1912-01707,MARZAG,Ecole supérieure de Commerce,grande_ecole,
+L1912-01708,MASPOLI ffhomas-Dominique),Ecole normale,teacher_training,brevet_superieur
 L1912-01709,MASSARI,lycée de Parme,secondary_lycee,
 L1912-01710,MASSÉ,lycée de Montauban,secondary_lycee,licence_droit;baccalaureat
 L1912-01710,MASSÉ,"Faculté des lettres et, Faculté de droit)",university_faculty,licence_droit;baccalaureat
@@ -1116,6 +1124,8 @@ L1912-02663,VILLATTE,Faculté de droit de Paris,university_faculty,licence_droit
 L1912-02669,VINCENT,lycée Carnot,secondary_lycee,
 L1912-02671,VIOLANTE,lycée de Marseille,secondary_lycee,
 L1912-02672,VIQUIER,Ecole des Mines,grande_ecole,
+L1912-02674,VIVIANI Culogero),lycée de Païenne,secondary_lycee,licence_droit
+L1912-02674,VIVIANI Culogero),faculté de Droit d'Aixen-Provence,university_faculty,licence_droit
 L1912-02679,VULLIEN,collège d'Epinal,secondary_college,
 L1912-02679,VULLIEN,Faculté des Sciences de Nancy,university_faculty,
 L1912-02679,VULLIEN,Faculté de Médecine de Bordeaux,university_faculty,

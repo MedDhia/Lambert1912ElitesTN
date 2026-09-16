@@ -15,6 +15,12 @@ its verbatim source string alongside the coded value, so a researcher can check
 any cell against the page image, and nothing is silently imputed: a field that
 could not be read is empty, not guessed.
 
+Each entry is typed before it is coded, and every row records which rule did the
+typing (`classification_rule`), so a researcher can filter to the templates
+Lambert kept strictly and audit the ones he did not. `topic` used to be the
+bucket everything unmatched fell into; it now has rules of its own, and
+`residual` means only what it says.
+
 Outputs (data/processed): entries.csv, persons.csv, places.csv,
 organizations.csv, decorations.csv, career_positions.csv, education.csv.
 """
@@ -168,7 +174,9 @@ OCCUPATIONS: list[tuple[str, str]] = [
     ("justice_law", r"avocat|avou[ée]|notaire|huissier|greffier|magistrat|\bjuge\b|procureur|substitut|oukil|cadi|ca[iï]d[ıi]?\s+de\s+justice|conseiller\s+[àa]\s+la\s+cour|pr[ée]sident\s+du\s+tribunal|d[ée]fenseur"),
     ("medicine_health", r"m[ée]decin|docteur\s+en\s+m[ée]decine|chirurgien|pharmacien|dentiste|v[ée]t[ée]rinaire|sage[\s\-]femme|interne\s+des\s+h[oô]pitaux"),
     ("military", r"g[ée]n[ée]ral|colonel|lieutenant[\s\-]colonel|commandant|capitaine|lieutenant|sous[\s\-]officier|adjudant|gendarme|officier\s+d[’'\s]*artillerie|chef\s+de\s+bataillon|mar[ée]chal"),
-    ("education_science", r"professeur|instituteur|institutrice|directeur\s+d[’'\s]*[ée]cole|proviseur|censeur|inspecteur\s+de\s+l[’'\s]*enseignement|ma[iî]tre\s+d[’'\s]*[ée]tudes|savant|arch[ée]ologue|naturaliste"),
+    # "Directrice d'ecole a Gabes" is the whole of one woman's occupation clause,
+    # and the masculine-only form cost her her entry.
+    ("education_science", r"professeur|instituteur|institutrice|direct(?:eur|rice)\s+d[’'\s]*[ée]cole|proviseur|censeur|inspecteur\s+de\s+l[’'\s]*enseignement|ma[iî]tre\s+d[’'\s]*[ée]tudes|savant|arch[ée]ologue|naturaliste"),
     ("religion", r"cur[ée]|pr[êe]tre|abb[ée]|pasteur|rabbin|imam|aum[oô]nier|[ée]v[êe]que|mufti|mokaddem|p[èe]re\s+blanc|chanoine"),
     ("engineering_architecture", r"ing[ée]nieur|architecte|g[ée]om[èe]tre|conducteur\s+des\s+ponts|dessinateur[\s\-]projeteur"),
     ("administration", r"fonctionnaire|contr[oô]leur|v[ée]rificateur|conservateur|"
@@ -220,18 +228,30 @@ ADDRESS_RE = re.compile(
 )
 
 PLACE_MARKERS = re.compile(
-    r"\bC\.\s*c\.|contr[oô]le\s+civil|ca[iï]dat|Territoire\s+militaire|"
+    r"\bC[.,]\s*c[.,:;]|contr[oô]le\s+civil|ca[iï]dat|Territoire\s+militaire|"
     r"POPUL|\bannexe\s+et\s+ca[iï]dat", re.IGNORECASE
 )
 # Localities that Lambert describes without the administrative formula still
 # carry a settlement noun and a distance or a population figure.
 PLACE_SOFT_RE = re.compile(
-    r"(?:village|douar|henchir|oasis|djebel|ha[oe]uch|bourgade|hameau|centre\s+de\s+colonisation"
+    r"(?:village|douar|henchir|oasis|djebel|gorges|ha[oe]uch|bourgade|hameau|centre\s+de\s+colonisation"
     r"|localit[ée]|ferme|ruines\s+de|[iî]le\b)", re.IGNORECASE
 )
 PLACE_MEASURE_RE = re.compile(
     r"[àa]\s*\d{1,3}\s*(?:k|kil|kilom|km)[a-z.]*\s*(?:de|du|d[’'])|\bhab\.|habitants", re.IGNORECASE
 )
+# A locality Lambert describes without either the administrative formula or a
+# settlement noun still gives its bearing and its population: "ZAOUIA-SOUSSE
+# (ou Zaouiet-Soussa), a 5 kil. au sud-ouest de Sousse, 920 hab." Requiring
+# *both* the distance and the head-count keeps thematic articles out -- those
+# quote populations freely but never fix their subject at a distance from a
+# named town. The direction may be inserted between the two ("au sud-ouest de"),
+# which is why PLACE_MEASURE_RE alone does not see the distance here.
+PLACE_BEARING_RE = re.compile(
+    r"[àa]\s*\d{1,3}\s*(?:k|kil|kilom|km)[a-z.]*\s*(?:au\s+[a-zà-ÿ\-]+\s+)?(?:de|du|des|d[’'])\s*[A-ZÉÈ]",
+    re.IGNORECASE,
+)
+PLACE_POPULATION_RE = re.compile(r"\b\d[\d.,\s]{0,8}\s*hab\.|\bhabitants\b", re.IGNORECASE)
 ORG_HEAD_RE = re.compile(
     r"^(Association|Soci[ée]t[ée]|Societ[àa]|Associazione|Cercle|Club|Comit[ée]|Syndicat|"
     r"Chambre|Union|Ligue|Loge|Conf[ée]rence|Conseil|Compagnie|Banque|Caisse|F[ée]d[ée]ration|"
@@ -242,17 +262,83 @@ ORG_HEAD_RE = re.compile(
 ORG_BODY_RE = re.compile(
     r"BUT\s*:|Si[èe]ge\s+social|membres?\s+actifs?|adh[ée]rents|Pr[ée]s\.|pr[ée]sident", re.IGNORECASE
 )
-CROSSREF_RE = re.compile(r"\(\s*V\.\s|\(\s*Voir\s", re.IGNORECASE)
+# Lambert files the Protectorate's own machinery in the same alphabet as
+# everything else, under whichever word the department's name happens to begin
+# with, and as often as not with the governing noun pushed into a parenthesis
+# after the headword: "Office Postal (Direction de l')", "Finances (Direction
+# des)", "Enseignement (Direction generale de l')", "FORETS (Direction des)".
+# ORG_HEAD_RE names the nouns voluntary associations use, so every one of these
+# departments was filed as a topic -- and two, read as surnames in capitals,
+# as people.
+STATE_BODY_HEAD_RE = re.compile(
+    r"^(?:Office|Direction|Secr[ée]tariat|R[ée]gie|Recette\s+g[ée]n[ée]rale|"
+    r"Section\s+d[’']?\s*Etat|Services?)\b",
+    re.IGNORECASE,
+)
+STATE_BODY_PAREN_RE = re.compile(
+    r"^\(\s*(?:Direction|Recette\s+g[ée]n[ée]rale|Administration|R[ée]gie|Service)\b",
+    re.IGNORECASE,
+)
+# The printed cross-reference is "(V. Menzel-Dar-bel-Ouar.)", but the OCR eats
+# the space after "V." and reads the period as a hyphen or a comma, and Lambert
+# himself writes the pointer unparenthesised as often as not ("Collège Sadiki.
+# Voir Sadiki (Collège).", "CAMP DE SIDI-EL-HANI. Voy. Sidi-el-Hani."). All of
+# those were landing in the residual bucket. The case of the letter after the
+# pointer is load-bearing -- it is what separates a pointer to another headword
+# from the ordinary verb, as in "ALAPETITE (Gabriel), voir au début de
+# l'ouvrage" -- so this pattern must not be compiled case-insensitively.
+CROSSREF_RE = re.compile(
+    r"\(\s*[Vv]\s*[-–—.,:]+\s*\S"           # (V. Menzel  (V-. Finances  (v. Forêts)
+    r"|\(\s*[Vv]o(?:ir|y)\b"                # (Voir ...   (Voy. ...
+    r"|\b[Vv]o(?:ir|y)\.?\s+[A-ZÉÈ«“]"      # Voir Sadiki (Collège).
+)
 # A locality's description opens with the administrative formula, immediately
 # after the headword: "MELLITA. C. c. de Gabes, ann. de Djerba, caidat de
 # l'Arad." Anchoring on that position keeps a person whose *job* is "Secretaire
 # de Controle civil" out of the place table.
 ADMIN_FORMULA_RE = re.compile(
     r"[\s.,;:'’\-]*(?:\([^)]{0,30}\))?[\s.,;:'’\-]*"
-    r"(?:C[.,]\s*c\.|Contr[oô]le\s+civil|Ca[iï]dat|Terr\.\s*mil\.|Territoire\s+militaire|"
+    # "C. c:" and "C, c," occur: the OCR reads the abbreviation's periods as
+    # whatever punctuation the page dirt happens to resemble.
+    r"(?:C[.,]\s*c[.,:;]|Contr[oô]le\s+civil|Ca[iï]dat|Terr\.\s*mil\.|Territoire\s+militaire|"
     r"Annexe\s+et\s+ca[iï]dat|Ann\.\s*(?:et|de)\s)",
     re.IGNORECASE,
 )
+
+
+# Lambert's preface promises "more than 250 Arabic, Turkish and Judaeo-Arabic
+# words explained", and he explains them to a formula: "Habous. Signifie <<bien
+# immobilier>>", "Achour (litteralement : impot du dixieme)", "Alfa. Nom donne
+# par les Arabes a une graminee", "Temperino (mot italien), canif".
+GLOSS_RE = re.compile(
+    r"\b(?:signifie|signifiant|litt[ée]ralement|veut\s+dire|nom\s+donn[ée]|nom\s+de\s+la|"
+    r"terme\s+employ[ée]|d[ée]signe|d[ée]signant|mot\s+(?:arabe|italien|h[ée]breu|turc|"
+    r"jud[ée]o[\s\-]arabe|berb[èe]re)|en\s+fran[çc]ais\s+local|pluriel\s+d|"
+    r"sens\s+[ée]tymologique|on\s+appelle)\b",
+    re.IGNORECASE,
+)
+
+# A headword that is really a clause. Two distinct things end up here, and the
+# flag deliberately claims only what is visible: that the printed headword is
+# not a headword. Sometimes the entry is a genuine gloss whose headword ran on
+# ("Djebel signifie montagne"), and sometimes it is the tail of the entry above,
+# broken out when the first-line indent was lost ("Carthage etait encore
+# puissante", 20,997 characters of the Carthage article). The finite verb is the
+# signal: prepositions and articles are ordinary in Lambert's headwords
+# ("Administrateur de la Liste civile du Bey"), conjugated verbs never are.
+FRAGMENT_VERB_RE = re.compile(
+    r"\b(?:est|était|sont|étaient|fut|furent|avait|avaient|ont|a\s+été|"
+    r"tomba|fait|signifie|désigne|occupe|possède|comprend|contient|renferme|"
+    r"exploité|exploitée|située|situé|reçoit|remonte|existe|appelle|servait|sert)\b"
+)
+
+
+def headword_is_fragment(head: str) -> bool:
+    """Is the printed headword a sentence fragment rather than a heading?"""
+    if re.match(r"^[^A-Za-zÀ-ÿ]{0,2}\d", head):
+        return True  # "1° PHARMACIENS AVEC UN DIPLOME...": a clause of a decree
+    tokens = head.split()
+    return bool(len(tokens) > 1 and FRAGMENT_VERB_RE.search(" ".join(tokens[1:])))
 
 
 def strip_accents(s: str) -> str:
@@ -268,15 +354,74 @@ def norm(s: str) -> str:
 # --------------------------------------------------------------------------
 # classification
 # --------------------------------------------------------------------------
-def caps_ratio(s: str) -> float:
-    letters = [c for c in strip_accents(s) if c.isalpha()]
-    return sum(c.isupper() for c in letters) / len(letters) if letters else 0.0
+# Lambert sets personal surnames in full capitals. The test is on the *leading*
+# token rather than on the whole headword, because the OCR routinely reads the
+# parenthesis around the forenames as part of the headword itself -- "BOULANGER
+# Georges-Ernest-Jean-Alarie", "GHEZ jeune", "RIMAURO freres" -- which drags a
+# whole-headword capitals ratio below any threshold that would still exclude
+# ordinary prose. Leading punctuation is tolerated, since the OCR prefixes the
+# odd inkblot to a headword, but a leading digit is not: it
+# marks a numbered clause of a decree that segmentation broke out as an entry of
+# its own ("2° PHARMACIENS TOLERES, SANS DIPLOME, ET INDIGENES").
+CAPS_HEADWORD_RE = re.compile(r"^[^0-9A-Za-zÀ-ÿ]{0,2}[A-Z]{2,}\b")
+
+
+def is_caps_headword(head: str) -> bool:
+    """Is the headword printed in the capitals Lambert reserves for surnames?"""
+    flat = strip_accents(head)
+    return bool(CAPS_HEADWORD_RE.match(flat) and re.search(r"[A-Z]{3}", flat))
+
+
+def has_life_date(fragment: str) -> bool:
+    """A birth or death date, read through the OCR's digit confusions.
+
+    The strict year pattern misses roughly one date in six -- "1SS2" for 1882,
+    "1.870" for 1870 -- and a missed date is a missed person, so the classifier
+    uses the same OCR-tolerant reader as the extraction stage.
+    """
+    return bool(parse_date(fragment)[1]) or bool(
+        # The word boundaries matter: without them "jeune arabe" reads as
+        # "ne a", and a glossary entry becomes a person.
+        re.search(r"d[ée]c[ée]d[ée]|\bn[ée]\s+[àa]\b", fragment)
+    )
+
+
+# The printed form is "SURNAME (Forenames)", but the opening bracket is the
+# single most-often-lost character on these pages: "BURY Charles-Frederic)",
+# "MASPOLI ffhomas-Dominique)", "DEFRANGE ' [Jean-Jacoues-Eugene]". Accepting a
+# square or curly bracket, or no opening bracket at all when a closing one
+# follows, recovers those. It is the *closing* bracket that carries the match,
+# and the tests below on what sits inside it are what keep the widening safe.
+FORENAME_RE = re.compile(r"[^(\[{]{0,4}(?:[(\[{]\s*)?([^()\[\]{}]{1,60})[)\]}]")
+# Forenames are capitalised words or initials, but a few lower-case words do
+# belong inside the parenthesis: the Arabic patronymic particle ("MUSTAFA-BEY
+# (ben Mahmoud ben Hussein ben Ali)"), and the qualifiers Lambert uses for
+# married and maiden names ("NUEE (Louise, veuve Alfred)"). The set is closed on
+# purpose -- it is what lets "(section de Bizerte)" and "(methode
+# Prevost-Delaunay)" go on being rejected.
+FORENAME_CONNECTIVES = {
+    "et", "ou", "dit", "dite", "nee", "veuve", "vve", "fils", "aine", "jeune",
+    "ben", "bent", "bin", "ould", "bel",
+}
+
+
+def body_start(entry: dict) -> int:
+    """Where the entry's body begins, i.e. just past the printed headword.
+
+    Not simply `len(headword_raw)`: the OCR prefixes the odd stray glyph to a
+    headword -- the previous entry's closing period, an inkblot -- and offsetting
+    by the headword's own length then lands mid-word and hides the notice's
+    birth date. ". STALIO (Matteo di Vincenzo), ... 20 mai 1854" was read as a
+    topic for exactly that reason.
+    """
+    head = entry["headword_raw"]
+    idx = entry["text"].find(head)
+    return idx + len(head) if 0 <= idx <= 4 else len(head)
 
 
 def forenames_of(entry: dict) -> str:
     """The parenthesised forenames that follow a personal headword."""
-    head = re.escape(entry["headword_raw"][:40])
-    m = re.match(rf"\s*{head}[^(]{{0,4}}\(([^)]{{1,60}})\)", entry["text"])
+    m = FORENAME_RE.match(entry["text"], body_start(entry))
     if not m:
         return ""
     inner = m.group(1).strip()
@@ -288,14 +433,14 @@ def forenames_of(entry: dict) -> str:
         inner,
     ):
         return ""
-    # Forenames are capitalised words or initials. Anything with a lower-case
-    # word in it is a qualifier, not a name: "(methode Prevost-Delaunay)",
-    # "(Domaine de)", "(section de Bizerte)".
-    parts = [t for t in re.split(r"[\s\-]+", inner) if t]
+    parts = [t for t in re.split(r"[\s\-,;]+", inner) if t]
     if not parts or len(parts) > 6:
         return ""
-    if not all(re.match(r"^[A-ZÉÈÊÀÇÎÔÜ][\wà-ÿ'’.]*$", t) for t in parts):
-        return ""
+    for t in parts:
+        if strip_accents(t).lower().strip(".") in FORENAME_CONNECTIVES:
+            continue
+        if not re.match(r"^[A-ZÉÈÊÀÇÎÔÜ][\wà-ÿ'’.]*$", t):
+            return ""
     # Forenames are often reduced to initials -- "MUSCAT fils (C.)" -- so a
     # single letter still counts, but a bare number or symbol does not.
     return inner if re.search(r"[A-Za-zà-ÿ]", inner) else ""
@@ -307,39 +452,73 @@ def classify(entry: dict) -> tuple[str, str]:
     opening = text[: len(head) + 220]
     forenames = forenames_of(entry)
 
-    if CROSSREF_RE.search(text) and entry["n_chars"] < 140:
+    post = text[body_start(entry) :]
+    # A stub whose whole body is a pointer. The pointer has to *open* the body:
+    # "BORDJ-EL-ALAOUINE. C. c. de Tunis, caïdat de la Banlieue. Centre de
+    # colonisation français. (Voy. Massicault.)" is a locality that also
+    # cross-refers, and reading it as a cross-reference would lose the locality.
+    if CROSSREF_RE.search(post[:60]) and entry["n_chars"] < 140:
         return "cross_reference", "see_also_only"
     # "C. c." (controle civil) and "caidat" name the administrative units a
     # locality belongs to. Nothing else in the volume uses them, so they settle
     # the type even when the headword carries a parenthesis that looks like
     # forenames ("SIDI-TABET (Domaine de). C. c. de Tunis...").
-    post = text[len(head) :]
     if ADMIN_FORMULA_RE.match(post):
         return "place", "administrative_unit"
     if PLACE_MARKERS.search(opening) and not forenames:
         return "place", "administrative_markers"
     if not forenames and PLACE_SOFT_RE.search(opening) and PLACE_MEASURE_RE.search(text[:500]):
         return "place", "settlement_noun_and_measure"
-    if forenames and re.search(rf"{YEAR_RE}|d[ée]c[ée]d[ée]|n[ée]\s+[àa]", opening):
+    # A headword that opens with one of the nouns a body is named after settles
+    # the type before the person rules get a look, whatever sits in the
+    # parenthesis behind it. Several associations print their acronym there --
+    # "Association des Elèves des Ecoles d'Agriculture en Tunisie (A.E.E.A.T.).
+    # 13 juillet 1902" -- which is indistinguishable from a set of forenames
+    # reduced to initials, and reads with its founding date as a person.
+    if ORG_HEAD_RE.match(head) and len(head.split()) > 1:
+        return "organisation", "organisational_template"
+    # An organ of the Protectorate, for the same reason: a department whose name
+    # is set in capitals otherwise reads as a surname ("FORETS (Direction des)").
+    if STATE_BODY_HEAD_RE.match(head) or STATE_BODY_PAREN_RE.match(post.lstrip(" ,.;")):
+        return "state_body", "directorate_or_office"
+    if forenames and has_life_date(opening):
         return "person", "forenames_and_life_dates"
-    if forenames and caps_ratio(head) > 0.6:
+    if forenames and is_caps_headword(head):
         return "person", "caps_headword_with_forenames"
-    if (ORG_HEAD_RE.match(head) and len(head.split()) > 1) or (
-        ORG_BODY_RE.search(opening) and not forenames
-    ):
+    if ORG_BODY_RE.search(opening) and not forenames:
         return "organisation", "organisational_template"
     if PLACE_MARKERS.search(text[:400]):
         return "place", "administrative_markers_late"
     # A capitalised headword with a life date, an honour, or a stated occupation
     # is a person even when the forenames were lost to OCR ("AZEDINE BEY. 1SS2,
     # La Marsa. Grand cordon de l'Ordre du Sang...").
-    if caps_ratio(head) > 0.6 and re.match(r"[A-ZÉÈÊÀÇ]{3}", strip_accents(head)):
-        if re.search(rf"{YEAR_RE}", opening):
+    if is_caps_headword(head):
+        # The window is narrow on purpose: a date further into the entry
+        # usually belongs to somebody else, as in "RITE HAMBALI. - A pour
+        # fondateur Ibn Hambal Ahmed ben Mohammed, né à Bagdad en 780" -- an
+        # article about a school of law, not a notice about its founder. That
+        # one still slips through at 80 characters, and is left there: widening
+        # to 80 also recovers three real notices whose identification block runs
+        # long ("ALI-BEY, de la dynastie husseïnite, bey de Tunis, régna de 1759
+        # à 1781"), which is the better trade.
+        if has_life_date(post[:80]):
             return "person", "caps_headword_with_date"
         if find_decorations(opening):
             return "person", "caps_headword_with_honour"
         if occupation_labels(opening):
             return "person", "caps_headword_with_occupation"
+    if not forenames and PLACE_BEARING_RE.search(text[:400]) and PLACE_POPULATION_RE.search(
+        text[:400]
+    ):
+        return "place", "bearing_and_population"
+    # What is left is the third of the volume Lambert describes as "more than 250
+    # Arabic, Turkish and Judaeo-Arabic terms explained" plus his thematic
+    # articles. Naming the two makes `topic` a category rather than a leftover:
+    # `residual` now means only what it says.
+    if GLOSS_RE.search(post[:220]):
+        return "topic", "glossary_gloss"
+    if entry["n_chars"] >= 400:
+        return "topic", "thematic_article"
     return "topic", "residual"
 
 
@@ -608,7 +787,7 @@ ORG_KINDS = [
 ORG_KIND_RES = [(k, re.compile(p, re.IGNORECASE)) for k, p in ORG_KINDS]
 
 
-def extract_organisation(entry: dict) -> dict:
+def extract_organisation(entry: dict, organisation_class: str) -> dict:
     text = entry["text"]
     sections = rubric_sections(text)
     body = sections["_head"]
@@ -622,6 +801,7 @@ def extract_organisation(entry: dict) -> dict:
     return {
         "entry_id": entry["entry_id"],
         "organisation_name": entry["headword_raw"],
+        "organisation_class": organisation_class,
         "founded_raw": founded_raw,
         "founded_year": founded_year,
         "seat_raw": re.sub(r"\s+", " ", seat.group(1)).strip() if seat else "",
@@ -722,6 +902,7 @@ def main() -> int:
                 "sort_key": e["sort_key"],
                 "entry_type": etype,
                 "classification_rule": rule,
+                "headword_is_fragment": int(headword_is_fragment(e["headword_raw"])),
                 "segmentation_rule": e["accept_reason"],
                 "page_first": e["page_first"],
                 "page_last": e["page_last"],
@@ -743,7 +924,9 @@ def main() -> int:
         elif etype == "place":
             places.append(extract_place(e))
         elif etype == "organisation":
-            orgs.append(extract_organisation(e))
+            orgs.append(extract_organisation(e, "voluntary_association"))
+        elif etype == "state_body":
+            orgs.append(extract_organisation(e, "state_body"))
 
     write_csv(PROCESSED / "entries.csv", rows)
     write_csv(PROCESSED / "persons.csv", persons)

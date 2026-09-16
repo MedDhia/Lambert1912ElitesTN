@@ -17,7 +17,8 @@ import unittest
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "processed"
 
-ENTRY_TYPES = {"person", "place", "organisation", "topic", "cross_reference"}
+ENTRY_TYPES = {"person", "place", "organisation", "state_body", "topic", "cross_reference"}
+ORGANISATION_CLASSES = {"voluntary_association", "state_body"}
 RESOLUTIONS = {"resolved", "resolved_fuzzy", "ambiguous", "ambiguous_fuzzy", "unmatched"}
 ROLES = {
     "president", "honorary_president", "past_president", "vice_president",
@@ -164,12 +165,28 @@ class TestPrefaceBenchmarks(DatasetTestCase):
 class TestTypedTables(DatasetTestCase):
     def test_typed_tables_join_to_entries_and_match_their_type(self):
         by_type = {r["entry_id"]: r["entry_type"] for r in self.entries}
-        for rows, expected in (
-            (self.persons, "person"), (self.places, "place"), (self.orgs, "organisation")
-        ):
+        for rows, expected in ((self.persons, "person"), (self.places, "place")):
             for r in rows:
                 with self.subTest(entry=r["entry_id"]):
                     self.assertEqual(by_type.get(r["entry_id"]), expected)
+        # organizations.csv holds both voluntary associations and the organs of
+        # the Protectorate; the class column is what says which.
+        for r in self.orgs:
+            with self.subTest(entry=r["entry_id"]):
+                self.assertIn(r["organisation_class"], ORGANISATION_CLASSES)
+                self.assertEqual(
+                    by_type.get(r["entry_id"]),
+                    "organisation" if r["organisation_class"] == "voluntary_association"
+                    else "state_body",
+                )
+
+    def test_the_network_is_built_from_voluntary_associations_only(self):
+        state = {
+            r["entry_id"] for r in self.orgs if r["organisation_class"] == "state_body"
+        }
+        self.assertTrue(state, "no state bodies found -- has the classifier drifted?")
+        nodes = {r["node_id"] for r in load("network_nodes.csv")}
+        self.assertEqual(state & nodes, set())
 
     def test_birth_years_are_plausible_or_absent(self):
         for r in self.persons:
@@ -274,13 +291,17 @@ class TestInterpretiveLayer(DatasetTestCase):
         }
         self.assertFalse({e for e in vocabulary if "surname" in e})
 
-    def test_the_volume_contains_the_eleven_women_found_by_hand(self):
+    def test_the_volume_contains_the_thirteen_women_found_by_hand(self):
         # Each was verified against its page image; the count is a finding about
-        # the source, and a regression here means the rules drifted.
+        # the source, and a regression here means the rules drifted. It was
+        # eleven until the classifier stopped filing two of them as topics:
+        # "MALFILATRE (Mme Lucie, née Rossi) ... Directrice d'école à Gabès" and
+        # "NUEE (Louise, veuve Alfred). Propriétaire du <<Café de France>>".
         women = [r["surname"] for r in self.genders if r["gender"] == "FEMALE"]
-        self.assertEqual(len(women), 11, f"expected 11 women, got {women}")
+        self.assertEqual(len(women), 13, f"expected 13 women, got {women}")
         self.assertIn("EIGENSCHENCK", women)
         self.assertIn("VIALAR", women)
+        self.assertIn("NUEE", women)
 
 
 class TestNetwork(DatasetTestCase):

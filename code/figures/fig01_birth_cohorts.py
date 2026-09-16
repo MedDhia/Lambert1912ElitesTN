@@ -26,4 +26,7 @@ S.titles(
     f"Persons with a readable birth year (n = {len(years)} of {len(persons)}); "
     "18 born before 1820 and 8 after 1890 fall outside the range shown",
 )
-S.save(fig, "fig01_birth_cohorts", "Birth year is printed for 87% of biographical notices")
+S.save(fig, "fig01_birth_cohorts",
+       f"Birth year is printed for "
+       f"{100 * sum(1 for p in persons if p['birth_year']) / len(persons):.0f}% "
+       "of biographical notices")

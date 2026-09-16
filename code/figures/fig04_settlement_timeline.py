@@ -30,4 +30,6 @@ S.titles(
     "Bars before 1880 shown lighter; 10 earlier arrivals fall outside the range.",
     ylabel="Persons",
 )
-S.save(fig, "fig04_settlement_timeline", "Settlement year readable for 44% of notices")
+S.save(fig, "fig04_settlement_timeline",
+       f"Settlement year readable for "
+       f"{100 * sum(1 for p in persons if p['settled_tunisia_year']) / len(persons):.0f}% of notices")

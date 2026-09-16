@@ -305,7 +305,16 @@ def officer_mentions(text: str) -> list[tuple[str, str, str]]:
 def main() -> int:
     entries = {r["entry_id"]: r for r in read_csv(PROCESSED / "entries.csv")}
     persons = read_csv(PROCESSED / "persons.csv")
-    orgs = read_csv(PROCESSED / "organizations.csv")
+    # Voluntary associations only. organizations.csv also carries the organs of
+    # the Protectorate -- directorates, offices, services -- whose entries name
+    # the officials who ran them, and those are affiliations of a different kind:
+    # a directorship is an appointment, not a joined membership. Admitting them
+    # would change what a co-membership tie means without saying so. To study
+    # them, drop this filter and rebuild; nothing downstream assumes otherwise.
+    orgs = [
+        o for o in read_csv(PROCESSED / "organizations.csv")
+        if o["organisation_class"] == "voluntary_association"
+    ]
     places = read_csv(PROCESSED / "places.csv")
 
     # --- index of people who have their own entry --------------------------

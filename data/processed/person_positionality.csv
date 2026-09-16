@@ -78,6 +78,7 @@ L1912-00190,Avenir du Prolétarait,L',colonist,metropolitan_colonist,birthplace,
 L1912-00191,Avenir du Prolétariat,L',native,native_muslim,institutional,high,unrecorded,tunisian_muslim,muslim_office,1900,,military,0,0,0,2903,0
 L1912-00192,AVERSO,Pascal,unknown,unknown,,,tunisia,unknown,birth_tunisia,1860,,industry_crafts,1,0,1,433,0
 L1912-00193,AVIGDOR,Samuel,native,native_jewish_european_status,institutional,low,europe,tunisian_jewish,birth_ottoman_empire;jewish_institution,1870,,,2,0,1,1200,0
+L1912-00199,AZEDINEBEY,,unknown,unknown,,,tunisia,unknown,birth_tunisia,1882,,,0,0,0,147,0
 L1912-00200,AZERM,Alarc-Antoine-Joseph-Victor,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1861,,commerce,1,0,1,236,0
 L1912-00201,AZOUZ BEN HAMDA BEN AISSA,Mohamed,native,native_muslim,institutional,medium,tunisia,tunisian_muslim,birth_tunisia;member_of:muslim_body;nasab_particle,1848,,military,2,1,1,979,2
 L1912-00204,BACCOUGHE,Salah,native,native_muslim,institutional,high,tunisia,tunisian_muslim,birth_tunisia;islamic_school;muslim_office,1865,,politics_native_admin,4,1,0,355,0
@@ -134,7 +135,7 @@ L1912-00287,BENETTI,Camille,colonist,metropolitan_colonist,birthplace,high,europ
 L1912-00301,BEN KHALIFA,Alohamed,native,native_muslim,institutional,high,tunisia,tunisian_muslim,birth_tunisia;islamic_school;muslim_office;nasab_particle,1852,,politics_native_admin,2,1,1,355,0
 L1912-00304,BENOIT,François-Xavier,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1854,1885,engineering_architecture,0,0,0,3357,0
 L1912-00305,BEN SALAH,Ahmed,native,native_muslim,institutional,medium,unrecorded,tunisian_muslim,islamic_school;nasab_particle,,,education_science,0,0,0,118,0
-L1912-00306,BENSASSON,,colonist,colony_born_colonist,institutional,high,tunisia,european_italian,birth_tunisia;italian_institution;member_of:italian_body,1854,,commerce,2,0,1,450,0
+L1912-00306,BENSASSON,Raphaël,colonist,colony_born_colonist,institutional,high,tunisia,european_italian,birth_tunisia;italian_institution;member_of:italian_body,1854,,commerce,2,0,1,450,0
 L1912-00307,BENSASSON,Umberto,colonist,colonist_unspecified,institutional,high,unrecorded,european_italian,italian_institution;member_of:italian_body,,,military,0,0,0,326,0
 L1912-00308,BÉRARD,Antonïn,native,native_muslim,institutional,medium,unrecorded,tunisian_muslim,islamic_school,1862,,,2,0,1,427,1
 L1912-00309,BERGE,Stéphane,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1852,1885,justice_law,3,1,1,1084,1
@@ -149,7 +150,7 @@ L1912-00318,BERRA,J,unknown,unknown,,,unrecorded,unknown,,1886,,commerce,0,0,0,9
 L1912-00319,BERTAINCHAND,Ernest,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1864,1887,engineering_architecture,5,1,0,3425,4
 L1912-00320,BERTIN,Célestin,colonist,metropolitan_colonist,institutional,high,europe,european_french,birth_france;member_of:french_settler_body,1870,,,2,0,1,713,0
 L1912-00321,BERTHON,Louis,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1864,,engineering_architecture,2,0,1,114,0
-L1912-00322,BERTIN,,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1872,1900,,0,0,0,272,0
+L1912-00322,BERTIN,,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1872,1900,education_science,0,0,0,272,0
 L1912-00323,BERTRAND,Joseph,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1868,,industry_crafts,2,0,1,713,1
 L1912-00324,BERTRAND,Alarius-Louis-Joseph,unknown,unknown,,,tunisia,unknown,birth_tunisia,1863,,,0,0,0,218,1
 L1912-00326,BESSIERE,Victor - Lucien - Etienne,unknown,unknown,,,unrecorded,unknown,,,,justice_law,2,0,1,220,0
@@ -171,7 +172,7 @@ L1912-00367,BLANCHÈRÈ,R. DU COUDRAY DE LA,unknown,unknown,,,unrecorded,unknown
 L1912-00368,BLAVIER,Albert,colonist,colonist_unspecified,reserved_post,medium,unrecorded,unknown,french_reserved_post,1866,,justice_law,0,0,0,422,0
 L1912-00374,B O E R N E R,Gustave-Adolphe,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1839,,justice_law,0,0,0,316,0
 L1912-00376,BOEUF,Félicien,unknown,unknown,,,unrecorded,unknown,,,1898,military,3,0,1,374,0
-L1912-00377,BOEUF,,colonist,colony_born_colonist,reserved_post,medium,tunisia,unknown,birth_tunisia;french_reserved_post,1864,,military,5,0,1,489,0
+L1912-00377,BOEUF,Jean-Hippo,colonist,colony_born_colonist,reserved_post,medium,tunisia,unknown,birth_tunisia;french_reserved_post,1864,,military,5,0,1,489,0
 L1912-00378,BOIANOWSKI,,unknown,unknown,,,unrecorded,unknown,,1866,,diplomacy,1,0,1,402,0
 L1912-00379,BOIZEL,Auguste,unknown,unknown,,,unrecorded,unknown,,1877,1900,agriculture,2,0,1,185,0
 L1912-00380,BONAN,Abraham,native,native_jewish,institutional,high,tunisia,tunisian_jewish,birth_tunisia;jewish_institution;member_of:jewish_body,1878,,medicine_health,1,0,1,1005,0
@@ -194,6 +195,7 @@ L1912-00416,BOUDET,Raymond - Bernard - PierreLouis,colonist,metropolitan_colonis
 L1912-00423,BOUHAGEB,Ahmed,native,native_muslim,institutional,medium,tunisia,tunisian_muslim,birth_tunisia;islamic_school,1873,,justice_law,0,0,0,235,0
 L1912-00424,BOUHAGEB,Housseïn,native,native_muslim,institutional,medium,tunisia,tunisian_muslim,birth_tunisia;islamic_school,1872,,,1,0,0,755,0
 L1912-00428,BOULAKIA,Joseph,unknown,unknown,,,tunisia,unknown,birth_tunisia,1881,,medicine_health,0,0,0,154,0
+L1912-00429,BOULANGER Georges-Ernest-Jean-Alarie,,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1837,,military,0,0,0,680,0
 L1912-00430,BOULLIER,Jules-Emile,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1873,1900,,2,0,1,735,1
 L1912-00432,BOUNIN,Edoiiard-Emile-Ph'ilibert,colonist,colony_born_colonist,birthplace,medium,algeria,european_french,birth_algeria,1859,,justice_law,2,0,1,1166,0
 L1912-00437,BOURDOT,,unknown,unknown,,,unrecorded,unknown,,1865,1891,administration,2,0,1,207,0
@@ -218,13 +220,14 @@ L1912-00462,BROC,,unknown,unknown,,,unrecorded,unknown,,,,medicine_health,0,0,0,
 L1912-00463,BROIDO,,colonist,metropolitan_colonist,birthplace,high,europe,european_other,birth_russia,1868,,medicine_health,0,0,0,872,0
 L1912-00465,BROUTIER DU PAVILLON,Jules-Eugène,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1854,1884,engineering_architecture,3,0,1,529,0
 L1912-00466,BRUCH,Alfred,colonist,colony_born_colonist,birthplace,medium,algeria,european_french,birth_algeria,1867,1893,medicine_health,1,0,0,957,1
-L1912-00467,BRULE,Léa,unknown,unknown,,,unrecorded,unknown,,,1891,,2,0,1,417,0
+L1912-00467,BRULE,Léa,unknown,unknown,,,unrecorded,unknown,,,1891,education_science,2,0,1,417,0
 L1912-00468,BRUN,Marins,unknown,unknown,,,unrecorded,unknown,,,1895,education_science,0,0,0,184,0
 L1912-00470,BRUSSIAU,Albert,colonist,colony_born_colonist,birthplace,medium,algeria,european_french,birth_algeria,1871,1888,commerce,0,0,0,794,0
 L1912-00471,BUGEIA,Lorenzo,unknown,unknown,,,tunisia,unknown,birth_tunisia,1858,,,0,0,0,163,0
 L1912-00472,BUISSON,Benjamin-Paul,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1846,1887,administration,3,1,1,2027,1
 L1912-00473,BULLA-RËGIA,,colonist,colonist_unspecified,institutional,low,unrecorded,european_french,member_of:french_settler_body,,1881,religion,2,0,1,1705,1
 L1912-00475,BURSAUX,,unknown,unknown,,,unrecorded,unknown,,1866,,military,1,1,0,224,0
+L1912-00476,BURY Charles-Frédéric),,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1867,1898,commerce,1,0,0,626,1
 L1912-00477,BUSACCA Eugène,,colonist,colonist_unspecified,institutional,medium,unrecorded,european_italian,member_of:italian_body,1857,,medicine_health,0,0,0,980,1
 L1912-00478,BUSUTTIL,Alphonse,unknown,unknown,,,tunisia,unknown,birth_tunisia,1866,,commerce,0,0,0,448,1
 L1912-00479,CABANTOUS,Jules,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1871,1903,religion,2,0,1,1266,0
@@ -243,7 +246,6 @@ L1912-00502,CAMUSSI,Henri,colonist,metropolitan_colonist,birthplace,high,europe,
 L1912-00503,CANAL,Albert,colonist,colony_born_colonist,birthplace,medium,algeria,european_french,birth_algeria,1874,,,1,0,0,899,1
 L1912-00504,CANAL,Joseph-Afarie-Ange,unknown,unknown,,,unrecorded,unknown,,,1857,military,3,1,1,1970,1
 L1912-00505,CANAVAGGIO,Antoine,unknown,unknown,,,unrecorded,unknown,,1868,1896,education_science,1,0,1,297,0
-L1912-00506,CANI,,unknown,unknown,,,unrecorded,unknown,,,,,0,0,0,587,0
 L1912-00507,CANTON,Albert,colonist,colony_born_colonist,birthplace,medium,algeria,european_french,birth_algeria,1875,1882,,2,0,1,454,0
 L1912-00511,CAPDEVILLE,Xavier - Jean - MarieCharles,unknown,unknown,,,unrecorded,unknown,,1873,1903,administration,0,0,0,725,0
 L1912-00512,CAPRIATA,Victor-François,colonist,metropolitan_colonist,institutional,low,europe,european_italian,birth_france;italian_institution,1864,,military,2,0,0,688,1
@@ -266,7 +268,6 @@ L1912-00538,CATTAN,Isaac,unknown,unknown,,,tunisia,tunisian_muslim,birth_tunisia
 L1912-00539,CATTAN,Victor,colonist,colony_born_colonist,institutional,high,tunisia,european_italian,birth_tunisia;italian_institution,1870,,justice_law,4,0,1,394,0
 L1912-00540,CAVALIN,Ernest-Jean-Marie,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1851,1899,medicine_health,4,1,1,1142,0
 L1912-00542,CAZÈS,David-Albert-Louis,native,native_jewish,institutional,high,tunisia,tunisian_jewish,birth_tunisia;jewish_institution;member_of:jewish_body,1850,,,3,1,1,720,2
-L1912-00555,Cercle Républicain,Grand,unknown,unknown,,,tunisia,unknown,birth_tunisia,1905,,justice_law,0,0,0,219,0
 L1912-00561,CES,,unknown,unknown,,,unrecorded,unknown,,,,administration,2,0,1,285,0
 L1912-00562,CEZERAC,Joseph,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1879,1910,education_science,0,0,0,154,0
 L1912-00565,CHABERT,Pierre,colonist,colonist_unspecified,institutional,high,unrecorded,european_italian,italian_institution;member_of:french_settler_body,1842,,medicine_health,4,1,1,699,0
@@ -376,6 +377,7 @@ L1912-00791,DAVID,Paul,colonist,colonist_unspecified,institutional,low,unrecorde
 L1912-00792,DAVOUX,Augusle-Honoré,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1870,,military,0,0,0,846,0
 L1912-00795,DEBON,Séraphin-Victorin,colonist,colonist_unspecified,reserved_post,medium,unrecorded,unknown,french_reserved_post,1864,1887,justice_law,3,0,1,428,0
 L1912-00801,DECKER-DAVID,Paul-Henry,unknown,unknown,,,unrecorded,unknown,,1865,,engineering_architecture,3,0,1,1235,0
+L1912-00803,DEFRANGE ' [Jean-Jacoues-Euaèneb 11 juin 18 5 3,,unknown,unknown,,,unrecorded,unknown,,,,military,4,1,0,304,0
 L1912-00804,DEFRANCHI,Joseph,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1855,1886,education_science,1,0,1,783,0
 L1912-00807,DEGOMMIER,Albert,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1870,,justice_law,1,0,1,230,1
 L1912-00808,DËGRËAUX,Charles-Honoré,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1850,1889,administration,2,0,0,222,0
@@ -476,10 +478,12 @@ L1912-01013,EL ANNABI,Sadok,native,native_muslim,institutional,medium,tunisia,tu
 L1912-01029,ELES,Emilio,colonist,colonist_unspecified,institutional,high,unrecorded,european_italian,italian_institution,1874,1907,diplomacy,0,0,0,369,0
 L1912-01031,EL FOURATI,Mohammed,native,native_muslim,name,medium,unrecorded,tunisian_muslim,nasab_particle,,,politics_native_admin,3,1,1,261,0
 L1912-01032,EL FOURTI,Béchir,native,native_muslim,institutional,medium,tunisia,tunisian_muslim,birth_tunisia;islamic_school;nasab_particle,1884,,press_letters_arts,0,0,0,181,0
+L1912-01036,EL HADI BEN TAHAR,,native,native_muslim,institutional,medium,tunisia,tunisian_muslim,birth_tunisia;islamic_school;nasab_particle,1881,,administration,1,0,1,640,1
 L1912-01046,EL KAROUI,Mohammed,native,native_muslim,institutional,medium,tunisia,tunisian_muslim,birth_tunisia;islamic_school;nasab_particle,1847,,military,3,1,1,693,0
 L1912-01049,EL-KHALSI,M'hamed,native,native_muslim,birthplace,medium,tunisia,tunisian_muslim,birth_tunisia;nasab_particle,1873,,commerce,0,0,0,127,0
 L1912-01052,EL LEZZAM,Abderrahmane,native,native_muslim,name,medium,unrecorded,tunisian_muslim,nasab_particle,,,politics_native_admin,0,0,0,103,0
-L1912-01065,ELZEAR,,unknown,unknown,,,unrecorded,unknown,,,,diplomacy,0,0,0,674,1
+L1912-01054,EL MABROUK,Mohammed ben Mohammed,native,native_muslim,birthplace,medium,tunisia,tunisian_muslim,birth_tunisia;nasab_particle,1858,,medicine_health,2,0,1,276,0
+L1912-01065,ELZEAR,"Elzéar Bonnier, dit Pierre",unknown,unknown,,,unrecorded,unknown,,1848,,justice_law,0,0,0,674,1
 L1912-01066,EMONTS,Charles,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1864,1907,engineering_architecture,2,0,1,792,0
 L1912-01072,ENDIGNOUX,Auguste-Philippe-Adolphe-Marie,colonist,metropolitan_colonist,birthplace,high,europe,european_italian,birth_italy,1859,1882,agriculture,3,0,1,870,0
 L1912-01078,ENGERER,William,colonist,metropolitan_colonist,birthplace,high,europe,european_maltese,birth_malta,1850,1880,commerce,1,0,1,171,0
@@ -489,7 +493,7 @@ L1912-01082,ENRIQUEZ,Guillaume,unknown,unknown,,,tunisia,unknown,birth_tunisia,1
 L1912-01091,Epargne Tunisienne,L',unknown,unknown,,,unrecorded,unknown,,,,,1,0,0,1757,0
 L1912-01093,EPINAT,Alexandre,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1850,1851,industry_crafts,3,0,1,584,0
 L1912-01094,EPINAT,Charles,unknown,unknown,,,tunisia,unknown,birth_tunisia,1868,,industry_crafts,3,0,1,741,0
-L1912-01097,ERRAIS,,unknown,unknown,,,unrecorded,unknown,,,,,1,0,0,169,0
+L1912-01097,ERRAIS,Mohamed ben,unknown,unknown,,,unrecorded,unknown,,,,,1,0,0,169,0
 L1912-01098,ERRERA,Giuseppe,colonist,colonist_unspecified,institutional,medium,unrecorded,european_italian,member_of:italian_body,1859,1901,medicine_health,1,0,1,320,0
 L1912-01099,ESCANO,Ernest,colonist,colony_born_colonist,institutional,medium,tunisia,european_italian,birth_tunisia;member_of:italian_body,1860,,commerce,1,0,1,380,0
 L1912-01101,ESPIAUT,Henri-Edmond,unknown,unknown,,,unrecorded,unknown,,1862,1900,,3,0,1,493,0
@@ -515,7 +519,7 @@ L1912-01133,FENECH,,colonist,metropolitan_colonist,birthplace,high,europe,europe
 L1912-01143,FERRAND,Henri,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1862,1887,,2,0,0,390,0
 L1912-01144,FERRY,Jules-François-Camille,unknown,unknown,,,unrecorded,unknown,,,,justice_law,1,0,0,2183,0
 L1912-01145,FERRY,Oscar-Joseph,unknown,unknown,,,unrecorded,unknown,,1706,,medicine_health,4,1,1,626,0
-L1912-01147,FESLER,,unknown,unknown,,,tunisia,unknown,birth_tunisia,1870,,,1,0,1,3008,2
+L1912-01147,FESLER,"Antoine-Louis, dit Anlony",unknown,unknown,,,tunisia,unknown,birth_tunisia,1870,,,1,0,1,3008,2
 L1912-01148,FESQUET,Adrien,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1873,1893,,1,0,1,465,0
 L1912-01149,FESQUET,Mathilde,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1873,1898,,0,0,0,331,0
 L1912-01151,FEUILLE,Henri,unknown,unknown,,,unrecorded,unknown,,,,justice_law,3,0,1,191,0
@@ -530,11 +534,10 @@ L1912-01164,FISGHEL,Maurice,colonist,colony_born_colonist,birthplace,medium,alge
 L1912-01165,FITOUSSI,Elle,native,native_jewish,institutional,medium,unrecorded,tunisian_jewish,member_of:jewish_body,1872,,justice_law,3,1,1,911,2
 L1912-01166,FLACK,Félix,unknown,unknown,,,unrecorded,unknown,,,,,0,0,0,865,0
 L1912-01168,FLAMANT,Albert,colonist,metropolitan_colonist,birthplace,high,europe,european_other,birth_russia,1875,1888,administration,1,0,1,435,0
-L1912-01169,FLAMANT,,unknown,unknown,,,unrecorded,unknown,,,1892,,1,0,0,603,0
+L1912-01169,FLAMANT,"Marie- Augustine, née Fauché",colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1868,1892,,1,0,0,603,0
 L1912-01170,FLEURETTE,,unknown,unknown,,,unrecorded,unknown,,1858,,,2,0,1,168,0
 L1912-01171,FLEURY,,colonist,colonist_unspecified,reserved_post,medium,unrecorded,unknown,french_reserved_post,1864,,industry_crafts,4,1,1,1134,0
 L1912-01172,FLOT,Louis,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1861,1904,education_science,2,0,1,438,0
-L1912-01181,FORETS,,unknown,unknown,,,unrecorded,unknown,,,,military,0,0,0,1893,0
 L1912-01182,FORESTIER,Georges,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1872,,commerce,3,0,1,879,0
 L1912-01184,FORGEMOL DE BOSTQUÉNARD,Léonard-Léopold,unknown,unknown,,,unrecorded,unknown,,,,military,1,0,0,695,0
 L1912-01185,FORTIN,Jules,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1844,1904,administration,1,0,0,264,0
@@ -548,6 +551,7 @@ L1912-01196,FRANK,Louis,unknown,unknown,,,unrecorded,unknown,,,,medicine_health,
 L1912-01197,FRANZINI DTSSONCOURT,Fernand,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1863,,agriculture,1,0,1,667,1
 L1912-01198,FRÊMAUX,Paul,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1858,1895,press_letters_arts,2,0,1,560,0
 L1912-01199,FROMONT DE BOUAILLE,,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1870,1897,agriculture,1,0,1,345,0
+L1912-01200,FROPO,Auguste,colonist,colonist_unspecified,reserved_post,medium,unrecorded,unknown,french_reserved_post,1858,,,2,0,1,328,0
 L1912-01201,FUNARO,Guillaume,native,native_jewish,institutional,low,unrecorded,tunisian_jewish,italian_institution;jewish_institution,1842,,medicine_health,2,0,0,2165,0
 L1912-01203,GABÈS,Oasis,unknown,unknown,,,unrecorded,unknown,,,,,0,0,0,1984,0
 L1912-01204,GADRAT,Jean-Guillaume,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1872,1903,military,2,0,1,333,0
@@ -592,6 +596,7 @@ L1912-01255,GÉRARD,Gaston-Marie,colonist,metropolitan_colonist,birthplace,high,
 L1912-01256,GÉRARD,Joseph,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1801,1892,commerce,2,0,0,296,0
 L1912-01257,GERINI,Dante,colonist,metropolitan_colonist,institutional,high,europe,european_italian,birth_italy;italian_institution;member_of:italian_body,1875,1900,mining,2,0,0,2030,1
 L1912-01258,GERMONNEAU,Damase-François,unknown,unknown,,,unrecorded,unknown,,1870,1894,politics_native_admin,1,0,0,329,0
+L1912-01261,GHEZ jeune,,unknown,unknown,,,tunisia,unknown,birth_tunisia,1867,,commerce,0,0,0,197,0
 L1912-01262,GHILEB,,native,native_muslim,institutional,high,tunisia,tunisian_muslim,birth_tunisia;muslim_office,1884,,military,3,1,1,723,0
 L1912-01266,GIGNAN,Clodomir-Ernest,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1859,,military,1,1,0,266,1
 L1912-01267,GILBERT,André,unknown,unknown,,,unrecorded,unknown,,,,,4,1,1,1114,0
@@ -651,7 +656,7 @@ L1912-01341,GUTTIERES,,colonist,colonist_unspecified,institutional,high,unrecord
 L1912-01342,GUTTIERES,Ernest,native,native_jewish,institutional,high,tunisia,tunisian_jewish,birth_tunisia;jewish_institution,1880,,justice_law,0,0,0,260,1
 L1912-01343,GUY,Raphaël,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1869,,military,2,0,1,607,0
 L1912-01344,GUYON,Louis,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1778,1907,finance_banking,0,0,0,175,0
-L1912-01345,GUYS,,unknown,unknown,,,unrecorded,unknown,,,,military,0,0,0,271,1
+L1912-01345,GUYS,Hyacinthe-Constantin,unknown,unknown,,,unrecorded,unknown,,,,military,0,0,0,271,1
 L1912-01346,HAAK,Gérard Van Den,colonist,metropolitan_colonist,birthplace,high,europe,european_other,birth_netherlands,1862,1896,religion,0,0,0,114,0
 L1912-01349,HACKSPILL,Henri-Albert,unknown,unknown,,,unrecorded,unknown,,1878,1896,,1,0,1,371,0
 L1912-01350,HADDAD,Nissim,unknown,unknown,,,tunisia,unknown,birth_tunisia,1868,,commerce,0,0,0,425,0
@@ -680,7 +685,7 @@ L1912-01413,HJALMAR,Sigurd,unknown,unknown,,,unrecorded,unknown,,1865,1896,diplo
 L1912-01420,HOQUETIS,Marie-Henri-Albert,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1870,1894,religion,1,0,1,375,0
 L1912-01423,HOUDE,Gaston,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1866,,agriculture,0,0,0,569,0
 L1912-01426,HOURTICOT,Marius,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1882,1902,,0,0,0,203,0
-L1912-01427,HSIN,,native,native_muslim,institutional,medium,unrecorded,tunisian_muslim,islamic_school,1875,,,1,0,1,356,0
+L1912-01427,HSIN,ben Othman,native,native_muslim,institutional,medium,unrecorded,tunisian_muslim,islamic_school,1875,,,1,0,1,356,0
 L1912-01428,HUARD,Ferdinand-Isidore,colonist,metropolitan_colonist,institutional,high,europe,european_french,birth_france;member_of:jewish_body,1854,,administration,2,0,1,1436,0
 L1912-01429,HUC,Albert-Victor-Isidore,unknown,unknown,,,tunisia,unknown,birth_tunisia,1848,,,0,0,0,709,1
 L1912-01431,HUGUENET,Louis-Michel,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1852,1905,,2,1,1,670,0
@@ -734,6 +739,7 @@ L1912-01575,LAKHOUA,,native,native_muslim,institutional,medium,tunisia,tunisian_
 L1912-01577,LALLIERMONET,Hjlaire,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1850,,,4,1,1,4210,1
 L1912-01579,LAMBERT,Basile,unknown,unknown,,,unrecorded,unknown,,1861,,medicine_health,1,0,0,1903,1
 L1912-01580,LAMINE BEN HADJ M'BAREK,,native,native_muslim,name,medium,unrecorded,tunisian_muslim,honorific;nasab_particle,1884,,commerce,0,0,0,116,0
+L1912-01581,LAMINE,Tahar ben,native,native_muslim,institutional,medium,unrecorded,tunisian_muslim,islamic_school,,,administration,1,0,1,307,0
 L1912-01582,LAMOLINERIE,Jean-Pierre,unknown,unknown,,,unrecorded,unknown,,1860,,,0,0,0,728,0
 L1912-01583,LAMOUROUX,Pierre-Louis,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1875,,commerce,0,0,0,367,1
 L1912-01584,LANÇON,Emile,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1843,1904,industry_crafts,2,0,1,462,0
@@ -798,11 +804,12 @@ L1912-01659,MACLER,,colonist,colony_born_colonist,birthplace,medium,algeria,euro
 L1912-01665,MAGNANI,Henry,colonist,metropolitan_colonist,birthplace,high,europe,european_italian,birth_italy,1876,1893,,0,0,0,182,0
 L1912-01666,MAGUEUR,Pierre,unknown,unknown,,,unrecorded,unknown,,1856,,,1,0,1,202,0
 L1912-01667,MAGUY,J.-B.,colonist,colonist_unspecified,reserved_post,medium,unrecorded,unknown,french_reserved_post,1854,1885,education_science,3,0,1,549,0
-L1912-01671,MAHMOUD-BEY,,native,native_muslim,name,medium,unrecorded,tunisian_muslim,honorific,,,,0,0,0,351,0
+L1912-01671,MAHMOUD-BEY,ben Husseïn ben Ali,native,native_muslim,name,medium,unrecorded,tunisian_muslim,honorific,,,,0,0,0,351,0
 L1912-01674,MAI,René,unknown,unknown,,,unrecorded,unknown,,,,engineering_architecture,0,0,0,247,0
 L1912-01675,MAIRE,Charles-Aristide,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1867,,transport_maritime,2,0,1,773,1
 L1912-01681,MALET,François,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1872,,,3,0,1,439,1
-L1912-01682,MALFILATRE,Henri,colonist,colonist_unspecified,institutional,low,unrecorded,european_french,member_of:french_settler_body,,1890,finance_banking,1,0,1,209,0
+L1912-01682,MALFILATRE,Henri,unknown,unknown,,,unrecorded,unknown,,,1890,finance_banking,1,0,1,209,0
+L1912-01683,■MALFILATRE,,unknown,unknown,,,unrecorded,unknown,,,1891,education_science,0,0,0,319,0
 L1912-01684,MALINAS,Albert,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1848,1903,medicine_health,5,1,1,4713,1
 L1912-01687,MANISCALCO,Joseph,unknown,unknown,,,unrecorded,unknown,,1858,1878,industry_crafts,1,0,1,688,0
 L1912-01690,MARCESCHEAU,,unknown,unknown,,,unrecorded,unknown,,,,military,0,0,0,397,0
@@ -818,6 +825,7 @@ L1912-01704,MARTIN,Paul,colonist,metropolitan_colonist,birthplace,high,europe,eu
 L1912-01705,MARTINEAU,Charles-Pierre-V.ictor.loseph-Louis,colonist,colonist_unspecified,reserved_post,medium,unrecorded,unknown,french_reserved_post,1861,,justice_law,1,0,1,911,0
 L1912-01706,MARTINIER,A.,colonist,colonist_unspecified,institutional,low,unrecorded,european_french,member_of:french_settler_body,1888,1888,administration,0,0,0,296,0
 L1912-01707,MARZAG,Louis-Marcel,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1877,1902,,2,0,1,489,0
+L1912-01708,MASPOLI ffhomas-Dominique),,unknown,unknown,,,unrecorded,unknown,,1873,1898,administration,1,0,1,189,0
 L1912-01709,MASSARI,Emile,unknown,unknown,,,unrecorded,unknown,,1850,,,0,0,0,710,0
 L1912-01710,MASSÉ,Jean-Daniel,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1872,,justice_law,3,0,1,1642,2
 L1912-01711,MASSÉ,Louis,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1865,,justice_law,1,0,0,495,0
@@ -838,7 +846,7 @@ L1912-01731,MAZET,Antoine-Antonin,colonist,metropolitan_colonist,birthplace,high
 L1912-01732,MAZET,Pierre,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1867,,justice_law,1,0,1,396,2
 L1912-01733,MAZIËRES,Marc-Alfred DE,unknown,unknown,,,unrecorded,unknown,,1875,,transport_maritime,3,0,1,2121,1
 L1912-01734,MAZOYER,Emile,colonist,metropolitan_colonist,institutional,low,europe,european_italian,birth_france;italian_institution,1863,,military,2,1,0,614,0
-L1912-01736,MEARY,,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1879,1901,,0,0,0,493,0
+L1912-01736,MEARY,Ferdinand-Joseph,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1879,1901,,0,0,0,493,0
 L1912-01738,MECHIRKI,Mohamed,native,native_muslim,institutional,medium,unrecorded,tunisian_muslim,islamic_school;member_of:muslim_body,1885,,administration,0,0,0,944,2
 L1912-01743,MÉDINA,,colonist,colony_born_colonist,institutional,high,tunisia,european_italian,birth_tunisia;italian_institution,1860,,diplomacy,1,0,0,1313,0
 L1912-01750,MEINIER,Marius-Emile-Louis,unknown,unknown,,,tunisia,unknown,birth_tunisia,1870,,finance_banking,1,0,1,184,0
@@ -846,8 +854,8 @@ L1912-01757,MÊME,René,colonist,colonist_unspecified,reserved_post,medium,unrec
 L1912-01758,MÉNAGE,,unknown,unknown,,,unrecorded,unknown,,,,,1,0,1,145,0
 L1912-01759,MENATTI,Atlilio,colonist,metropolitan_colonist,institutional,high,europe,european_italian,birth_italy;italian_institution,1861,1888,medicine_health,2,0,1,285,0
 L1912-01762,MENOTTI,Antoine,unknown,unknown,,,unrecorded,unknown,,1847,1888,,1,0,1,221,1
-L1912-01763,MENSOUR,,unknown,unknown,,,tunisia,unknown,birth_tunisia,1833,,commerce,0,0,0,83,0
-L1912-01764,MENSOUR,,unknown,unknown,,,tunisia,unknown,birth_tunisia,1863,,commerce,0,0,0,71,0
+L1912-01763,MENSOUR,Mostapha ben,unknown,unknown,,,tunisia,unknown,birth_tunisia,1833,,commerce,0,0,0,83,0
+L1912-01764,MENSOUR,Taïeb ben,unknown,unknown,,,tunisia,unknown,birth_tunisia,1863,,commerce,0,0,0,71,0
 L1912-01765,MENVIELLE,Jean,unknown,unknown,,,unrecorded,unknown,,1872,,medicine_health,2,0,1,585,0
 L1912-01773,MERCIER,François,colonist,colony_born_colonist,birthplace,medium,algeria,european_french,birth_algeria,1871,1885,administration,1,0,1,403,0
 L1912-01774,MERCIER,Norbert,unknown,unknown,,,unrecorded,unknown,,,,commerce,2,0,1,459,0
@@ -867,11 +875,11 @@ L1912-01806,MIRANDE,,unknown,unknown,,,unrecorded,unknown,,1861,,,2,0,1,645,1
 L1912-01807,MIRANDE,Jules,unknown,unknown,,,unrecorded,unknown,,,,military,1,0,1,203,0
 L1912-01808,MOATTI,,unknown,unknown,,,tunisia,unknown,birth_tunisia,1865,,commerce,1,0,1,289,0
 L1912-01809,MOATTI,Siméon,unknown,unknown,,,tunisia,unknown,birth_tunisia,1860,,commerce,0,0,0,64,0
-L1912-01810,MOCQOERIS,,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1865,1893,engineering_architecture,3,0,1,479,0
+L1912-01810,MOCQOERIS,Paul-Edme-Eugène,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1865,1893,engineering_architecture,3,0,1,479,0
 L1912-01811,MOCQUERYS,Georges,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1865,,medicine_health,1,0,1,975,2
 L1912-01812,MODIGLIANI,,colonist,colonist_unspecified,institutional,medium,unrecorded,european_italian,member_of:italian_body,1877,,commerce,1,0,1,558,0
-L1912-01814,MOHAMED-BEY,,native,native_muslim,name,medium,unrecorded,tunisian_muslim,honorific,,,,0,0,0,281,0
-L1912-01815,MOHAMED EL HADI-BEY,,native,native_muslim,name,medium,unrecorded,tunisian_muslim,honorific;nasab_particle,,,,4,1,1,666,0
+L1912-01814,MOHAMED-BEY,ben Hussein ben Mahmoud,native,native_muslim,name,medium,unrecorded,tunisian_muslim,honorific,,,,0,0,0,281,0
+L1912-01815,MOHAMED EL HADI-BEY,ben Ali ben Hussein ben Mahmoud,native,native_muslim,name,medium,unrecorded,tunisian_muslim,honorific;nasab_particle,,,,4,1,1,666,0
 L1912-01820,MOLCO,Emile,native,native_jewish,institutional,low,unrecorded,tunisian_jewish,italian_institution;jewish_institution;member_of:italian_body;member_of:jewish_body,,1887,,1,0,0,753,0
 L1912-01821,MOLINARI,César,unknown,unknown,,,unrecorded,unknown,,1852,1895,administration,1,0,1,196,0
 L1912-01822,MOLINARI,Philippe-Antoine,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1859,1898,administration,1,0,1,325,0
@@ -880,7 +888,7 @@ L1912-01825,MONCHICOURT,Charles-Félix,colonist,metropolitan_colonist,birthplace
 L1912-01828,MONTEFIORE,Lucien,colonist,colony_born_colonist,institutional,high,tunisia,european_italian,birth_tunisia;italian_institution;member_of:italian_body,1881,,medicine_health,1,0,1,409,0
 L1912-01830,MONTIGNANT,,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1866,1906,,2,0,0,1292,0
 L1912-01831,MONT-LOUIS,Paul-Louis-Mars,unknown,unknown,,,unrecorded,unknown,,,1894,agriculture,0,0,0,1513,0
-L1912-01833,MORALY,,native,native_muslim,institutional,medium,tunisia,tunisian_muslim,birth_tunisia;islamic_school,1879,,press_letters_arts,0,0,0,353,0
+L1912-01833,MORALY,Chadly ben Mohamed ben Hassouna,native,native_muslim,institutional,medium,tunisia,tunisian_muslim,birth_tunisia;islamic_school,1879,,press_letters_arts,0,0,0,353,0
 L1912-01834,MOREL,,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1868,1886,education_science,0,0,0,131,0
 L1912-01835,MORELLI,Alphonse,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1877,,military,0,0,0,390,1
 L1912-01836,MORELLI,Joseph,unknown,unknown,,,unrecorded,unknown,,1863,1886,politics_native_admin,1,0,1,156,0
@@ -891,7 +899,7 @@ L1912-01840,MORIN,René-Alfred,colonist,metropolitan_colonist,birthplace,high,eu
 L1912-01841,MORIZOT,Albert-Henri,unknown,unknown,,,unrecorded,unknown,,1868,1898,justice_law,1,0,1,823,0
 L1912-01842,MORNAG,HAUT-,unknown,unknown,,,unrecorded,unknown,,,,,0,0,0,563,0
 L1912-01844,MORPURGO,Léonidas,colonist,metropolitan_colonist,institutional,high,europe,european_italian,birth_italy;italian_institution;member_of:italian_body,1863,,medicine_health,2,0,0,1494,1
-L1912-01846,MOSTAFA,,unknown,unknown,,,tunisia,unknown,birth_tunisia,1833,,commerce,0,0,0,85,0
+L1912-01846,MOSTAFA,ben Mansour,unknown,unknown,,,tunisia,unknown,birth_tunisia,1833,,commerce,0,0,0,85,0
 L1912-01847,MOTTE-DARIÉS,DE LA,unknown,unknown,,,unrecorded,unknown,,,,military,0,0,0,173,0
 L1912-01849,MOUCHARD,Louis-Marie-Lucien-Vicor,unknown,unknown,,,unrecorded,unknown,,1871,1896,,3,0,1,456,0
 L1912-01851,MOULARD,Eugène,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1877,1883,justice_law,0,0,0,330,0
@@ -904,6 +912,7 @@ L1912-01868,MURACCIOLE,Valentin,unknown,unknown,,,unrecorded,unknown,,1865,1893,
 L1912-01869,MURACCIOLI,Paul,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1879,1892,,1,0,1,345,0
 L1912-01870,MUSCAT fils,C,unknown,unknown,,,tunisia,unknown,birth_tunisia,1866,,industry_crafts,0,0,0,454,0
 L1912-01872,MUSSALI,,unknown,unknown,,,unrecorded,unknown,,1857,,administration,2,1,0,320,0
+L1912-01873,MUSTAFA-BEY,ben Mahmoud ben Hussein ben Ali,native,native_muslim,name,medium,unrecorded,tunisian_muslim,honorific,,,,0,0,0,150,0
 L1912-01875,MUSY,Jean-Elisée,unknown,unknown,,,unrecorded,unknown,,1854,,education_science,0,0,0,407,1
 L1912-01878,NABETH,Sauveur,colonist,colony_born_colonist,birthplace,medium,algeria,european_french,birth_algeria,1871,1900,military,0,0,0,413,0
 L1912-01880,NADAL,Paul-Georges,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1867,1888,military,1,0,1,690,0
@@ -923,6 +932,7 @@ L1912-01906,NIEWENGLOWSKI,Gaston-Henri,colonist,metropolitan_colonist,birthplace
 L1912-01907,NISARD,Sion,unknown,unknown,,,unrecorded,unknown,,1868,,justice_law,0,0,0,152,0
 L1912-01909,NORO,Jean,unknown,unknown,,,unrecorded,unknown,,,,press_letters_arts,3,0,1,1241,0
 L1912-01912,NOVAK,Nicolo,unknown,unknown,,,unrecorded,unknown,,1853,1871,diplomacy,3,0,1,662,0
+L1912-01913,NUEE,"Louise, veuve Alfred",unknown,unknown,,,unrecorded,unknown,,,,,0,0,0,96,0
 L1912-01921,OLIVIER,Paul-Louis-Joseph,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1863,,military,3,0,1,1124,0
 L1912-01923,OMESSA,Pierre,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1859,,military,4,0,1,704,0
 L1912-01927,ORDINAIRE,Maurice,unknown,unknown,,,unrecorded,unknown,,1862,,military,2,1,1,738,0
@@ -942,7 +952,7 @@ L1912-01995,PASCAL,,unknown,unknown,,,unrecorded,unknown,,,,agriculture,0,0,0,15
 L1912-01996,PASQUIER,Maurice,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1868,,administration,3,0,1,544,0
 L1912-01997,PASSEZ,Arnold,colonist,metropolitan_colonist,institutional,high,europe,european_french,birth_france;member_of:french_settler_body,1871,,,1,0,0,388,0
 L1912-01998,PASTORET,,unknown,unknown,,,unrecorded,unknown,,1852,,administration,1,0,1,209,0
-L1912-01999,PASTOUR,,unknown,unknown,,,unrecorded,unknown,,,1908,medicine_health,0,0,0,545,0
+L1912-01999,PASTOUR,Jules-Alexandre,colonist,colony_born_colonist,birthplace,medium,algeria,european_french,birth_algeria,1879,1908,medicine_health,0,0,0,545,0
 L1912-02000,PATEL,Hermann,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1853,,justice_law,1,0,1,300,0
 L1912-02002,PATOU,Louis-Frédéric-Juies,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1865,1895,education_science,1,0,0,881,1
 L1912-02003,PATRIARCHE,Albert,unknown,unknown,,,unrecorded,unknown,,1865,,,3,0,1,468,0
@@ -967,7 +977,7 @@ L1912-02030,PERREAU,Louis,colonist,metropolitan_colonist,birthplace,high,europe,
 L1912-02031,PERRET,Jules,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1864,1893,administration,3,0,1,622,0
 L1912-02032,PERRIER,Fernand,unknown,unknown,,,unrecorded,unknown,,1854,,medicine_health,2,0,1,924,0
 L1912-02033,PERRIN,Antoine,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1877,,,0,0,0,233,0
-L1912-02034,PERRIN,,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1875,,justice_law,1,0,1,591,0
+L1912-02034,PERRIN,Louis,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1875,,justice_law,1,0,1,591,0
 L1912-02035,PERROCHON,Henri-Auguste,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1860,1892,industry_crafts,1,0,0,638,0
 L1912-02036,PERROUD,André,unknown,unknown,,,unrecorded,unknown,,1879,,administration,0,0,0,173,0
 L1912-02037,PERRUT,Henri-Charles-Alfred,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1859,1885,engineering_architecture,3,0,1,552,0
@@ -1032,7 +1042,7 @@ L1912-02135,RAIGHLEN,Louis-Jacques,colonist,metropolitan_colonist,birthplace,hig
 L1912-02136,RAMONET,Joseph,unknown,unknown,,,unrecorded,unknown,,1864,,,2,0,1,400,0
 L1912-02137,RANCHIN,Louis-Valère-Placide,unknown,unknown,,,unrecorded,unknown,,1854,1879,administration,1,0,1,216,0
 L1912-02138,RANDET,Paul-Joseph,colonist,colonist_unspecified,reserved_post,medium,unrecorded,unknown,french_reserved_post,1868,,justice_law,2,0,0,866,0
-L1912-02139,RANDON,,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1853,1886,,2,0,1,350,1
+L1912-02139,RANDON,A-bel,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1853,1886,,2,0,1,350,1
 L1912-02146,RAUCHER,Julien,unknown,unknown,,,unrecorded,unknown,,1868,,finance_banking,3,0,1,726,1
 L1912-02147,RAVEL,Adolphe-Eugène,unknown,unknown,,,tunisia,unknown,birth_tunisia,1862,1889,education_science,1,0,0,396,0
 L1912-02150,REBOUD,Victor,colonist,colonist_unspecified,reserved_post,medium,unrecorded,unknown,french_reserved_post,,,medicine_health,2,1,0,621,0
@@ -1059,13 +1069,15 @@ L1912-02175,RIBET,Jean-Pierre,colonist,metropolitan_colonist,birthplace,high,eur
 L1912-02176,RICHARD,Àdric-Charles-Adolphe,unknown,unknown,,,unrecorded,unknown,,1853,1901,industry_crafts,1,0,0,624,0
 L1912-02177,RICHARD-NICOLAS,Alphonse,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1843,,justice_law,0,0,0,489,0
 L1912-02178,RICHARD-NICOLAS,Robert,unknown,unknown,,,unrecorded,unknown,,,,,1,0,1,236,0
-L1912-02179,RICHARD,,unknown,unknown,,,unrecorded,unknown,,1874,,justice_law,0,0,0,986,0
+L1912-02179,RICHARD,Paul-Antoine,unknown,unknown,,,unrecorded,unknown,,1874,,justice_law,0,0,0,986,0
 L1912-02180,RICHARD,Victor,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1859,1892,,3,1,0,390,0
 L1912-02181,RICKLIN,Paul,unknown,unknown,,,unrecorded,unknown,,1851,1883,military,2,0,1,540,0
 L1912-02182,RIETMANN,Edouard-Rodolphe,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1860,,commerce,2,0,1,411,0
+L1912-02184,RIMAURO frères,,unknown,unknown,,,unrecorded,unknown,,,,transport_maritime,0,0,0,79,0
 L1912-02185,RIOLS DE FONCLARE,Alexandre Henri,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1869,1897,military,0,0,0,577,0
 L1912-02186,RIOU,Adolphe,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1871,1907,,2,0,1,678,0
 L1912-02188,RITE CHAEAI,,native,native_muslim,institutional,high,unrecorded,tunisian_muslim,muslim_office,,,religion,0,0,0,360,0
+L1912-02189,RITE HAMBALI,,unknown,unknown,,,unrecorded,unknown,,,,,0,0,0,609,0
 L1912-02190,ROBAGLIA,Pascal-Nonce,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1842,,military,4,1,1,1481,0
 L1912-02191,ROBERT,Henri-Léon,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1849,,medicine_health,4,1,1,867,1
 L1912-02192,ROBICHON,Ludovic,unknown,unknown,,,unrecorded,unknown,,,,politics_native_admin,2,0,1,267,0
@@ -1100,10 +1112,10 @@ L1912-02227,SACGOMAN,Pierre,unknown,unknown,,,tunisia,unknown,birth_tunisia,1872
 L1912-02230,SADOK-BEY,Mohamed,native,native_muslim,name,medium,unrecorded,tunisian_muslim,honorific,1883,,,0,0,0,151,0
 L1912-02231,SADOUN,Jacques,colonist,colony_born_colonist,institutional,high,tunisia,european_italian,birth_tunisia;italian_institution;member_of:italian_body;member_of:jewish_body,1872,,press_letters_arts,1,0,1,1171,2
 L1912-02246,SAINT-ROMAS,Jea.n-Eugône-Etleilne,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1863,,transport_maritime,2,1,0,709,0
-L1912-02248,SAIZIEU,,unknown,unknown,,,unrecorded,unknown,,,1778,diplomacy,0,0,0,262,0
+L1912-02248,SAIZIEU,"Ant,-E.-Laz.-Barth. DE",unknown,unknown,,,unrecorded,unknown,,1757,1778,diplomacy,0,0,0,262,0
 L1912-02251,SAKKA,,native,native_muslim,institutional,high,unrecorded,tunisian_muslim,islamic_school;muslim_office,,,politics_native_admin,3,0,1,815,0
-L1912-02252,SAKKA,,native,native_muslim,institutional,high,unrecorded,tunisian_muslim,islamic_school;muslim_office,1829,,,4,0,1,1920,1
-L1912-02253,SAKKA,,native,native_muslim,institutional,high,tunisia,tunisian_muslim,birth_tunisia;islamic_school;muslim_office,1860,,politics_native_admin,2,1,1,709,2
+L1912-02252,SAKKA,Mohamed ben M'hamed,native,native_muslim,institutional,high,unrecorded,tunisian_muslim,islamic_school;muslim_office,1829,,,4,0,1,1920,1
+L1912-02253,SAKKA,Mohamed Salah ben Mohamed,native,native_muslim,institutional,high,tunisia,tunisian_muslim,birth_tunisia;islamic_school;muslim_office,1860,,politics_native_admin,2,1,1,709,2
 L1912-02254,SAKKAT,Ahmed,native,native_muslim,institutional,high,unrecorded,tunisian_muslim,muslim_office,,,politics_native_admin,2,1,1,197,0
 L1912-02255,SAKKAT,Ali,native,native_muslim,institutional,medium,tunisia,tunisian_muslim,birth_tunisia;islamic_school,1876,,administration,2,0,1,324,2
 L1912-02257,SALANCOURT,Paul GRENIER DE,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1853,,administration,2,0,0,303,0
@@ -1132,14 +1144,13 @@ L1912-02285,SCHILLING,Rodolphe,colonist,colony_born_colonist,birthplace,medium,a
 L1912-02286,SCHLUMBERGER,Raoul,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1856,1903,military,3,0,1,601,1
 L1912-02287,SCHUH,François,colonist,colony_born_colonist,birthplace,medium,algeria,european_french,birth_algeria,1873,1901,industry_crafts,1,0,0,933,1
 L1912-02289,SCIALOM,David-Dario,native,native_jewish,institutional,high,tunisia,tunisian_jewish,birth_tunisia;jewish_institution,1880,,medicine_health,1,0,1,1160,0
-L1912-02290,SCIALOM,,native,native_jewish,institutional,high,tunisia,tunisian_jewish,birth_tunisia;jewish_institution;member_of:jewish_body,1871,,justice_law,1,0,1,736,0
+L1912-02290,SCIALOM,"Salomon, dit Victor",native,native_jewish,institutional,high,tunisia,tunisian_jewish,birth_tunisia;jewish_institution;member_of:jewish_body,1871,,justice_law,1,0,1,736,0
 L1912-02292,SCIPION L'AFRICAIN,,unknown,unknown,,,unrecorded,unknown,,,,military,0,0,0,348,0
 L1912-02293,SCIPION,Emilien,unknown,unknown,,,unrecorded,unknown,,,,military,0,0,0,110,0
 L1912-02295,SEBAG,Victor,unknown,unknown,,,tunisia,unknown,birth_tunisia,1878,,justice_law,0,0,0,195,0
 L1912-02297,SEBASTIANI,Amédée,colonist,colony_born_colonist,institutional,high,tunisia,european_italian,birth_tunisia;italian_institution,1872,,diplomacy,0,0,0,111,0
 L1912-02299,SÉCHERESSE,Aristide-Marcel,colonist,colonist_unspecified,institutional,high,unrecorded,european_italian,italian_institution,1874,1908,education_science,2,0,1,1817,1
 L1912-02309,SEGUIN,Camille,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1871,,administration,2,0,1,598,0
-L1912-02311,SELDJA,,unknown,unknown,,,unrecorded,unknown,,,,mining,0,0,0,1445,0
 L1912-02318,SEPHAR,Aron,native,native_jewish,institutional,high,unrecorded,tunisian_jewish,jewish_institution;member_of:jewish_body,,,,2,0,1,263,0
 L1912-02319,SÉRE,DE,unknown,unknown,,,unrecorded,unknown,,,,education_science,0,0,0,436,0
 L1912-02321,SERRES,Jean-Victor,native,native_muslim,institutional,low,europe,tunisian_muslim,birth_france;muslim_office,1860,,religion,2,0,0,1266,1
@@ -1190,9 +1201,9 @@ L1912-02485,SURDON,Rômi-Elie,colonist,metropolitan_colonist,institutional,high,
 L1912-02487,SUSINI,Jean-Paul,colonist,colonist_unspecified,reserved_post,medium,unrecorded,unknown,french_reserved_post,1852,1883,justice_law,2,0,1,350,0
 L1912-02488,SUSINI,Paul,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1870,,,1,0,1,299,0
 L1912-02500,TABONE,Salvator,colonist,colony_born_colonist,institutional,high,tunisia,european_italian,birth_tunisia;italian_institution,1865,,industry_crafts,1,0,0,245,1
-L1912-02503,TAHAR,,native,native_muslim,institutional,low,algeria,tunisian_muslim,birth_algeria;islamic_school,1842,,,2,0,1,546,0
+L1912-02503,TAHAR,ben Salah,native,native_muslim,institutional,low,algeria,tunisian_muslim,birth_algeria;islamic_school,1842,,,2,0,1,546,0
 L1912-02504,TAHAR-BEY,,native,native_muslim,institutional,medium,tunisia,tunisian_muslim,birth_tunisia;honorific;islamic_school,1875,,,1,1,0,444,0
-L1912-02506,TAIEB,,unknown,unknown,,,tunisia,unknown,birth_tunisia,1863,,commerce,0,0,0,73,0
+L1912-02506,TAIEB,ben Mansour,unknown,unknown,,,tunisia,unknown,birth_tunisia,1863,,commerce,0,0,0,73,0
 L1912-02507,TAILLARD,Eugène-Marino,native,native_muslim,institutional,low,europe,tunisian_muslim,birth_france;muslim_office,1869,,administration,2,0,0,924,1
 L1912-02513,TAPIA,Sion,unknown,unknown,,,unrecorded,unknown,,1876,,,0,0,0,187,0
 L1912-02518,TAUCHON,Charles,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1843,1881,administration,6,1,1,737,0
@@ -1222,7 +1233,7 @@ L1912-02579,TOURNIER,Jean-Joseph,unknown,unknown,,,unrecorded,unknown,,1842,,agr
 L1912-02585,TREMSAL,Paul,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1872,1898,,1,0,0,805,0
 L1912-02587,TRIBAUDEAU,Jules,unknown,unknown,,,unrecorded,unknown,,1806,1904,medicine_health,1,0,1,413,0
 L1912-02595,TRIDON,Henri,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1886,1892,press_letters_arts,3,0,1,593,0
-L1912-02596,TRIOLO,,colonist,metropolitan_colonist,birthplace,high,europe,european_italian,birth_italy,1871,,medicine_health,0,0,0,486,0
+L1912-02596,TRIOLO,Gasparo,colonist,metropolitan_colonist,birthplace,high,europe,european_italian,birth_italy,1871,,medicine_health,0,0,0,486,0
 L1912-02597,TRIONFO,César,colonist,metropolitan_colonist,institutional,high,europe,european_italian,birth_italy;italian_institution,1855,1801,commerce,2,0,1,523,3
 L1912-02599,TROJANI,Jean-Simon,unknown,unknown,,,unrecorded,unknown,,1853,,military,2,0,1,648,0
 L1912-02600,TROUILLET,Alexis,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1865,,medicine_health,4,1,1,710,2
@@ -1231,7 +1242,7 @@ L1912-02603,TUNIS,,native,native_jewish,institutional,medium,unrecorded,tunisian
 L1912-02612,TUSSAC,Emile,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1862,,engineering_architecture,3,0,1,275,0
 L1912-02615,USANNAZ-JORIS,Marcel,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1878,1902,justice_law,2,0,1,1075,1
 L1912-02618,UZAN,Clément,colonist,colony_born_colonist,institutional,high,tunisia,european_italian,birth_tunisia;italian_institution,1862,,medicine_health,2,0,1,464,0
-L1912-02619,UZAN,,unknown,unknown,,,tunisia,unknown,birth_tunisia,1889,,administration,0,0,0,364,0
+L1912-02619,UZAN,Ernest dit David,unknown,unknown,,,tunisia,unknown,birth_tunisia,1889,,administration,0,0,0,364,0
 L1912-02620,UZAN,Michel-Micaël,native,native_muslim,institutional,low,tunisia,tunisian_muslim,birth_tunisia;jewish_institution;muslim_office,1881,,engineering_architecture,1,0,1,1356,1
 L1912-02621,VACHEROT,Pierre-Charles,unknown,unknown,,,unrecorded,unknown,,,1898,education_science,3,0,1,281,0
 L1912-02622,VAIARELLO,Michel,colonist,metropolitan_colonist,birthplace,high,europe,european_italian,birth_italy,1846,1862,commerce,0,0,0,382,0
@@ -1280,6 +1291,7 @@ L1912-02670,VINCENTI,,colonist,colonist_unspecified,reserved_post,medium,unrecor
 L1912-02671,VIOLANTE,Gioacchino,unknown,unknown,,,tunisia,unknown,birth_tunisia,1866,,diplomacy,1,0,1,206,0
 L1912-02672,VIQUIER,Ernest,unknown,unknown,,,tunisia,unknown,birth_tunisia,1877,1906,engineering_architecture,0,0,0,259,0
 L1912-02673,VIRZI,Mineo-Paolo,colonist,metropolitan_colonist,birthplace,high,europe,european_italian,birth_italy,1855,1880,military,1,0,1,1458,1
+L1912-02674,VIVIANI Culogero),,colonist,metropolitan_colonist,birthplace,high,europe,european_italian,birth_italy,1883,1900,justice_law,0,0,0,186,0
 L1912-02675,VIVONA,Nicaise,native,native_jewish_european_status,institutional,low,europe,tunisian_jewish,birth_italy;jewish_institution;livorno_jewish_note,1864,1880,industry_crafts,0,0,0,554,1
 L1912-02678,VUILLAUME,Raymond,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1857,1882,education_science,4,1,1,628,0
 L1912-02679,VULLIEN,Marie-André,colonist,metropolitan_colonist,birthplace,high,europe,european_french,birth_france,1881,1905,,2,0,1,1102,1
@@ -1297,6 +1309,7 @@ L1912-02690,WITASSE,Pierre DE,colonist,metropolitan_colonist,birthplace,high,eur
 L1912-02693,YOUSSOUF-KHODJA,,unknown,unknown,,,unrecorded,unknown,,,,,0,0,0,160,0
 L1912-02700,ZAKARIA,Mohsen,native,native_muslim,institutional,medium,unrecorded,tunisian_muslim,islamic_school,1876,,press_letters_arts,0,0,0,522,0
 L1912-02701,ZAKARIA,Saïd,native,native_muslim,institutional,medium,tunisia,tunisian_muslim,birth_tunisia;islamic_school,1878,,,1,0,1,288,0
+L1912-02703,ZAMMIT frères,Achille et Michel,unknown,unknown,,,unrecorded,unknown,,,,industry_crafts,0,0,0,222,1
 L1912-02704,ZAMMIT,Jean-T.,colonist,metropolitan_colonist,birthplace,high,europe,european_maltese,birth_malta,1867,,medicine_health,0,0,0,171,0
 L1912-02706,ZAOUCHE,Abdelaziz,unknown,unknown,,,tunisia,unknown,birth_tunisia,1875,,agriculture,2,0,1,511,0
 L1912-02707,ZAOUCHE,Abdeljelil,native,native_muslim,institutional,medium,tunisia,tunisian_muslim,birth_tunisia;member_of:muslim_body,1873,,industry_crafts,2,1,1,895,2

@@ -6,8 +6,8 @@ as evidence, so a person placed by one sits in it with others of their kind by
 construction.
 
 The three checks that share a statistic share an axis. An earlier draft gave
-each check its own panel and its own scale, which let a dot at +0.235 sit level
-with a dot at +0.314 — the figure has to make the checks comparable, since
+each check its own panel and its own scale, which let a dot at +0.281 sit level
+with a dot at +0.343 — the figure has to make the checks comparable, since
 comparing them is the whole point.
 """
 import sys
@@ -86,8 +86,8 @@ fig.text(
     f"by its pair count, so no single large clique can carry the finding — a different "
     f"statistic, hence a different scale. One objection moves the number: dropping the\n"
     f"bodies whose printed name marks a community, which the coding reads as evidence, "
-    f"takes r from {base:+.3f} to {unmarked:+.3f}. A quarter of the effect is circular; "
-    "the rest is not.",
+    f"takes r from {base:+.3f} to {unmarked:+.3f}, about a sixth of it. That much of the "
+    "effect is circular; the rest is not.",
     ha="left", va="top", fontsize=8.5, color=S.INK_SECONDARY, linespacing=1.5)
 S.save(fig, "fig65_homophily_robustness",
        f"Permutation nulls, {H.N_PERM:,} draws, seed {H.SEED}; "

@@ -78,6 +78,7 @@ L1912-00190,Avenir du Prolétarait (L'),person_with_entry,administration,1894,0,
 L1912-00191,Avenir du Prolétariat (L'),person_with_entry,military,1900,0,0,2903,42,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f66.item
 L1912-00192,AVERSO (Pascal),person_with_entry,industry_crafts,1860,1,0,433,42,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f66.item
 L1912-00193,AVIGDOR (Samuel),person_with_entry,,1870,2,0,1200,43,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f67.item
+L1912-00199,AZEDINEBEY (),person_with_entry,,1882,0,0,147,44,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f68.item
 L1912-00200,AZERM (Alarc-Antoine-Joseph-Victor),person_with_entry,commerce,1861,1,0,236,44,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f68.item
 L1912-00201,AZOUZ BEN HAMDA BEN AISSA (Mohamed),person_with_entry,military,1848,2,1,979,44,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f68.item
 L1912-00204,BACCOUGHE (Salah),person_with_entry,politics_native_admin,1865,4,0,355,45,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f69.item
@@ -134,7 +135,7 @@ L1912-00287,BENETTI (Camille),person_with_entry,religion,1860,0,1,517,54,https:/
 L1912-00301,BEN KHALIFA (Alohamed),person_with_entry,politics_native_admin,1852,2,0,355,55,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f79.item
 L1912-00304,BENOIT (François-Xavier),person_with_entry,engineering_architecture,1854,0,0,3357,55,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f79.item
 L1912-00305,BEN SALAH (Ahmed),person_with_entry,education_science,,0,0,118,55,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f79.item
-L1912-00306,BENSASSON (),person_with_entry,commerce,1854,2,0,450,55,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f79.item
+L1912-00306,BENSASSON (Raphaël),person_with_entry,commerce,1854,2,0,450,55,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f79.item
 L1912-00307,BENSASSON (Umberto),person_with_entry,military,,0,0,326,55,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f79.item
 L1912-00308,BÉRARD (Antonïn),person_with_entry,,1862,2,1,427,56,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f80.item
 L1912-00309,BERGE (Stéphane),person_with_entry,justice_law,1852,3,1,1084,56,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f80.item
@@ -149,7 +150,7 @@ L1912-00318,BERRA (J),person_with_entry,commerce,1886,0,0,93,57,https://gallica.
 L1912-00319,BERTAINCHAND (Ernest),person_with_entry,engineering_architecture,1864,5,1,3425,57,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f81.item
 L1912-00320,BERTIN (Célestin),person_with_entry,,1870,2,0,713,58,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f82.item
 L1912-00321,BERTHON (Louis),person_with_entry,engineering_architecture,1864,2,0,114,58,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f82.item
-L1912-00322,BERTIN (),person_with_entry,,1872,0,0,272,58,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f82.item
+L1912-00322,BERTIN (),person_with_entry,education_science,1872,0,0,272,58,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f82.item
 L1912-00323,BERTRAND (Joseph),person_with_entry,industry_crafts,1868,2,1,713,59,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f83.item
 L1912-00324,BERTRAND (Alarius-Louis-Joseph),person_with_entry,,1863,0,1,218,59,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f83.item
 L1912-00326,BESSIERE (Victor - Lucien - Etienne),person_with_entry,justice_law,,2,0,220,59,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f83.item
@@ -171,7 +172,7 @@ L1912-00367,BLANCHÈRÈ (R. DU COUDRAY DE LA),person_with_entry,education_scienc
 L1912-00368,BLAVIER (Albert),person_with_entry,justice_law,1866,0,0,422,65,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f89.item
 L1912-00374,B O E R N E R (Gustave-Adolphe),person_with_entry,justice_law,1839,0,0,316,66,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f90.item
 L1912-00376,BOEUF (Félicien),person_with_entry,military,,3,0,374,66,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f90.item
-L1912-00377,BOEUF (),person_with_entry,military,1864,5,0,489,66,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f90.item
+L1912-00377,BOEUF (Jean-Hippo),person_with_entry,military,1864,5,0,489,66,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f90.item
 L1912-00378,BOIANOWSKI (),person_with_entry,diplomacy,1866,1,0,402,66,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f90.item
 L1912-00379,BOIZEL (Auguste),person_with_entry,agriculture,1877,2,0,185,67,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f91.item
 L1912-00380,BONAN (Abraham),person_with_entry,medicine_health,1878,1,0,1005,67,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f91.item
@@ -194,6 +195,7 @@ L1912-00416,BOUDET (Raymond - Bernard - PierreLouis),person_with_entry,finance_b
 L1912-00423,BOUHAGEB (Ahmed),person_with_entry,justice_law,1873,0,0,235,72,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f96.item
 L1912-00424,BOUHAGEB (Housseïn),person_with_entry,,1872,1,0,755,72,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f96.item
 L1912-00428,BOULAKIA (Joseph),person_with_entry,medicine_health,1881,0,0,154,72,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f96.item
+L1912-00429,BOULANGER Georges-Ernest-Jean-Alarie (),person_with_entry,military,1837,0,0,680,72,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f96.item
 L1912-00430,BOULLIER (Jules-Emile),person_with_entry,,1873,2,1,735,72,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f96.item
 L1912-00432,BOUNIN (Edoiiard-Emile-Ph'ilibert),person_with_entry,justice_law,1859,2,0,1166,73,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f97.item
 L1912-00437,BOURDOT (),person_with_entry,administration,1865,2,0,207,73,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f97.item
@@ -218,13 +220,14 @@ L1912-00462,BROC (),person_with_entry,medicine_health,,0,0,181,77,https://gallic
 L1912-00463,BROIDO (),person_with_entry,medicine_health,1868,0,0,872,77,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f101.item
 L1912-00465,BROUTIER DU PAVILLON (Jules-Eugène),person_with_entry,engineering_architecture,1854,3,0,529,77,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f101.item
 L1912-00466,BRUCH (Alfred),person_with_entry,medicine_health,1867,1,1,957,77,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f101.item
-L1912-00467,BRULE (Léa),person_with_entry,,,2,0,417,78,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f102.item
+L1912-00467,BRULE (Léa),person_with_entry,education_science,,2,0,417,78,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f102.item
 L1912-00468,BRUN (Marins),person_with_entry,education_science,,0,0,184,78,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f102.item
 L1912-00470,BRUSSIAU (Albert),person_with_entry,commerce,1871,0,0,794,78,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f102.item
 L1912-00471,BUGEIA (Lorenzo),person_with_entry,,1858,0,0,163,78,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f102.item
 L1912-00472,BUISSON (Benjamin-Paul),person_with_entry,administration,1846,3,1,2027,78,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f102.item
 L1912-00473,BULLA-RËGIA (),person_with_entry,religion,,2,1,1705,79,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f103.item
 L1912-00475,BURSAUX (),person_with_entry,military,1866,1,0,224,79,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f103.item
+L1912-00476,BURY Charles-Frédéric) (),person_with_entry,commerce,1867,1,1,626,79,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f103.item
 L1912-00477,BUSACCA Eugène (),person_with_entry,medicine_health,1857,0,1,980,80,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f104.item
 L1912-00478,BUSUTTIL (Alphonse),person_with_entry,commerce,1866,0,1,448,80,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f104.item
 L1912-00479,CABANTOUS (Jules),person_with_entry,religion,1871,2,0,1266,81,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f105.item
@@ -243,7 +246,6 @@ L1912-00502,CAMUSSI (Henri),person_with_entry,administration,1864,2,0,681,87,htt
 L1912-00503,CANAL (Albert),person_with_entry,,1874,1,1,899,87,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f111.item
 L1912-00504,CANAL (Joseph-Afarie-Ange),person_with_entry,military,,3,1,1970,87,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f111.item
 L1912-00505,CANAVAGGIO (Antoine),person_with_entry,education_science,1868,1,0,297,87,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f111.item
-L1912-00506,CANI (),person_with_entry,,,0,0,587,87,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f111.item
 L1912-00507,CANTON (Albert),person_with_entry,,1875,2,0,454,87,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f111.item
 L1912-00511,CAPDEVILLE (Xavier - Jean - MarieCharles),person_with_entry,administration,1873,0,0,725,89,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f113.item
 L1912-00512,CAPRIATA (Victor-François),person_with_entry,military,1864,2,1,688,89,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f113.item
@@ -266,7 +268,6 @@ L1912-00538,CATTAN (Isaac),person_with_entry,justice_law,1877,3,1,3056,98,https:
 L1912-00539,CATTAN (Victor),person_with_entry,justice_law,1870,4,0,394,98,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f122.item
 L1912-00540,CAVALIN (Ernest-Jean-Marie),person_with_entry,medicine_health,1851,4,0,1142,99,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f123.item
 L1912-00542,CAZÈS (David-Albert-Louis),person_with_entry,,1850,3,1,720,99,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f123.item
-L1912-00555,Cercle Républicain (Grand),person_with_entry,justice_law,1905,0,0,219,100,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f124.item
 L1912-00561,CES (),person_with_entry,administration,,2,0,285,101,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f125.item
 L1912-00562,CEZERAC (Joseph),person_with_entry,education_science,1879,0,0,154,101,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f125.item
 L1912-00565,CHABERT (Pierre),person_with_entry,medicine_health,1842,4,0,699,101,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f125.item
@@ -376,6 +377,7 @@ L1912-00791,DAVID (Paul),person_with_entry,engineering_architecture,,1,0,1556,14
 L1912-00792,DAVOUX (Augusle-Honoré),person_with_entry,military,1870,0,0,846,148,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f172.item
 L1912-00795,DEBON (Séraphin-Victorin),person_with_entry,justice_law,1864,3,0,428,149,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f173.item
 L1912-00801,DECKER-DAVID (Paul-Henry),person_with_entry,engineering_architecture,1865,3,0,1235,149,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f173.item
+L1912-00803,DEFRANGE ' [Jean-Jacoues-Euaèneb 11 juin 18 5 3 (),person_with_entry,military,,4,0,304,150,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f174.item
 L1912-00804,DEFRANCHI (Joseph),person_with_entry,education_science,1855,1,0,783,150,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f174.item
 L1912-00807,DEGOMMIER (Albert),person_with_entry,justice_law,1870,1,1,230,150,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f174.item
 L1912-00808,DËGRËAUX (Charles-Honoré),person_with_entry,administration,1850,2,0,222,150,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f174.item
@@ -476,10 +478,12 @@ L1912-01013,EL ANNABI (Sadok),person_with_entry,administration,1875,1,0,332,174,
 L1912-01029,ELES (Emilio),person_with_entry,diplomacy,1874,0,0,369,175,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f199.item
 L1912-01031,EL FOURATI (Mohammed),person_with_entry,politics_native_admin,,3,0,261,175,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f199.item
 L1912-01032,EL FOURTI (Béchir),person_with_entry,press_letters_arts,1884,0,0,181,175,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f199.item
+L1912-01036,EL HADI BEN TAHAR (),person_with_entry,administration,1881,1,1,640,175,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f199.item
 L1912-01046,EL KAROUI (Mohammed),person_with_entry,military,1847,3,0,693,176,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f200.item
 L1912-01049,EL-KHALSI (M'hamed),person_with_entry,commerce,1873,0,0,127,176,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f200.item
 L1912-01052,EL LEZZAM (Abderrahmane),person_with_entry,politics_native_admin,,0,0,103,177,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f201.item
-L1912-01065,ELZEAR (),person_with_entry,diplomacy,,0,1,674,177,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f201.item
+L1912-01054,EL MABROUK (Mohammed ben Mohammed),person_with_entry,medicine_health,1858,2,0,276,177,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f201.item
+L1912-01065,"ELZEAR (Elzéar Bonnier, dit Pierre)",person_with_entry,justice_law,1848,0,1,674,177,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f201.item
 L1912-01066,EMONTS (Charles),person_with_entry,engineering_architecture,1864,2,0,792,177,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f201.item
 L1912-01072,ENDIGNOUX (Auguste-Philippe-Adolphe-Marie),person_with_entry,agriculture,1859,3,0,870,177,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f201.item
 L1912-01078,ENGERER (William),person_with_entry,commerce,1850,1,0,171,178,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f202.item
@@ -489,7 +493,7 @@ L1912-01082,ENRIQUEZ (Guillaume),person_with_entry,justice_law,1875,3,0,918,179,
 L1912-01091,Epargne Tunisienne (L'),person_with_entry,,,1,0,1757,181,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f205.item
 L1912-01093,EPINAT (Alexandre),person_with_entry,industry_crafts,1850,3,0,584,181,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f205.item
 L1912-01094,EPINAT (Charles),person_with_entry,industry_crafts,1868,3,0,741,181,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f205.item
-L1912-01097,ERRAIS (),person_with_entry,,,1,0,169,183,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f207.item
+L1912-01097,ERRAIS (Mohamed ben),person_with_entry,,,1,0,169,183,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f207.item
 L1912-01098,ERRERA (Giuseppe),person_with_entry,medicine_health,1859,1,0,320,183,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f207.item
 L1912-01099,ESCANO (Ernest),person_with_entry,commerce,1860,1,0,380,183,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f207.item
 L1912-01101,ESPIAUT (Henri-Edmond),person_with_entry,,1862,3,0,493,183,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f207.item
@@ -515,7 +519,7 @@ L1912-01133,FENECH (),person_with_entry,diplomacy,1848,0,0,177,187,https://galli
 L1912-01143,FERRAND (Henri),person_with_entry,,1862,2,0,390,188,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f212.item
 L1912-01144,FERRY (Jules-François-Camille),person_with_entry,justice_law,,1,0,2183,188,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f212.item
 L1912-01145,FERRY (Oscar-Joseph),person_with_entry,medicine_health,1706,4,0,626,188,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f212.item
-L1912-01147,FESLER (),person_with_entry,,1870,1,1,3008,188,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f212.item
+L1912-01147,"FESLER (Antoine-Louis, dit Anlony)",person_with_entry,,1870,1,1,3008,188,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f212.item
 L1912-01148,FESQUET (Adrien),person_with_entry,,1873,1,0,465,189,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f213.item
 L1912-01149,FESQUET (Mathilde),person_with_entry,,1873,0,0,331,189,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f213.item
 L1912-01151,FEUILLE (Henri),person_with_entry,justice_law,,3,0,191,189,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f213.item
@@ -530,11 +534,10 @@ L1912-01164,FISGHEL (Maurice),person_with_entry,commerce,1873,2,0,369,192,https:
 L1912-01165,FITOUSSI (Elle),person_with_entry,justice_law,1872,3,1,911,192,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f216.item
 L1912-01166,FLACK (Félix),person_with_entry,,,0,0,865,192,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f216.item
 L1912-01168,FLAMANT (Albert),person_with_entry,administration,1875,1,0,435,192,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f216.item
-L1912-01169,FLAMANT (),person_with_entry,,,1,0,603,192,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f216.item
+L1912-01169,"FLAMANT (Marie- Augustine, née Fauché)",person_with_entry,,1868,1,0,603,192,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f216.item
 L1912-01170,FLEURETTE (),person_with_entry,,1858,2,0,168,193,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f217.item
 L1912-01171,FLEURY (),person_with_entry,industry_crafts,1864,4,0,1134,193,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f217.item
 L1912-01172,FLOT (Louis),person_with_entry,education_science,1861,2,0,438,193,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f217.item
-L1912-01181,FORETS (),person_with_entry,military,,0,0,1893,194,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f218.item
 L1912-01182,FORESTIER (Georges),person_with_entry,commerce,1872,3,0,879,194,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f218.item
 L1912-01184,FORGEMOL DE BOSTQUÉNARD (Léonard-Léopold),person_with_entry,military,,1,0,695,194,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f218.item
 L1912-01185,FORTIN (Jules),person_with_entry,administration,1844,1,0,264,196,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f220.item
@@ -548,6 +551,7 @@ L1912-01196,FRANK (Louis),person_with_entry,medicine_health,,0,0,1339,197,https:
 L1912-01197,FRANZINI DTSSONCOURT (Fernand),person_with_entry,agriculture,1863,1,1,667,197,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f221.item
 L1912-01198,FRÊMAUX (Paul),person_with_entry,press_letters_arts,1858,2,0,560,197,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f221.item
 L1912-01199,FROMONT DE BOUAILLE (),person_with_entry,agriculture,1870,1,0,345,197,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f221.item
+L1912-01200,FROPO (Auguste),person_with_entry,,1858,2,0,328,198,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f222.item
 L1912-01201,FUNARO (Guillaume),person_with_entry,medicine_health,1842,2,0,2165,198,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f222.item
 L1912-01203,GABÈS (Oasis),person_with_entry,,,0,0,1984,199,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f223.item
 L1912-01204,GADRAT (Jean-Guillaume),person_with_entry,military,1872,2,0,333,200,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f224.item
@@ -592,6 +596,7 @@ L1912-01255,GÉRARD (Gaston-Marie),person_with_entry,education_science,1877,0,0,
 L1912-01256,GÉRARD (Joseph),person_with_entry,commerce,1801,2,0,296,208,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f232.item
 L1912-01257,GERINI (Dante),person_with_entry,mining,1875,2,1,2030,208,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f232.item
 L1912-01258,GERMONNEAU (Damase-François),person_with_entry,politics_native_admin,1870,1,0,329,208,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f232.item
+L1912-01261,GHEZ jeune (),person_with_entry,commerce,1867,0,0,197,209,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f233.item
 L1912-01262,GHILEB (),person_with_entry,military,1884,3,0,723,209,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f233.item
 L1912-01266,GIGNAN (Clodomir-Ernest),person_with_entry,military,1859,1,1,266,209,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f233.item
 L1912-01267,GILBERT (André),person_with_entry,,,4,0,1114,209,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f233.item
@@ -651,7 +656,7 @@ L1912-01341,GUTTIERES (),person_with_entry,administration,1844,3,0,195,218,https
 L1912-01342,GUTTIERES (Ernest),person_with_entry,justice_law,1880,0,1,260,218,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f242.item
 L1912-01343,GUY (Raphaël),person_with_entry,military,1869,2,0,607,218,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f242.item
 L1912-01344,GUYON (Louis),person_with_entry,finance_banking,1778,0,0,175,218,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f242.item
-L1912-01345,GUYS (),person_with_entry,military,,0,1,271,218,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f242.item
+L1912-01345,GUYS (Hyacinthe-Constantin),person_with_entry,military,,0,1,271,218,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f242.item
 L1912-01346,HAAK (Gérard Van Den),person_with_entry,religion,1862,0,0,114,219,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f243.item
 L1912-01349,HACKSPILL (Henri-Albert),person_with_entry,,1878,1,0,371,219,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f243.item
 L1912-01350,HADDAD (Nissim),person_with_entry,commerce,1868,0,0,425,219,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f243.item
@@ -680,7 +685,7 @@ L1912-01413,HJALMAR (Sigurd),person_with_entry,diplomacy,1865,1,0,292,228,https:
 L1912-01420,HOQUETIS (Marie-Henri-Albert),person_with_entry,religion,1870,1,0,375,229,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f253.item
 L1912-01423,HOUDE (Gaston),person_with_entry,agriculture,1866,0,0,569,229,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f253.item
 L1912-01426,HOURTICOT (Marius),person_with_entry,,1882,0,0,203,230,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f254.item
-L1912-01427,HSIN (),person_with_entry,,1875,1,0,356,230,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f254.item
+L1912-01427,HSIN (ben Othman),person_with_entry,,1875,1,0,356,230,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f254.item
 L1912-01428,HUARD (Ferdinand-Isidore),person_with_entry,administration,1854,2,0,1436,230,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f254.item
 L1912-01429,HUC (Albert-Victor-Isidore),person_with_entry,,1848,0,1,709,230,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f254.item
 L1912-01431,HUGUENET (Louis-Michel),person_with_entry,,1852,2,0,670,231,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f255.item
@@ -734,6 +739,7 @@ L1912-01575,LAKHOUA (),person_with_entry,administration,1872,1,0,618,257,https:/
 L1912-01577,LALLIERMONET (Hjlaire),person_with_entry,,1850,4,1,4210,257,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f281.item
 L1912-01579,LAMBERT (Basile),person_with_entry,medicine_health,1861,1,1,1903,258,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f282.item
 L1912-01580,LAMINE BEN HADJ M'BAREK (),person_with_entry,commerce,1884,0,0,116,258,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f282.item
+L1912-01581,LAMINE (Tahar ben),person_with_entry,administration,,1,0,307,258,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f282.item
 L1912-01582,LAMOLINERIE (Jean-Pierre),person_with_entry,,1860,0,0,728,258,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f282.item
 L1912-01583,LAMOUROUX (Pierre-Louis),person_with_entry,commerce,1875,0,1,367,258,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f282.item
 L1912-01584,LANÇON (Emile),person_with_entry,industry_crafts,1843,2,0,462,259,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f283.item
@@ -798,11 +804,12 @@ L1912-01659,MACLER (),person_with_entry,engineering_architecture,1849,1,1,605,27
 L1912-01665,MAGNANI (Henry),person_with_entry,,1876,0,0,182,273,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f297.item
 L1912-01666,MAGUEUR (Pierre),person_with_entry,,1856,1,0,202,273,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f297.item
 L1912-01667,MAGUY (J.-B.),person_with_entry,education_science,1854,3,0,549,273,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f297.item
-L1912-01671,MAHMOUD-BEY (),person_with_entry,,,0,0,351,274,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f298.item
+L1912-01671,MAHMOUD-BEY (ben Husseïn ben Ali),person_with_entry,,,0,0,351,274,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f298.item
 L1912-01674,MAI (René),person_with_entry,engineering_architecture,,0,0,247,274,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f298.item
 L1912-01675,MAIRE (Charles-Aristide),person_with_entry,transport_maritime,1867,2,1,773,274,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f298.item
 L1912-01681,MALET (François),person_with_entry,,1872,3,1,439,275,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f299.item
 L1912-01682,MALFILATRE (Henri),person_with_entry,finance_banking,,1,0,209,275,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f299.item
+L1912-01683,■MALFILATRE (),person_with_entry,education_science,,0,0,319,275,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f299.item
 L1912-01684,MALINAS (Albert),person_with_entry,medicine_health,1848,5,1,4713,275,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f299.item
 L1912-01687,MANISCALCO (Joseph),person_with_entry,industry_crafts,1858,1,0,688,276,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f300.item
 L1912-01690,MARCESCHEAU (),person_with_entry,military,,0,0,397,277,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f301.item
@@ -818,6 +825,7 @@ L1912-01704,MARTIN (Paul),person_with_entry,,1881,0,0,180,279,https://gallica.bn
 L1912-01705,MARTINEAU (Charles-Pierre-V.ictor.loseph-Louis),person_with_entry,justice_law,1861,1,0,911,279,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f303.item
 L1912-01706,MARTINIER (A.),person_with_entry,administration,1888,0,0,296,279,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f303.item
 L1912-01707,MARZAG (Louis-Marcel),person_with_entry,,1877,2,0,489,279,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f303.item
+L1912-01708,MASPOLI ffhomas-Dominique) (),person_with_entry,administration,1873,1,0,189,279,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f303.item
 L1912-01709,MASSARI (Emile),person_with_entry,,1850,0,0,710,280,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f304.item
 L1912-01710,MASSÉ (Jean-Daniel),person_with_entry,justice_law,1872,3,1,1642,280,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f304.item
 L1912-01711,MASSÉ (Louis),person_with_entry,justice_law,1865,1,0,495,280,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f304.item
@@ -838,7 +846,7 @@ L1912-01731,MAZET (Antoine-Antonin),person_with_entry,justice_law,1863,1,0,230,2
 L1912-01732,MAZET (Pierre),person_with_entry,justice_law,1867,1,1,396,283,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f307.item
 L1912-01733,MAZIËRES (Marc-Alfred DE),person_with_entry,transport_maritime,1875,3,1,2121,284,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f308.item
 L1912-01734,MAZOYER (Emile),person_with_entry,military,1863,2,0,614,284,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f308.item
-L1912-01736,MEARY (),person_with_entry,,1879,0,0,493,284,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f308.item
+L1912-01736,MEARY (Ferdinand-Joseph),person_with_entry,,1879,0,0,493,284,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f308.item
 L1912-01738,MECHIRKI (Mohamed),person_with_entry,administration,1885,0,1,944,284,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f308.item
 L1912-01743,MÉDINA (),person_with_entry,diplomacy,1860,1,0,1313,286,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f310.item
 L1912-01750,MEINIER (Marius-Emile-Louis),person_with_entry,finance_banking,1870,1,0,184,286,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f310.item
@@ -846,8 +854,8 @@ L1912-01757,MÊME (René),person_with_entry,administration,1864,0,0,317,287,http
 L1912-01758,MÉNAGE (),person_with_entry,,,1,0,145,287,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f311.item
 L1912-01759,MENATTI (Atlilio),person_with_entry,medicine_health,1861,2,0,285,287,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f311.item
 L1912-01762,MENOTTI (Antoine),person_with_entry,,1847,1,1,221,287,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f311.item
-L1912-01763,MENSOUR (),person_with_entry,commerce,1833,0,0,83,287,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f311.item
-L1912-01764,MENSOUR (),person_with_entry,commerce,1863,0,0,71,287,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f311.item
+L1912-01763,MENSOUR (Mostapha ben),person_with_entry,commerce,1833,0,0,83,287,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f311.item
+L1912-01764,MENSOUR (Taïeb ben),person_with_entry,commerce,1863,0,0,71,287,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f311.item
 L1912-01765,MENVIELLE (Jean),person_with_entry,medicine_health,1872,2,0,585,287,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f311.item
 L1912-01773,MERCIER (François),person_with_entry,administration,1871,1,0,403,288,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f312.item
 L1912-01774,MERCIER (Norbert),person_with_entry,commerce,,2,0,459,288,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f312.item
@@ -867,11 +875,11 @@ L1912-01806,MIRANDE (),person_with_entry,,1861,2,1,645,292,https://gallica.bnf.f
 L1912-01807,MIRANDE (Jules),person_with_entry,military,,1,0,203,292,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f316.item
 L1912-01808,MOATTI (),person_with_entry,commerce,1865,1,0,289,292,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f316.item
 L1912-01809,MOATTI (Siméon),person_with_entry,commerce,1860,0,0,64,292,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f316.item
-L1912-01810,MOCQOERIS (),person_with_entry,engineering_architecture,1865,3,0,479,292,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f316.item
+L1912-01810,MOCQOERIS (Paul-Edme-Eugène),person_with_entry,engineering_architecture,1865,3,0,479,292,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f316.item
 L1912-01811,MOCQUERYS (Georges),person_with_entry,medicine_health,1865,1,1,975,292,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f316.item
 L1912-01812,MODIGLIANI (),person_with_entry,commerce,1877,1,0,558,293,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f317.item
-L1912-01814,MOHAMED-BEY (),person_with_entry,,,0,0,281,293,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f317.item
-L1912-01815,MOHAMED EL HADI-BEY (),person_with_entry,,,4,0,666,293,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f317.item
+L1912-01814,MOHAMED-BEY (ben Hussein ben Mahmoud),person_with_entry,,,0,0,281,293,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f317.item
+L1912-01815,MOHAMED EL HADI-BEY (ben Ali ben Hussein ben Mahmoud),person_with_entry,,,4,0,666,293,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f317.item
 L1912-01820,MOLCO (Emile),person_with_entry,,,1,0,753,293,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f317.item
 L1912-01821,MOLINARI (César),person_with_entry,administration,1852,1,0,196,293,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f317.item
 L1912-01822,MOLINARI (Philippe-Antoine),person_with_entry,administration,1859,1,0,325,293,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f317.item
@@ -880,7 +888,7 @@ L1912-01825,MONCHICOURT (Charles-Félix),person_with_entry,administration,1873,3
 L1912-01828,MONTEFIORE (Lucien),person_with_entry,medicine_health,1881,1,0,409,294,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f318.item
 L1912-01830,MONTIGNANT (),person_with_entry,,1866,2,0,1292,295,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f319.item
 L1912-01831,MONT-LOUIS (Paul-Louis-Mars),person_with_entry,agriculture,,0,0,1513,295,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f319.item
-L1912-01833,MORALY (),person_with_entry,press_letters_arts,1879,0,0,353,295,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f319.item
+L1912-01833,MORALY (Chadly ben Mohamed ben Hassouna),person_with_entry,press_letters_arts,1879,0,0,353,295,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f319.item
 L1912-01834,MOREL (),person_with_entry,education_science,1868,0,0,131,295,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f319.item
 L1912-01835,MORELLI (Alphonse),person_with_entry,military,1877,0,1,390,295,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f319.item
 L1912-01836,MORELLI (Joseph),person_with_entry,politics_native_admin,1863,1,0,156,295,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f319.item
@@ -891,7 +899,7 @@ L1912-01840,MORIN (René-Alfred),person_with_entry,engineering_architecture,1863
 L1912-01841,MORIZOT (Albert-Henri),person_with_entry,justice_law,1868,1,0,823,296,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f320.item
 L1912-01842,MORNAG (HAUT-),person_with_entry,,,0,0,563,296,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f320.item
 L1912-01844,MORPURGO (Léonidas),person_with_entry,medicine_health,1863,2,1,1494,296,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f320.item
-L1912-01846,MOSTAFA (),person_with_entry,commerce,1833,0,0,85,297,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f321.item
+L1912-01846,MOSTAFA (ben Mansour),person_with_entry,commerce,1833,0,0,85,297,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f321.item
 L1912-01847,MOTTE-DARIÉS (DE LA),person_with_entry,military,,0,0,173,297,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f321.item
 L1912-01849,MOUCHARD (Louis-Marie-Lucien-Vicor),person_with_entry,,1871,3,0,456,297,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f321.item
 L1912-01851,MOULARD (Eugène),person_with_entry,justice_law,1877,0,0,330,297,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f321.item
@@ -904,6 +912,7 @@ L1912-01868,MURACCIOLE (Valentin),person_with_entry,administration,1865,1,0,248,
 L1912-01869,MURACCIOLI (Paul),person_with_entry,,1879,1,0,345,299,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f323.item
 L1912-01870,MUSCAT fils (C),person_with_entry,industry_crafts,1866,0,0,454,299,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f323.item
 L1912-01872,MUSSALI (),person_with_entry,administration,1857,2,0,320,300,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f324.item
+L1912-01873,MUSTAFA-BEY (ben Mahmoud ben Hussein ben Ali),person_with_entry,,,0,0,150,300,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f324.item
 L1912-01875,MUSY (Jean-Elisée),person_with_entry,education_science,1854,0,1,407,300,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f324.item
 L1912-01878,NABETH (Sauveur),person_with_entry,military,1871,0,0,413,301,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f325.item
 L1912-01880,NADAL (Paul-Georges),person_with_entry,military,1867,1,0,690,301,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f325.item
@@ -923,6 +932,7 @@ L1912-01906,NIEWENGLOWSKI (Gaston-Henri),person_with_entry,,1871,3,1,2805,306,ht
 L1912-01907,NISARD (Sion),person_with_entry,justice_law,1868,0,0,152,306,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f330.item
 L1912-01909,NORO (Jean),person_with_entry,press_letters_arts,,3,0,1241,307,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f331.item
 L1912-01912,NOVAK (Nicolo),person_with_entry,diplomacy,1853,3,0,662,307,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f331.item
+L1912-01913,"NUEE (Louise, veuve Alfred)",person_with_entry,,,0,0,96,307,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f331.item
 L1912-01921,OLIVIER (Paul-Louis-Joseph),person_with_entry,military,1863,3,0,1124,311,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f335.item
 L1912-01923,OMESSA (Pierre),person_with_entry,military,1859,4,0,704,312,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f336.item
 L1912-01927,ORDINAIRE (Maurice),person_with_entry,military,1862,2,0,738,313,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f337.item
@@ -942,7 +952,7 @@ L1912-01995,PASCAL (),person_with_entry,agriculture,,0,0,153,319,https://gallica
 L1912-01996,PASQUIER (Maurice),person_with_entry,administration,1868,3,0,544,319,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f343.item
 L1912-01997,PASSEZ (Arnold),person_with_entry,,1871,1,0,388,319,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f343.item
 L1912-01998,PASTORET (),person_with_entry,administration,1852,1,0,209,319,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f343.item
-L1912-01999,PASTOUR (),person_with_entry,medicine_health,,0,0,545,319,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f343.item
+L1912-01999,PASTOUR (Jules-Alexandre),person_with_entry,medicine_health,1879,0,0,545,319,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f343.item
 L1912-02000,PATEL (Hermann),person_with_entry,justice_law,1853,1,0,300,319,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f343.item
 L1912-02002,PATOU (Louis-Frédéric-Juies),person_with_entry,education_science,1865,1,1,881,319,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f343.item
 L1912-02003,PATRIARCHE (Albert),person_with_entry,,1865,3,0,468,320,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f344.item
@@ -967,7 +977,7 @@ L1912-02030,PERREAU (Louis),person_with_entry,administration,1872,1,0,525,324,ht
 L1912-02031,PERRET (Jules),person_with_entry,administration,1864,3,0,622,324,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f348.item
 L1912-02032,PERRIER (Fernand),person_with_entry,medicine_health,1854,2,0,924,324,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f348.item
 L1912-02033,PERRIN (Antoine),person_with_entry,,1877,0,0,233,324,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f348.item
-L1912-02034,PERRIN (),person_with_entry,justice_law,1875,1,0,591,324,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f348.item
+L1912-02034,PERRIN (Louis),person_with_entry,justice_law,1875,1,0,591,324,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f348.item
 L1912-02035,PERROCHON (Henri-Auguste),person_with_entry,industry_crafts,1860,1,0,638,324,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f348.item
 L1912-02036,PERROUD (André),person_with_entry,administration,1879,0,0,173,324,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f348.item
 L1912-02037,PERRUT (Henri-Charles-Alfred),person_with_entry,engineering_architecture,1859,3,0,552,324,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f348.item
@@ -1032,7 +1042,7 @@ L1912-02135,RAIGHLEN (Louis-Jacques),person_with_entry,finance_banking,1862,0,0,
 L1912-02136,RAMONET (Joseph),person_with_entry,,1864,2,0,400,340,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f364.item
 L1912-02137,RANCHIN (Louis-Valère-Placide),person_with_entry,administration,1854,1,0,216,340,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f364.item
 L1912-02138,RANDET (Paul-Joseph),person_with_entry,justice_law,1868,2,0,866,340,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f364.item
-L1912-02139,RANDON (),person_with_entry,,1853,2,1,350,340,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f364.item
+L1912-02139,RANDON (A-bel),person_with_entry,,1853,2,1,350,340,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f364.item
 L1912-02146,RAUCHER (Julien),person_with_entry,finance_banking,1868,3,1,726,340,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f364.item
 L1912-02147,RAVEL (Adolphe-Eugène),person_with_entry,education_science,1862,1,0,396,341,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f365.item
 L1912-02150,REBOUD (Victor),person_with_entry,medicine_health,,2,0,621,341,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f365.item
@@ -1059,13 +1069,15 @@ L1912-02175,RIBET (Jean-Pierre),person_with_entry,military,1864,1,0,852,345,http
 L1912-02176,RICHARD (Àdric-Charles-Adolphe),person_with_entry,industry_crafts,1853,1,0,624,345,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f369.item
 L1912-02177,RICHARD-NICOLAS (Alphonse),person_with_entry,justice_law,1843,0,0,489,345,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f369.item
 L1912-02178,RICHARD-NICOLAS (Robert),person_with_entry,,,1,0,236,345,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f369.item
-L1912-02179,RICHARD (),person_with_entry,justice_law,1874,0,0,986,345,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f369.item
+L1912-02179,RICHARD (Paul-Antoine),person_with_entry,justice_law,1874,0,0,986,345,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f369.item
 L1912-02180,RICHARD (Victor),person_with_entry,,1859,3,0,390,346,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f370.item
 L1912-02181,RICKLIN (Paul),person_with_entry,military,1851,2,0,540,346,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f370.item
 L1912-02182,RIETMANN (Edouard-Rodolphe),person_with_entry,commerce,1860,2,0,411,346,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f370.item
+L1912-02184,RIMAURO frères (),person_with_entry,transport_maritime,,0,0,79,346,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f370.item
 L1912-02185,RIOLS DE FONCLARE (Alexandre Henri),person_with_entry,military,1869,0,0,577,346,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f370.item
 L1912-02186,RIOU (Adolphe),person_with_entry,,1871,2,0,678,346,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f370.item
 L1912-02188,RITE CHAEAI (),person_with_entry,religion,,0,0,360,346,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f370.item
+L1912-02189,RITE HAMBALI (),person_with_entry,,,0,0,609,347,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f371.item
 L1912-02190,ROBAGLIA (Pascal-Nonce),person_with_entry,military,1842,4,0,1481,347,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f371.item
 L1912-02191,ROBERT (Henri-Léon),person_with_entry,medicine_health,1849,4,1,867,347,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f371.item
 L1912-02192,ROBICHON (Ludovic),person_with_entry,politics_native_admin,,2,0,267,347,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f371.item
@@ -1100,10 +1112,10 @@ L1912-02227,SACGOMAN (Pierre),person_with_entry,transport_maritime,1872,0,0,63,3
 L1912-02230,SADOK-BEY (Mohamed),person_with_entry,,1883,0,0,151,354,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f378.item
 L1912-02231,SADOUN (Jacques),person_with_entry,press_letters_arts,1872,1,1,1171,354,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f378.item
 L1912-02246,SAINT-ROMAS (Jea.n-Eugône-Etleilne),person_with_entry,transport_maritime,1863,2,0,709,356,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f380.item
-L1912-02248,SAIZIEU (),person_with_entry,diplomacy,,0,0,262,356,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f380.item
+L1912-02248,"SAIZIEU (Ant,-E.-Laz.-Barth. DE)",person_with_entry,diplomacy,1757,0,0,262,356,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f380.item
 L1912-02251,SAKKA (),person_with_entry,politics_native_admin,,3,0,815,356,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f380.item
-L1912-02252,SAKKA (),person_with_entry,,1829,4,1,1920,356,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f380.item
-L1912-02253,SAKKA (),person_with_entry,politics_native_admin,1860,2,1,709,357,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f381.item
+L1912-02252,SAKKA (Mohamed ben M'hamed),person_with_entry,,1829,4,1,1920,356,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f380.item
+L1912-02253,SAKKA (Mohamed Salah ben Mohamed),person_with_entry,politics_native_admin,1860,2,1,709,357,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f381.item
 L1912-02254,SAKKAT (Ahmed),person_with_entry,politics_native_admin,,2,0,197,357,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f381.item
 L1912-02255,SAKKAT (Ali),person_with_entry,administration,1876,2,1,324,357,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f381.item
 L1912-02257,SALANCOURT (Paul GRENIER DE),person_with_entry,administration,1853,2,0,303,358,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f382.item
@@ -1132,14 +1144,13 @@ L1912-02285,SCHILLING (Rodolphe),person_with_entry,military,1870,3,0,1290,361,ht
 L1912-02286,SCHLUMBERGER (Raoul),person_with_entry,military,1856,3,1,601,361,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f385.item
 L1912-02287,SCHUH (François),person_with_entry,industry_crafts,1873,1,1,933,362,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f386.item
 L1912-02289,SCIALOM (David-Dario),person_with_entry,medicine_health,1880,1,0,1160,362,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f386.item
-L1912-02290,SCIALOM (),person_with_entry,justice_law,1871,1,0,736,362,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f386.item
+L1912-02290,"SCIALOM (Salomon, dit Victor)",person_with_entry,justice_law,1871,1,0,736,362,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f386.item
 L1912-02292,SCIPION L'AFRICAIN (),person_with_entry,military,,0,0,348,362,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f386.item
 L1912-02293,SCIPION (Emilien),person_with_entry,military,,0,0,110,362,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f386.item
 L1912-02295,SEBAG (Victor),person_with_entry,justice_law,1878,0,0,195,363,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f387.item
 L1912-02297,SEBASTIANI (Amédée),person_with_entry,diplomacy,1872,0,0,111,363,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f387.item
 L1912-02299,SÉCHERESSE (Aristide-Marcel),person_with_entry,education_science,1874,2,1,1817,363,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f387.item
 L1912-02309,SEGUIN (Camille),person_with_entry,administration,1871,2,0,598,364,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f388.item
-L1912-02311,SELDJA (),person_with_entry,mining,,0,0,1445,364,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f388.item
 L1912-02318,SEPHAR (Aron),person_with_entry,,,2,0,263,364,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f388.item
 L1912-02319,SÉRE (DE),person_with_entry,education_science,,0,0,436,365,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f389.item
 L1912-02321,SERRES (Jean-Victor),person_with_entry,religion,1860,2,1,1266,365,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f389.item
@@ -1190,9 +1201,9 @@ L1912-02485,SURDON (Rômi-Elie),person_with_entry,,1868,2,0,769,386,https://gall
 L1912-02487,SUSINI (Jean-Paul),person_with_entry,justice_law,1852,2,0,350,387,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f411.item
 L1912-02488,SUSINI (Paul),person_with_entry,,1870,1,0,299,387,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f411.item
 L1912-02500,TABONE (Salvator),person_with_entry,industry_crafts,1865,1,1,245,389,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f413.item
-L1912-02503,TAHAR (),person_with_entry,,1842,2,0,546,390,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f414.item
+L1912-02503,TAHAR (ben Salah),person_with_entry,,1842,2,0,546,390,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f414.item
 L1912-02504,TAHAR-BEY (),person_with_entry,,1875,1,0,444,390,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f414.item
-L1912-02506,TAIEB (),person_with_entry,commerce,1863,0,0,73,390,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f414.item
+L1912-02506,TAIEB (ben Mansour),person_with_entry,commerce,1863,0,0,73,390,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f414.item
 L1912-02507,TAILLARD (Eugène-Marino),person_with_entry,administration,1869,2,1,924,390,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f414.item
 L1912-02513,TAPIA (Sion),person_with_entry,,1876,0,0,187,390,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f414.item
 L1912-02518,TAUCHON (Charles),person_with_entry,administration,1843,6,0,737,392,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f416.item
@@ -1222,7 +1233,7 @@ L1912-02579,TOURNIER (Jean-Joseph),person_with_entry,agriculture,1842,0,0,278,40
 L1912-02585,TREMSAL (Paul),person_with_entry,,1872,1,0,805,406,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f430.item
 L1912-02587,TRIBAUDEAU (Jules),person_with_entry,medicine_health,1806,1,0,413,406,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f430.item
 L1912-02595,TRIDON (Henri),person_with_entry,press_letters_arts,1886,3,0,593,408,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f432.item
-L1912-02596,TRIOLO (),person_with_entry,medicine_health,1871,0,0,486,408,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f432.item
+L1912-02596,TRIOLO (Gasparo),person_with_entry,medicine_health,1871,0,0,486,408,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f432.item
 L1912-02597,TRIONFO (César),person_with_entry,commerce,1855,2,1,523,408,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f432.item
 L1912-02599,TROJANI (Jean-Simon),person_with_entry,military,1853,2,0,648,408,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f432.item
 L1912-02600,TROUILLET (Alexis),person_with_entry,medicine_health,1865,4,1,710,408,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f432.item
@@ -1231,7 +1242,7 @@ L1912-02603,TUNIS (),person_with_entry,military,,0,0,306,409,https://gallica.bnf
 L1912-02612,TUSSAC (Emile),person_with_entry,engineering_architecture,1862,3,0,275,414,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f438.item
 L1912-02615,USANNAZ-JORIS (Marcel),person_with_entry,justice_law,1878,2,1,1075,416,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f440.item
 L1912-02618,UZAN (Clément),person_with_entry,medicine_health,1862,2,0,464,417,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f441.item
-L1912-02619,UZAN (),person_with_entry,administration,1889,0,0,364,417,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f441.item
+L1912-02619,UZAN (Ernest dit David),person_with_entry,administration,1889,0,0,364,417,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f441.item
 L1912-02620,UZAN (Michel-Micaël),person_with_entry,engineering_architecture,1881,1,1,1356,417,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f441.item
 L1912-02621,VACHEROT (Pierre-Charles),person_with_entry,education_science,,3,0,281,418,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f442.item
 L1912-02622,VAIARELLO (Michel),person_with_entry,commerce,1846,0,0,382,418,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f442.item
@@ -1280,6 +1291,7 @@ L1912-02670,VINCENTI (),person_with_entry,military,,3,1,475,427,https://gallica.
 L1912-02671,VIOLANTE (Gioacchino),person_with_entry,diplomacy,1866,1,0,206,428,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f452.item
 L1912-02672,VIQUIER (Ernest),person_with_entry,engineering_architecture,1877,0,0,259,428,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f452.item
 L1912-02673,VIRZI (Mineo-Paolo),person_with_entry,military,1855,1,1,1458,428,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f452.item
+L1912-02674,VIVIANI Culogero) (),person_with_entry,justice_law,1883,0,0,186,428,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f452.item
 L1912-02675,VIVONA (Nicaise),person_with_entry,industry_crafts,1864,0,1,554,428,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f452.item
 L1912-02678,VUILLAUME (Raymond),person_with_entry,education_science,1857,4,0,628,429,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f453.item
 L1912-02679,VULLIEN (Marie-André),person_with_entry,,1881,2,1,1102,429,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f453.item
@@ -1297,6 +1309,7 @@ L1912-02690,WITASSE (Pierre DE),person_with_entry,,1878,2,1,764,431,https://gall
 L1912-02693,YOUSSOUF-KHODJA (),person_with_entry,,,0,0,160,432,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f456.item
 L1912-02700,ZAKARIA (Mohsen),person_with_entry,press_letters_arts,1876,0,0,522,433,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f457.item
 L1912-02701,ZAKARIA (Saïd),person_with_entry,,1878,1,0,288,433,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f457.item
+L1912-02703,ZAMMIT frères (Achille et Michel),person_with_entry,industry_crafts,,0,1,222,433,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f457.item
 L1912-02704,ZAMMIT (Jean-T.),person_with_entry,medicine_health,1867,0,0,171,434,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f458.item
 L1912-02706,ZAOUCHE (Abdelaziz),person_with_entry,agriculture,1875,2,0,511,434,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f458.item
 L1912-02707,ZAOUCHE (Abdeljelil),person_with_entry,industry_crafts,1873,2,1,895,434,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f458.item
@@ -1506,6 +1519,7 @@ NAME:VACON,Vacon,person_named_only,,,,0,,84,https://gallica.bnf.fr/ark:/12148/bp
 NAME:CHARMETANT,Charmetant,person_named_only,,,,0,,84,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f108.item
 NAME:AIN EL ASKER,Aïn-el-Asker,person_named_only,,,,0,,84,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f108.item
 NAME:BONETTE,Bonette,person_named_only,,,,0,,100,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f124.item
+NAME:MALFILATRE,Malfilâtre,person_named_only,,,,0,,100,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f124.item
 NAME:ALBERTINI,Albertini,person_named_only,,,,0,,100,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f124.item
 NAME:MAUBE,Maubé,person_named_only,,,,0,,100,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f124.item
 NAME:BAIZEAU,Baizeau,person_named_only,,,,0,,100,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f124.item
@@ -1518,6 +1532,7 @@ NAME:MOHAMED MUBROUK,Mohamed Mubrouk,person_named_only,,,,0,,100,https://gallica
 NAME:GABRIEL MEDINA,Gabriel Médina,person_named_only,,,,0,,100,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f124.item
 NAME:VICTOR SACUTO,Victor Sacuto,person_named_only,,,,0,,100,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f124.item
 NAME:S BARUSH,S Barush,person_named_only,,,,0,,100,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f124.item
+NAME:A DESIREES,A Désirées,person_named_only,,,,0,,100,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f124.item
 NAME:ZAOUCHE,Zaouche,person_named_only,,,,0,,100,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f124.item
 NAME:H BOU HADJEB,H Bou Hadjeb,person_named_only,,,,0,,100,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f124.item
 NAME:HAIOUNI AZIZ,Haïouni Aziz,person_named_only,,,,0,,100,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f124.item
@@ -1732,7 +1747,6 @@ NAME:GERARD,Gérard,person_named_only,,,,0,,374,https://gallica.bnf.fr/ark:/1214
 NAME:ROMBI,Rombi,person_named_only,,,,0,,374,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f398.item
 NAME:DESTENAVE,Destenave,person_named_only,,,,0,,374,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f398.item
 NAME:MANIGOLD,Manigold,person_named_only,,,,0,,374,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f398.item
-NAME:DEFRANCE,Defrance,person_named_only,,,,0,,374,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f398.item
 NAME:ROUPPERT,Rouppert,person_named_only,,,,0,,374,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f398.item
 NAME:VALLADE,Vallade,person_named_only,,,,0,,374,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f398.item
 NAME:GOUTTRY,Gouttry,person_named_only,,,,0,,374,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f398.item
@@ -2046,6 +2060,7 @@ L1912-00549,Cercle du Casino,organisation_with_entry,,,,0,103,100,https://gallic
 L1912-00550,Cercle d'Escrime Français,organisation_with_entry,,1899,,0,603,100,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f124.item
 L1912-00552,Cercle International «L'Union»,organisation_with_entry,,1895,,0,453,100,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f124.item
 L1912-00554,Cercle du Progrès,organisation_with_entry,,,,0,147,100,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f124.item
+L1912-00555,Cercle Républicain,organisation_with_entry,,1905,,0,219,100,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f124.item
 L1912-00556,Cercle Tunisien,organisation_with_entry,agricultural_economic,1908,,0,304,100,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f124.item
 L1912-00557,Cercle de l'Union,organisation_with_entry,religious,1910,,0,283,100,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f124.item
 L1912-00578,Chambre d'Agriculture du Nord,organisation_with_entry,chamber_public_body,1895,,0,2880,103,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f127.item
@@ -2093,7 +2108,6 @@ L1912-01073,Enfants de l'Aude,organisation_with_entry,,1907,,0,884,178,https://g
 L1912-01075,Enfants du Limousin,organisation_with_entry,,1893,,0,292,178,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f202.item
 L1912-01126,Fédération des Cercles tunisiens de la Ligue de l'Enseignement,organisation_with_entry,,1902,,0,892,186,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f210.item
 L1912-01195,Franc-Comtoise,organisation_with_entry,,,,0,437,197,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f221.item
-L1912-01200,FROPO,organisation_with_entry,,1858,,0,328,198,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f222.item
 L1912-01416,Hôpital civil français,organisation_with_entry,,1897,,0,2180,228,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f252.item
 L1912-01417,Hôpital colonial italien ce Giuseppe Garibaldi»,organisation_with_entry,chamber_public_body,1890,,0,1539,228,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f252.item
 L1912-01419,Hôpital Sadiki,organisation_with_entry,chamber_public_body,1880,,0,815,229,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f253.item
@@ -2286,6 +2300,7 @@ ORG:comite cle patronage de la bibliotheque populaire,Comité cle Patronage de l
 ORG:societe d archeologie et des beaux arts de sfax,Société d'archéologie et des Beaux Arts de Sfax,organisation_named_only,,,,0,,79,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f103.item
 ORG:societe francaise de bienfaisance cle sfax,Société Française de Bienfaisance cle Sfax,organisation_named_only,,,,0,,79,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f103.item
 ORG:alines cle garsa mellnoui,Alines cle Garsa-Mellnoui,organisation_named_only,,,,0,,79,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f103.item
+ORG:societe cle gymnastique,Société cle gymnastique,organisation_named_only,,,,0,,79,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f103.item
 ORG:conseil d administration de l hopital garibaldi,Conseil d'administration de l'hôpital Garibaldi,organisation_named_only,,,,0,,80,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f104.item
 ORG:societe magistrale italienne,Société Magistrale Italienne,organisation_named_only,,,,0,,80,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f104.item
 ORG:chambre de commerce bntanique ue lumsie a sa creation,Chambre de Commerce bntanique ue lumsie a sa création,organisation_named_only,,,,0,,80,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f104.item
@@ -2408,7 +2423,9 @@ ORG:institut colonial de marseille,Institut Colonial de Marseille,organisation_n
 ORG:societe d assistance mutuelle en cas cle deces outre les fonctionnaires,Société d'assistance mutuelle en cas cle décès outre les fonctionnaires,organisation_named_only,,,,0,,169,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f193.item
 ORG:chambres d agriculture et de commerce de tunisie a l exposition univers,Chambres d'agriculture et de commerce de Tunisie à l'Exposition Univers,organisation_named_only,,,,0,,169,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f193.item
 ORG:societe geologique de france et a publie plus de 150 articles ou etudes,Société géologique de France et a publié plus de 150 articles ou études,organisation_named_only,,,,0,,173,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f197.item
-ORG:conference consultative pour le controle de bizerte,Conférence Consultative pour le contrôle de Bizerte,organisation_named_only,,,,0,,175,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f199.item
+ORG:conference consultative pour la controle civil de grombalia,Conférence Consultative pour la contrôle civil de Grombalia,organisation_named_only,,,,0,,175,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f199.item
+ORG:comite de la societe sportive,Comité de la Société sportive,organisation_named_only,,,,0,,175,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f199.item
+ORG:conference consultative pour le controle de bizerte,Conférence Consultative pour le contrôle de Bizerte,organisation_named_only,,,,0,,177,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f201.item
 ORG:association des anc,Association des anc,organisation_named_only,,,,0,,177,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f201.item
 ORG:bibliotheque populaire de gaffour,Bibliothèque populaire de Gaffour,organisation_named_only,,,,0,,177,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f201.item
 ORG:comite executif du parti radical et radical socialiste,Comité exécutif du Parti radical et radical-socialiste,organisation_named_only,,,,0,,179,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f203.item
@@ -2430,7 +2447,6 @@ ORG:comite tunisien de l action republicaine aux colonies,Comité tunisien de l'
 ORG:comite d hivernage,Comité d'hivernage,organisation_named_only,,,,0,,192,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f216.item
 ORG:commission de reforme de la legislation miniere clans la regence,Commission de réforme de la législation minière clans la Régence,organisation_named_only,,,,0,,192,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f216.item
 ORG:comite d hivernage de la tunisie,"Comité d'Hivernage de la ""Tunisie",organisation_named_only,,,,0,,193,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f217.item
-ORG:forets est m,Forêts est M,organisation_named_only,,,,0,,194,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f218.item
 ORG:union nationale du commerce exterieur,Union nationale du Commerce extérieur,organisation_named_only,,,,0,,194,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f218.item
 ORG:comite d action republicaine radicale el radicale socialiste,Comité d'action républicaine radicale el radicale-socialiste,organisation_named_only,,,,0,,194,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f218.item
 ORG:association des officiers de l instruction publique et d academie,Association des officiers de l'Instruction publique et d'Académie,organisation_named_only,,,,0,,194,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f218.item
@@ -2929,6 +2945,7 @@ L1912-00993,EBBA-KSOUR,place_with_entry,Kef,,,0,309,170,https://gallica.bnf.fr/a
 L1912-00994,ECHAMUNES,place_with_entry,Tunis,,,0,917,171,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f195.item
 L1912-00995,ECH-CHAAR,place_with_entry,Tunis,,,0,69,171,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f195.item
 L1912-01003,EL-AALEM,place_with_entry,,,,0,130,173,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f197.item
+L1912-01004,EL-ABRASIA,place_with_entry,Sfax,,,0,110,173,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f197.item
 L1912-01005,EL-AFAREG,place_with_entry,Béja,,,0,157,173,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f197.item
 L1912-01006,EL-AFRANE,place_with_entry,Tunis et caïtet de la banlieue,,,0,157,173,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f197.item
 L1912-01007,EL-AGHAIR,place_with_entry,Sfax,,,0,70,173,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f197.item
@@ -2968,7 +2985,6 @@ L1912-01048,EL-KEBIRA,place_with_entry,Souk-el-Arba,,,0,182,176,https://gallica.
 L1912-01050,EL-KSAR,place_with_entry,Gafsa,,,0,148,176,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f200.item
 L1912-01051,ELLES,place_with_entry,Kef,,,0,206,176,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f200.item
 L1912-01053,EL-LOUZA,place_with_entry,Sfax,,,0,162,177,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f201.item
-L1912-01054,EL MABROUK,place_with_entry,,,,0,276,177,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f201.item
 L1912-01055,EL-MAI,place_with_entry,Gabès,,,0,83,177,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f201.item
 L1912-01056,EL-MECHREF,place_with_entry,Mactar,,,0,164,177,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f201.item
 L1912-01057,EL-MELLAHA,place_with_entry,Tunis,,,0,77,177,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f201.item
@@ -3070,6 +3086,7 @@ L1912-01401,HENCHIR-EL-TURK,place_with_entry,Sfax,,,0,290,225,https://gallica.bn
 L1912-01402,HENCHIR-SAADIA,place_with_entry,Kairouan,,,0,126,225,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f249.item
 L1912-01408,HERGLA,place_with_entry,Sousse,,,0,272,226,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f250.item
 L1912-01410,HIBOUN,place_with_entry,Sousse,,,0,67,227,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f251.item
+L1912-01414,HOFRA,place_with_entry,Grombalia,,,0,102,228,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f252.item
 L1912-01424,HOUMET-EL-KAHIA,place_with_entry,Gabès,,,0,108,230,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f254.item
 L1912-01425,HOUMT-SOUK,place_with_entry,Gabès,,,0,1207,230,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f254.item
 L1912-01432,Huile,place_with_entry,,,,0,2182,231,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f255.item
@@ -3123,7 +3140,6 @@ L1912-01554,KSOUR-ESSAF,place_with_entry,Sousse,,,0,199,253,https://gallica.bnf.
 L1912-01555,KSOUR-D'OUED-OUZAFA,place_with_entry,Mactar,,,0,1063,253,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f277.item
 L1912-01564,LADJERED,place_with_entry,Tala,,,0,69,255,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f279.item
 L1912-01576,LALA,place_with_entry,Gafsa,,,0,121,257,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f281.item
-L1912-01581,LAMINE,place_with_entry,,,,0,307,258,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f282.item
 L1912-01589,LANSARINE,place_with_entry,Tunis,,,0,622,259,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f283.item
 L1912-01595,LAVERIE,place_with_entry,Tunis,,,0,245,260,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f284.item
 L1912-01642,LOUKANDA,place_with_entry,Tunis,,,0,93,270,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f294.item
@@ -3294,6 +3310,7 @@ L1912-02305,SEDJOUMI,place_with_entry,Tunis,,,0,301,364,https://gallica.bnf.fr/a
 L1912-02306,SEDJNANE,place_with_entry,Bizerte,,,0,99,364,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f388.item
 L1912-02307,SEDOUIKEH,place_with_entry,Gabès,,,0,150,364,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f388.item
 L1912-02308,SEGERMÈS,place_with_entry,,,,0,325,364,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f388.item
+L1912-02311,SELDJA,place_with_entry,,,,0,1445,364,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f388.item
 L1912-02313,SELLEM,place_with_entry,,,,0,118,364,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f388.item
 L1912-02315,SEMBAT,place_with_entry,Gabès,,,0,74,364,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f388.item
 L1912-02316,SENED,place_with_entry,,,,0,160,364,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f388.item
@@ -3337,6 +3354,7 @@ L1912-02379,SIDI-SALAH,place_with_entry,Tunis,,,0,938,371,https://gallica.bnf.fr
 L1912-02380,SIDI-SALEM,place_with_entry,Bizerte,,,0,84,372,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f396.item
 L1912-02381,SIDI-TABET,place_with_entry,Tunis,,,0,395,372,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f396.item
 L1912-02382,SIDI-ZEHILI,place_with_entry,Kef,,,0,200,372,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f396.item
+L1912-02383,SIDI-ZID,place_with_entry,,,,0,192,372,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f396.item
 L1912-02384,SIDI-ZIT,place_with_entry,,,,0,67,372,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f396.item
 L1912-02386,SILIANA,place_with_entry,Mactar,,,0,332,372,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f396.item
 L1912-02393,SKALBA,place_with_entry,Grombalia,,,0,83,373,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f397.item
@@ -3397,6 +3415,7 @@ L1912-02580,TOUZA,place_with_entry,,,,0,238,403,https://gallica.bnf.fr/ark:/1214
 L1912-02581,TOZEUR,place_with_entry,,,,0,431,403,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f427.item
 L1912-02586,TRIAGA,place_with_entry,,,,0,459,406,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f430.item
 L1912-02611,TURKI,place_with_entry,Grombalia,,,0,449,414,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f438.item
+L1912-02617,UTIQUE C,place_with_entry,Bizerle,,,0,104,417,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f441.item
 L1912-02691,YAKOUBIA,place_with_entry,,,,0,76,432,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f456.item
 L1912-02694,YVERDONNOISE,place_with_entry,,,,0,104,432,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f456.item
 L1912-02695,ZAAFRANE,place_with_entry,,,,0,88,433,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f457.item
@@ -3408,6 +3427,7 @@ L1912-02702,ZAMA,place_with_entry,Souk-el-Arba,,,0,271,433,https://gallica.bnf.f
 L1912-02710,ZAOUEN,place_with_entry,,,,0,166,434,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f458.item
 L1912-02711,ZAOUIA,place_with_entry,Tunis,,,0,154,434,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f458.item
 L1912-02714,ZAOUIA-SIDI-ABD-EL-MLEK,place_with_entry,,,,0,325,434,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f458.item
+L1912-02715,ZAOUIA-SOUSSE,place_with_entry,,,,0,288,435,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f459.item
 L1912-02716,ZAOUIET-BOU-KRIM,place_with_entry,Grombalia,,,0,85,435,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f459.item
 L1912-02717,ZAOUIET-CHEBAANE,place_with_entry,Grombalia,,,0,213,435,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f459.item
 L1912-02718,ZAOUIET-EL-ARAB,place_with_entry,Gafsa,,,0,86,435,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f459.item
@@ -3527,6 +3547,7 @@ PLACE:sainl nazaire,Sainl-Nazaire,place_named_only,,,,0,,70,https://gallica.bnf.
 PLACE:ctignaux,Ctignaux,place_named_only,,,,0,,70,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f94.item
 PLACE:marseille,Marseille,place_named_only,,,,0,,71,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f95.item
 PLACE:caslelmoron surlol,Caslelmoron-surLol,place_named_only,,,,0,,71,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f95.item
+PLACE:rennes,Rennes,place_named_only,,,,0,,72,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f96.item
 PLACE:bone,Bône,place_named_only,,,,0,,73,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f97.item
 PLACE:ordonne pretre en 1832,Ordonné prêtre en 1832,place_named_only,,,,0,,73,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f97.item
 PLACE:saintjean sur veyle,SaintJean-sur Veyle,place_named_only,,,,0,,74,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f98.item
@@ -3663,6 +3684,7 @@ PLACE:soignolles,Soignolles,place_named_only,,,,0,,169,https://gallica.bnf.fr/ar
 PLACE:vienne,Vienne,place_named_only,,,,0,,173,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f197.item
 PLACE:monlargis,Monlargis,place_named_only,,,,0,,173,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f197.item
 PLACE:sinigaglia,Sinigaglia,place_named_only,,,,0,,175,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f199.item
+PLACE:fils du jurisconsulte edouard bonnier,Fils du jurisconsulte Edouard Bonnier,place_named_only,,,,0,,177,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f201.item
 PLACE:rome,Rome,place_named_only,,,,0,,177,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f201.item
 PLACE:malte,Malte,place_named_only,,,,0,,178,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f202.item
 PLACE:pantolleria,Pantolleria,place_named_only,,,,0,,183,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f207.item
@@ -3684,6 +3706,7 @@ PLACE:baslia,Baslia,place_named_only,,,,0,,190,https://gallica.bnf.fr/ark:/12148
 PLACE:patriomonio,Patriomonio,place_named_only,,,,0,,191,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f215.item
 PLACE:patrimonio,Patrimonio,place_named_only,,,,0,,191,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f215.item
 PLACE:pinligorski,Pinligorski,place_named_only,,,,0,,192,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f216.item
+PLACE:saint pierred allevard,Saint-Pierred'Allevard,place_named_only,,,,0,,192,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f216.item
 PLACE:gerclies,Gerclies,place_named_only,,,,0,,193,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f217.item
 PLACE:epinal,Epinal,place_named_only,,,,0,,193,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f217.item
 PLACE:mans,Le Mans,place_named_only,,,,0,,196,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f220.item
@@ -3737,7 +3760,6 @@ PLACE:ajacio,Ajacio,place_named_only,,,,0,,216,https://gallica.bnf.fr/ark:/12148
 PLACE:sta,Sta,place_named_only,,,,0,,217,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f241.item
 PLACE:senseii leharl,Senseii-Léharl,place_named_only,,,,0,,217,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f241.item
 PLACE:halle,Halle,place_named_only,,,,0,,217,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f241.item
-PLACE:rennes,Rennes,place_named_only,,,,0,,218,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f242.item
 PLACE:saint nazaire,Saint-Nazaire,place_named_only,,,,0,,218,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f242.item
 PLACE:harlem,Harlem,place_named_only,,,,0,,219,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f243.item
 PLACE:aumale,Aumale,place_named_only,,,,0,,219,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f243.item
@@ -4017,6 +4039,7 @@ PLACE:laives,Laives,place_named_only,,,,0,,427,https://gallica.bnf.fr/ark:/12148
 PLACE:pompey,Pompey,place_named_only,,,,0,,427,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f451.item
 PLACE:ingenieur civil des mines a metlaoui,Ingénieur civil des Mines à Metlaoui,place_named_only,,,,0,,428,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f452.item
 PLACE:trupani,Trupani,place_named_only,,,,0,,428,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f452.item
+PLACE:partanna,Partanna,place_named_only,,,,0,,428,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f452.item
 PLACE:varnoville,Varnôville,place_named_only,,,,0,,429,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f453.item
 PLACE:lieusaint,Lieusaint,place_named_only,,,,0,,430,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f454.item
 PLACE:civet,Civet,place_named_only,,,,0,,430,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f454.item
