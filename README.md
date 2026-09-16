@@ -145,8 +145,9 @@ code/pipeline/            the pipeline, each stage runnable on its own
   graph_metrics.py        centrality in pure Python (no dependencies)
   network_measures.py     -> data/processed/person_network_measures.csv
   compare_populations.py  -> output/tables/comparison_tables.md
+  homophily.py            -> output/tables/homophily.md
   validate.py             -> docs/validation_report.md
-code/figures/             63 figure scripts, one per figure, plus the shared
+code/figures/             65 figure scripts, one per figure, plus the shared
                           _style.py, _networks.py, _ordering.py and
                           _positionality.py
 code/examples/quickstart.py   descriptive tables and network summaries, stdlib only
@@ -154,7 +155,7 @@ data/raw/                 ALTO XML cache (git-ignored, ~76 MB, re-fetchable)
 data/interim/             line stream and segmented entries (git-ignored)
 data/processed/           the dataset + source_manifest.json (committed)
 output/figures/           every figure as PNG and PDF
-output/tables/            the population comparison tables
+output/tables/            the population comparison and homophily tables
 docs/                     codebook, provenance, figure index, validation report
 tests/                    parsing-rule unit tests and dataset integrity checks
 ```
@@ -170,6 +171,7 @@ promised. (The figures in `code/figures/` are the exception and have their own
 make all        # fetch, build, segment, extract, network, code, measure, compare, validate
 make coding     # just the interpretive layer (community, positionality, gender)
 make compare    # -> output/tables/comparison_tables.md
+make homophily  # -> output/tables/homophily.md
 make measures   # -> data/processed/person_network_measures.csv
 make test       # parsing-rule unit tests + dataset integrity checks
 make data       # just the download (~20 min, polite to Gallica, resumable)
@@ -231,7 +233,7 @@ summaries using only the standard library.
 
 ## Figures
 
-`code/figures/` holds 63 descriptive, exploratory and comparative figures, one
+`code/figures/` holds 65 descriptive, exploratory and comparative figures, one
 script and one output file each, in PNG and PDF. They cover birth cohorts and
 occupational composition; the two honours systems and how they overlap;
 associational life; the affiliation network and its co-membership projection;
@@ -239,10 +241,12 @@ the bodies seen as an interlock and the places seen as a route map; career
 sequences; the two communities compared, and the colonist/native line beside
 them; who brokers between otherwise unconnected parts of the network, and how
 few removals would break it; how much of the network's structure the projection
-manufactures rather than finds; and whether the OCR is what limits the dataset.
+manufactures rather than finds; whether the network sorts on anything besides
+the colonial line, and what survives when that result is attacked; and whether
+the OCR is what limits the dataset.
 
 Each figure's title states a claim rather than naming a chart type, and
-[`docs/figures.md`](docs/figures.md) indexes all 63 by that claim — a test holds
+[`docs/figures.md`](docs/figures.md) indexes all 65 by that claim — a test holds
 the index to the titles the figures actually render. The design notes at the end
 of that file record the palette checks.
 

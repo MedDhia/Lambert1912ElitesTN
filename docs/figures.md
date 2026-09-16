@@ -1,6 +1,6 @@
 # Figures
 
-Sixty-three descriptive, exploratory and comparative figures over the dataset in
+Sixty-five descriptive, exploratory and comparative figures over the dataset in
 `data/processed/`. One script per figure, each writing two files to
 `output/figures/`: a **PNG** to read and a **PDF** to place in a paper.
 
@@ -86,6 +86,26 @@ survives that objection, and answer plainly where it does not.
 | 47 | `fig47_degree_assortativity` | The projection says hubs cluster together; the raw graph says the opposite |
 | 50 | `fig50_structural_holes` | Constraint here measures how few people you know, not how closed they are |
 | 52 | `fig52_two_mode_marginals` | Both sides of the network are mostly ones |
+
+**Homophily**
+
+Fig. 62 asks whether colonists and natives shared bodies less often than chance.
+These two ask the prior question — whether the network sorts on *anything* — and
+then try to break the answer. Both read `code/pipeline/homophily.py`, which is
+standard-library-only like the rest of the pipeline and writes the full tables,
+including Coleman's index by group and the leave-one-body-out pass, to
+[`output/tables/homophily.md`](../output/tables/homophily.md).
+
+The null throughout holds the graph fixed and permutes the attribute labels.
+That is not a stylistic choice: the one-mode projection makes every body a
+clique, so ties are not independent and no analytic standard error is honest.
+Permuting labels on the fixed graph puts every manufactured clique into the null
+as well, where it cancels.
+
+| | Figure | The claim |
+|---|---|---|
+| 64 | `fig64_homophily_by_attribute` | The network sorts on the colonial line and on almost nothing else |
+| 65 | `fig65_homophily_robustness` | The homophily survives every check that could have explained it away |
 
 **The two communities compared**
 
