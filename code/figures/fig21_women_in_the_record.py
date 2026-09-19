@@ -15,8 +15,8 @@ women = [r for r in rows if r["gender"] == "FEMALE"]
 # The title names both counts, and a title cannot be checked against the data by
 # the index test the way a subtitle can. So the figure checks them itself: it
 # fails to render rather than print a number the dataset no longer supports.
-assert (len(women), len(rows)) == (13, 1346), (
-    f"title says 13 women of 1,346 notables; data says {len(women)} of {len(rows)}")
+assert (len(women), len(rows)) == (13, 1403), (
+    f"title says 13 women of 1,403 notables; data says {len(women)} of {len(rows)}")
 affiliated = {e["person_node"] for e in S.read("edges_person_organisation.csv")}
 total = len(rows)
 men = sum(1 for r in rows if r["gender"] == "MALE")
@@ -48,7 +48,7 @@ ax.annotate(
 # reads out of the source. The numbers in it are asserted above instead.
 S.titles(
     ax,
-    "Thirteen women in a volume of 1,346 notables",
+    "Thirteen women in a volume of 1,403 notables",
     "Every biographical notice in the volume, one mark each, in printed order. "
     "Gender is coded from civil titles, feminine occupational nouns and forenames; "
     f"only {sum(1 for w in women if w['entry_id'] in affiliated)} of the thirteen "

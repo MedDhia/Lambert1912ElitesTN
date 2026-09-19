@@ -34,6 +34,14 @@ NODE_TYPES = {
     "organisation_named_only", "place_with_entry", "place_named_only",
 }
 PAGE_URL_RE = re.compile(r"^https://gallica\.bnf\.fr/ark:/12148/bpt6k5505300s/f\d+\.item$")
+# A biographical notice opens SURNAME (Forenames) and nothing else in the volume
+# does. Kept here as a literal rather than imported from the pipeline: these
+# tests check the committed CSVs, and a pattern that drifted with the code it is
+# meant to police would stop policing it.
+NOTICE_HEADER = re.compile(
+    r"\b[A-ZÀ-ÜŒ][A-ZÀ-ÜŒ'’\-]{3,}(?:[ \-][A-ZÀ-ÜŒ'’\-]{2,}){0,2}"
+    r"\s*\([A-ZÀ-Ü][a-zà-üA-ZÀ-Ü'’\-.]{2,}[^)]{0,30}\)\s*[,.]"
+)
 
 
 def load(name: str) -> list[dict]:
@@ -57,6 +65,26 @@ class TestEntries(DatasetTestCase):
 
     def test_entry_types_are_in_the_documented_domain(self):
         self.assertLessEqual({r["entry_type"] for r in self.entries}, ENTRY_TYPES)
+
+    def test_no_entry_carries_a_second_persons_notice(self):
+        # The two-column OCR used to run one notice into the next, which buried
+        # the people in the tail and gave their institutions to the person
+        # above. Segmentation cuts those apart now; this holds it there.
+        merged = [
+            (r["entry_id"], r["headword"])
+            for r in self.entries
+            if len(NOTICE_HEADER.findall(" ".join(r["text"].split()))) > 1
+        ]
+        self.assertEqual(merged, [], f"{len(merged)} merged entries: {merged[:5]}")
+
+    def test_recovered_notices_are_keyed_to_the_entry_they_came_out_of(self):
+        ids = set(self.entry_ids)
+        recovered = [r for r in self.entries if r["segmentation_rule"] == "recovered_notice"]
+        self.assertTrue(recovered, "no recovered notices -- has segmentation drifted?")
+        for r in recovered:
+            with self.subTest(entry=r["entry_id"]):
+                self.assertRegex(r["entry_id"], r"^L1912-\d{5}[b-z]$")
+                self.assertIn(r["entry_id"][:-1], ids)
 
     def test_every_entry_is_locatable_on_the_source_page(self):
         for r in self.entries[:: max(1, len(self.entries) // 200)]:

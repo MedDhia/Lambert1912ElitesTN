@@ -105,7 +105,7 @@ NAME:GENEVAY,L1912-00152,affiliation,president,1,organisation_entry_officer_list
 L1912-00200,L1912-00152,affiliation,president,1,organisation_entry_officer_list,resolved,36,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f60.item
 L1912-02767,L1912-00152,affiliation,president,1,organisation_entry_officer_list,resolved,36,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f60.item
 L1912-00494,L1912-00152,affiliation,president,1,organisation_entry_officer_list,resolved,36,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f60.item
-NAME:S BOCCARA,L1912-00152,affiliation,president,1,organisation_entry_officer_list,unmatched,36,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f60.item
+L1912-00372b,L1912-00152,affiliation,president,1,organisation_entry_officer_list,resolved_fuzzy,36,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f60.item
 L1912-02171,L1912-00152,affiliation,secretary_general,1,organisation_entry_officer_list,resolved,36,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f60.item
 NAME:GUINLE,L1912-00152,affiliation,deputy_secretary,1,organisation_entry_officer_list,unmatched,36,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f60.item
 NAME:BENZIMRA,L1912-00152,affiliation,councillor,1,organisation_entry_officer_list,unmatched,36,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f60.item
@@ -118,9 +118,9 @@ NAME:MARTZ,L1912-00152,affiliation,councillor,1,organisation_entry_officer_list,
 L1912-01645,L1912-00152,affiliation,councillor,1,organisation_entry_officer_list,resolved,36,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f60.item
 NAME:BORSINI,L1912-00152,affiliation,councillor,1,organisation_entry_officer_list,unmatched,36,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f60.item
 L1912-01350,L1912-00152,affiliation,councillor,1,organisation_entry_officer_list,resolved,36,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f60.item
-NAME:LAVAUX,L1912-00152,affiliation,councillor,1,organisation_entry_officer_list,unmatched,36,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f60.item
+L1912-01591b,L1912-00152,affiliation,councillor,1,organisation_entry_officer_list,resolved_fuzzy,36,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f60.item
 NAME:ENRIQUEZ,L1912-00152,affiliation,councillor,1,organisation_entry_officer_list,ambiguous,36,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f60.item
-NAME:RENE LAVAU,L1912-00152,affiliation,president,1,organisation_entry_officer_list,unmatched,36,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f60.item
+L1912-01591b,L1912-00152,affiliation,president,1,organisation_entry_officer_list,resolved,36,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f60.item
 NAME:ENRIQUEZ,L1912-00152,affiliation,vice_president,1,organisation_entry_officer_list,ambiguous,36,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f60.item
 NAME:JEAN COLLIARD,L1912-00152,affiliation,secretary,1,organisation_entry_officer_list,unmatched,36,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f60.item
 NAME:MAGASIN GENERAL,L1912-00152,affiliation,director,1,organisation_entry_officer_list,unmatched,36,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f60.item
@@ -154,7 +154,7 @@ NAME:F FABRE,L1912-00155,affiliation,secretary,1,organisation_entry_officer_list
 NAME:CLARY,L1912-00155,affiliation,assessor,1,organisation_entry_officer_list,unmatched,37,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f61.item
 NAME:J LECLERC,L1912-00155,affiliation,president,1,organisation_entry_officer_list,unmatched,37,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f61.item
 L1912-00524,L1912-00155,affiliation,president,1,organisation_entry_officer_list,resolved,37,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f61.item
-NAME:DOUTE,L1912-00156,affiliation,member,1,organisation_entry_officer_list,unmatched,37,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f61.item
+L1912-00943b,L1912-00156,affiliation,member,1,organisation_entry_officer_list,resolved,37,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f61.item
 NAME:ROUBAUD,L1912-00156,affiliation,vice_president,1,organisation_entry_officer_list,unmatched,37,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f61.item
 NAME:WALCB,L1912-00156,affiliation,assessor,1,organisation_entry_officer_list,unmatched,37,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f61.item
 NAME:ROUBAUD,L1912-00156,affiliation,assessor,1,organisation_entry_officer_list,unmatched,37,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f61.item
@@ -205,7 +205,7 @@ L1912-01931,L1912-00162,affiliation,president,1,organisation_entry_officer_list,
 L1912-00768,L1912-00163,affiliation,member,1,organisation_entry_officer_list,resolved,39,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f63.item
 NAME:CHARLES PIETRA,L1912-00163,affiliation,vice_president,1,organisation_entry_officer_list,ambiguous,39,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f63.item
 L1912-00823,L1912-00163,affiliation,vice_president,1,organisation_entry_officer_list,resolved_fuzzy,39,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f63.item
-NAME:EDMOND BOCCARA,L1912-00163,affiliation,deputy_treasurer,1,organisation_entry_officer_list,unmatched,39,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f63.item
+L1912-00372b,L1912-00163,affiliation,deputy_treasurer,1,organisation_entry_officer_list,resolved_fuzzy,39,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f63.item
 L1912-00361,L1912-00163,affiliation,commissioner,1,organisation_entry_officer_list,resolved,39,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f63.item
 L1912-00823,L1912-00163,affiliation,commissioner,1,organisation_entry_officer_list,resolved,39,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f63.item
 NAME:JEAN MOULIN,L1912-00163,affiliation,commissioner,1,organisation_entry_officer_list,unmatched,39,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f63.item
@@ -230,14 +230,14 @@ NAME:VULGARISER,L1912-00166,affiliation,member,1,organisation_entry_officer_list
 L1912-02663,L1912-00166,affiliation,president,1,organisation_entry_officer_list,resolved_fuzzy,39,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f63.item
 L1912-00493,L1912-00166,affiliation,vice_president,1,organisation_entry_officer_list,resolved,39,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f63.item
 NAME:LEVY DAVID,L1912-00166,affiliation,secretary,1,organisation_entry_officer_list,ambiguous,39,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f63.item
-L1912-02263,L1912-00166,affiliation,assessor,1,organisation_entry_officer_list,resolved_fuzzy,39,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f63.item
+NAME:SEMAMA,L1912-00166,affiliation,assessor,1,organisation_entry_officer_list,ambiguous_fuzzy,39,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f63.item
 NAME:HABIB NESSIM,L1912-00166,affiliation,assessor,1,organisation_entry_officer_list,unmatched,39,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f63.item
 NAME:TOUKI ANGE,L1912-00166,affiliation,assessor,1,organisation_entry_officer_list,unmatched,39,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f63.item
 NAME:ALASI,L1912-00167,affiliation,president,1,organisation_entry_officer_list,unmatched,39,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f63.item
 L1912-00477,L1912-00167,affiliation,vice_president,1,organisation_entry_officer_list,resolved,39,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f63.item
 NAME:PETRUCCI,L1912-00167,affiliation,treasurer,1,organisation_entry_officer_list,unmatched,39,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f63.item
 L1912-00460,L1912-00167,affiliation,secretary,1,organisation_entry_officer_list,resolved,39,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f63.item
-NAME:TITO CASTELFRANCO,L1912-00225,affiliation,director,1,organisation_entry_officer_list,unmatched,47,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f71.item
+L1912-00534b,L1912-00225,affiliation,director,1,organisation_entry_officer_list,resolved_fuzzy,47,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f71.item
 L1912-00776,L1912-00226,affiliation,director,1,organisation_entry_officer_list,resolved,47,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f71.item
 NAME:SEMAINE,L1912-00469,affiliation,president,1,organisation_entry_officer_list,unmatched,78,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f102.item
 L1912-00961,L1912-00483,affiliation,archivist_librarian,1,organisation_entry_officer_list,resolved,81,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f105.item
@@ -322,7 +322,7 @@ NAME:CONSUL,L1912-00581,affiliation,honorary_president,1,organisation_entry_offi
 L1912-00172,L1912-00581,affiliation,president,1,organisation_entry_officer_list,resolved_fuzzy,103,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f127.item
 NAME:S CANINO,L1912-00581,affiliation,vice_president,1,organisation_entry_officer_list,unmatched,103,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f127.item
 NAME:LUIGI REY,L1912-00581,affiliation,vice_president,1,organisation_entry_officer_list,ambiguous,103,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f127.item
-NAME:V BOCCARA,L1912-00581,affiliation,secretary,1,organisation_entry_officer_list,unmatched,103,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f127.item
+L1912-00372b,L1912-00581,affiliation,secretary,1,organisation_entry_officer_list,resolved_fuzzy,103,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f127.item
 NAME:ANE,L1912-00581,affiliation,president,1,organisation_entry_officer_list,unmatched,103,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f127.item
 L1912-00274,L1912-00582,affiliation,president,1,organisation_entry_officer_list,resolved,103,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f127.item
 L1912-02019,L1912-00582,affiliation,vice_president,1,organisation_entry_officer_list,resolved_fuzzy,103,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f127.item
@@ -356,7 +356,7 @@ L1912-00342,L1912-00687,affiliation,vice_president,1,organisation_entry_officer_
 NAME:LOUIS THOMAS,L1912-00687,affiliation,secretary,1,organisation_entry_officer_list,ambiguous,123,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f147.item
 L1912-00969,L1912-00687,affiliation,deputy_secretary,1,organisation_entry_officer_list,resolved_fuzzy,123,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f147.item
 NAME:PROUST,L1912-00689,affiliation,president,1,organisation_entry_officer_list,ambiguous,123,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f147.item
-NAME:LECORE CARPENTIER,L1912-00689,affiliation,vice_president,1,organisation_entry_officer_list,unmatched,123,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f147.item
+L1912-01599b,L1912-00689,affiliation,vice_president,1,organisation_entry_officer_list,resolved_fuzzy,123,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f147.item
 L1912-00172,L1912-00689,affiliation,vice_president,1,organisation_entry_officer_list,resolved,123,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f147.item
 NAME:J M TERRAS,L1912-00689,affiliation,vice_president,1,organisation_entry_officer_list,unmatched,123,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f147.item
 L1912-02685,L1912-00689,affiliation,vice_president,1,organisation_entry_officer_list,resolved,123,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f147.item
@@ -365,7 +365,7 @@ NAME:BARRION,L1912-00689,affiliation,member,1,organisation_entry_officer_list,un
 NAME:BERTHIER,L1912-00689,affiliation,member,1,organisation_entry_officer_list,unmatched,123,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f147.item
 NAME:A BUSSULIL,L1912-00689,affiliation,member,1,organisation_entry_officer_list,unmatched,123,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f147.item
 NAME:B COUIFEAS,L1912-00689,affiliation,member,1,organisation_entry_officer_list,unmatched,123,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f147.item
-NAME:C FABBRI,L1912-00689,affiliation,member,1,organisation_entry_officer_list,unmatched,123,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f147.item
+L1912-01111b,L1912-00689,affiliation,member,1,organisation_entry_officer_list,resolved,123,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f147.item
 L1912-01165,L1912-00689,affiliation,member,1,organisation_entry_officer_list,resolved,123,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f147.item
 L1912-01171,L1912-00689,affiliation,member,1,organisation_entry_officer_list,resolved,123,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f147.item
 L1912-01325,L1912-00689,affiliation,member,1,organisation_entry_officer_list,resolved_fuzzy,123,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f147.item
@@ -380,7 +380,7 @@ L1912-00507,L1912-00691,affiliation,member,1,organisation_entry_officer_list,res
 L1912-01337,L1912-00691,affiliation,member,1,organisation_entry_officer_list,resolved,123,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f147.item
 L1912-00682,L1912-00691,affiliation,member,1,organisation_entry_officer_list,resolved,123,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f147.item
 NAME:KHEMIS,L1912-00691,affiliation,member,1,organisation_entry_officer_list,unmatched,123,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f147.item
-NAME:VAUDAINE,L1912-00691,affiliation,member,1,organisation_entry_officer_list,unmatched,123,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f147.item
+L1912-02647b,L1912-00691,affiliation,member,1,organisation_entry_officer_list,resolved,123,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f147.item
 L1912-00529,L1912-00693,affiliation,president,1,organisation_entry_officer_list,resolved,123,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f147.item
 NAME:ANTIQUITES,L1912-00693,affiliation,director,1,organisation_entry_officer_list,unmatched,123,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f147.item
 NAME:FRETIN,L1912-00693,affiliation,secretary_general,1,organisation_entry_officer_list,unmatched,123,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f147.item
@@ -392,16 +392,6 @@ NAME:LEON,L1912-00715,affiliation,president,1,organisation_entry_officer_list,un
 L1912-01702,L1912-00715,affiliation,member,1,organisation_entry_officer_list,resolved_fuzzy,129,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f153.item
 L1912-01343,L1912-00715,affiliation,member,1,organisation_entry_officer_list,resolved,129,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f153.item
 NAME:AFFAIRES,L1912-00721,affiliation,treasurer,1,organisation_entry_officer_list,unmatched,129,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f153.item
-L1912-00596,L1912-00721,affiliation,president,1,organisation_entry_officer_list,resolved,129,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f153.item
-NAME:KHALDOUNIA,L1912-00721,affiliation,president,1,organisation_entry_officer_list,unmatched,129,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f153.item
-NAME:MINIS,L1912-00721,affiliation,treasurer,1,organisation_entry_officer_list,unmatched,129,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f153.item
-NAME:RESIDENT GENERAL,L1912-00721,affiliation,treasurer,1,organisation_entry_officer_list,unmatched,129,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f153.item
-NAME:JUSTICE,L1912-00721,affiliation,secretary,1,organisation_entry_officer_list,unmatched,129,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f153.item
-L1912-00521,L1912-00721,affiliation,member,1,organisation_entry_officer_list,resolved,129,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f153.item
-NAME:LECORE CARPENLIER,L1912-00721,affiliation,member,1,organisation_entry_officer_list,unmatched,129,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f153.item
-L1912-01923,L1912-00721,affiliation,member,1,organisation_entry_officer_list,resolved,129,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f153.item
-L1912-01165,L1912-00721,affiliation,member,1,organisation_entry_officer_list,resolved,129,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f153.item
-NAME:LEZZAM,L1912-00721,affiliation,member,1,organisation_entry_officer_list,unmatched,129,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f153.item
 NAME:AIN CL ASKER,L1912-00732,affiliation,president,1,organisation_entry_officer_list,unmatched,134,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f158.item
 L1912-01482,L1912-00732,affiliation,vice_president,1,organisation_entry_officer_list,resolved_fuzzy,134,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f158.item
 NAME:VACON,L1912-00732,affiliation,secretary,1,organisation_entry_officer_list,unmatched,134,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f158.item
@@ -423,10 +413,10 @@ L1912-01657,L1912-00756,affiliation,vice_president,1,organisation_entry_officer_
 NAME:LABONNE,L1912-00756,affiliation,vice_president,1,organisation_entry_officer_list,unmatched,140,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f164.item
 NAME:D BRAQUEHAYE,L1912-00756,affiliation,secretary_general,1,organisation_entry_officer_list,unmatched,140,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f164.item
 NAME:PONZEVERA,L1912-00756,affiliation,secretary,1,organisation_entry_officer_list,unmatched,140,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f164.item
-NAME:PICHON,L1912-00756,affiliation,president,1,organisation_entry_officer_list,unmatched,140,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f164.item
+L1912-02054b,L1912-00756,affiliation,president,1,organisation_entry_officer_list,resolved_fuzzy,140,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f164.item
 NAME:BEY,L1912-00756,affiliation,honorary_president,1,organisation_entry_officer_list,unmatched,140,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f164.item
 L1912-02521,L1912-00756,affiliation,president,1,organisation_entry_officer_list,resolved_fuzzy,140,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f164.item
-NAME:TROLI,L1912-00756,affiliation,vice_president,1,organisation_entry_officer_list,unmatched,140,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f164.item
+L1912-02599b,L1912-00756,affiliation,vice_president,1,organisation_entry_officer_list,resolved_fuzzy,140,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f164.item
 NAME:MAURIGI,L1912-00756,affiliation,vice_president,1,organisation_entry_officer_list,unmatched,140,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f164.item
 NAME:DELIA SOMAGLIA,L1912-00756,affiliation,vice_president,1,organisation_entry_officer_list,unmatched,140,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f164.item
 NAME:BALESTRA,L1912-00756,affiliation,assessor,1,organisation_entry_officer_list,unmatched,140,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f164.item
@@ -456,7 +446,7 @@ NAME:E COSTE,L1912-01075,affiliation,vice_president,1,organisation_entry_officer
 NAME:COSTE,L1912-01075,affiliation,secretary,1,organisation_entry_officer_list,ambiguous_fuzzy,178,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f202.item
 L1912-00699,L1912-01126,affiliation,president,1,organisation_entry_officer_list,resolved,186,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f210.item
 L1912-00961,L1912-01126,affiliation,vice_president,1,organisation_entry_officer_list,resolved,186,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f210.item
-NAME:CORDIER,L1912-01126,affiliation,vice_president,1,organisation_entry_officer_list,unmatched,186,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f210.item
+L1912-00737b,L1912-01126,affiliation,vice_president,1,organisation_entry_officer_list,resolved_fuzzy,186,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f210.item
 L1912-00259,L1912-01126,affiliation,secretary_general,1,organisation_entry_officer_list,resolved,186,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f210.item
 L1912-02213,L1912-01126,affiliation,deputy_secretary,1,organisation_entry_officer_list,resolved,186,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f210.item
 L1912-02019,L1912-01195,affiliation,president,1,organisation_entry_officer_list,resolved,197,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f221.item
@@ -520,7 +510,7 @@ L1912-00745,L1912-01625,affiliation,vice_president,1,organisation_entry_officer_
 NAME:MAUBE,L1912-01625,affiliation,member,1,organisation_entry_officer_list,unmatched,267,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f291.item
 L1912-01314,L1912-01625,affiliation,member,1,organisation_entry_officer_list,resolved,267,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f291.item
 NAME:GRAS,L1912-01625,affiliation,member,1,organisation_entry_officer_list,unmatched,267,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f291.item
-NAME:VEYSSIERE,L1912-01625,affiliation,member,1,organisation_entry_officer_list,unmatched,267,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f291.item
+L1912-02647c,L1912-01625,affiliation,member,1,organisation_entry_officer_list,resolved_fuzzy,267,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f291.item
 NAME:BARTHELET,L1912-01625,affiliation,member,1,organisation_entry_officer_list,unmatched,267,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f291.item
 NAME:CARATINI,L1912-01625,affiliation,member,1,organisation_entry_officer_list,unmatched,267,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f291.item
 NAME:GIANNESINI,L1912-01625,affiliation,president,1,organisation_entry_officer_list,unmatched,267,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f291.item
@@ -629,7 +619,7 @@ L1912-01607,L1912-02303,affiliation,president,1,organisation_entry_officer_list,
 NAME:VILLATFE,L1912-02401,affiliation,president,1,organisation_entry_officer_list,ambiguous_fuzzy,373,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f397.item
 L1912-02211,L1912-02401,affiliation,vice_president,1,organisation_entry_officer_list,resolved,373,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f397.item
 NAME:GAUVRY,L1912-02401,affiliation,vice_president,1,organisation_entry_officer_list,unmatched,373,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f397.item
-NAME:NEAU,L1912-02401,affiliation,deputy_secretary,1,organisation_entry_officer_list,unmatched,373,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f397.item
+L1912-01892b,L1912-02401,affiliation,deputy_secretary,1,organisation_entry_officer_list,resolved,373,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f397.item
 L1912-01210,L1912-02401,affiliation,member,1,organisation_entry_officer_list,resolved,373,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f397.item
 L1912-01579,L1912-02401,affiliation,member,1,organisation_entry_officer_list,resolved,373,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f397.item
 NAME:BARRION,L1912-02401,affiliation,member,1,organisation_entry_officer_list,unmatched,373,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f397.item
@@ -809,7 +799,7 @@ NAME:NOVIELLO,L1912-02426,affiliation,vice_president,1,organisation_entry_office
 NAME:LECLERC,L1912-02426,affiliation,president,1,organisation_entry_officer_list,unmatched,378,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f402.item
 L1912-02158,L1912-02426,affiliation,vice_president,1,organisation_entry_officer_list,resolved,378,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f402.item
 L1912-01274,L1912-02426,affiliation,secretary,1,organisation_entry_officer_list,resolved_fuzzy,378,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f402.item
-NAME:DOUTE,L1912-02426,affiliation,president,1,organisation_entry_officer_list,unmatched,378,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f402.item
+L1912-00943b,L1912-02426,affiliation,president,1,organisation_entry_officer_list,resolved,378,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f402.item
 NAME:RIANT,L1912-02426,affiliation,president,1,organisation_entry_officer_list,unmatched,378,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f402.item
 NAME:EL HADJ MOHAMED FERISSA,L1912-02426,affiliation,vice_president,1,organisation_entry_officer_list,ambiguous,378,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f402.item
 NAME:GUYOT,L1912-02426,affiliation,secretary,1,organisation_entry_officer_list,ambiguous_fuzzy,378,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f402.item
@@ -924,7 +914,7 @@ NAME:AOUIDJ,L1912-02439,affiliation,member,1,organisation_entry_officer_list,unm
 L1912-01930,L1912-02440,affiliation,president,1,organisation_entry_officer_list,resolved,380,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f404.item
 L1912-00106,L1912-02440,affiliation,vice_president,1,organisation_entry_officer_list,resolved,380,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f404.item
 NAME:LEMOINE,L1912-02440,affiliation,secretary,1,organisation_entry_officer_list,unmatched,380,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f404.item
-NAME:LAVAU,L1912-02440,affiliation,member,1,organisation_entry_officer_list,unmatched,380,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f404.item
+L1912-01591b,L1912-02440,affiliation,member,1,organisation_entry_officer_list,resolved,380,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f404.item
 NAME:GROSDEMANGE,L1912-02440,affiliation,member,1,organisation_entry_officer_list,unmatched,380,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f404.item
 NAME:LARCLEL,L1912-02440,affiliation,member,1,organisation_entry_officer_list,unmatched,380,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f404.item
 L1912-00309,L1912-02441,affiliation,member,1,organisation_entry_officer_list,resolved_fuzzy,380,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f404.item
@@ -961,7 +951,7 @@ L1912-01579,L1912-02493,affiliation,president,1,organisation_entry_officer_list,
 L1912-00449,L1912-02493,affiliation,vice_president,1,organisation_entry_officer_list,resolved_fuzzy,388,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f412.item
 L1912-00096,L1912-02493,affiliation,secretary_general,1,organisation_entry_officer_list,resolved,388,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f412.item
 NAME:CAUWEL,L1912-02493,affiliation,secretary,1,organisation_entry_officer_list,unmatched,388,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f412.item
-NAME:LECORE CARPENLIER,L1912-02493,affiliation,honorary_president,1,organisation_entry_officer_list,unmatched,388,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f412.item
+L1912-01599b,L1912-02493,affiliation,honorary_president,1,organisation_entry_officer_list,resolved_fuzzy,388,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f412.item
 L1912-01923,L1912-02493,affiliation,president,1,organisation_entry_officer_list,resolved,388,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f412.item
 NAME:LECORECARPENLIER,L1912-02493,affiliation,president,1,organisation_entry_officer_list,unmatched,388,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f412.item
 L1912-00405,L1912-02601,affiliation,president,1,organisation_entry_officer_list,resolved,409,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f433.item
@@ -1018,6 +1008,7 @@ L1912-00191,ORG:chambre de commerce do tunis,affiliation,president,1,person_entr
 L1912-00191,ORG:compagnie du port,affiliation,delegate,1,person_entry_statement,resolved,42,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f66.item
 L1912-00191,ORG:municipalite,affiliation,vice_president,1,person_entry_statement,resolved,42,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f66.item
 L1912-00193,ORG:fernie ecole de djedeida,affiliation,director,1,person_entry_statement,resolved,43,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f67.item
+L1912-00203b,L1912-00556,affiliation,founder,1,person_entry_statement,resolved,45,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f69.item
 L1912-00207,ORG:conseil de perfectionnement du college sadiki,affiliation,member,1,person_entry_statement,resolved,45,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f69.item
 L1912-00207,ORG:comite de la khaldounia,affiliation,member,1,person_entry_statement,resolved,45,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f69.item
 L1912-00207,ORG:association amicale des anciens eleves du college alaoui cle tunis,affiliation,treasurer,1,person_entry_statement,resolved,45,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f69.item
@@ -1053,11 +1044,11 @@ L1912-00311,ORG:amical des travaux publics,affiliation,vice_president,1,person_e
 L1912-00311,ORG:comite tunisien cle la ligue maritime francaise,affiliation,member,1,person_entry_statement,resolved,56,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f80.item
 L1912-00319,ORG:laboratoire cle chimie agricole et industrielle,affiliation,director,1,person_entry_statement,resolved,57,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f81.item
 L1912-00319,L1912-00149,affiliation,president,1,person_entry_statement,resolved,57,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f81.item
-L1912-00319,ORG:groupe cle l afrique du nord des anciens eleves de l ecole des alines d,affiliation,president,1,person_entry_statement,resolved,57,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f81.item
-L1912-00319,ORG:cercle tunisien de la ligue de l enseignement,affiliation,president,1,person_entry_statement,resolved,57,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f81.item
-L1912-00319,ORG:societe tunisienne des habitations a bon marche,affiliation,honorary_president,1,person_entry_statement,resolved,57,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f81.item
-L1912-00319,ORG:socieles d anthropologie de paris,affiliation,member,1,person_entry_statement,resolved,57,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f81.item
-L1912-00319,L1912-01457,affiliation,honorary_president,1,person_entry_statement,resolved,57,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f81.item
+L1912-00319b,ORG:groupe cle l afrique du nord des anciens eleves de l ecole des alines d,affiliation,president,1,person_entry_statement,resolved,58,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f82.item
+L1912-00319b,ORG:cercle tunisien de la ligue de l enseignement,affiliation,president,1,person_entry_statement,resolved,58,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f82.item
+L1912-00319b,ORG:societe tunisienne des habitations a bon marche,affiliation,honorary_president,1,person_entry_statement,resolved,58,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f82.item
+L1912-00319b,ORG:socieles d anthropologie de paris,affiliation,member,1,person_entry_statement,resolved,58,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f82.item
+L1912-00319b,L1912-01457,affiliation,honorary_president,1,person_entry_statement,resolved,58,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f82.item
 L1912-00320,ORG:cercle de alahdia de la ligue,affiliation,president,1,person_entry_statement,resolved,58,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f82.item
 L1912-00320,ORG:cercle de l union francaise et v,affiliation,vice_president,1,person_entry_statement,resolved,58,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f82.item
 L1912-00323,ORG:societe des aiefiers de constructions mecaniques de tunisie,affiliation,director,1,person_entry_statement,resolved,59,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f83.item
@@ -1086,10 +1077,11 @@ L1912-00381,ORG:societe philotechnique cle paris,affiliation,delegate,1,person_e
 L1912-00381,ORG:ligue francaise cle l enseignement,affiliation,member,1,person_entry_statement,resolved,67,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f91.item
 L1912-00385,ORG:tribunal civil de sousse,affiliation,president,1,person_entry_statement,resolved,68,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f92.item
 L1912-00389,ORG:socieles de gymnastique,affiliation,director,1,person_entry_statement,resolved,68,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f92.item
+L1912-00402b,ORG:comite local de la societe,affiliation,president,1,person_entry_statement,resolved,69,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f93.item
 L1912-00404,ORG:chambre mixte,affiliation,president,1,person_entry_statement,resolved,69,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f93.item
 L1912-00405,ORG:societe fraternelle des anciens sous officiers cies armees cle terre,affiliation,vice_president,1,person_entry_statement,resolved,70,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f94.item
 L1912-00415,ORG:societe,affiliation,president,1,person_entry_statement,resolved,71,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f95.item
-L1912-00415,ORG:comite de la colonie agricole indigene d el ansarine,affiliation,member,1,person_entry_statement,resolved,71,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f95.item
+L1912-00415b,ORG:comite de la colonie agricole indigene d el ansarine,affiliation,member,1,person_entry_statement,resolved,71,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f95.item
 L1912-00416,ORG:bibliotheque des sous officiers au 4 tirailleurs,affiliation,president,1,person_entry_statement,resolved,71,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f95.item
 L1912-00424,L1912-00556,affiliation,vice_president,1,person_entry_statement,resolved,72,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f96.item
 L1912-00430,ORG:syndical des representants i cle commerce francais,affiliation,vice_president,1,person_entry_statement,resolved,72,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f96.item
@@ -1130,7 +1122,7 @@ L1912-00477,ORG:societe internationale des sciences medicales de tunis,affiliati
 L1912-00477,ORG:conseil d administration de l hopital garibaldi,affiliation,member,1,person_entry_statement,resolved,80,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f104.item
 L1912-00477,ORG:societe magistrale italienne,affiliation,president,1,person_entry_statement,resolved,80,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f104.item
 L1912-00478,ORG:chambre de commerce bntanique ue lumsie a sa creation,affiliation,president,1,person_entry_statement,resolved,80,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f104.item
-L1912-00479,ORG:ligue de l enseignement,affiliation,president,1,person_entry_statement,resolved,81,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f105.item
+L1912-00479b,ORG:ligue de l enseignement,affiliation,president,1,person_entry_statement,resolved,81,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f105.item
 L1912-00489,ORG:societe des courses de soukel arba,affiliation,president,1,person_entry_statement,resolved,84,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f108.item
 L1912-00494,ORG:societe dante alighieri,affiliation,councillor,1,person_entry_statement,resolved,86,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f110.item
 L1912-00504,L1912-01457,affiliation,member,1,person_entry_statement,resolved,87,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f111.item
@@ -1201,28 +1193,30 @@ L1912-00699,L1912-00721,affiliation,member,1,person_entry_statement,resolved,125
 L1912-00699,ORG:comite carnot,affiliation,secretary,1,person_entry_statement,resolved,125,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f149.item
 L1912-00718,L1912-02401,affiliation,secretary,1,person_entry_statement,resolved,129,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f153.item
 L1912-00718,ORG:comite d organisation du congres de la ligue de 1 enseignement,affiliation,member,1,person_entry_statement,resolved,129,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f153.item
+L1912-00721b,ORG:municipalite,affiliation,vice_president,1,person_entry_statement,resolved,131,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f155.item
+L1912-00721b,ORG:conseil el de ministre des affaires etrangeres du bey,affiliation,president,1,person_entry_statement,resolved,131,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f155.item
 L1912-00731,ORG:federation napolitaine et membre,affiliation,secretary,1,person_entry_statement,resolved,134,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f158.item
 L1912-00736,ORG:commission administrative,affiliation,delegate,1,person_entry_statement,resolved,135,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f159.item
 L1912-00736,ORG:municipalite de kairouan du 28 mars 1906 au 22 avril 1908,affiliation,vice_president,1,person_entry_statement,resolved,135,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f159.item
 L1912-00736,ORG:cercle de la ligue de l enseignement de kairouan,affiliation,president,1,person_entry_statement,resolved,135,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f159.item
 L1912-00736,ORG:comite regional,affiliation,member,1,person_entry_statement,resolved,135,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f159.item
-L1912-00737,ORG:conseil de l ordre a la conference des avocats stagiaires,affiliation,secretary,1,person_entry_statement,resolved,136,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f160.item
-L1912-00737,ORG:comite de la federation des cercles tunisiens et du cercle de tunis,affiliation,vice_president,1,person_entry_statement,resolved,136,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f160.item
+L1912-00737b,ORG:conseil de l ordre a la conference des avocats stagiaires,affiliation,secretary,1,person_entry_statement,resolved,136,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f160.item
+L1912-00737b,ORG:comite de la federation des cercles tunisiens et du cercle de tunis,affiliation,vice_president,1,person_entry_statement,resolved,136,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f160.item
 L1912-00739,ORG:societe de secours mutuels de la cie des sapeurs pompiers,affiliation,director,1,person_entry_statement,resolved,136,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f160.item
 L1912-00739,ORG:societe de gymnastique,affiliation,president,1,person_entry_statement,resolved,136,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f160.item
 L1912-00740,ORG:societe de l industrie minerale et de differentes socieles scientifique,affiliation,member,1,person_entry_statement,resolved,136,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f160.item
 L1912-00741,ORG:institut,affiliation,member,1,person_entry_statement,resolved,136,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f160.item
-L1912-00741,ORG:service municipal des pompes funebres,affiliation,director,1,person_entry_statement,resolved,136,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f160.item
-L1912-00741,ORG:conseil d administration du syndicat international d etudes au maroc,affiliation,president,1,person_entry_statement,resolved,136,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f160.item
-L1912-00741,L1912-00582,affiliation,vice_president,1,person_entry_statement,resolved,136,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f160.item
-L1912-00741,ORG:chambre de commerce de bizerte,affiliation,president,1,person_entry_statement,resolved,136,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f160.item
-L1912-00741,L1912-00721,affiliation,member,1,person_entry_statement,resolved,136,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f160.item
-L1912-00741,ORG:conseil superieur de l assistance publique,affiliation,member,1,person_entry_statement,resolved,136,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f160.item
-L1912-00741,ORG:chambre de commerce de bizerte,affiliation,member,1,person_entry_statement,resolved,136,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f160.item
-L1912-00741,ORG:commerce exterieur de la france,affiliation,councillor,1,person_entry_statement,resolved,136,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f160.item
+L1912-00741c,ORG:service municipal des pompes funebres,affiliation,director,1,person_entry_statement,resolved,138,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f162.item
+L1912-00741c,ORG:conseil d administration du syndicat international d etudes au maroc,affiliation,president,1,person_entry_statement,resolved,138,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f162.item
+L1912-00741c,L1912-00582,affiliation,vice_president,1,person_entry_statement,resolved,138,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f162.item
+L1912-00741c,ORG:chambre de commerce de bizerte,affiliation,president,1,person_entry_statement,resolved,138,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f162.item
+L1912-00741c,L1912-00721,affiliation,member,1,person_entry_statement,resolved,138,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f162.item
+L1912-00741c,ORG:conseil superieur de l assistance publique,affiliation,member,1,person_entry_statement,resolved,138,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f162.item
+L1912-00741c,ORG:chambre de commerce de bizerte,affiliation,member,1,person_entry_statement,resolved,138,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f162.item
+L1912-00741c,ORG:commerce exterieur de la france,affiliation,councillor,1,person_entry_statement,resolved,138,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f162.item
 L1912-00748,ORG:amicale primaire des hautes alpes,affiliation,secretary_general,1,person_entry_statement,resolved,139,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f163.item
 L1912-00748,ORG:societe des hauts alpins en tunisie,affiliation,secretary_general,1,person_entry_statement,resolved,139,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f163.item
-L1912-00748,ORG:societe,affiliation,vice_president,1,person_entry_statement,resolved,139,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f163.item
+L1912-00748b,ORG:societe,affiliation,vice_president,1,person_entry_statement,resolved,139,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f163.item
 L1912-00752,L1912-00721,affiliation,member,1,person_entry_statement,resolved,140,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f164.item
 L1912-00752,ORG:jurj a l exposition universelle,affiliation,member,1,person_entry_statement,resolved,140,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f164.item
 L1912-00762,ORG:societe des sciencss medicales,affiliation,president,1,person_entry_statement,resolved,142,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f166.item
@@ -1238,9 +1232,9 @@ L1912-00773,ORG:municipalite de la goulette de 1,affiliation,secretary,1,person_
 L1912-00773,ORG:conseil d administralon du club gymnastique francais de tunis,affiliation,member,1,person_entry_statement,resolved,146,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f170.item
 L1912-00774,ORG:administration centrale de l armee tunisienne tunis,affiliation,director,1,person_entry_statement,resolved,146,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f170.item
 L1912-00777,ORG:association amicale des fonctionnaires de l administration centrale,affiliation,vice_president,1,person_entry_statement,resolved,146,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f170.item
-L1912-00791,L1912-00548,affiliation,secretary,1,person_entry_statement,resolved,148,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f172.item
-L1912-00791,ORG:mutuelle tunisienne et secretaire du groupe a,affiliation,founder,1,person_entry_statement,resolved,148,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f172.item
-L1912-00791,ORG:union des employes des services financiers,affiliation,secretary_general,1,person_entry_statement,resolved,148,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f172.item
+L1912-00791b,L1912-00548,affiliation,secretary,1,person_entry_statement,resolved,148,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f172.item
+L1912-00791b,ORG:mutuelle tunisienne et secretaire du groupe a,affiliation,founder,1,person_entry_statement,resolved,148,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f172.item
+L1912-00791b,ORG:union des employes des services financiers,affiliation,secretary_general,1,person_entry_statement,resolved,148,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f172.item
 L1912-00792,ORG:tribunal civil de l unis,affiliation,president,1,person_entry_statement,resolved,148,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f172.item
 L1912-00801,ORG:syndicat des proprietaires de chevaux de pur sang anglais,affiliation,vice_president,1,person_entry_statement,resolved,149,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f173.item
 L1912-00810,ORG:i groupe syndical des travailleurs de la voie ferree a gaffour,affiliation,secretary,1,person_entry_statement,resolved,150,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f174.item
@@ -1258,8 +1252,8 @@ L1912-00828,ORG:association des colons francais de la mornaghia,affiliation,pres
 L1912-00830,ORG:finances de la regence,affiliation,director,1,person_entry_statement,resolved,153,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f177.item
 L1912-00832,ORG:syndicat des proprietaires,affiliation,president,1,person_entry_statement,resolved,154,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f178.item
 L1912-00832,ORG:amicale des deux char entes,affiliation,president,1,person_entry_statement,resolved,154,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f178.item
-L1912-00837,ORG:societe francaise des mines melalhques,affiliation,director,1,person_entry_statement,resolved,155,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f179.item
-L1912-00837,ORG:chambre de commerce du nord,affiliation,member,1,person_entry_statement,resolved,155,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f179.item
+L1912-00837b,ORG:societe francaise des mines melalhques,affiliation,director,1,person_entry_statement,resolved,155,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f179.item
+L1912-00837b,ORG:chambre de commerce du nord,affiliation,member,1,person_entry_statement,resolved,155,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f179.item
 L1912-00838,ORG:conseil de l ordre des avocate de tunis,affiliation,member,1,person_entry_statement,resolved,155,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f179.item
 L1912-00838,ORG:association des anciens eleves du lycee de tunis,affiliation,president,1,person_entry_statement,resolved,155,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f179.item
 L1912-00838,ORG:comite du cercle republicain,affiliation,secretary_general,1,person_entry_statement,resolved,155,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f179.item
@@ -1283,6 +1277,9 @@ L1912-00929,ORG:seclion tunisienne de la societe de geographie commerciale de pa
 L1912-00929,ORG:congres national des societes francaises de geographie,affiliation,secretary_general,1,person_entry_statement,resolved,162,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f186.item
 L1912-00929,ORG:section de tunis,affiliation,founder,1,person_entry_statement,resolved,162,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f186.item
 L1912-00931,ORG:college royal des chirurgiens d angleterre et membre associe du college,affiliation,member,1,person_entry_statement,resolved,163,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f187.item
+L1912-00943b,L1912-00155,affiliation,treasurer,1,person_entry_statement,resolved,164,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f188.item
+L1912-00943b,ORG:section de beja des amis des arbres en tunisie,affiliation,treasurer,1,person_entry_statement,resolved,164,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f188.item
+L1912-00943b,ORG:concours agricole de beja,affiliation,secretary_general,1,person_entry_statement,resolved,164,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f188.item
 L1912-00947,ORG:tribunal,affiliation,vice_president,1,person_entry_statement,resolved,165,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f189.item
 L1912-00951,ORG:societe musulmane de bienfaisance a bizerte,affiliation,president,1,person_entry_statement,resolved,165,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f189.item
 L1912-00957,ORG:municipalite de tunis,affiliation,president,1,person_entry_statement,resolved,166,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f190.item
@@ -1340,6 +1337,8 @@ L1912-01144,ORG:conseil,affiliation,president,1,person_entry_statement,resolved,
 L1912-01147,ORG:societe,affiliation,vice_president,1,person_entry_statement,resolved,188,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f212.item
 L1912-01147,L1912-02493,affiliation,member,1,person_entry_statement,resolved,188,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f212.item
 L1912-01147,ORG:societe des auteurs,affiliation,member,1,person_entry_statement,resolved,188,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f212.item
+L1912-01153b,ORG:comite du grand cercle republicain,affiliation,member,1,person_entry_statement,resolved,190,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f214.item
+L1912-01153b,ORG:association generale des etudiants,affiliation,honorary_member,1,person_entry_statement,resolved,190,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f214.item
 L1912-01157,ORG:postes et des telegraphes du departement de constantine,affiliation,president,1,person_entry_statement,resolved,190,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f214.item
 L1912-01157,L1912-00139,affiliation,founder,1,person_entry_statement,resolved,190,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f214.item
 L1912-01157,ORG:caisse d economie franco tunisienne,affiliation,treasurer,1,person_entry_statement,resolved,190,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f214.item
@@ -1483,24 +1482,24 @@ L1912-01579,ORG:ligue de l enseignement en tunisie,affiliation,founder,1,person_
 L1912-01586,ORG:commission de voirie de tabarca et membre de la commission scolaire,affiliation,member,1,person_entry_statement,resolved,259,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f283.item
 L1912-01588,ORG:service de sante de la division d occupation cle tunisie,affiliation,director,1,person_entry_statement,resolved,259,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f283.item
 L1912-01591,L1912-00145,affiliation,vice_president,1,person_entry_statement,resolved,259,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f283.item
-L1912-01592,ORG:administration des forets d oliviers du nord de la regence,affiliation,director,1,person_entry_statement,resolved,260,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f284.item
-L1912-01592,ORG:colonie agricole indigene de lansarine d e p u i s sa creation,affiliation,secretary,1,person_entry_statement,resolved,260,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f284.item
-L1912-01592,ORG:gouvernement tunisien au congres colonial de marseille,affiliation,delegate,1,person_entry_statement,resolved,260,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f284.item
+L1912-01592b,ORG:administration des forets d oliviers du nord de la regence,affiliation,director,1,person_entry_statement,resolved,260,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f284.item
+L1912-01592b,ORG:colonie agricole indigene de lansarine d e p u i s sa creation,affiliation,secretary,1,person_entry_statement,resolved,260,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f284.item
+L1912-01592b,ORG:gouvernement tunisien au congres colonial de marseille,affiliation,delegate,1,person_entry_statement,resolved,260,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f284.item
 L1912-01597,ORG:surete publique en tunisie,affiliation,director,1,person_entry_statement,resolved,261,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f285.item
-L1912-01597,ORG:comile directeur de la societe de geographie commerciale,affiliation,member,1,person_entry_statement,resolved,261,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f285.item
-L1912-01597,ORG:commission interministerielle d etude du recrutement des indigenes en a,affiliation,member,1,person_entry_statement,resolved,261,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f285.item
+L1912-01597b,ORG:comile directeur de la societe de geographie commerciale,affiliation,member,1,person_entry_statement,resolved,261,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f285.item
+L1912-01597b,ORG:commission interministerielle d etude du recrutement des indigenes en a,affiliation,member,1,person_entry_statement,resolved,261,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f285.item
 L1912-01599,ORG:municipalite de kairouan du 28 mars 1906 au 22 avril 1908,affiliation,secretary,1,person_entry_statement,resolved,262,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f286.item
-L1912-01599,ORG:societe anonyme de l imprimerie rapide de tunis,affiliation,delegate,1,person_entry_statement,resolved,262,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f286.item
-L1912-01599,L1912-00721,affiliation,member,1,person_entry_statement,resolved,262,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f286.item
-L1912-01599,ORG:municipalite de rades,affiliation,delegate,1,person_entry_statement,resolved,262,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f286.item
+L1912-01599b,ORG:societe anonyme de l imprimerie rapide de tunis,affiliation,delegate,1,person_entry_statement,resolved,262,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f286.item
+L1912-01599b,L1912-00721,affiliation,member,1,person_entry_statement,resolved,262,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f286.item
+L1912-01599b,ORG:municipalite de rades,affiliation,delegate,1,person_entry_statement,resolved,262,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f286.item
 L1912-01600,ORG:association artistique,affiliation,member,1,person_entry_statement,resolved,262,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f286.item
 L1912-01601,ORG:club gymnastique francais,affiliation,president,1,person_entry_statement,resolved,262,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f286.item
 L1912-01607,ORG:conseil d hygiene de tunis,affiliation,member,1,person_entry_statement,resolved,263,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f287.item
 L1912-01607,L1912-00550,affiliation,vice_president,1,person_entry_statement,resolved,263,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f287.item
 L1912-01610,L1912-00996,affiliation,director,1,person_entry_statement,resolved,264,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f288.item
 L1912-01612,ORG:societe des negociants et du commerce de rousse,affiliation,director,1,person_entry_statement,resolved,264,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f288.item
-L1912-01612,ORG:controle remplissant les fonctions de greffier huissier a kairouan,affiliation,secretary,1,person_entry_statement,resolved,264,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f288.item
-L1912-01615,ORG:bleus de bretagne,affiliation,treasurer,1,person_entry_statement,resolved,265,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f289.item
+L1912-01612b,ORG:controle remplissant les fonctions de greffier huissier a kairouan,affiliation,secretary,1,person_entry_statement,resolved,265,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f289.item
+L1912-01615b,ORG:bleus de bretagne,affiliation,treasurer,1,person_entry_statement,resolved,265,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f289.item
 L1912-01623,ORG:commission des titres medicaux,affiliation,member,1,person_entry_statement,resolved,267,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f291.item
 L1912-01623,ORG:societe internationale des sciences medicales de tunis,affiliation,member,1,person_entry_statement,resolved,267,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f291.item
 L1912-01635,ORG:autriche hongrie a la commission europeenne du danube,affiliation,delegate,1,person_entry_statement,resolved,269,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f293.item
@@ -1559,6 +1558,7 @@ L1912-01841,L1912-00721,affiliation,member,1,person_entry_statement,resolved,296
 L1912-01844,ORG:in societe medico psycologique de floren ce,affiliation,corresponding_member,1,person_entry_statement,resolved,296,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f320.item
 L1912-01844,ORG:croix rouge italienne,affiliation,delegate,1,person_entry_statement,resolved,296,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f320.item
 L1912-01849,ORG:cie du gaz et des eaux de tunis,affiliation,director,1,person_entry_statement,resolved,297,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f321.item
+L1912-01858b,ORG:svndicats des oueds zaroud el merguellil,affiliation,president,1,person_entry_statement,resolved,298,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f322.item
 L1912-01880,ORG:societe des anc,affiliation,founder,1,person_entry_statement,resolved,301,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f325.item
 L1912-01896,ORG:chambre de commerce du sud,affiliation,member,1,person_entry_statement,resolved,303,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f327.item
 L1912-01896,L1912-00583,affiliation,member,1,person_entry_statement,resolved,303,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f327.item
@@ -1670,7 +1670,7 @@ L1912-02290,ORG:conseil de surveillance cle l hopital israelite de tunis et de l
 L1912-02321,L1912-01457,affiliation,president,1,person_entry_statement,resolved,365,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f389.item
 L1912-02330,ORG:conseil d administration des i labous,affiliation,president,1,person_entry_statement,resolved,366,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f390.item
 L1912-02330,L1912-01457,affiliation,member,1,person_entry_statement,resolved,366,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f390.item
-L1912-02336,ORG:controles civils de souk el arba et de bizerle,affiliation,secretary,1,person_entry_statement,resolved,369,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f393.item
+L1912-02336b,ORG:controles civils de souk el arba et de bizerle,affiliation,secretary,1,person_entry_statement,resolved,369,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f393.item
 L1912-02337,ORG:chambre d agriculture de l ile de la reunion,affiliation,president,1,person_entry_statement,resolved,369,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f393.item
 L1912-02385,ORG:chambre cle commerce de tunis,affiliation,member,1,person_entry_statement,resolved,372,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f396.item
 L1912-02388,ORG:comite de defense republicaine aux colonies,affiliation,treasurer,1,person_entry_statement,resolved,372,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f396.item
@@ -1713,10 +1713,10 @@ L1912-02642,ORG:tribunal mixte a tunis,affiliation,rapporteur,1,person_entry_sta
 L1912-02645,ORG:salon tunisien de 1,affiliation,vice_president,1,person_entry_statement,resolved,422,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f446.item
 L1912-02645,ORG:salon tunisien do 1,affiliation,president,1,person_entry_statement,resolved,422,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f446.item
 L1912-02645,L1912-02493,affiliation,member,1,person_entry_statement,resolved,422,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f446.item
-L1912-02647,ORG:societe d assistance mutuelle en cas cle deces outre les fonctionnaires,affiliation,president,1,person_entry_statement,resolved,423,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f447.item
-L1912-02647,ORG:comite local cle l orphelinat de l enseignement primaire,affiliation,vice_president,1,person_entry_statement,resolved,423,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f447.item
-L1912-02647,ORG:chambre alixte de commerce et d agriculture du centre,affiliation,member,1,person_entry_statement,resolved,423,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f447.item
-L1912-02647,L1912-00721,affiliation,member,1,person_entry_statement,resolved,423,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f447.item
+L1912-02647b,ORG:societe d assistance mutuelle en cas cle deces outre les fonctionnaires,affiliation,president,1,person_entry_statement,resolved,423,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f447.item
+L1912-02647b,ORG:comite local cle l orphelinat de l enseignement primaire,affiliation,vice_president,1,person_entry_statement,resolved,423,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f447.item
+L1912-02647b,ORG:chambre alixte de commerce et d agriculture du centre,affiliation,member,1,person_entry_statement,resolved,423,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f447.item
+L1912-02647b,L1912-00721,affiliation,member,1,person_entry_statement,resolved,423,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f447.item
 L1912-02649,ORG:syndicat pour la defense du comm,affiliation,president,1,person_entry_statement,resolved,423,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f447.item
 L1912-02655,L1912-01457,affiliation,member,1,person_entry_statement,resolved,424,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f448.item
 L1912-02657,ORG:comite local cle l orphelinat de l enseignement primaire,affiliation,treasurer,1,person_entry_statement,resolved,424,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f448.item
@@ -1744,7 +1744,7 @@ L1912-02741,ORG:mines clu koudiatel i iamra,affiliation,director,1,person_entry_
 L1912-02741,ORG:comite de la bibliotheque populaire de ferryville,affiliation,president,1,person_entry_statement,resolved,436,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f460.item
 L1912-02744,ORG:ligue i ranco italienne,affiliation,member,1,person_entry_statement,resolved,437,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f461.item
 L1912-02744,ORG:conseil d administration uu l,affiliation,member,1,person_entry_statement,resolved,437,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f461.item
-L1912-02744,L1912-02493,affiliation,member,1,person_entry_statement,resolved,437,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f461.item
+L1912-02744c,L1912-02493,affiliation,member,1,person_entry_statement,resolved,437,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f461.item
 L1912-02747,ORG:uessos pohoomull brothers,affiliation,director,1,person_entry_statement,resolved,438,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f462.item
 L1912-02749,ORG:union gene,affiliation,president,1,person_entry_statement,resolved,439,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f463.item
 L1912-02749,ORG:societe,affiliation,president,1,person_entry_statement,resolved,439,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f463.item
@@ -1827,7 +1827,7 @@ NAME:SWANSEA,L1912-00899,property_owner,property_owner,1,place_entry,unmatched,1
 NAME:JOUSSE,L1912-00901,property_owner,property_owner,1,place_entry,unmatched,160,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f184.item
 NAME:MARTIN,L1912-00901,property_owner,property_owner,1,place_entry,ambiguous,160,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f184.item
 L1912-01658,L1912-00935,property_owner,property_owner,1,place_entry,resolved,163,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f187.item
-NAME:COSTA,L1912-00935,property_owner,property_owner,1,place_entry,unmatched,163,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f187.item
+L1912-00741b,L1912-00935,property_owner,property_owner,1,place_entry,resolved_fuzzy,163,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f187.item
 NAME:BOGO,L1912-00935,property_owner,property_owner,1,place_entry,unmatched,163,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f187.item
 NAME:BARCELONA,L1912-00958,property_owner,property_owner,1,place_entry,unmatched,166,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f190.item
 NAME:BUHAGIAR,L1912-00958,property_owner,property_owner,1,place_entry,unmatched,166,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f190.item
@@ -1888,7 +1888,6 @@ NAME:GINNET,L1912-01514,property_owner,property_owner,1,place_entry,unmatched,24
 NAME:PERRIN,L1912-01514,property_owner,property_owner,1,place_entry,ambiguous,249,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f273.item
 NAME:DJEBELER RECAS,L1912-01522,property_owner,property_owner,1,place_entry,unmatched,250,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f274.item
 NAME:LEON ROY,L1912-01549,property_owner,property_owner,1,place_entry,unmatched,253,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f277.item
-L1912-02603,L1912-01680,property_owner,property_owner,1,place_entry,resolved,275,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f299.item
 NAME:GONDOUIN,L1912-02183,property_owner,property_owner,1,place_entry,unmatched,346,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f370.item
 L1912-00001,L1912-00526,residence,residence,1,person_entry,resolved,1,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f25.item
 L1912-00001,PLACE:blaye,birthplace,birthplace,1,person_entry,resolved,1,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f25.item
@@ -2016,6 +2015,8 @@ L1912-00200,PLACE:tunis,residence,residence,1,person_entry,resolved,44,https://g
 L1912-00200,PLACE:carcasonne,birthplace,birthplace,1,person_entry,resolved,44,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f68.item
 L1912-00201,L1912-02529,residence,residence,1,person_entry,resolved,44,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f68.item
 L1912-00201,L1912-02529,birthplace,birthplace,1,person_entry,resolved,44,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f68.item
+L1912-00203b,PLACE:tunis,residence,residence,1,person_entry,resolved,45,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f69.item
+L1912-00203b,PLACE:tunis,birthplace,birthplace,1,person_entry,resolved,45,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f69.item
 L1912-00204,PLACE:tunis,residence,residence,1,person_entry,resolved,45,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f69.item
 L1912-00204,PLACE:tunis,birthplace,birthplace,1,person_entry,resolved,45,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f69.item
 L1912-00207,PLACE:tunis,residence,residence,1,person_entry,resolved,45,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f69.item
@@ -2125,6 +2126,7 @@ L1912-00318,L1912-02463,residence,residence,1,person_entry,resolved,57,https://g
 L1912-00318,PLACE:direcl,birthplace,birthplace,1,person_entry,resolved,57,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f81.item
 L1912-00319,PLACE:tunis,residence,residence,1,person_entry,resolved,57,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f81.item
 L1912-00319,PLACE:saint armand les eaux,birthplace,birthplace,1,person_entry,resolved,57,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f81.item
+L1912-00319b,PLACE:tunis,residence,residence,1,person_entry,resolved,58,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f82.item
 L1912-00320,PLACE:entremont le vieux,birthplace,birthplace,1,person_entry,resolved,58,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f82.item
 L1912-00321,PLACE:lavaveix les mines,birthplace,birthplace,1,person_entry,resolved,58,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f82.item
 L1912-00322,PLACE:entremont le vieux,birthplace,birthplace,1,person_entry,resolved,58,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f82.item
@@ -2154,6 +2156,8 @@ L1912-00361,PLACE:tunis,residence,residence,1,person_entry,resolved,63,https://g
 L1912-00361,PLACE:tunis,birthplace,birthplace,1,person_entry,resolved,63,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f87.item
 L1912-00366,PLACE:tunis,residence,residence,1,person_entry,resolved,65,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f89.item
 L1912-00368,PLACE:douai,birthplace,birthplace,1,person_entry,resolved,65,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f89.item
+L1912-00372b,L1912-02463,residence,residence,1,person_entry,resolved,66,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f90.item
+L1912-00372b,L1912-02463,birthplace,birthplace,1,person_entry,resolved,66,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f90.item
 L1912-00374,PLACE:tunis,residence,residence,1,person_entry,resolved,66,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f90.item
 L1912-00374,PLACE:strasbourg,birthplace,birthplace,1,person_entry,resolved,66,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f90.item
 L1912-00376,PLACE:tunis,residence,residence,1,person_entry,resolved,66,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f90.item
@@ -2177,6 +2181,7 @@ L1912-00389,PLACE:tunis,residence,residence,1,person_entry,resolved,68,https://g
 L1912-00389,PLACE:lacasse,birthplace,birthplace,1,person_entry,resolved,68,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f92.item
 L1912-00401,PLACE:tunis,residence,residence,1,person_entry,resolved,69,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f93.item
 L1912-00401,PLACE:tunis ingenieur civil,birthplace,birthplace,1,person_entry,resolved,69,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f93.item
+L1912-00402b,PLACE:albi,birthplace,birthplace,1,person_entry,resolved,69,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f93.item
 L1912-00403,PLACE:tunis,residence,residence,1,person_entry,resolved,69,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f93.item
 L1912-00403,PLACE:novale,birthplace,birthplace,1,person_entry,resolved,69,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f93.item
 L1912-00404,L1912-02463,residence,residence,1,person_entry,resolved,69,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f93.item
@@ -2185,8 +2190,9 @@ L1912-00405,PLACE:sainl nazaire,birthplace,birthplace,1,person_entry,resolved,70
 L1912-00406,PLACE:tunis,residence,residence,1,person_entry,resolved,70,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f94.item
 L1912-00410,PLACE:ctignaux,birthplace,birthplace,1,person_entry,resolved,70,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f94.item
 L1912-00411,PLACE:tunis,residence,residence,1,person_entry,resolved,70,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f94.item
-L1912-00415,PLACE:bizerte,residence,residence,1,person_entry,resolved,71,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f95.item
 L1912-00415,PLACE:marseille,birthplace,birthplace,1,person_entry,resolved,71,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f95.item
+L1912-00415b,PLACE:bizerte,residence,residence,1,person_entry,resolved,71,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f95.item
+L1912-00415b,PLACE:bizerte,birthplace,birthplace,1,person_entry,resolved,71,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f95.item
 L1912-00416,PLACE:tunis,residence,residence,1,person_entry,resolved,71,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f95.item
 L1912-00416,PLACE:caslelmoron surlol,birthplace,birthplace,1,person_entry,resolved,71,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f95.item
 L1912-00423,PLACE:tunis,residence,residence,1,person_entry,resolved,72,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f96.item
@@ -2206,8 +2212,11 @@ L1912-00441,PLACE:ordonne pretre en 1832,birthplace,birthplace,1,person_entry,re
 L1912-00442,PLACE:tunis,residence,residence,1,person_entry,resolved,74,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f98.item
 L1912-00442,PLACE:saintjean sur veyle,birthplace,birthplace,1,person_entry,resolved,74,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f98.item
 L1912-00443,PLACE:dijon,birthplace,birthplace,1,person_entry,resolved,74,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f98.item
+L1912-00446b,PLACE:clialons sur marne,birthplace,birthplace,1,person_entry,resolved,75,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f99.item
 L1912-00448,PLACE:tunis,residence,residence,1,person_entry,resolved,75,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f99.item
 L1912-00448,PLACE:tunis,birthplace,birthplace,1,person_entry,resolved,75,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f99.item
+L1912-00448b,PLACE:tunis,residence,residence,1,person_entry,resolved,75,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f99.item
+L1912-00448b,PLACE:nancy,birthplace,birthplace,1,person_entry,resolved,75,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f99.item
 L1912-00449,PLACE:oran,birthplace,birthplace,1,person_entry,resolved,75,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f99.item
 L1912-00452,PLACE:tunis,residence,residence,1,person_entry,resolved,75,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f99.item
 L1912-00452,PLACE:la,birthplace,birthplace,1,person_entry,resolved,75,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f99.item
@@ -2241,6 +2250,8 @@ L1912-00478,PLACE:tunis,residence,residence,1,person_entry,resolved,80,https://g
 L1912-00478,PLACE:tunis,birthplace,birthplace,1,person_entry,resolved,80,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f104.item
 L1912-00479,PLACE:tunis,residence,residence,1,person_entry,resolved,81,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f105.item
 L1912-00479,PLACE:millau,birthplace,birthplace,1,person_entry,resolved,81,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f105.item
+L1912-00479b,L1912-02463,residence,residence,1,person_entry,resolved,81,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f105.item
+L1912-00479b,PLACE:mondruit sur aler,birthplace,birthplace,1,person_entry,resolved,81,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f105.item
 L1912-00481,L1912-02463,residence,residence,1,person_entry,resolved,81,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f105.item
 L1912-00487,PLACE:tunis,residence,residence,1,person_entry,resolved,84,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f108.item
 L1912-00487,PLACE:sainte hlppolyte du fort,birthplace,birthplace,1,person_entry,resolved,84,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f108.item
@@ -2279,6 +2290,8 @@ L1912-00529,PLACE:saintomer,birthplace,birthplace,1,person_entry,resolved,96,htt
 L1912-00531,PLACE:livourne,birthplace,birthplace,1,person_entry,resolved,97,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f121.item
 L1912-00533,PLACE:tunis,residence,residence,1,person_entry,resolved,97,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f121.item
 L1912-00533,PLACE:tunis,birthplace,birthplace,1,person_entry,resolved,97,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f121.item
+L1912-00533b,PLACE:beja,residence,residence,1,person_entry,resolved,97,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f121.item
+L1912-00533b,PLACE:calatatiam,birthplace,birthplace,1,person_entry,resolved,97,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f121.item
 L1912-00534,PLACE:tunis,residence,residence,1,person_entry,resolved,97,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f121.item
 L1912-00534,PLACE:tunis,birthplace,birthplace,1,person_entry,resolved,97,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f121.item
 L1912-00535,L1912-02463,residence,residence,1,person_entry,resolved,97,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f121.item
@@ -2287,6 +2300,8 @@ L1912-00536,PLACE:tunis,birthplace,birthplace,1,person_entry,resolved,97,https:/
 L1912-00537,L1912-02463,residence,residence,1,person_entry,resolved,98,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f122.item
 L1912-00538,PLACE:tunis,residence,residence,1,person_entry,resolved,98,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f122.item
 L1912-00538,PLACE:tunis,birthplace,birthplace,1,person_entry,resolved,98,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f122.item
+L1912-00538b,PLACE:tunis,residence,residence,1,person_entry,resolved,98,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f122.item
+L1912-00538b,PLACE:tunis,birthplace,birthplace,1,person_entry,resolved,98,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f122.item
 L1912-00539,PLACE:tunis,residence,residence,1,person_entry,resolved,98,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f122.item
 L1912-00539,PLACE:tunis,birthplace,birthplace,1,person_entry,resolved,98,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f122.item
 L1912-00540,PLACE:tunis,residence,residence,1,person_entry,resolved,99,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f123.item
@@ -2350,6 +2365,8 @@ L1912-00650,PLACE:tunis,residence,residence,1,person_entry,resolved,115,https://
 L1912-00650,PLACE:londres,birthplace,birthplace,1,person_entry,resolved,115,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f139.item
 L1912-00652,PLACE:tunis,residence,residence,1,person_entry,resolved,116,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f140.item
 L1912-00652,PLACE:cambrai,birthplace,birthplace,1,person_entry,resolved,116,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f140.item
+L1912-00652b,PLACE:tunis,residence,residence,1,person_entry,resolved,116,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f140.item
+L1912-00652b,PLACE:villers cotterets,birthplace,birthplace,1,person_entry,resolved,116,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f140.item
 L1912-00653,L1912-02463,residence,residence,1,person_entry,resolved,116,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f140.item
 L1912-00653,L1912-02463,birthplace,birthplace,1,person_entry,resolved,116,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f140.item
 L1912-00654,L1912-02463,residence,residence,1,person_entry,resolved,116,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f140.item
@@ -2368,6 +2385,7 @@ L1912-00660,PLACE:tunis,residence,residence,1,person_entry,resolved,118,https://
 L1912-00660,PLACE:pressins,birthplace,birthplace,1,person_entry,resolved,118,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f142.item
 L1912-00661,PLACE:tunis,residence,residence,1,person_entry,resolved,118,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f142.item
 L1912-00661,PLACE:bordeaux,birthplace,birthplace,1,person_entry,resolved,118,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f142.item
+L1912-00663b,PLACE:tunis,residence,residence,1,person_entry,resolved,118,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f142.item
 L1912-00665,PLACE:tunis,residence,residence,1,person_entry,resolved,119,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f143.item
 L1912-00665,PLACE:nancy,birthplace,birthplace,1,person_entry,resolved,119,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f143.item
 L1912-00666,PLACE:tunis,residence,residence,1,person_entry,resolved,119,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f143.item
@@ -2383,6 +2401,8 @@ L1912-00671,PLACE:tunis,residence,residence,1,person_entry,resolved,119,https://
 L1912-00671,PLACE:tunis,birthplace,birthplace,1,person_entry,resolved,119,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f143.item
 L1912-00672,L1912-02332,residence,residence,1,person_entry,resolved,120,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f144.item
 L1912-00672,L1912-02332,birthplace,birthplace,1,person_entry,resolved,120,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f144.item
+L1912-00672b,PLACE:tunis,residence,residence,1,person_entry,resolved,120,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f144.item
+L1912-00672b,PLACE:tunis,birthplace,birthplace,1,person_entry,resolved,120,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f144.item
 L1912-00673,PLACE:tunis,residence,residence,1,person_entry,resolved,120,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f144.item
 L1912-00676,L1912-01670,residence,residence,1,person_entry,resolved,120,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f144.item
 L1912-00676,PLACE:chateaulin,birthplace,birthplace,1,person_entry,resolved,120,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f144.item
@@ -2405,15 +2425,22 @@ L1912-00718,PLACE:courcelles,birthplace,birthplace,1,person_entry,resolved,129,h
 L1912-00719,PLACE:tunis,residence,residence,1,person_entry,resolved,129,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f153.item
 L1912-00719,PLACE:sus,birthplace,birthplace,1,person_entry,resolved,129,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f153.item
 L1912-00720,PLACE:avignon,birthplace,birthplace,1,person_entry,resolved,129,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f153.item
+L1912-00721b,PLACE:tunis,residence,residence,1,person_entry,resolved,131,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f155.item
+L1912-00721b,PLACE:charleval,birthplace,birthplace,1,person_entry,resolved,131,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f155.item
 L1912-00731,PLACE:roselo,birthplace,birthplace,1,person_entry,resolved,134,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f158.item
 L1912-00736,L1912-02463,residence,residence,1,person_entry,resolved,135,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f159.item
 L1912-00737,PLACE:tunis,residence,residence,1,person_entry,resolved,136,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f160.item
 L1912-00737,PLACE:cnalancon,birthplace,birthplace,1,person_entry,resolved,136,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f160.item
+L1912-00737b,L1912-02463,residence,residence,1,person_entry,resolved,136,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f160.item
+L1912-00737b,PLACE:nimes,birthplace,birthplace,1,person_entry,resolved,136,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f160.item
 L1912-00739,PLACE:tunis,residence,residence,1,person_entry,resolved,136,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f160.item
 L1912-00739,PLACE:lyon,birthplace,birthplace,1,person_entry,resolved,136,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f160.item
 L1912-00740,PLACE:firminy,birthplace,birthplace,1,person_entry,resolved,136,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f160.item
 L1912-00741,PLACE:tunis,residence,residence,1,person_entry,resolved,136,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f160.item
 L1912-00741,PLACE:paris,birthplace,birthplace,1,person_entry,resolved,136,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f160.item
+L1912-00741b,PLACE:tunis,residence,residence,1,person_entry,resolved,138,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f162.item
+L1912-00741c,PLACE:tunis,residence,residence,1,person_entry,resolved,138,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f162.item
+L1912-00741c,PLACE:beaulieu,birthplace,birthplace,1,person_entry,resolved,138,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f162.item
 L1912-00743,PLACE:tunis,residence,residence,1,person_entry,resolved,138,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f162.item
 L1912-00743,PLACE:philippeville,birthplace,birthplace,1,person_entry,resolved,138,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f162.item
 L1912-00744,PLACE:tunis,residence,residence,1,person_entry,resolved,138,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f162.item
@@ -2424,6 +2451,8 @@ L1912-00747,PLACE:tunis,residence,residence,1,person_entry,resolved,139,https://
 L1912-00747,PLACE:aubenas,birthplace,birthplace,1,person_entry,resolved,139,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f163.item
 L1912-00748,PLACE:tunis,residence,residence,1,person_entry,resolved,139,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f163.item
 L1912-00748,PLACE:corps,birthplace,birthplace,1,person_entry,resolved,139,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f163.item
+L1912-00748b,PLACE:tunis,residence,residence,1,person_entry,resolved,139,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f163.item
+L1912-00748b,PLACE:sparte,birthplace,birthplace,1,person_entry,resolved,139,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f163.item
 L1912-00749,L1912-02463,residence,residence,1,person_entry,resolved,139,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f163.item
 L1912-00749,PLACE:marseille,birthplace,birthplace,1,person_entry,resolved,139,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f163.item
 L1912-00750,PLACE:tunis,residence,residence,1,person_entry,resolved,139,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f163.item
@@ -2444,6 +2473,7 @@ L1912-00767,PLACE:mayres,birthplace,birthplace,1,person_entry,resolved,145,https
 L1912-00768,PLACE:tunis,residence,residence,1,person_entry,resolved,145,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f169.item
 L1912-00768,PLACE:alger,birthplace,birthplace,1,person_entry,resolved,145,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f169.item
 L1912-00770,PLACE:aiguilhe,birthplace,birthplace,1,person_entry,resolved,145,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f169.item
+L1912-00770b,PLACE:paris,birthplace,birthplace,1,person_entry,resolved,145,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f169.item
 L1912-00771,PLACE:tunis,residence,residence,1,person_entry,resolved,145,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f169.item
 L1912-00771,PLACE:saint claude,birthplace,birthplace,1,person_entry,resolved,145,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f169.item
 L1912-00773,PLACE:paris,birthplace,birthplace,1,person_entry,resolved,146,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f170.item
@@ -2465,6 +2495,8 @@ L1912-00787,PLACE:tunis,birthplace,birthplace,1,person_entry,resolved,147,https:
 L1912-00788,PLACE:tunis,residence,residence,1,person_entry,resolved,147,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f171.item
 L1912-00790,PLACE:tunis,residence,residence,1,person_entry,resolved,148,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f172.item
 L1912-00790,PLACE:toulon sur mer,birthplace,birthplace,1,person_entry,resolved,148,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f172.item
+L1912-00791b,PLACE:tunis,residence,residence,1,person_entry,resolved,148,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f172.item
+L1912-00791b,PLACE:marseille,birthplace,birthplace,1,person_entry,resolved,148,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f172.item
 L1912-00792,PLACE:louvigne du desert,birthplace,birthplace,1,person_entry,resolved,148,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f172.item
 L1912-00801,PLACE:tunis,residence,residence,1,person_entry,resolved,149,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f173.item
 L1912-00803,L1912-02529,residence,residence,1,person_entry,resolved,150,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f174.item
@@ -2510,6 +2542,7 @@ L1912-00835,PLACE:crislinacce,birthplace,birthplace,1,person_entry,resolved,155,
 L1912-00836,PLACE:tunis,residence,residence,1,person_entry,resolved,155,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f179.item
 L1912-00837,PLACE:tunis,residence,residence,1,person_entry,resolved,155,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f179.item
 L1912-00837,PLACE:oran,birthplace,birthplace,1,person_entry,resolved,155,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f179.item
+L1912-00837b,PLACE:lorelte,birthplace,birthplace,1,person_entry,resolved,155,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f179.item
 L1912-00838,PLACE:tunis,residence,residence,1,person_entry,resolved,155,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f179.item
 L1912-00838,PLACE:moslaganem,birthplace,birthplace,1,person_entry,resolved,155,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f179.item
 L1912-00839,L1912-02332,residence,residence,1,person_entry,resolved,156,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f180.item
@@ -2547,6 +2580,8 @@ L1912-00936,PLACE:tunis,residence,residence,1,person_entry,resolved,163,https://
 L1912-00936,PLACE:paris,birthplace,birthplace,1,person_entry,resolved,163,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f187.item
 L1912-00940,PLACE:tunis,residence,residence,1,person_entry,resolved,164,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f188.item
 L1912-00940,PLACE:saint vincent de pertignes,birthplace,birthplace,1,person_entry,resolved,164,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f188.item
+L1912-00943b,PLACE:tunis,residence,residence,1,person_entry,resolved,164,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f188.item
+L1912-00943b,PLACE:alger,birthplace,birthplace,1,person_entry,resolved,164,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f188.item
 L1912-00945,L1912-02463,residence,residence,1,person_entry,resolved,165,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f189.item
 L1912-00945,PLACE:carneille,birthplace,birthplace,1,person_entry,resolved,165,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f189.item
 L1912-00946,L1912-00919,residence,residence,1,person_entry,resolved,165,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f189.item
@@ -2661,6 +2696,8 @@ L1912-01108,PLACE:publicisle et proprietaire,birthplace,birthplace,1,person_entr
 L1912-01110,PLACE:tunis,residence,residence,1,person_entry,resolved,184,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f208.item
 L1912-01110,PLACE:jemmapes,birthplace,birthplace,1,person_entry,resolved,184,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f208.item
 L1912-01111,PLACE:tunis,residence,residence,1,person_entry,resolved,184,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f208.item
+L1912-01111b,L1912-02332,residence,residence,1,person_entry,resolved,185,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f209.item
+L1912-01111b,PLACE:ravenne,birthplace,birthplace,1,person_entry,resolved,185,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f209.item
 L1912-01112,PLACE:marseille,birthplace,birthplace,1,person_entry,resolved,185,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f209.item
 L1912-01113,PLACE:tunis,residence,residence,1,person_entry,resolved,185,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f209.item
 L1912-01113,PLACE:coutras,birthplace,birthplace,1,person_entry,resolved,185,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f209.item
@@ -2688,6 +2725,8 @@ L1912-01148,PLACE:croi,birthplace,birthplace,1,person_entry,resolved,189,https:/
 L1912-01149,PLACE:tunis,residence,residence,1,person_entry,resolved,189,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f213.item
 L1912-01149,PLACE:pantin,birthplace,birthplace,1,person_entry,resolved,189,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f213.item
 L1912-01151,PLACE:tunis,residence,residence,1,person_entry,resolved,189,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f213.item
+L1912-01153b,PLACE:tunis,residence,residence,1,person_entry,resolved,190,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f214.item
+L1912-01153b,PLACE:paris,birthplace,birthplace,1,person_entry,resolved,190,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f214.item
 L1912-01154,PLACE:tunis,residence,residence,1,person_entry,resolved,190,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f214.item
 L1912-01154,PLACE:peheto bichisano,birthplace,birthplace,1,person_entry,resolved,190,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f214.item
 L1912-01155,L1912-02463,residence,residence,1,person_entry,resolved,190,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f214.item
@@ -2933,6 +2972,7 @@ L1912-01404,PLACE:nancy,birthplace,birthplace,1,person_entry,resolved,225,https:
 L1912-01406,PLACE:tunis,residence,residence,1,person_entry,resolved,226,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f250.item
 L1912-01406,PLACE:arzew,birthplace,birthplace,1,person_entry,resolved,226,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f250.item
 L1912-01407,PLACE:grenoble,birthplace,birthplace,1,person_entry,resolved,226,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f250.item
+L1912-01408b,L1912-02332,residence,residence,1,person_entry,resolved,226,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f250.item
 L1912-01409,PLACE:alger,birthplace,birthplace,1,person_entry,resolved,226,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f250.item
 L1912-01411,L1912-01487,residence,residence,1,person_entry,resolved,227,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f251.item
 L1912-01411,PLACE:olmitz,birthplace,birthplace,1,person_entry,resolved,227,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f251.item
@@ -2951,6 +2991,8 @@ L1912-01429,PLACE:tunis,birthplace,birthplace,1,person_entry,resolved,230,https:
 L1912-01431,PLACE:tunis,residence,residence,1,person_entry,resolved,231,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f255.item
 L1912-01431,PLACE:paris,birthplace,birthplace,1,person_entry,resolved,231,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f255.item
 L1912-01435,PLACE:tunis,residence,residence,1,person_entry,resolved,232,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f256.item
+L1912-01435b,L1912-02332,residence,residence,1,person_entry,resolved,232,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f256.item
+L1912-01435b,PLACE:boulogne sur mer,birthplace,birthplace,1,person_entry,resolved,232,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f256.item
 L1912-01436,PLACE:strasbourg,birthplace,birthplace,1,person_entry,resolved,232,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f256.item
 L1912-01439,PLACE:pernes,birthplace,birthplace,1,person_entry,resolved,233,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f257.item
 L1912-01443,PLACE:tunis,residence,residence,1,person_entry,resolved,235,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f259.item
@@ -2990,16 +3032,22 @@ L1912-01518,PLACE:tunis,residence,residence,1,person_entry,resolved,250,https://
 L1912-01518,PLACE:tunis,birthplace,birthplace,1,person_entry,resolved,250,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f274.item
 L1912-01519,PLACE:tunis,residence,residence,1,person_entry,resolved,250,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f274.item
 L1912-01519,PLACE:tunis,birthplace,birthplace,1,person_entry,resolved,250,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f274.item
+L1912-01519b,PLACE:tunis,residence,residence,1,person_entry,resolved,250,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f274.item
+L1912-01519b,PLACE:tunis,birthplace,birthplace,1,person_entry,resolved,250,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f274.item
 L1912-01526,PLACE:beja,residence,residence,1,person_entry,resolved,250,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f274.item
 L1912-01526,PLACE:bordeaux,birthplace,birthplace,1,person_entry,resolved,250,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f274.item
 L1912-01527,PLACE:tunis,residence,residence,1,person_entry,resolved,251,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f275.item
 L1912-01540,PLACE:lausanne,birthplace,birthplace,1,person_entry,resolved,253,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f277.item
 L1912-01543,PLACE:tunis,residence,residence,1,person_entry,resolved,253,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f277.item
 L1912-01543,PLACE:alger,birthplace,birthplace,1,person_entry,resolved,253,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f277.item
+L1912-01555b,PLACE:tunis,residence,residence,1,person_entry,resolved,254,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f278.item
+L1912-01555b,PLACE:paris,birthplace,birthplace,1,person_entry,resolved,254,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f278.item
 L1912-01556,PLACE:tunis,residence,residence,1,person_entry,resolved,254,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f278.item
 L1912-01556,PLACE:tunis,birthplace,birthplace,1,person_entry,resolved,254,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f278.item
 L1912-01557,PLACE:tunis,residence,residence,1,person_entry,resolved,254,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f278.item
 L1912-01557,PLACE:lille,birthplace,birthplace,1,person_entry,resolved,254,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f278.item
+L1912-01557b,PLACE:tunis,residence,residence,1,person_entry,resolved,254,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f278.item
+L1912-01557b,PLACE:colayrac,birthplace,birthplace,1,person_entry,resolved,254,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f278.item
 L1912-01558,PLACE:capdenac,birthplace,birthplace,1,person_entry,resolved,254,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f278.item
 L1912-01559,PLACE:bizerte,residence,residence,1,person_entry,resolved,254,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f278.item
 L1912-01559,PLACE:saint pierre de nogaret,birthplace,birthplace,1,person_entry,resolved,254,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f278.item
@@ -3044,17 +3092,22 @@ L1912-01588,PLACE:auxerre,birthplace,birthplace,1,person_entry,resolved,259,http
 L1912-01590,L1912-02457,residence,residence,1,person_entry,resolved,259,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f283.item
 L1912-01590,PLACE:cornac,birthplace,birthplace,1,person_entry,resolved,259,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f283.item
 L1912-01591,PLACE:tunis,residence,residence,1,person_entry,resolved,259,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f283.item
+L1912-01591b,PLACE:libourne,birthplace,birthplace,1,person_entry,resolved,260,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f284.item
 L1912-01592,PLACE:larreule,birthplace,birthplace,1,person_entry,resolved,260,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f284.item
+L1912-01592b,PLACE:tunis,residence,residence,1,person_entry,resolved,260,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f284.item
 L1912-01593,L1912-00919,residence,residence,1,person_entry,resolved,260,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f284.item
 L1912-01593,PLACE:alger,birthplace,birthplace,1,person_entry,resolved,260,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f284.item
 L1912-01594,PLACE:tunis,residence,residence,1,person_entry,resolved,260,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f284.item
 L1912-01594,PLACE:dun sur auron,birthplace,birthplace,1,person_entry,resolved,260,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f284.item
 L1912-01597,PLACE:tunis,residence,residence,1,person_entry,resolved,261,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f285.item
 L1912-01597,PLACE:mulzerville,birthplace,birthplace,1,person_entry,resolved,261,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f285.item
+L1912-01597b,PLACE:verdun,birthplace,birthplace,1,person_entry,resolved,261,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f285.item
 L1912-01598,PLACE:tunis,residence,residence,1,person_entry,resolved,261,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f285.item
 L1912-01598,PLACE:philippeville,birthplace,birthplace,1,person_entry,resolved,261,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f285.item
 L1912-01599,L1912-01487,residence,residence,1,person_entry,resolved,262,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f286.item
 L1912-01599,PLACE:marignana,birthplace,birthplace,1,person_entry,resolved,262,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f286.item
+L1912-01599b,PLACE:tunis,residence,residence,1,person_entry,resolved,262,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f286.item
+L1912-01599b,PLACE:paris,birthplace,birthplace,1,person_entry,resolved,262,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f286.item
 L1912-01600,PLACE:tunis,residence,residence,1,person_entry,resolved,262,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f286.item
 L1912-01600,PLACE:paris,birthplace,birthplace,1,person_entry,resolved,262,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f286.item
 L1912-01601,PLACE:tunis,residence,residence,1,person_entry,resolved,262,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f286.item
@@ -3064,16 +3117,20 @@ L1912-01605,PLACE:samois,birthplace,birthplace,1,person_entry,resolved,263,https
 L1912-01606,PLACE:beja,residence,residence,1,person_entry,resolved,263,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f287.item
 L1912-01607,PLACE:tunis,residence,residence,1,person_entry,resolved,263,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f287.item
 L1912-01607,PLACE:rive de gier,birthplace,birthplace,1,person_entry,resolved,263,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f287.item
+L1912-01607b,PLACE:paris,birthplace,birthplace,1,person_entry,resolved,263,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f287.item
 L1912-01609,L1912-02463,residence,residence,1,person_entry,resolved,264,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f288.item
 L1912-01609,PLACE:azilone,birthplace,birthplace,1,person_entry,resolved,264,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f288.item
 L1912-01610,PLACE:tunis,residence,residence,1,person_entry,resolved,264,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f288.item
 L1912-01610,PLACE:alger,birthplace,birthplace,1,person_entry,resolved,264,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f288.item
 L1912-01611,L1912-02463,residence,residence,1,person_entry,resolved,264,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f288.item
 L1912-01612,L1912-02463,residence,residence,1,person_entry,resolved,264,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f288.item
+L1912-01612b,L1912-01670,residence,residence,1,person_entry,resolved,265,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f289.item
+L1912-01612b,PLACE:turenne,birthplace,birthplace,1,person_entry,resolved,265,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f289.item
 L1912-01613,PLACE:tunis,residence,residence,1,person_entry,resolved,265,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f289.item
 L1912-01613,PLACE:bohoin,birthplace,birthplace,1,person_entry,resolved,265,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f289.item
 L1912-01614,PLACE:mauriac,birthplace,birthplace,1,person_entry,resolved,265,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f289.item
 L1912-01615,PLACE:tunis,residence,residence,1,person_entry,resolved,265,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f289.item
+L1912-01615b,PLACE:quimper,birthplace,birthplace,1,person_entry,resolved,265,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f289.item
 L1912-01616,PLACE:lille,birthplace,birthplace,1,person_entry,resolved,265,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f289.item
 L1912-01617,PLACE:tunis,residence,residence,1,person_entry,resolved,266,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f290.item
 L1912-01617,PLACE:livourne,birthplace,birthplace,1,person_entry,resolved,266,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f290.item
@@ -3107,6 +3164,8 @@ L1912-01639,PLACE:bayonne,birthplace,birthplace,1,person_entry,resolved,269,http
 L1912-01640,PLACE:tunis,residence,residence,1,person_entry,resolved,270,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f294.item
 L1912-01640,PLACE:quimperle,birthplace,birthplace,1,person_entry,resolved,270,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f294.item
 L1912-01644,PLACE:sainte marie,birthplace,birthplace,1,person_entry,resolved,270,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f294.item
+L1912-01644b,PLACE:gabes,residence,residence,1,person_entry,resolved,270,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f294.item
+L1912-01644b,PLACE:vescovato,birthplace,birthplace,1,person_entry,resolved,270,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f294.item
 L1912-01645,L1912-00526,residence,residence,1,person_entry,resolved,270,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f294.item
 L1912-01645,PLACE:parlinello,birthplace,birthplace,1,person_entry,resolved,270,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f294.item
 L1912-01646,L1912-01670,residence,residence,1,person_entry,resolved,271,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f295.item
@@ -3136,6 +3195,8 @@ L1912-01671,PLACE:tunis,residence,residence,1,person_entry,resolved,274,https://
 L1912-01674,PLACE:tunis,residence,residence,1,person_entry,resolved,274,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f298.item
 L1912-01675,PLACE:tunis,residence,residence,1,person_entry,resolved,274,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f298.item
 L1912-01675,PLACE:lalergemenl sainte marie,birthplace,birthplace,1,person_entry,resolved,274,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f298.item
+L1912-01680b,PLACE:tunis,residence,residence,1,person_entry,resolved,275,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f299.item
+L1912-01680b,PLACE:limoges,birthplace,birthplace,1,person_entry,resolved,275,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f299.item
 L1912-01681,PLACE:tunis,residence,residence,1,person_entry,resolved,275,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f299.item
 L1912-01681,PLACE:graulhet,birthplace,birthplace,1,person_entry,resolved,275,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f299.item
 L1912-01682,PLACE:gabes,residence,residence,1,person_entry,resolved,275,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f299.item
@@ -3281,6 +3342,8 @@ L1912-01855,PLACE:tunis,residence,residence,1,person_entry,resolved,297,https://
 L1912-01855,PLACE:bone,birthplace,birthplace,1,person_entry,resolved,297,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f321.item
 L1912-01857,L1912-01290,residence,residence,1,person_entry,resolved,298,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f322.item
 L1912-01857,PLACE:lusignan,birthplace,birthplace,1,person_entry,resolved,298,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f322.item
+L1912-01858b,L1912-01487,residence,residence,1,person_entry,resolved,298,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f322.item
+L1912-01858b,L1912-01487,birthplace,birthplace,1,person_entry,resolved,298,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f322.item
 L1912-01862,PLACE:ghisoni,birthplace,birthplace,1,person_entry,resolved,299,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f323.item
 L1912-01865,PLACE:tunis,residence,residence,1,person_entry,resolved,299,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f323.item
 L1912-01865,PLACE:chissy les macon,birthplace,birthplace,1,person_entry,resolved,299,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f323.item
@@ -3299,6 +3362,8 @@ L1912-01882,PLACE:albi,birthplace,birthplace,1,person_entry,resolved,301,https:/
 L1912-01885,PLACE:tunis,residence,residence,1,person_entry,resolved,301,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f325.item
 L1912-01885,PLACE:tunis,birthplace,birthplace,1,person_entry,resolved,301,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f325.item
 L1912-01892,PLACE:beja,residence,residence,1,person_entry,resolved,302,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f326.item
+L1912-01892b,PLACE:tunis,residence,residence,1,person_entry,resolved,302,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f326.item
+L1912-01892b,PLACE:beauvu is sur malh a,birthplace,birthplace,1,person_entry,resolved,302,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f326.item
 L1912-01893,L1912-01487,residence,residence,1,person_entry,resolved,302,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f326.item
 L1912-01893,PLACE:calacuccia,birthplace,birthplace,1,person_entry,resolved,302,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f326.item
 L1912-01896,L1912-02463,residence,residence,1,person_entry,resolved,303,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f327.item
@@ -3393,6 +3458,7 @@ L1912-02047,PLACE:couhe verac,birthplace,birthplace,1,person_entry,resolved,326,
 L1912-02049,L1912-01206,residence,residence,1,person_entry,resolved,326,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f350.item
 L1912-02053,PLACE:poggio d olella,birthplace,birthplace,1,person_entry,resolved,327,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f351.item
 L1912-02054,PLACE:paris,birthplace,birthplace,1,person_entry,resolved,327,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f351.item
+L1912-02054b,PLACE:bizerte,residence,residence,1,person_entry,resolved,327,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f351.item
 L1912-02056,PLACE:thonon lesbains,birthplace,birthplace,1,person_entry,resolved,328,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f352.item
 L1912-02057,PLACE:putali,birthplace,birthplace,1,person_entry,resolved,328,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f352.item
 L1912-02058,PLACE:tunis,residence,residence,1,person_entry,resolved,328,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f352.item
@@ -3450,6 +3516,8 @@ L1912-02128,PLACE:clermont vherault,birthplace,birthplace,1,person_entry,resolve
 L1912-02129,PLACE:beja,residence,residence,1,person_entry,resolved,338,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f362.item
 L1912-02130,PLACE:tunis,residence,residence,1,person_entry,resolved,338,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f362.item
 L1912-02130,PLACE:paris,birthplace,birthplace,1,person_entry,resolved,338,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f362.item
+L1912-02130b,PLACE:tunis,residence,residence,1,person_entry,resolved,339,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f363.item
+L1912-02130b,PLACE:chaumont la ville,birthplace,birthplace,1,person_entry,resolved,339,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f363.item
 L1912-02131,PLACE:marseille,birthplace,birthplace,1,person_entry,resolved,339,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f363.item
 L1912-02132,PLACE:ingenieur civil,birthplace,birthplace,1,person_entry,resolved,339,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f363.item
 L1912-02135,PLACE:geneve,birthplace,birthplace,1,person_entry,resolved,339,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f363.item
@@ -3491,6 +3559,8 @@ L1912-02172,L1912-02332,residence,residence,1,person_entry,resolved,345,https://
 L1912-02172,PLACE:digne,birthplace,birthplace,1,person_entry,resolved,345,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f369.item
 L1912-02175,PLACE:tunis,residence,residence,1,person_entry,resolved,345,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f369.item
 L1912-02175,PLACE:pomarel,birthplace,birthplace,1,person_entry,resolved,345,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f369.item
+L1912-02175b,PLACE:tunis,residence,residence,1,person_entry,resolved,345,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f369.item
+L1912-02175b,PLACE:paris,birthplace,birthplace,1,person_entry,resolved,345,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f369.item
 L1912-02176,L1912-01146,residence,residence,1,person_entry,resolved,345,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f369.item
 L1912-02176,PLACE:saint denis,birthplace,birthplace,1,person_entry,resolved,345,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f369.item
 L1912-02177,PLACE:tunis,residence,residence,1,person_entry,resolved,345,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f369.item
@@ -3594,6 +3664,10 @@ L1912-02275,PLACE:limouziniere,birthplace,birthplace,1,person_entry,resolved,360
 L1912-02281,L1912-01824,residence,residence,1,person_entry,resolved,360,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f384.item
 L1912-02281,PLACE:pise,birthplace,birthplace,1,person_entry,resolved,360,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f384.item
 L1912-02282,PLACE:piso,birthplace,birthplace,1,person_entry,resolved,360,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f384.item
+L1912-02282b,PLACE:tunis,residence,residence,1,person_entry,resolved,361,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f385.item
+L1912-02282b,PLACE:tunis,birthplace,birthplace,1,person_entry,resolved,361,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f385.item
+L1912-02282c,L1912-01670,residence,residence,1,person_entry,resolved,361,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f385.item
+L1912-02282c,L1912-01670,birthplace,birthplace,1,person_entry,resolved,361,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f385.item
 L1912-02283,L1912-02463,residence,residence,1,person_entry,resolved,361,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f385.item
 L1912-02284,L1912-02463,residence,residence,1,person_entry,resolved,361,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f385.item
 L1912-02284,PLACE:palma de majorque,birthplace,birthplace,1,person_entry,resolved,361,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f385.item
@@ -3636,6 +3710,8 @@ L1912-02335,L1912-02463,residence,residence,1,person_entry,resolved,369,https://
 L1912-02335,L1912-02463,birthplace,birthplace,1,person_entry,resolved,369,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f393.item
 L1912-02336,PLACE:tunis,residence,residence,1,person_entry,resolved,369,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f393.item
 L1912-02336,PLACE:lezay,birthplace,birthplace,1,person_entry,resolved,369,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f393.item
+L1912-02336b,PLACE:tunis,residence,residence,1,person_entry,resolved,369,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f393.item
+L1912-02336b,PLACE:brie omle robert,birthplace,birthplace,1,person_entry,resolved,369,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f393.item
 L1912-02337,PLACE:tunis,residence,residence,1,person_entry,resolved,369,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f393.item
 L1912-02337,PLACE:brest,birthplace,birthplace,1,person_entry,resolved,369,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f393.item
 L1912-02338,PLACE:saint denis,birthplace,birthplace,1,person_entry,resolved,369,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f393.item
@@ -3660,6 +3736,8 @@ L1912-02445,PLACE:marseille,birthplace,birthplace,1,person_entry,resolved,381,ht
 L1912-02452,PLACE:tunis,residence,residence,1,person_entry,resolved,381,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f405.item
 L1912-02453,PLACE:soti crezancy,birthplace,birthplace,1,person_entry,resolved,381,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f405.item
 L1912-02454,L1912-01146,residence,residence,1,person_entry,resolved,382,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f406.item
+L1912-02454b,PLACE:tunis,residence,residence,1,person_entry,resolved,382,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f406.item
+L1912-02454b,PLACE:tunis,birthplace,birthplace,1,person_entry,resolved,382,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f406.item
 L1912-02461,PLACE:tunis,residence,residence,1,person_entry,resolved,383,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f407.item
 L1912-02461,PLACE:paris,birthplace,birthplace,1,person_entry,resolved,383,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f407.item
 L1912-02462,PLACE:tunis,residence,residence,1,person_entry,resolved,383,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f407.item
@@ -3721,6 +3799,7 @@ L1912-02543,L1912-00526,residence,residence,1,person_entry,resolved,394,https://
 L1912-02545,PLACE:tunis,residence,residence,1,person_entry,resolved,395,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f419.item
 L1912-02547,L1912-02457,residence,residence,1,person_entry,resolved,395,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f419.item
 L1912-02547,PLACE:meaux,birthplace,birthplace,1,person_entry,resolved,395,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f419.item
+L1912-02549b,PLACE:tunis,residence,residence,1,person_entry,resolved,396,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f420.item
 L1912-02550,L1912-01312,residence,residence,1,person_entry,resolved,396,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f420.item
 L1912-02550,PLACE:alcer,birthplace,birthplace,1,person_entry,resolved,396,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f420.item
 L1912-02551,PLACE:albi,birthplace,birthplace,1,person_entry,resolved,396,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f420.item
@@ -3750,6 +3829,7 @@ L1912-02596,PLACE:tunis,residence,residence,1,person_entry,resolved,408,https://
 L1912-02596,PLACE:castelvetrano,birthplace,birthplace,1,person_entry,resolved,408,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f432.item
 L1912-02597,PLACE:livoume,birthplace,birthplace,1,person_entry,resolved,408,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f432.item
 L1912-02599,PLACE:tunis,residence,residence,1,person_entry,resolved,408,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f432.item
+L1912-02599b,PLACE:tunis,residence,residence,1,person_entry,resolved,408,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f432.item
 L1912-02600,L1912-01487,residence,residence,1,person_entry,resolved,408,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f432.item
 L1912-02600,PLACE:grenoble,birthplace,birthplace,1,person_entry,resolved,408,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f432.item
 L1912-02602,PLACE:tunis,residence,residence,1,person_entry,resolved,409,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f433.item
@@ -3805,6 +3885,9 @@ L1912-02646,L1912-02332,residence,residence,1,person_entry,resolved,423,https://
 L1912-02646,PLACE:alger,birthplace,birthplace,1,person_entry,resolved,423,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f447.item
 L1912-02647,PLACE:tunis,residence,residence,1,person_entry,resolved,423,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f447.item
 L1912-02647,PLACE:anc,birthplace,birthplace,1,person_entry,resolved,423,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f447.item
+L1912-02647b,PLACE:tunis,residence,residence,1,person_entry,resolved,423,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f447.item
+L1912-02647c,PLACE:gabes,residence,residence,1,person_entry,resolved,423,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f447.item
+L1912-02647c,PLACE:arles,birthplace,birthplace,1,person_entry,resolved,423,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f447.item
 L1912-02649,PLACE:tunis,residence,residence,1,person_entry,resolved,423,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f447.item
 L1912-02649,PLACE:tunis,birthplace,birthplace,1,person_entry,resolved,423,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f447.item
 L1912-02650,L1912-02332,residence,residence,1,person_entry,resolved,424,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f448.item
@@ -3862,6 +3945,7 @@ L1912-02688,PLACE:verdun sur meuse,birthplace,birthplace,1,person_entry,resolved
 L1912-02689,PLACE:tunis,residence,residence,1,person_entry,resolved,431,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f455.item
 L1912-02689,PLACE:cbaumonl,birthplace,birthplace,1,person_entry,resolved,431,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f455.item
 L1912-02690,PLACE:senlis,birthplace,birthplace,1,person_entry,resolved,431,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f455.item
+L1912-02690b,PLACE:buhl,birthplace,birthplace,1,person_entry,resolved,431,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f455.item
 L1912-02700,L1912-01700,residence,residence,1,person_entry,resolved,433,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f457.item
 L1912-02701,L1912-01700,residence,residence,1,person_entry,resolved,433,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f457.item
 L1912-02701,L1912-01700,birthplace,birthplace,1,person_entry,resolved,433,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f457.item
@@ -3886,10 +3970,15 @@ L1912-02743,PLACE:tunis,residence,residence,1,person_entry,resolved,437,https://
 L1912-02743,PLACE:beziers,birthplace,birthplace,1,person_entry,resolved,437,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f461.item
 L1912-02744,PLACE:tunis,residence,residence,1,person_entry,resolved,437,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f461.item
 L1912-02744,PLACE:tunis,birthplace,birthplace,1,person_entry,resolved,437,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f461.item
+L1912-02744b,PLACE:tunis,residence,residence,1,person_entry,resolved,437,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f461.item
+L1912-02744b,PLACE:bienne,birthplace,birthplace,1,person_entry,resolved,437,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f461.item
+L1912-02744c,PLACE:jbone,birthplace,birthplace,1,person_entry,resolved,437,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f461.item
 L1912-02745,L1912-01824,residence,residence,1,person_entry,resolved,437,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f461.item
 L1912-02746,PLACE:tunis,residence,residence,1,person_entry,resolved,438,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f462.item
 L1912-02747,PLACE:tunis,residence,residence,1,person_entry,resolved,438,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f462.item
 L1912-02747,PLACE:guerel,birthplace,birthplace,1,person_entry,resolved,438,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f462.item
+L1912-02747b,L1912-01824,residence,residence,1,person_entry,resolved,438,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f462.item
+L1912-02747b,L1912-01824,birthplace,birthplace,1,person_entry,resolved,438,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f462.item
 L1912-02748,PLACE:tunis,residence,residence,1,person_entry,resolved,438,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f462.item
 L1912-02749,PLACE:tunis,residence,residence,1,person_entry,resolved,439,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f463.item
 L1912-02749,PLACE:ajaccio,birthplace,birthplace,1,person_entry,resolved,439,https://gallica.bnf.fr/ark:/12148/bpt6k5505300s/f463.item

@@ -81,6 +81,8 @@ import pathlib
 import re
 import unicodedata
 
+import segment_entries as se
+
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 PROCESSED = ROOT / "data" / "processed"
 
@@ -118,19 +120,17 @@ INSTITUTIONAL_EVIDENCE = {
 }
 NAME_EVIDENCE = {"nasab_particle", "honorific"}
 
-# The volume is set in two columns and the OCR occasionally runs one notice into
-# the next, so a handful of entries carry two or three people's text under the
-# first one's name. A notice header is `SURNAME (Forenames),` -- more than one of
-# them in a single entry means the entry is merged. 34 of 2,779 entries are, and
-# the effect on this variable is specific: the trailing text brings the *next*
-# person's institutions with it, so a French printer inherits a chair at the
-# college Sadiki and codes as a Tunisian Muslim at high confidence. Birthplace
-# and name evidence come from the opening line and are unaffected; institutional
-# evidence from a merged entry is not trusted here.
-NOTICE_HEADER = re.compile(
-    r"\b[A-ZÀ-ÜŒ][A-ZÀ-ÜŒ'’\-]{3,}(?:[ \-][A-ZÀ-ÜŒ'’\-]{2,}){0,2}"
-    r"\s*\([A-ZÀ-Ü][a-zà-üA-ZÀ-Ü'’\-.]{2,}[^)]{0,30}\)\s*[,.]"
-)
+# The volume is set in two columns and the OCR loses a first-line indent often
+# enough to matter, which used to leave a handful of entries carrying two or
+# three people's text under the first one's name. The effect on this variable is
+# specific: the trailing text brings the *next* person's institutions with it,
+# so a French printer inherits a chair at the college Sadiki and codes as a
+# Tunisian Muslim at high confidence. Segmentation now cuts those entries apart
+# at the seam, and no entry in the volume carries two notice headers any more --
+# this guard stands as a tripwire, not as a working rule. A test asserts the
+# count is zero, so a regression fails loudly rather than quietly re-coding
+# people. The pattern itself lives with the rule that uses it.
+NOTICE_HEADER = re.compile(r"\b" + se.NOTICE_HEADER)
 
 POSITION = {
     "european": "colonist",

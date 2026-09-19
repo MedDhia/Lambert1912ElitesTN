@@ -18,22 +18,22 @@ Unit of observation, by table:
 
 | file | one row is | n |
 |---|---|---|
-| `entries.csv` | a dictionary entry | 2,779 |
-| `persons.csv` | a person with a biographical notice | 1,346 |
-| `places.csv` | a locality with a notice | 741 |
+| `entries.csv` | a dictionary entry | 2,838 |
+| `persons.csv` | a person with a biographical notice | 1,403 |
+| `places.csv` | a locality with a notice | 742 |
 | `organizations.csv` | an association or an organ of the Protectorate, with a notice | 178 |
-| `decorations.csv` | a person × an honour | 1,842 |
-| `career_positions.csv` | a person × a post in their career sequence | 1,464 |
-| `education.csv` | a person × an educational institution | 1,169 |
-| `mentions.csv` | a person named inside someone else's entry | 1,099 |
+| `decorations.csv` | a person × an honour | 1,883 |
+| `career_positions.csv` | a person × a post in their career sequence | 1,474 |
+| `education.csv` | a person × an educational institution | 1,195 |
+| `mentions.csv` | a person named inside someone else's entry | 1,090 |
 | `edges_person_organisation.csv` | an affiliation tie | 1,760 |
-| `edges_person_place.csv` | a person-to-place tie | 2,168 |
-| `edges_person_person.csv` | a co-membership tie | 5,381 |
-| `network_nodes.csv` | a node in the combined network | 4,055 |
-| `network_edges.csv` | an edge in the combined network | 3,928 |
-| `person_communities.csv` | a person × their coded community | 1,346 |
-| `person_gender.csv` | a person × their coded gender | 1,346 |
-| `person_positionality.csv` | a person × their side of the colonial line | 1,346 |
+| `edges_person_place.csv` | a person-to-place tie | 2,257 |
+| `edges_person_person.csv` | a co-membership tie | 5,087 |
+| `network_nodes.csv` | a node in the combined network | 4,119 |
+| `network_edges.csv` | an edge in the combined network | 4,017 |
+| `person_communities.csv` | a person × their coded community | 1,403 |
+| `person_gender.csv` | a person × their coded gender | 1,403 |
+| `person_positionality.csv` | a person × their side of the colonial line | 1,403 |
 
 `data/processed/source_manifest.json` sits alongside them: the ark, the number
 of IIIF views, and how many carry an ALTO OCR layer. It is written by the fetch
@@ -49,17 +49,17 @@ re-code anything differently — the full text of each entry is here.
 
 | variable | type | definition |
 |---|---|---|
-| `entry_id` | string | Stable key, `L1912-#####`, assigned in reading order. Used as the join key everywhere and as the node id in the network files. |
+| `entry_id` | string | Stable key, `L1912-#####`, assigned in reading order. Used as the join key everywhere and as the node id in the network files. A notice recovered from an entry that had swallowed it takes its parent's id with a letter suffix — `L1912-00741b` — rather than a number of its own, so that ids already published keep pointing at the same person. Strip the suffix to get the entry it was printed under. |
 | `headword` | string | The headword as printed, OCR errors included. |
 | `sort_key` | string | Headword normalised for alphabetical comparison (accents and punctuation stripped, upper-cased). |
 | `entry_type` | categorical | `person`, `place`, `organisation`, `state_body`, `topic`, `cross_reference`. `organisation` is a voluntary association; `state_body` is an organ of the Protectorate — a directorate, office or service. The two are kept apart because Lambert's preface counts only the former, and because a directorship is an appointment rather than a joined membership. See the classification rules below. |
-| `classification_rule` | categorical | Which rule assigned `entry_type`. Lets you filter to the high-confidence rules (`administrative_unit`, `forenames_and_life_dates`, `organisational_template`) or audit the weaker ones. Every type now has at least one positive rule, `topic` included, so `residual` means only that no rule matched (108 rows). |
+| `classification_rule` | categorical | Which rule assigned `entry_type`. Lets you filter to the high-confidence rules (`administrative_unit`, `forenames_and_life_dates`, `organisational_template`) or audit the weaker ones. Every type now has at least one positive rule, `topic` included, so `residual` means only that no rule matched (109 rows). |
 | `headword_is_fragment` | 0/1 | The printed headword is a sentence fragment rather than a heading — a gloss whose headword ran on (`Djebel signifie montagne`) or the tail of the preceding entry broken out on its own (`Carthage était encore puissante`). 19 rows, all of them `topic`. **A floor, not an inventory**: it fires on a conjugated verb or a leading digit, and headwords broken in other ways are not caught. Exclude these rows from any count of entries. |
-| `segmentation_rule` | categorical | `anchor_surname` (a capitalised personal headword in the monotone alphabetical scaffold) or `alphabetical_window` (accepted because its sort key fell between the surrounding anchors). |
+| `segmentation_rule` | categorical | `anchor_surname` (a capitalised personal headword in the monotone alphabetical scaffold), `alphabetical_window` (accepted because its sort key fell between the surrounding anchors), or `recovered_notice` (cut out of the entry above it, whose first-line indent the OCR lost — 59 rows). |
 | `page_first`, `page_last` | string | Printed page numbers the entry spans. Roman numerals for front matter. |
 | `view_first`, `view_last` | integer | Gallica IIIF view numbers (= printed page + 24 in the dictionary proper). |
 | `n_chars` | integer | Length of the entry text. A serviceable measure of how much attention Lambert gave the subject. |
-| `n_paragraphs` | integer | Paragraphs merged into this entry. Values above ~4 flag entries where segmentation may have absorbed a following notice. |
+| `n_paragraphs` | integer | Paragraphs merged into this entry. Values above ~4 flag entries where segmentation may have absorbed a following notice — of an association or a locality, since a following *biographical* notice is now cut out and given its own row. |
 | `n_portraits` | integer | Portrait photogravures printed inside the entry. |
 | `ocr_confidence` | float 0–1 | Mean per-word confidence reported by the BnF OCR for this entry's words. Volume mean 0.926. |
 | `page_url` | string | Gallica page viewer for `view_first`. |
@@ -472,13 +472,18 @@ of those placed by birthplace — a gap that has nothing to do with the colonial
 order. Hold the basis constant, as fig. 55 shows and `_positionality.matched()`
 does.
 
-**Two known limits.** 37% of the volume is unplaced, and asymmetrically: the
+**One known limit.** 36% of the volume is unplaced, and asymmetrically: the
 commonest reason is a Tunisian birthplace with no communal marker, which
-withholds more natives than colonists, so the native count is a floor. And 34
-entries of 2,779 are merged — the two-column OCR ran one notice into the next —
-which carries the following person's institutions into the first person's row;
-where such a row was placed institutionally it is reset to `unknown` and flagged
-`merged_entry` (16 people).
+withholds more natives than colonists, so the native count is a floor.
+
+A second limit has been removed rather than documented. Merged entries — where
+the two-column OCR ran one notice into the next — used to carry the following
+person's institutions into the first person's row, so that a French printer
+could inherit a chair at the collège Sadiki and code as a Tunisian Muslim at
+high confidence. Sixteen rows were reset to `unknown` on that account. Those
+entries are now cut apart at the seam, no entry in the volume carries two
+notices, and the `merged_entry` flag fires on nobody. The rule is kept as a
+tripwire, and a test asserts the count stays at zero.
 
 ### person_gender.csv
 
