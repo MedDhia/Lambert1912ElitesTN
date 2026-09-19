@@ -84,6 +84,20 @@ property a dictionary guarantees, alphabetical order:
 4. **Fallback shapes.** Where the indent is lost, two headword shapes still
    trigger a break: a capitalised surname followed by parenthesised forenames,
    and a place name followed by the administrative formula.
+5. **Merged notices.** Rules 1-4 all decide from the *indent* that opens a
+   paragraph, so when the OCR loses one the notice is read as a continuation of
+   the one above. A last pass reads the assembled entry's own line records and
+   cuts it at any line that opens a biographical notice — a surname in capitals,
+   forenames in a parenthesis, a comma — allowing for the particle and the
+   inkblot a line can carry in front of the surname (`LE BOEUF (Henri-Jules),`,
+   `D ALLEMAGNE (Henri),`). It runs on assembled entries rather than on
+   candidate paragraphs for one reason: numbering the 59 recovered notices in
+   reading order would renumber every entry after the first seam, and a
+   renumbered `entry_id` still looks valid, so a reference published against an
+   earlier build would resolve silently to the wrong person. Each recovered
+   notice takes its parent's id with a letter suffix instead, and the parent
+   loses only text that was never its own — verified: every pre-existing entry's
+   new text is a prefix of its old one.
 
 Comparisons use six-character truncated sort keys, which absorb OCR noise deep
 inside long headwords, and four characters for the upper bound, which tolerates
@@ -187,11 +201,11 @@ coverage:
   coverage substantially and would encode the coder's assumptions rather than
   the volume's evidence. `tests/test_dataset.py` asserts that no rule does it.
 - **Silence stays silence.** A Tunisia-born person with no other marker is
-  flagged and left `unknown`, not assigned. 525 of 1,346 notices are uncoded for
-  community and 177 for gender, and that is the honest number rather than a
+  flagged and left `unknown`, not assigned. 550 of 1,403 notices are uncoded for
+  community and 182 for gender, and that is the honest number rather than a
   failure to try harder.
 
-The results are 821 of 1,346 coded for community and 1,169 for gender, of whom
+The results are 853 of 1,403 coded for community and 1,221 for gender, of whom
 thirteen are women. Thirteen is small enough that most comparisons on gender are
 not estimable, which `compare_populations.py` says rather than working around.
 
@@ -222,9 +236,15 @@ on the data.
 
 ## 8. What is not solved
 
-- **Merged entries.** Where the first-line indent is lost to OCR and no fallback
-  shape matches, a notice is absorbed into the one above. This is the main reason
-  the place and organisation counts fall a little short of Lambert's own.
+- **Merged entries, for everything that is not a person.** The pass described
+  above cuts biographical notices out of the entries that swallowed them, and no
+  entry in the volume now carries two of them. It cannot do the same for an
+  association or a locality: a biographical notice is recoverable because it
+  opens to a form nothing else in the volume uses, and an association's headword
+  is ordinary prose. This is the main reason the organisation count falls short
+  of Lambert's own, and at least one such notice is demonstrably still buried —
+  the officer list of the Conseil de Perfectionnement du Collège Sadiki sits
+  inside the entry for a physician named Conseil.
 - **Name variants.** People are matched by exact or one-character surname keys.
   Two spellings of the same person remain two nodes.
 - **Undated ties.** Neither Lambert nor this pipeline dates most affiliations.

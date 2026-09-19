@@ -20,28 +20,28 @@ service; no page is scraped from the reading interface.
 
 | | n |
 |---|---|
-| Dictionary entries segmented | 2,779 |
-| Biographical notices (persons) | 1,346 |
-| Localities | 741 |
+| Dictionary entries segmented | 2,838 |
+| Biographical notices (persons) | 1,403 |
+| Localities | 742 |
 | Voluntary associations | 159 |
 | Organs of the Protectorate (directorates, offices, services) | 19 |
-| Arabic/Tunisian terms and other topics | 443 |
+| Arabic/Tunisian terms and other topics | 444 |
 | Cross-references | 71 |
-| Honours coded (person × order) | 1,842 |
-| Career posts | 1,464 |
-| Educational institutions attended | 1,169 |
+| Honours coded (person × order) | 1,883 |
+| Career posts | 1,474 |
+| Educational institutions attended | 1,195 |
 | Affiliation ties (person → organisation) | 1,760 |
-| Person → place ties (birth, residence, property) | 2,168 |
-| Network nodes / edges | 4,055 / 3,928 |
-| Persons with a coded community | 821 of 1,346 |
-| Persons placed as colonist or native | 850 of 1,346 (720 / 130) |
-| Persons with a coded gender | 1,169 of 1,346 (13 women) |
-| Person nodes with network measures | 1,142 (567 with a notice) |
+| Person → place ties (birth, residence, property) | 2,257 |
+| Network nodes / edges | 4,119 / 4,017 |
+| Persons with a coded community | 853 of 1,403 |
+| Persons placed as colonist or native | 899 of 1,403 (755 / 144) |
+| Persons with a coded gender | 1,221 of 1,403 (13 women) |
+| Person nodes with network measures | 1,143 (589 with a notice) |
 
 Lambert's preface states his own totals — "more than 1,300" biographies, "more
 than 750" localities, "more than 175" societies, 420 portraits. The pipeline
 never sees those figures, so they serve as an independent check: it recovers
-104%, 99%, 91% and 100% of them. The association shortfall is real and is not
+108%, 99%, 91% and 100% of them. The association shortfall is real and is not
 smoothed over — some notices are absorbed into the entry above when OCR loses
 the first-line indent, so that table is high-precision but incomplete. The
 organs of the Protectorate are counted separately, as `state_body`, because
@@ -67,8 +67,8 @@ makes it usable for questions such as:
 - **State recognition as a resource.** Two honours systems operate side by side:
   the French Légion d'honneur and Palmes académiques, and the Bey's Nichan
   Iftikhar. Who accumulates which, and in what grade, is a direct measure of
-  how each authority distributed status — and 726 of 1,346 people carry a
-  beylical honour against 182 with the Légion d'honneur.
+  how each authority distributed status — and 750 of 1,403 people carry a
+  beylical honour against 186 with the Légion d'honneur.
 - **Associational life as social structure.** The affiliation network links
   people to mutual-aid societies, chambers of commerce and agriculture, learned
   societies, sporting clubs, masonic lodges, and national-community associations
@@ -114,17 +114,27 @@ the limitations section of the validation report before treating any count as a
 population quantity — the dataset is evidence about a colonial elite's
 self-representation, and is most defensible when used as such.
 
-Nor is the transcription perfect. The volume is set in two columns and the OCR
-occasionally runs one notice into the next: 34 entries of 2,779 still carry two
-or three people's text under the first one's name, burying about 38 notices, so
-attributes read out of the tail of an entry can belong to the following person.
-The effect is small and detectable — a notice header is a recognisable string —
-but it is real. Anything derived from the free text of a long entry deserves a
-glance at the page.
+Nor is the transcription perfect. The volume is set in two columns, and where
+the OCR loses a notice's first-line indent the notice is read as a continuation
+of the one above it — which used to bury the people in the tail and hand their
+honours and addresses to the person above. Segmentation cuts those entries apart
+now, at the line where the next notice starts, and recovers 59 people; no entry
+in the volume carries two biographical notices any more, and a test holds it
+there. A recovered notice keeps its parent's id with a letter suffix
+(`L1912-00741b`) rather than taking a number of its own, so no id published
+against an earlier build has been repointed.
+
+What the same failure does to *organisation* and *place* notices is not fixed. A
+biographical notice is recoverable because it opens to a form nothing else uses —
+a surname in capitals, forenames in a parenthesis; an association's headword is
+ordinary prose and offers nothing comparable to cut on. At least one such notice
+is still buried: the officer list of the Conseil de Perfectionnement du Collège
+Sadiki sits inside the entry for a Tunis physician named Conseil. Anything
+derived from the free text of a long entry deserves a glance at the page.
 
 `topic` also used to be where unmatched entries went, and it hid real ones. It
 now has rules of its own, so `residual` means only what it says: 108 entries of
-2,779, down from 481. Naming the rules turned up 14 biographical notices whose
+2,838, down from 481. Naming the rules turned up 14 biographical notices whose
 surname the OCR had run together with the forenames behind it (`GHEZ jeune`,
 `BOULANGER Georges-Ernest-Jean-Alarie`) or whose birth year it had mangled past
 recognition (`AZEDINEBEY. 1SS2` is 1882) — two of them women, which takes the
@@ -283,7 +293,7 @@ recorded per row (`segmentation_rule`, `classification_rule`) rather than
 discarded, so the dataset can be audited and re-coded rather than taken on
 trust.
 
-`make test` runs 139 checks in seven files: the parsing rules are pinned to the
+`make test` runs 147 checks in seven files: the parsing rules are pinned to the
 OCR strings that once broke them, the committed tables are checked for joins and
 documented value domains, the counts are held against Lambert's own preface
 figures, the derived measures are checked against the edge lists they come from,

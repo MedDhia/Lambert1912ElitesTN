@@ -9,12 +9,12 @@ as printed membership rolls rather than committees.
 
 | Attribute | people | ties | groups | r | null r | sd | p | E-I |
 |---|---|---|---|---|---|---|---|---|
-| Positionality (colonist / native) | 279 | 938 | 2 | +0.343 | -0.008 | 0.029 | 0.0005 | -0.721 |
-| Community (European / Tunisian) | 275 | 968 | 2 | +0.286 | -0.008 | 0.029 | 0.0005 | -0.653 |
-| Community (six groups) | 275 | 968 | 6 | +0.239 | -0.008 | 0.018 | 0.0005 | -0.260 |
-| Occupation sector | 335 | 1434 | 17 | +0.036 | -0.008 | 0.007 | 0.0005 | +0.728 |
-| Holds any honour | 414 | 1999 | 2 | +0.006 | -0.007 | 0.019 | 0.2129 | -0.419 |
-| Birth cohort | 358 | 1665 | 9 | +0.001 | -0.008 | 0.012 | 0.1999 | +0.470 |
+| Community (European / Tunisian) | 282 | 1004 | 2 | +0.319 | -0.008 | 0.028 | 0.0005 | -0.665 |
+| Positionality (colonist / native) | 296 | 1058 | 2 | +0.315 | -0.008 | 0.028 | 0.0005 | -0.673 |
+| Community (six groups) | 282 | 1004 | 6 | +0.251 | -0.009 | 0.017 | 0.0005 | -0.251 |
+| Occupation sector | 346 | 1466 | 17 | +0.040 | -0.008 | 0.007 | 0.0005 | +0.727 |
+| Holds any honour | 427 | 2053 | 2 | +0.012 | -0.006 | 0.019 | 0.1624 | -0.392 |
+| Birth cohort | 367 | 1677 | 9 | -0.001 | -0.007 | 0.012 | 0.2884 | +0.453 |
 
 The colonial and communal attributes sort the network; occupation barely
 does, and birth cohort and honours do not at all. Homophily here is
@@ -27,33 +27,33 @@ the majority is not flattered by its size.
 
 | Attribute | group | Coleman |
 |---|---|---|
-| Positionality (colonist / native) | colonist | +0.558 |
-| Positionality (colonist / native) | native | +0.299 |
-| Community (European / Tunisian) | european | +0.496 |
-| Community (European / Tunisian) | tunisian | +0.236 |
-| Community (six groups) | european_french | +0.331 |
-| Community (six groups) | european_italian | +0.330 |
-| Community (six groups) | tunisian_muslim | +0.270 |
-| Community (six groups) | tunisian_jewish | +0.220 |
-| Community (six groups) | european_maltese | +0.161 |
-| Community (six groups) | european_other | +0.006 |
+| Community (European / Tunisian) | european | +0.510 |
+| Community (European / Tunisian) | tunisian | +0.275 |
+| Positionality (colonist / native) | colonist | +0.500 |
+| Positionality (colonist / native) | native | +0.274 |
+| Community (six groups) | european_italian | +0.328 |
+| Community (six groups) | european_french | +0.325 |
+| Community (six groups) | tunisian_muslim | +0.322 |
+| Community (six groups) | tunisian_jewish | +0.211 |
+| Community (six groups) | european_maltese | +0.137 |
+| Community (six groups) | european_other | +0.001 |
 
 ## 3. Mixing across the colonial line
 
 | pair | observed | expected from group sizes alone |
 |---|---|---|
-| colonist – colonist | 80.9% | 67.4% |
-| colonist – native | 14.0% | 29.4% |
-| native – native | 5.1% | 3.2% |
+| colonist – colonist | 78.0% | 65.7% |
+| colonist – native | 16.4% | 30.7% |
+| native – native | 5.7% | 3.6% |
 
 ## 4. Robustness on the colonist / native split
 
 | check | statistic | observed | null | sd | p |
 |---|---|---|---|---|---|
-| Every body | assortativity r | +0.343 | -0.008 | 0.029 | 0.0005 |
-| Community-marked bodies removed | assortativity r | +0.281 | -0.010 | 0.030 | 0.0005 |
-| Labels shuffled within degree quartile | assortativity r | +0.343 | +0.016 | 0.037 | 0.0005 |
-| Every body weighted equally | within-body same-label share | +0.855 | +0.705 | 0.027 | 0.0005 |
+| Every body | assortativity r | +0.315 | -0.008 | 0.028 | 0.0005 |
+| Community-marked bodies removed | assortativity r | +0.263 | -0.008 | 0.030 | 0.0005 |
+| Labels shuffled within degree quartile | assortativity r | +0.315 | +0.041 | 0.036 | 0.0005 |
+| Every body weighted equally | within-body same-label share | +0.844 | +0.691 | 0.027 | 0.0005 |
 
 Removing the community-marked bodies is the check that matters: those are
 the bodies the community coding reads as evidence, so a person placed by
@@ -64,12 +64,12 @@ by about a sixth and survives.
 
 | body | members | change in r when dropped |
 |---|---|---|
-| Cercle Tunisien | 9 | -0.0740 |
-| Conférence Consultative | 34 | +0.0292 |
-| Institut de Carthage et la Société de Géographie commerciale de Paris | 10 | +0.0238 |
-| Ligue française de l'Enseignement | 31 | -0.0202 |
-| Institut de Carthage | 11 | +0.0190 |
-| Mutualité maternelle Israélite | 5 | -0.0169 |
+| Cercle Tunisien | 10 | -0.0864 |
+| Conférence Consultative | 32 | +0.0610 |
+| Ligue française de l'Enseignement | 32 | -0.0243 |
+| Institut de Carthage et la Société de Géographie commerciale de Paris | 10 | +0.0179 |
+| Mutualité maternelle Israélite | 5 | -0.0133 |
+| Association des Anciens Elèves du Collège Sadiki | 3 | -0.0123 |
 
 No single body carries the result. A negative swing marks a body that was
 holding the homophily up; a positive one marks a body where the two sides

@@ -27,6 +27,15 @@ the one structural property a dictionary guarantees -- alphabetical order:
    size and connection in the dataset. The scaffold is therefore built once per
    sequence, and the windows in rule 2 do not reach across a boundary.
 
+5. **Merged notices.** All four rules above decide from the *indent* that opens
+   a paragraph, so when the OCR loses one the notice is read as a continuation
+   of the entry above it and the people in the tail drop out of the dataset --
+   their honours and addresses absorbed into the first person's record. A last
+   pass reads each assembled entry's own line records and cuts it wherever a
+   line opens a biographical notice, which is the one opening form nothing else
+   in the volume shares. It recovers 59 people. It cannot do the same for an
+   association or a locality, whose headwords are ordinary prose.
+
 Every decision is written to disk with the rule that produced it
 (``accept_reason``), so segmentation can be audited rather than trusted.
 
@@ -237,6 +246,117 @@ def join_lines(lines: list[dict]) -> str:
     return text.strip()
 
 
+# --------------------------------------------------------------------------
+# merged notices
+# --------------------------------------------------------------------------
+# The rules above accept an entry from the *indent* that opens its paragraph,
+# and the two-column setting loses that indent often enough to matter: when it
+# goes, a notice is read as the continuation of the one above it and everybody
+# in the tail drops out of the dataset, their honours and addresses absorbed
+# into the first person's record.
+#
+# The seam is still legible, because Lambert's biographical notice opens to a
+# form nothing else in the volume uses -- SURNAME in capitals, forenames in a
+# parenthesis, then a comma or a period -- and because a notice always begins at
+# the start of a printed line. So the line records an entry is built from say
+# where it should have been cut, whether or not the indent survived.
+NOTICE_HEADER = (
+    r"[A-ZÀ-ÜŒ][A-ZÀ-ÜŒ'’\-]{3,}(?:[ \-][A-ZÀ-ÜŒ'’\-]{2,}){0,2}"
+    r"\s*\([A-ZÀ-Ü][a-zà-üA-ZÀ-Ü'’\-.]{2,}[^)]{0,30}\)\s*[,.]"
+)
+# What the line may carry in front of the surname: an inkblot or a stray mark
+# the OCR read as a character, and the particle that a filed surname keeps on
+# the page -- "LE BOEUF (Henri-Jules),", "D ALLEMAGNE (Henri),",
+# "■ COHEN-TANUGI (Salomon).", "• SOUILLER (Edmond),".
+NOTICE_LINE = re.compile(
+    r"^[^A-Za-zÀ-ÿ]{0,3}(?:[A-ZÀ-ÜŒ'’]{1,4}[ '’])?" + NOTICE_HEADER
+)
+# Below this a run of lines is not a notice but an orphan: a headword the OCR
+# stranded on a line of its own ("EDDAOUNl"), which belongs with the notice
+# under it rather than standing as an entry.
+ORPHAN_CHARS = 40
+
+
+def regroup(run: list[tuple[int, dict]]) -> list[list[dict]]:
+    """Turn a flat [(paragraph number, line)] run back into paragraphs."""
+    out: list[list[dict]] = []
+    prev = None
+    for number, rec in run:
+        if number != prev:
+            out.append([])
+            prev = number
+        out[-1].append(rec)
+    return out
+
+
+def notice_runs(paras: list[list[dict]]) -> list[list[list[dict]]]:
+    """Cut a run of paragraphs wherever a printed line opens a fresh notice."""
+    flat = [(n, rec) for n, para in enumerate(paras) for rec in para]
+    cuts = [k for k, (_, rec) in enumerate(flat) if k and NOTICE_LINE.match(rec["text"])]
+    if not cuts:
+        return [paras]
+    bounds = [0] + cuts + [len(flat)]
+    runs = [flat[a:b] for a, b in zip(bounds, bounds[1:])]
+    if sum(len(rec["text"]) for _, rec in runs[0]) < ORPHAN_CHARS:
+        runs[1] = runs[0] + runs[1]
+        runs.pop(0)
+    return [regroup(run) for run in runs]
+
+
+def entry_from_paragraphs(entry_id: str, reason: str, paras: list[list[dict]]) -> dict:
+    """Assemble one entry's record from the paragraphs it is printed in."""
+    lines = [rec for para in paras for rec in para]
+    text = " ".join(join_lines(para) for para in paras).strip()
+    head = split_headword(text)
+    return {
+        "entry_id": entry_id,
+        "headword_raw": head,
+        "sort_key": sort_key(head),
+        "accept_reason": reason,
+        "view_first": lines[0]["view"],
+        "page_first": lines[0]["page_label"],
+        "view_last": lines[-1]["view"],
+        "page_last": lines[-1]["page_label"],
+        "spans": [
+            [p[0]["view"], p[0]["column"],
+             min(r["vpos"] for r in p), max(r["vpos"] for r in p)]
+            for p in paras
+        ],
+        "n_paragraphs": len(paras),
+        "n_lines": len(lines),
+        "ocr_confidences": [r["wc"] for r in lines if r["wc"] is not None],
+        "paras": paras,
+        "text": text,
+    }
+
+
+def split_merged_notices(entries: list[dict]) -> list[dict]:
+    """Break an entry that carries more than one notice back into its notices.
+
+    A recovered notice takes its parent's id with a letter suffix
+    (``L1912-00741b``) rather than a number of its own in reading order.
+    Numbering it in sequence would renumber every entry after the first seam,
+    and a renumbered id is the worst kind of breakage: it still looks valid, so
+    a reference published against an earlier build would resolve silently to
+    the wrong person. The parent keeps its id and loses only the text that was
+    never its own.
+    """
+    out: list[dict] = []
+    for entry in entries:
+        runs = notice_runs(entry["paras"])
+        if len(runs) == 1:
+            out.append(entry)  # untouched, so its text cannot drift
+            continue
+        out.append(entry_from_paragraphs(
+            entry["entry_id"], entry["accept_reason"], runs[0]))
+        for n, paras in enumerate(runs[1:], start=1):
+            if n > 25:  # 'z'. Three is the most any entry has ever needed.
+                raise ValueError(f"{entry['entry_id']} split into {len(runs)} notices")
+            out.append(entry_from_paragraphs(
+                f"{entry['entry_id']}{chr(ord('a') + n)}", "recovered_notice", paras))
+    return out
+
+
 def attach_illustrations(entries: list[dict]) -> None:
     """Attach each illustration to the entry whose text surrounds it.
 
@@ -358,6 +478,10 @@ def main() -> int:
                     "n_paragraphs": 1,
                     "n_lines": len(para),
                     "ocr_confidences": [r["wc"] for r in para if r["wc"] is not None],
+                    # Kept so the merged-notice pass below can cut on a line
+                    # boundary and recompute pages, spans and confidence from
+                    # the lines themselves rather than guess at them.
+                    "paras": [para],
                     "text": text,
                 }
             )
@@ -368,6 +492,7 @@ def main() -> int:
             rejected_examples.setdefault(reason, []).append(head[:60])
             prev = entries[-1]
             prev["text"] = f"{prev['text']} {text}".strip()
+            prev["paras"].append(para)
             prev["n_paragraphs"] += 1
             prev["n_lines"] += len(para)
             prev["ocr_confidences"] += [r["wc"] for r in para if r["wc"] is not None]
@@ -384,10 +509,17 @@ def main() -> int:
         if i in boundary:
             last_key = ""
 
+    # Before the illustrations, so a portrait printed beside a recovered notice
+    # is attached to that person rather than to the entry that swallowed them.
+    merged = len(entries)
+    entries = split_merged_notices(entries)
+    recovered = len(entries) - merged
+
     attach_illustrations(entries)
 
     for e in entries:
         confs = e.pop("ocr_confidences")
+        e.pop("paras")
         e["ocr_confidence"] = round(sum(confs) / len(confs), 4) if confs else None
         e["n_chars"] = len(e["text"])
 
@@ -405,6 +537,7 @@ def main() -> int:
                 "sequences": len(sequences),
                 "back_matter_paragraphs_dropped": dropped_back_matter,
                 "entries": len(entries),
+                "notices_recovered_from_merged_entries": recovered,
                 "accept_reasons": reasons,
                 "reject_reasons": rejects,
             },

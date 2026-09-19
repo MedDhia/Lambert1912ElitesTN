@@ -255,6 +255,58 @@ class TestSegmentation(unittest.TestCase):
     def test_sort_key_ignores_accents_case_and_punctuation(self):
         self.assertEqual(se.sort_key("Béja-el-Kébir"), "BEJAELKEBIR")
 
+    def line(self, text, view=100, column=0, vpos=0):
+        return {"text": text, "view": view, "column": column, "vpos": vpos,
+                "page_label": str(view - 24), "wc": 0.9, "indent": 0.0}
+
+    def test_a_notice_opening_a_line_cuts_the_entry(self):
+        para = [self.line("CATTAN (Isaac). 15 janv. 1877, Tunis. Avocat au barreau."),
+                self.line("Membre de la Conférence Consultative."),
+                self.line("CATTAN (Jules), 1872. Tunis, off. d'Académie."),
+                self.line("Rédacteur au Gouvernement tunisien.")]
+        runs = se.notice_runs([para])
+        self.assertEqual(len(runs), 2)
+        self.assertEqual([len(p) for run in runs for p in run], [2, 2])
+
+    def test_the_particle_and_the_inkblot_do_not_hide_a_notice(self):
+        # "LE BOEUF", "D'ALLEMAGNE", and the stray mark the OCR reads before a
+        # surname: each cost a notice before the line pattern allowed for them.
+        for opening in ("LE BOEUF (Henri-Jules), 2 nov. 1865, Verdun (Meuse).",
+                        "D ALLEMAGNE (Henri), 31 mars 1853, Paris.",
+                        "■ COHEN-TANUGI (Salomon). 12 nov. 1875, Tunis.",
+                        "• SOUILLER (Edmond), 10 juin 1872, Tunis."):
+            with self.subTest(opening=opening):
+                self.assertTrue(se.NOTICE_LINE.match(opening))
+
+    def test_continuation_prose_is_not_a_notice(self):
+        for text in ("Membre de la Chambre de Commerce de Tunis (section de Bizerte),",
+                     "il fut nommé président de la Société (1904).",
+                     "ETUDES : lycée Carnot (Tunis), faculté de droit."):
+            with self.subTest(text=text):
+                self.assertIsNone(se.NOTICE_LINE.match(text))
+
+    def test_an_orphan_headword_line_is_not_split_off_on_its_own(self):
+        # "EDDAOUNl" alone on a line is the previous notice's wreckage, not an
+        # entry; cutting under it would leave an eight-character record.
+        para = [self.line("EDDAOUNl"),
+                self.line("DIACOMO (Hector), 7 février 1889, commandeur du Nichan.")]
+        self.assertEqual(len(se.notice_runs([para])), 1)
+
+    def test_a_recovered_notice_keeps_its_parents_id_with_a_suffix(self):
+        paras = [[self.line("COSSON (Ernest). 22 juillet 1891. Paris, botaniste.")],
+                 [self.line("COSTE (Jean-Eugène). 26 oct. 1858. Beaulieu (Corrèze).")]]
+        parent = se.entry_from_paragraphs("L1912-00741", "anchor_surname", paras)
+        out = se.split_merged_notices([parent])
+        self.assertEqual([e["entry_id"] for e in out], ["L1912-00741", "L1912-00741b"])
+        self.assertEqual([e["accept_reason"] for e in out],
+                         ["anchor_surname", "recovered_notice"])
+        self.assertEqual([e["headword_raw"] for e in out], ["COSSON", "COSTE"])
+
+    def test_an_unsplit_entry_is_passed_through_untouched(self):
+        paras = [[self.line("ABADIE (Jean), 4 sept. 1862, Blaye. Négociant à Tunis.")]]
+        entry = se.entry_from_paragraphs("L1912-00001", "anchor_surname", paras)
+        self.assertIs(se.split_merged_notices([entry])[0], entry)
+
     def test_headword_stops_at_the_first_delimiter(self):
         self.assertEqual(
             se.split_headword("ASTOIN-SIELGE (Joseph-Charles). Vice-consul de France"),

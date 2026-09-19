@@ -8,15 +8,15 @@ The preface (pp. III-IV) states how many notices of each kind the volume contain
 
 | entry_type | Lambert's claim | stated | extracted | ratio |
 |---|---|---|---|---|
-| person | more than 1,300 biographical notices | 1300 | 1346 | 104% |
-| place | more than 750 notices on localities | 750 | 741 | 99% |
+| person | more than 1,300 biographical notices | 1300 | 1403 | 108% |
+| place | more than 750 notices on localities | 750 | 742 | 99% |
 | organisation | more than 175 notices on societies and associations | 175 | 159 | 91% |
-| topic | more than 250 Arabic or Tunisian terms explained | 250 | 443 | 177% |
+| topic | more than 250 Arabic or Tunisian terms explained | 250 | 444 | 178% |
 | portraits | 420 photogravure portraits | 420 | 419 | 100% |
 
 The person count clears the stated minimum; places all but do. Associations fall short of theirs, because some notices are absorbed into the entry above them when the first-line indent is lost to OCR. Treat `organisation` as a high-precision, incomplete sample of that population rather than a complete enumeration.
 
-Two rows above need reading against what Lambert was counting. His 175 is a count of *societies and associations*, so the organs of the Protectorate -- directorates, offices, services -- are typed `state_body` and kept out of that comparison rather than allowed to flatter it; they are in `organizations.csv` under `organisation_class`. And `topic` is wider than the glossary Lambert is describing, which is why it overshoots 250: it holds his thematic articles too. Neither figure in that row is the glossary. The one rule that identifies a gloss positively, `glossary_gloss`, fires on 94 entries, and that is a floor rather than a count -- it needs an explicit formula ("Signifie", "Litteralement", "Nom donne par les Arabes a"), and Lambert glosses plenty of words without one ("Chechia. Bonnet de laine rouge...").
+Two rows above need reading against what Lambert was counting. His 175 is a count of *societies and associations*, so the organs of the Protectorate -- directorates, offices, services -- are typed `state_body` and kept out of that comparison rather than allowed to flatter it; they are in `organizations.csv` under `organisation_class`. And `topic` is wider than the glossary Lambert is describing, which is why it overshoots 250: it holds his thematic articles too. Neither figure in that row is the glossary. The one rule that identifies a gloss positively, `glossary_gloss`, fires on 95 entries, and that is a floor rather than a count -- it needs an explicit formula ("Signifie", "Litteralement", "Nom donne par les Arabes a"), and Lambert glosses plenty of words without one ("Chechia. Bonnet de laine rouge...").
 
 ## 2. Corpus
 
@@ -24,10 +24,10 @@ Two rows above need reading against what Lambert was counting. His 175 is a coun
 |---|---|
 | IIIF views in the manifest | 494 |
 | views with an ALTO OCR layer | 494 |
-| views that begin at least one entry | 411 |
-| entries segmented | 2779 |
-| characters of entry text | 1958668 |
-| mean OCR word confidence | 0.927 |
+| views that begin at least one entry | 412 |
+| entries segmented | 2838 |
+| characters of entry text | 1958609 |
+| mean OCR word confidence | 0.926 |
 | entries below 0.80 confidence | 28 |
 | illustrations located | 419 |
 
@@ -35,11 +35,11 @@ Two rows above need reading against what Lambert was counting. His 175 is a coun
 
 | entry_type | n | share |
 |---|---|---|
-| person | 1346 | 48.4% |
-| place | 741 | 26.7% |
-| topic | 443 | 15.9% |
-| organisation | 159 | 5.7% |
-| cross_reference | 71 | 2.6% |
+| person | 1403 | 49.4% |
+| place | 742 | 26.1% |
+| topic | 444 | 15.6% |
+| organisation | 159 | 5.6% |
+| cross_reference | 71 | 2.5% |
 | state_body | 19 | 0.7% |
 
 ### How each entry boundary was decided
@@ -48,22 +48,23 @@ Two rows above need reading against what Lambert was counting. His 175 is a coun
 |---|---|
 | anchor_surname | 2056 |
 | alphabetical_window | 723 |
+| recovered_notice | 59 |
 
 | classification rule | n |
 |---|---|
-| forenames_and_life_dates | 1163 |
-| administrative_unit | 637 |
-| thematic_article | 241 |
+| forenames_and_life_dates | 1216 |
+| administrative_unit | 639 |
+| thematic_article | 240 |
 | organisational_template | 159 |
-| residual | 108 |
-| caps_headword_with_date | 104 |
-| glossary_gloss | 94 |
-| administrative_markers | 91 |
+| residual | 109 |
+| caps_headword_with_date | 106 |
+| glossary_gloss | 95 |
+| administrative_markers | 90 |
 | see_also_only | 71 |
-| caps_headword_with_forenames | 44 |
+| caps_headword_with_forenames | 45 |
 | caps_headword_with_occupation | 21 |
 | directorate_or_office | 19 |
-| caps_headword_with_honour | 14 |
+| caps_headword_with_honour | 15 |
 | administrative_markers_late | 7 |
 | settlement_noun_and_measure | 5 |
 | bearing_and_population | 1 |
@@ -72,36 +73,36 @@ Two rows above need reading against what Lambert was counting. His 175 is a coun
 
 Share of rows where the field is non-empty. A low rate means Lambert did not print that detail for most cases, or that the OCR lost it -- not that a value was dropped.
 
-### persons.csv (n = 1346)
+### persons.csv (n = 1403)
 
 | field | n non-empty | % |
 |---|---|---|
-| forenames | 1207 | 89.7 |
-| birth_year | 1170 | 86.9 |
-| birth_place | 1024 | 76.1 |
-| birth_place_detail | 553 | 41.1 |
-| occupation_primary | 1090 | 81.0 |
-| address_raw | 284 | 21.1 |
-| city | 1013 | 75.3 |
-| settled_tunisia_year | 588 | 43.7 |
-| decoration_orders | 941 | 69.9 |
-| education_raw | 771 | 57.3 |
-| education_institutions | 724 | 53.8 |
-| degrees | 443 | 32.9 |
-| career_raw | 331 | 24.6 |
-| works_raw | 154 | 11.4 |
+| forenames | 1261 | 89.9 |
+| birth_year | 1221 | 87.0 |
+| birth_place | 1070 | 76.3 |
+| birth_place_detail | 576 | 41.1 |
+| occupation_primary | 1132 | 80.7 |
+| address_raw | 294 | 21.0 |
+| city | 1057 | 75.3 |
+| settled_tunisia_year | 608 | 43.3 |
+| decoration_orders | 974 | 69.4 |
+| education_raw | 797 | 56.8 |
+| education_institutions | 749 | 53.4 |
+| degrees | 457 | 32.6 |
+| career_raw | 338 | 24.1 |
+| works_raw | 155 | 11.0 |
 
-### places.csv (n = 741)
+### places.csv (n = 742)
 
 | field | n non-empty | % |
 |---|---|---|
-| controle_civil | 524 | 70.7 |
-| caidat | 587 | 79.2 |
+| controle_civil | 524 | 70.6 |
+| caidat | 587 | 79.1 |
 | distance_km | 370 | 49.9 |
 | population | 134 | 18.1 |
 | altitude_m | 21 | 2.8 |
 | tribe_mentioned | 5 | 0.7 |
-| owners_raw | 84 | 11.3 |
+| owners_raw | 83 | 11.2 |
 
 ### organizations.csv (n = 178)
 
@@ -118,14 +119,14 @@ Share of rows where the field is non-empty. A low rate means Lambert did not pri
 
 | order | awarding state | n persons |
 |---|---|---|
-| nichan_iftikhar | Tunisia | 725 |
-| palmes_academiques | France | 446 |
-| merite_agricole | France | 190 |
-| legion_honneur | France | 182 |
+| nichan_iftikhar | Tunisia | 749 |
+| palmes_academiques | France | 457 |
+| merite_agricole | France | 191 |
+| legion_honneur | France | 186 |
 | medaille_coloniale | France | 70 |
 | ouissam_alaouite | Morocco | 61 |
 | couronne_italie | Italy | 40 |
-| medaille_militaire | France | 27 |
+| medaille_militaire | France | 28 |
 | medjidie | Ottoman Empire | 16 |
 | saint_stanislas | Russia | 11 |
 | osmanie | Ottoman Empire | 9 |
@@ -146,12 +147,12 @@ Share of rows where the field is non-empty. A low rate means Lambert did not pri
 
 | grade | n |
 |---|---|
-| officier | 968 |
-| chevalier | 369 |
-| (not stated) | 245 |
-| commandeur | 185 |
+| officier | 992 |
+| chevalier | 375 |
+| (not stated) | 248 |
+| commandeur | 192 |
 | grand_officier | 46 |
-| grand_cordon | 9 |
+| grand_cordon | 10 |
 | grand_croix | 9 |
 | medaille | 8 |
 | titulaire | 3 |
@@ -161,42 +162,42 @@ Share of rows where the field is non-empty. A low rate means Lambert did not pri
 | measure | value |
 |---|---|
 | person-organisation edges | 1760 |
-|   from officer lists in association entries | 970 |
-|   from statements in a person's own entry | 790 |
-| person-place edges | 2168 |
-| person-person co-membership edges | 5381 |
-| network nodes | 4055 |
+|   from officer lists in association entries | 960 |
+|   from statements in a person's own entry | 800 |
+| person-place edges | 2257 |
+| person-person co-membership edges | 5087 |
+| network nodes | 4119 |
 
 ### Name resolution for people named in someone else's entry
 
 | resolution | n | share |
 |---|---|---|
-| unmatched | 597 | 54.2% |
-| resolved | 272 | 24.7% |
-| ambiguous | 107 | 9.7% |
-| resolved_fuzzy | 95 | 8.6% |
-| ambiguous_fuzzy | 30 | 2.7% |
+| unmatched | 572 | 52.5% |
+| resolved | 274 | 25.1% |
+| ambiguous | 107 | 9.8% |
+| resolved_fuzzy | 106 | 9.7% |
+| ambiguous_fuzzy | 31 | 2.8% |
 
 `unmatched` mostly means what it says: the volume names far more people in its association and property lists than it gives notices to. Those people are kept as `person_named_only` nodes. `ambiguous` means two or more people with entries share the surname; no tie is assigned, and the mention is left in `mentions.csv` for manual disambiguation.
 
 | node type | n |
 |---|---|
-| person_with_entry | 1346 |
-| place_with_entry | 741 |
-| person_named_only | 668 |
-| place_named_only | 610 |
-| organisation_named_only | 531 |
+| person_with_entry | 1403 |
+| place_with_entry | 742 |
+| person_named_only | 646 |
+| place_named_only | 632 |
+| organisation_named_only | 537 |
 | organisation_with_entry | 159 |
 
 ### Affiliation network degree
 
 | measure | value |
 |---|---|
-| nodes with at least one affiliation | 1801 |
+| nodes with at least one affiliation | 1808 |
 | mean degree | 1.95 |
-| median degree | 1 |
+| median degree | 1.0 |
 | max degree | 99 |
-| isolates in the node table | 2254 |
+| isolates in the node table | 2311 |
 
 ## 6. Known limitations
 
